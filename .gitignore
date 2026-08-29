@@ -1,0 +1,37 @@
+# .gitignore for QnA Hub
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# Node (if you ever add a build step)
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# Environment files (keep Firebase config in src/firebase.js only)
+.env
+.env.local
+.env.*.local
+
+# Backup / temporary
+*.bak
+*.tmp
+
+# Keep MCQs-main folder but exclude large unused JSON if needed
+# Uncomment the line below to exclude the large JSON banks from git:
+# MCQs-main/*.json
+
+# Old monolithic app (preserved as backup)
+index.original.html

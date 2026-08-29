@@ -1,0 +1,418 @@
+{
+"metadata": {
+"source": "My Bank",
+"total_questions": 21
+},
+"questions": [
+{
+"lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+"question": "A 9-year-old boy weighing 19 kg is diagnosed with rheumatic fever complicated by carditis and a resultant mitral valve lesion. According to secondary prevention protocols for rheumatic fever, which of the following is the MOST appropriate prophylactic regimen and duration for this patient?",
+"options": [
+"Benzathine penicillin 1,200,000 U IM every 2-3 weeks for 10 years or till age 21.",
+"Benzathine penicillin 600,000 U IM every 2-3 weeks for 40 years or lifelong.",
+"Oral Penicillin V 50 mg/kg daily for 5 years after the last attack.",
+"Erythromycin 40 mg/kg daily till age 25."
+],
+"answerKey": "B",
+"answerText": "Benzathine penicillin 600,000 U IM every 2-3 weeks for 40 years or lifelong.",
+"explanation": "The patient weighs <20 kg, requiring the 600,000 U dose of Benzathine penicillin; patients >20 kg receive 1,200,000 U. Because he has carditis with a valve lesion, prophylaxis should continue for 40 years or lifelong.",
+"tags": [
+"pediatrics::cardiology",
+"rheumatic-fever",
+"secondary-prophylaxis",
+"benzathine-penicillin"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Acute Severe Asthma",
+"question": "A 24-year-old female is admitted with acute severe asthma (status asthmaticus). She is placed on continuous pulse oximetry, receives controlled oxygen keeping SpO2 at 94%, nebulized Salbutamol 2.5 mg, and IV Hydrocortisone 200 mg. After an hour, she shows poor response, so nebulized Ipratropium is added. Her PEF continues to worsen. What is the NEXT most appropriate step in management before ICU consultation for exhaustion?",
+"options": [
+"IV Magnesium Sulfate 1.2–2 g over 20 min and/or IV Aminophylline.",
+"Oral Prednisolone 40-50 mg daily.",
+"Broad-spectrum IV Antibiotics.",
+"Non-invasive ventilation (NIV)."
+],
+"answerKey": "A",
+"answerText": "IV Magnesium Sulfate 1.2–2 g over 20 min and/or IV Aminophylline.",
+"explanation": "The stated stepwise management is oxygen, nebulized Salbutamol, systemic steroids, then Ipratropium if response is poor. If there is still inadequate response, the next step is IV Magnesium Sulfate 1.2-2 g over 20 minutes and/or IV Aminophylline.",
+"tags": [
+"medicine::respiratory",
+"asthma",
+"status-asthmaticus",
+"emergency-management"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Heart Failure",
+"question": "A 65-year-old male with a history of long-standing hypertension presents with dizziness, low systolic blood pressure, cold skin, oliguria, and bilateral basal lung crepitations. His doctor recently prescribed him a medication that acted as a precipitating factor for his current acute heart failure exacerbation. Based on iatrogenic causes, which drug was MOST likely prescribed?",
+"options": [
+"Cortisone causing excessive positive inotropic effect.",
+"An ACE inhibitor leading to volume overload.",
+"A Calcium-channel blocker causing negative inotropic effects.",
+"Aspirin triggering left ventricular volume overload."
+],
+"answerKey": "C",
+"answerText": "A Calcium-channel blocker causing negative inotropic effects.",
+"explanation": "Iatrogenic precipitating factors for heart failure include Calcium-channel blockers because of their negative inotropic effects. Cortisone may also precipitate failure, but through salt and water retention rather than a positive inotropic effect.",
+"tags": [
+"medicine::cardiology",
+"heart-failure",
+"precipitating-factors",
+"pharmacology"
+]
+},
+{
+"lesson": "Pediatrics::Cardiology::Supraventricular Tachycardia",
+"question": "A 4-year-old child presents to the emergency department pale, dizzy, and showing signs of a low cardiac output. The ECG shows an absent P wave with a narrow QRS complex at a rate of 230 bpm, consistent with unstable SVT. What is the FIRST step in the management of this patient?",
+"options": [
+"Vagal maneuvers.",
+"Intravenous Adenosine.",
+"Intravenous Amiodarone.",
+"Synchronized electrical cardioversion."
+],
+"answerKey": "D",
+"answerText": "Synchronized electrical cardioversion.",
+"explanation": "Vagal maneuvers and Adenosine are appropriate for stable SVT. This child is unstable because of low cardiac output, pallor, and dizziness, so immediate synchronized electrical cardioversion is indicated.",
+"tags": [
+"pediatrics::cardiology",
+"svt",
+"arrhythmia",
+"cardioversion",
+"emergency-management"
+]
+},
+{
+"lesson": "Medicine::Cardiorespiratory::Cardiac Asthma",
+"question": "Which of the following is TRUE about the clinical manifestations and differential diagnosis between Cardiac Asthma and Bronchial Asthma?",
+"options": [
+"Cardiac asthma usually occurs in early morning, whereas bronchial asthma occurs 1-2 hours after sleep.",
+"Dyspnea in cardiac asthma is mainly expiratory.",
+"Morphine improves symptoms in cardiac asthma but is contraindicated in bronchial asthma.",
+"The physical examination in bronchial asthma shows more crepitations than rhonchi."
+],
+"answerKey": "C",
+"answerText": "Morphine improves symptoms in cardiac asthma but is contraindicated in bronchial asthma.",
+"explanation": "According to the source material, morphine improves cardiac asthma but is contraindicated in bronchial asthma because of respiratory suppression. Cardiac asthma is associated with inspiratory dyspnea, more crepitations than rhonchi, and attacks occurring 1-2 hours after sleep.",
+"tags": [
+"medicine::cardiorespiratory",
+"cardiac-asthma",
+"bronchial-asthma",
+"differential-diagnosis"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Rheumatic Fever",
+"question": "Which of the following is TRUE about the Jones Criteria and clinical features of Rheumatic Arthritis?",
+"options": [
+"It predominantly affects small joints in a symmetrical pattern.",
+"It has a dramatic clinical response to salicylates.",
+"It typically leads to permanent joint deformity after 6 weeks.",
+"Arthralgia is considered a major criterion."
+],
+"answerKey": "B",
+"answerText": "It has a dramatic clinical response to salicylates.",
+"explanation": "Rheumatic arthritis typically affects large joints in an asymmetric, migratory pattern and has a dramatic response to salicylates. It usually resolves within 2-6 weeks without permanent deformity, while arthralgia is a minor Jones criterion.",
+"tags": [
+"medicine::cardiology",
+"rheumatic-fever",
+"jones-criteria",
+"rheumatic-arthritis"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Aortic Regurgitation",
+"question": "Which of the following is TRUE about the peripheral signs associated with Aortic Regurgitation (AR)?",
+"options": [
+"De Musset sign refers to marked visible carotid pulsations in the neck.",
+"Duroziez sign is a systolic femoral sound caused by sudden distension of a collapsed artery.",
+"Hill sign is characterized by the difference between systolic BP in the lower and upper limbs being >50 mmHg.",
+"Capillary pulsation is evaluated by applying slight stethoscope pressure over the femoral artery."
+],
+"answerKey": "C",
+"answerText": "Hill sign is characterized by the difference between systolic BP in the lower and upper limbs being >50 mmHg.",
+"explanation": "Hill sign refers to lower-limb systolic blood pressure exceeding upper-limb systolic pressure by more than 50 mmHg. De Musset sign is head nodding, while Corrigan sign describes prominent carotid pulsations. Duroziez sign is a double femoral murmur produced with compression.",
+"tags": [
+"medicine::cardiology",
+"aortic-regurgitation",
+"peripheral-signs",
+"physical-examination"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Infective Endocarditis",
+"question": "You are enumerating the Major Duke’s Criteria for Infective Endocarditis. All of the following would strictly fulfill a MAJOR echocardiographic or culture criterion EXCEPT:",
+"options": [
+"Typical IE organism consistent from 2 separate blood cultures.",
+"An intracardiac mass identified on the supporting valve structure on echo.",
+"New-onset valvular regurgitation noted on clinical exam and echo.",
+"A fever of 39.5°C along with a new valvular lesion heard on auscultation."
+],
+"answerKey": "D",
+"answerText": "A fever of 39.5°C along with a new valvular lesion heard on auscultation.",
+"explanation": "Major Duke criteria include appropriate positive blood cultures and evidence of endocardial involvement such as vegetation, abscess, or new valvular regurgitation. Fever is a minor criterion rather than a major culture or echocardiographic criterion.",
+"tags": [
+"medicine::cardiology",
+"infective-endocarditis",
+"duke-criteria",
+"diagnosis"
+]
+},
+{
+"lesson": "Medicine::Respiratory::ARDS",
+"question": "Acute Respiratory Distress Syndrome (ARDS) can be triggered by either direct lung injury or indirect mechanisms. All of the following represent INDIRECT causes of lung injury leading to ARDS EXCEPT:",
+"options": [
+"Cardiopulmonary bypass.",
+"Massive blood transfusion.",
+"Reperfusion pulmonary edema.",
+"Acute pancreatitis."
+],
+"answerKey": "C",
+"answerText": "Reperfusion pulmonary edema.",
+"explanation": "Reperfusion pulmonary edema is categorized in the source material as a direct pulmonary injury. Cardiopulmonary bypass, massive transfusion, sepsis, and acute pancreatitis are examples of indirect causes of ARDS.",
+"tags": [
+"medicine::respiratory",
+"ards",
+"etiology",
+"lung-injury"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Hemoptysis",
+"question": "The Big Four respiratory conditions are the most common culprits of massive hemoptysis. A physician should enumerate and suspect all of the following in a patient expectorating large volumes of blood, EXCEPT:",
+"options": [
+"Bronchiectasis.",
+"Mitral stenosis.",
+"Hemorrhagic blood diseases.",
+"Aortic stenosis."
+],
+"answerKey": "D",
+"answerText": "Aortic stenosis.",
+"explanation": "The major causes emphasized in the source material for massive hemoptysis include lung cancer, tuberculosis, bronchiectasis, and mitral stenosis or hemorrhagic blood diseases. Aortic stenosis is not a typical cause of massive hemoptysis.",
+"tags": [
+"medicine::respiratory",
+"hemoptysis",
+"massive-hemoptysis",
+"differential-diagnosis"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Atrial Fibrillation",
+"question": "A physician is deciding on anticoagulant therapy for patients presenting with Atrial Fibrillation (AF). According to current management guidelines, a Direct Oral Anticoagulant (DOAC) like apixaban or rivaroxaban is appropriate for all of the following clinical scenarios EXCEPT:",
+"options": [
+"Atrial fibrillation triggered by hypertension and aging.",
+"Valvular atrial fibrillation caused by severe Mitral Stenosis.",
+"Before or after performing cardioversion on a non-valvular AF patient.",
+"Prophylactic use for stroke risk factors in a patient without prosthetic valves."
+],
+"answerKey": "B",
+"answerText": "Valvular atrial fibrillation caused by severe Mitral Stenosis.",
+"explanation": "According to the provided material, patients with mitral stenosis, mechanical prosthetic valves, or ventricular assist devices require Warfarin rather than a DOAC. DOACs are used for appropriate non-valvular AF patients.",
+"tags": [
+"medicine::cardiology",
+"atrial-fibrillation",
+"anticoagulation",
+"doac",
+"warfarin"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Pleural Effusion",
+"question": "Enumerate the four primary causes of Exudative Pleural Effusion. Which of the following conditions is driven by decreased capillary oncotic pressure and therefore produces a Transudative rather than an Exudative effusion?",
+"options": [
+"Autoimmune diseases like Rheumatoid Arthritis and SLE.",
+"Empyema secondary to pneumonia.",
+"Hepatic cirrhosis and malnutrition.",
+"Dressler’s syndrome / Pulmonary infarction."
+],
+"answerKey": "C",
+"answerText": "Hepatic cirrhosis and malnutrition.",
+"explanation": "Hepatic cirrhosis, nephrotic syndrome, and malnutrition cause transudative pleural effusions through reduced plasma oncotic pressure. Autoimmune diseases, empyema, pulmonary infarction, and Dressler syndrome are associated with exudative effusions.",
+"tags": [
+"medicine::respiratory",
+"pleural-effusion",
+"transudate",
+"exudate",
+"pathophysiology"
+]
+},
+{
+"lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+"question": "A 6-month-old infant is brought to the pediatric cardiology clinic. The mother reports that the baby struggles during feeding, sweats heavily on his forehead while nursing, and has failed to gain adequate weight. He also has a history of recurrent chest infections. Echocardiography confirms a significant Ventricular Septal Defect (VSD) with a substantial left-to-right shunt. Based on the material, if the child manifests symptomatic heart failure, which of the following sequences best enumerates the definitive management plan?",
+"options": [
+"Immediate observation and follow-up, expecting spontaneous closure.",
+"Starting anti-failure treatment and nutritional support; arranging definitive surgical/transcatheter closure since the defect remains hemodynamically significant.",
+"High-flow oxygen and initiation of intravenous amiodarone for long-term control.",
+"Prescribing lifelong Benzathine penicillin as isolated medical management."
+],
+"answerKey": "B",
+"answerText": "Starting anti-failure treatment and nutritional support; arranging definitive surgical/transcatheter closure since the defect remains hemodynamically significant.",
+"explanation": "Small asymptomatic VSDs may be observed because spontaneous closure is possible. A hemodynamically significant VSD causing heart failure and failure to thrive requires stabilization with anti-failure therapy and nutritional support followed by definitive closure.",
+"tags": [
+"pediatrics::cardiology",
+"vsd",
+"congenital-heart-disease",
+"heart-failure",
+"management"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Aortic Dissection",
+"question": "A 58-year-old heavy smoker presents to the emergency room with acute, tearing, severe chest pain radiating directly to his back. His blood pressure in the right arm is 180/100 mmHg, but only 110/60 mmHg in his left arm, demonstrating a significant pulse inequality. To rule out life-threatening differentials and confirm the most likely diagnosis, a physician decides to run imaging. If initial chest X-ray and ECG are inconclusive, which imaging modality provides the anatomical confirmation needed?",
+"options": [
+"Standard transthoracic echocardiography to solely assess aortic stenosis.",
+"Cardiac enzyme markers every 4 hours for 24 hours.",
+"CT angiography of the aorta.",
+"Diagnostic coronary angiography via radial artery."
+],
+"answerKey": "C",
+"answerText": "CT angiography of the aorta.",
+"explanation": "The combination of abrupt tearing chest pain radiating to the back, hypertension, and marked inter-arm blood pressure or pulse inequality strongly suggests acute aortic dissection. CT angiography provides detailed anatomical confirmation.",
+"tags": [
+"medicine::cardiology",
+"aortic-dissection",
+"ct-angiography",
+"chest-pain",
+"diagnosis"
+]
+},
+{
+"lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+"question": "Enumerate the four pathological characters of Tetralogy of Fallot (ToF). A child with congenital cyanotic heart disease is being evaluated for ToF. A newly trained resident observes the heart structure on echo. Which of the following pathological triad/tetrad accurately confirms ToF?",
+"options": [
+"Atrial septal defect, Pulmonary stenosis, Left ventricular hypertrophy, Overriding pulmonary trunk.",
+"Ventricular septal defect, Pulmonary stenosis (RVOT obstruction), Overriding aorta, Right ventricular hypertrophy.",
+"VSD, Aortic stenosis, RVH, Patent Ductus Arteriosus.",
+"ASD, Bicuspid Aortic Valve, LVH, Overriding aorta."
+],
+"answerKey": "B",
+"answerText": "Ventricular septal defect, Pulmonary stenosis (RVOT obstruction), Overriding aorta, Right ventricular hypertrophy.",
+"explanation": "Tetralogy of Fallot is defined by four abnormalities: VSD, right ventricular outflow tract obstruction or pulmonary stenosis, an overriding aorta, and right ventricular hypertrophy.",
+"tags": [
+"pediatrics::cardiology",
+"tetralogy-of-fallot",
+"congenital-heart-disease",
+"cyanotic-heart-disease"
+]
+},
+{
+"lesson": "Medicine::Cardiology::Chronic Heart Failure",
+"question": "Which of the following is TRUE about the core medical treatments and their precise roles in Chronic Heart Failure as stated in the sheet?",
+"options": [
+"Dopamine and Dobutamine are indicated routinely for long-term home therapy.",
+"Diuretics are used primarily to decrease pathological LV remodeling.",
+"Beta-blockers and ACE inhibitors / ARBs are primarily prescribed to decrease pathological left ventricular remodeling.",
+"Aminophylline is primarily used to counteract symptomatic fluid overload instead of standard diuretics."
+],
+"answerKey": "C",
+"answerText": "Beta-blockers and ACE inhibitors / ARBs are primarily prescribed to decrease pathological left ventricular remodeling.",
+"explanation": "Beta-blockers and ACE inhibitors or ARBs help limit pathological left ventricular remodeling. Diuretics primarily reduce congestion and preload, whereas inotropes such as Dobutamine are reserved for selected acute situations rather than routine long-term therapy.",
+"tags": [
+"medicine::cardiology",
+"chronic-heart-failure",
+"ace-inhibitors",
+"beta-blockers",
+"remodeling"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Bronchial Asthma",
+"question": "Which of the following is TRUE regarding the spirometry criteria used in the diagnosis and assessment of Bronchial Asthma?",
+"options": [
+"FEV1 must decrease by at least 15% following a bronchodilator to confirm hyperreactivity.",
+"Positive response is documented as an increase in FEV1 > 12% AND > 200 mL after giving a bronchodilator or a steroid trial.",
+"The FEV1/FVC ratio is used exclusively, with improvements needing to exceed 25%.",
+"Diurnal variation of Peak Expiratory Flow (PEF) must be at least 10% on >3 days/week."
+],
+"answerKey": "B",
+"answerText": "Positive response is documented as an increase in FEV1 > 12% AND > 200 mL after giving a bronchodilator or a steroid trial.",
+"explanation": "The stated reversibility criterion for asthma is an increase in FEV1 of more than 12% and more than 200 mL after bronchodilator treatment or a steroid trial. The source also states PEF variability of at least 20% on more than 3 days per week.",
+"tags": [
+"medicine::respiratory",
+"asthma",
+"spirometry",
+"fev1",
+"diagnosis"
+]
+},
+{
+"lesson": "Pediatrics::Cardiology::Heart Failure",
+"question": "When evaluating a pediatric patient for potential causes of Heart Failure (HF), an examiner divides etiologies into volume overload (preload failure), pressure overload (afterload failure), pump failure, and arrhythmias. All of the following classifications match their appropriate clinical etiologies EXCEPT:",
+"options": [
+"Preload failure: ASD, PDA, and Hypervolemia.",
+"Afterload failure: Coarctation of the aorta and Pulmonary/Systemic Hypertension.",
+"Myocardial/Pump failure: Myocarditis, Hypoxia, and Hypoglycemia.",
+"Rhythm failure (Arrhythmia): VSD causing immediate neonatal left-sided volume deficit."
+],
+"answerKey": "D",
+"answerText": "Rhythm failure (Arrhythmia): VSD causing immediate neonatal left-sided volume deficit.",
+"explanation": "VSD is a left-to-right shunt and belongs to the volume-overload or preload-failure category. Rhythm-related heart failure is caused by significant tachyarrhythmias, bradyarrhythmias, or heart block rather than structural septal defects.",
+"tags": [
+"pediatrics::cardiology",
+"heart-failure",
+"etiology",
+"volume-overload",
+"arrhythmia"
+]
+},
+{
+"lesson": "Medicine::Respiratory::COPD",
+"question": "You are managing a 50-year-old COPD patient who recently required hospitalization for an acute exacerbation. COPD inherently progresses if not managed strictly, for example via smoking cessation. You are on the lookout for major clinical consequences. Advanced COPD is well-known to directly cause all of the following complications EXCEPT:",
+"options": [
+"Secondary polycythemia.",
+"Pulmonary hypertension resulting in Right heart failure.",
+"Left Ventricular volume overload leading primarily to isolated LV failure.",
+"Weight loss, muscle wasting, and chronic hypercapnic respiratory failure."
+],
+"answerKey": "C",
+"answerText": "Left Ventricular volume overload leading primarily to isolated LV failure.",
+"explanation": "Advanced COPD may cause chronic hypoxemia and hypercapnia, secondary polycythemia, pulmonary hypertension, cor pulmonale with right-sided heart failure, weight loss, and muscle wasting. Isolated left ventricular volume-overload failure is not a direct classic complication.",
+"tags": [
+"medicine::respiratory",
+"copd",
+"complications",
+"cor-pulmonale",
+"respiratory-failure"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Pleural Procedures",
+"question": "Inserting a chest tube is a vital procedure requiring strict adherence to medical criteria to resolve fluid or air accumulating within the pleural space. According to the document, a physician would place a chest tube for all of the following indications EXCEPT:",
+"options": [
+"A clinically unstable pneumothorax.",
+"Tension pneumothorax following an emergency needle decompression.",
+"Uncomplicated, minimal parapneumonic exudative effusion (<10 mm depth on lateral decubitus X-ray) responsive to oral antibiotics.",
+"Hemothorax secondary to a trauma event."
+],
+"answerKey": "C",
+"answerText": "Uncomplicated, minimal parapneumonic exudative effusion (<10 mm depth on lateral decubitus X-ray) responsive to oral antibiotics.",
+"explanation": "Chest tube drainage is indicated for a large or clinically unstable pneumothorax, tension pneumothorax after emergency decompression, hemothorax, empyema, and complicated parapneumonic effusion. A minimal uncomplicated parapneumonic effusion does not routinely require tube drainage.",
+"tags": [
+"medicine::respiratory",
+"chest-tube",
+"pneumothorax",
+"hemothorax",
+"pleural-effusion"
+]
+},
+{
+"lesson": "Medicine::Respiratory::Pneumonia",
+"question": "A previously healthy young adult presents with fever, non-productive cough, and constitutional symptoms, fitting a presentation of atypical pneumonia. Standard culture media show no growth. A diligent intern suggests investigating for atypical bacteria. Enumerate 4 atypical organisms causing pneumonia; which of the following is NOT classified as one of those 4 in this patient's age bracket according to the source material?",
+"options": [
+"Legionella pneumophila",
+"Chlamydia trachomatis",
+"Mycoplasma pneumoniae",
+"Chlamydophila pneumoniae"
+],
+"answerKey": "B",
+"answerText": "Chlamydia trachomatis",
+"explanation": "In the source material, Chlamydia trachomatis is particularly associated with atypical pneumonia in afebrile young infants. In a previously healthy young adult, the emphasized atypical pathogens are Mycoplasma pneumoniae, Chlamydophila pneumoniae, and Legionella pneumophila.",
+"tags": [
+"medicine::respiratory",
+"pneumonia",
+"atypical-pneumonia",
+"microbiology",
+"chlamydia-trachomatis"
+]
+}
+]
+}
