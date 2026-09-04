@@ -160,8 +160,10 @@ function scoreVoice(v) {
 }
 
 function NarrationMode({ questions, displaySettings, favIds = new Set(), completedIds = new Set(), onToggleFav, onToggleDone, onClose }) {
-  // Freeze question deck on open so marking done never shifts or removes questions mid-narration
-  const [deck] = useState(() => (questions && questions.length > 0 ? [...questions] : []));
+  const [filterMode, setFilterMode] = useState(() => {
+    const saved = localStorage.getItem('pmcq_narr_filter');
+    return (saved === 'all' || saved === 'done' || saved === 'unsolved') ? saved : 'unsolved';
+  });
   const [idx, setIdx] = useState(0);
   const [speaking, setSpeaking] = useState(false);
   const [paused, setPaused] = useState(false);
@@ -185,6 +187,32 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
 
   useEffect(() => { setLocalFavs(new Set(favIds)); }, [favIds]);
   useEffect(() => { setLocalDone(new Set(completedIds)); }, [completedIds]);
+
+  const unsolvedPool = useMemo(() => questions.filter(q => !localDone.has(q.id)), [questions, localDone]);
+  const donePool     = useMemo(() => questions.filter(q => localDone.has(q.id)), [questions, localDone]);
+  const allPool      = questions;
+
+  const currentDeck = useMemo(() => {
+    if (filterMode === 'done') return donePool;
+    if (filterMode === 'all') return allPool;
+    return unsolvedPool.length > 0 ? unsolvedPool : allPool;
+  }, [filterMode, unsolvedPool, donePool, allPool]);
+
+  const handleFilterChange = (mode) => {
+    if (mode === filterMode) return;
+    setFilterMode(mode);
+    try { localStorage.setItem('pmcq_narr_filter', mode); } catch(e) {}
+    let nextDeck = mode === 'done' ? donePool : mode === 'all' ? allPool : (unsolvedPool.length > 0 ? unsolvedPool : allPool);
+    const currId = currentDeck[idx]?.id;
+    let newIdx = 0;
+    if (currId && nextDeck.length > 0) {
+      const found = nextDeck.findIndex(item => item.id === currId);
+      if (found !== -1) newIdx = found;
+    }
+    synth.cancel();
+    setSpeaking(false);
+    setIdx(newIdx);
+  };
 
   const setRate = (v) => {
     setRateState(v);
@@ -232,7 +260,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     };
   }, []);
 
-  const q = deck[idx];
+  const q = currentDeck[idx];
 
   const toggleFav = () => {
     if (!q) return;
@@ -285,7 +313,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   };
 
   const buildScript = (q) => {
-    let parts = [`Question ${idx + 1} of ${deck.length}. ${q.question}`];
+    let parts = [q.question];
     if (readOptions && q.options?.length) {
       parts.push('Options:');
       q.options.forEach((o, i) => parts.push(`${['A','B','C','D','E'][i]}. ${o}`));
@@ -316,7 +344,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     };
     utt.onend = () => {
       setSpeaking(false);
-      if (autoAdvance && idx < deck.length - 1) {
+      if (autoAdvance && idx < currentDeck.length - 1) {
         setTimeout(() => setIdx(i => i + 1), 800);
       }
     };
@@ -335,7 +363,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
       setSpeaking(false);
     }
     return () => synth.cancel();
-  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
+  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices, filterMode]);
 
   const togglePause = () => {
     if (synth.speaking && !synth.paused && !paused) {
@@ -364,7 +392,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     synth.cancel();
     setSpeaking(false);
     setPaused(false);
-    setIdx(i => Math.max(0, Math.min(deck.length - 1, i + n)));
+    setIdx(i => Math.max(0, Math.min(currentDeck.length - 1, i + n)));
   };
 
   useEffect(() => {
@@ -385,14 +413,12 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
-  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone, speaking, deck]);
+  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone, speaking, currentDeck]);
 
-  if (!q) return null;
-
-  const isFav  = localFavs.has(q.id);
-  const isDone = localDone.has(q.id);
-  const pct = deck.length > 1 ? (idx / (deck.length - 1)) * 100 : 100;
-  const isCorrect = (letter) => q.answerKey && q.answerKey.toUpperCase() === letter;
+  const pct = currentDeck.length > 1 ? (idx / (currentDeck.length - 1)) * 100 : 100;
+  const isFav  = q ? localFavs.has(q.id) : false;
+  const isDone = q ? localDone.has(q.id) : false;
+  const isCorrect = (letter) => q?.answerKey && q.answerKey.toUpperCase() === letter;
 
   const Slider = ({ label, val, min, max, step, onChange }) => (
     <div style={{ display:'flex', alignItems:'center', gap:8, fontSize:12 }}>
@@ -408,35 +434,93 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     <div className="narr-overlay" onClick={onClose}>
       <div className="narr-card" onClick={e=>e.stopPropagation()} style={{ position:'relative' }}>
         {/* Header */}
-        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:8 }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:8, flexWrap:'wrap' }}>
           <div style={{ fontWeight:800, fontSize:16, display:'flex', alignItems:'center', gap:8 }}>
             <span className={speaking && !paused ? 'narr-speaking' : ''}>🔊</span>
             Narration Mode
           </div>
 
+          {/* Segmented Filter Switch */}
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            background: 'var(--card2)',
+            border: '1px solid var(--border2)',
+            borderRadius: 10,
+            padding: 3,
+            gap: 3
+          }}>
+            {[
+              { id: 'unsolved', label: 'Unsolved', count: unsolvedPool.length, color: 'var(--primary)' },
+              { id: 'all',      label: 'All',      count: allPool.length,      color: 'var(--text)' },
+              { id: 'done',     label: 'Done',     count: donePool.length,     color: 'var(--green)' },
+            ].map(tab => {
+              const active = filterMode === tab.id;
+              return (
+                <button
+                  key={tab.id}
+                  onClick={() => handleFilterChange(tab.id)}
+                  tabIndex="-1"
+                  onFocus={e => e.currentTarget.blur()}
+                  style={{
+                    padding: '3px 10px',
+                    borderRadius: 7,
+                    fontSize: 11,
+                    fontWeight: 700,
+                    cursor: 'pointer',
+                    border: active ? '1px solid var(--border)' : '1px solid transparent',
+                    background: active ? 'var(--surface)' : 'transparent',
+                    color: active ? tab.color : 'var(--muted)',
+                    boxShadow: active ? '0 2px 6px rgba(0,0,0,0.25)' : 'none',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: 5,
+                    transition: 'all .15s ease'
+                  }}
+                >
+                  <span>{tab.label}</span>
+                  <span style={{
+                    fontSize: 10,
+                    padding: '1px 5px',
+                    borderRadius: 99,
+                    background: active ? 'var(--card2)' : 'rgba(255,255,255,0.06)',
+                    color: active ? tab.color : 'var(--muted)',
+                    fontFamily: 'var(--mono)'
+                  }}>
+                    {tab.count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
           <div style={{ display:'flex', alignItems:'center', gap:6 }}>
-            <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-              style={{ fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700 }}>
-              <span>📋</span> Copy
-            </button>
-            <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-              style={{
-                fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
-                color: isFav ? '#f5a623' : 'var(--muted)',
-                borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
-                background: isFav ? 'rgba(245,166,35,.15)' : 'var(--card2)'
-              }}>
-              <span>{isFav ? '★' : '☆'}</span> Fav
-            </button>
-            <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-              style={{
-                fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
-                color: isDone ? '#3ecf8e' : 'var(--muted)',
-                borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
-                background: isDone ? 'rgba(62,207,142,.15)' : 'var(--card2)'
-              }}>
-              <span>{isDone ? '✓' : '○'}</span> Done
-            </button>
+            {q && (
+              <>
+                <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                  style={{ fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700 }}>
+                  <span>📋</span> Copy
+                </button>
+                <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                  style={{
+                    fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                    color: isFav ? '#f5a623' : 'var(--muted)',
+                    borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
+                    background: isFav ? 'rgba(245,166,35,.15)' : 'var(--card2)'
+                  }}>
+                  <span>{isFav ? '★' : '☆'}</span> Fav
+                </button>
+                <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                  style={{
+                    fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                    color: isDone ? '#3ecf8e' : 'var(--muted)',
+                    borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
+                    background: isDone ? 'rgba(62,207,142,.15)' : 'var(--card2)'
+                  }}>
+                  <span>{isDone ? '✓' : '○'}</span> Done
+                </button>
+              </>
+            )}
             <button className="btn ghost" onClick={onClose} style={{ padding:'4px 8px' }} tabIndex="-1">✕</button>
           </div>
         </div>
@@ -454,135 +538,155 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
           </div>
         )}
 
-        {/* Progress */}
-        <div>
-          <div style={{ display:'flex', justifyContent:'space-between', fontSize:11, color:'var(--muted)', marginBottom:5 }}>
-            <span>Q{idx+1} of {deck.length}</span>
-            <span>{Math.round(pct)}%</span>
-          </div>
-          <div className="narr-progress"><div className="narr-progress-fill" style={{ width:`${pct}%` }}/></div>
-        </div>
-
-        {/* Question */}
-        <div className="narr-q">{q.question}</div>
-
-        {/* Options */}
-        {q.options?.length > 0 && (
-          <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
-            {q.options.map((opt, oi) => {
-              const letter = String.fromCharCode(65+oi);
-              return (
-                <div key={oi} className={`narr-opt ${showAnswer && isCorrect(letter) ? 'correct' : ''}`}>
-                  <span style={{ fontWeight:700, minWidth:20 }}>{letter})</span>
-                  {opt}
-                </div>
-              );
-            })}
-          </div>
-        )}
-
-        {/* Reveal answer */}
-        {!showAnswer ? (
-          <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Show Answer (A)">
-            Show Answer (A)
-          </button>
-        ) : (
-          <div style={{ padding:'10px 14px', borderRadius:8, background:'var(--gg)', border:'1px solid var(--green)',
-            color:'var(--green)', fontSize:13, fontWeight:600 }}>
-            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
-              <span>✓ {q.answerKey ? `${q.answerKey} — ` : ''}{q.answerText}</span>
-              <button className="btn ghost" onClick={() => setShowAnswer(false)} style={{ fontSize:11, padding:'2px 8px', color:'var(--green)' }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Hide Answer (A)">
-                Hide (A)
-              </button>
+        {/* Empty state when active deck has 0 items */}
+        {!q ? (
+          <div style={{ textAlign: 'center', padding: '36px 16px' }}>
+            <div style={{ fontSize: 36, marginBottom: 10 }}>
+              {filterMode === 'done' ? '📝' : '🎉'}
             </div>
-            {q.explanation && <div style={{ marginTop:6, fontWeight:400, fontSize:12, color:'var(--text)' }}>{q.explanation}</div>}
+            <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 6 }}>
+              {filterMode === 'done' ? 'No Solved Questions Yet' : 'All Questions Solved!'}
+            </div>
+            <div style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 18 }}>
+              {filterMode === 'done' ? 'Mark questions as Done to narrate them here.' : 'Great job! You have solved all questions in this set.'}
+            </div>
+            <button className="btn primary" onClick={() => handleFilterChange('all')} tabIndex="-1">
+              Narrate All Questions ({allPool.length})
+            </button>
           </div>
-        )}
+        ) : (
+          <>
+            {/* Progress */}
+            <div>
+              <div style={{ display:'flex', justifyContent:'space-between', fontSize:11, color:'var(--muted)', marginBottom:5 }}>
+                <span>Q{idx+1} of {currentDeck.length} <span style={{ textTransform:'capitalize', opacity:0.8 }}>({filterMode})</span></span>
+                <span>{Math.round(pct)}%</span>
+              </div>
+              <div className="narr-progress"><div className="narr-progress-fill" style={{ width:`${pct}%` }}/></div>
+            </div>
 
-        {/* Controls */}
-        <div style={{ display:'flex', gap:8, alignItems:'center', flexWrap:'wrap' }}>
-          <button className="btn" onClick={()=>go(-1)} disabled={idx===0} title="Previous (←)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>◀</button>
-          <button className="btn primary" onClick={togglePause} style={{ minWidth:95 }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
-            {paused ? '▶ Resume' : speaking ? '⏸ Pause' : '▶ Play'}
-          </button>
-          <button className="btn" onClick={()=>go(+1)} disabled={idx===deck.length-1} title="Next (→)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>▶</button>
-          <button className="btn" onClick={handleRepeat} title="Repeat (R)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>↺ Repeat</button>
+            {/* Question */}
+            <div className="narr-q">{q.question}</div>
 
-          <div style={{ width:1, height:20, background:'var(--border2)', margin:'0 2px' }}/>
-
-          <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-            style={{ fontWeight:700 }}>
-            📋 Copy
-          </button>
-          <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-            style={{
-              color: isFav ? '#f5a623' : 'var(--muted)',
-              borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
-              background: isFav ? 'rgba(245,166,35,.15)' : 'transparent',
-              fontWeight: 700
-            }}>
-            {isFav ? '★' : '☆'} Fav
-          </button>
-          <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-            style={{
-              color: isDone ? '#3ecf8e' : 'var(--muted)',
-              borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
-              background: isDone ? 'rgba(62,207,142,.15)' : 'transparent',
-              fontWeight: 700
-            }}>
-            {isDone ? '✓' : '○'} Done
-          </button>
-
-          <div style={{ flex:1 }}/>
-          <label style={{ display:'flex', alignItems:'center', gap:5, fontSize:12, cursor:'pointer', color:'var(--muted)' }}>
-            <input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
-            Auto-advance
-          </label>
-        </div>
-
-        {/* Settings accordion */}
-        <details style={{ fontSize:12 }}>
-          <summary style={{ cursor:'pointer', color:'var(--muted)', fontWeight:600, listStyle:'none', display:'flex', alignItems:'center', gap:6 }}>
-            ⚙ Voice Settings
-          </summary>
-          <div style={{ display:'flex', flexDirection:'column', gap:10, marginTop:12 }}>
-            {voices.length > 0 && (
-              <div style={{ display:'flex', alignItems:'center', gap:8 }}>
-                <span style={{ color:'var(--muted)', minWidth:44, fontSize:12 }}>Voice</span>
-                <select value={voiceIdx} onChange={e => {
-                    const nextIdx = +e.target.value;
-                    setVoiceIdx(nextIdx);
-                    if (voices[nextIdx]) {
-                      try { localStorage.setItem('pmcq_narr_voice', voices[nextIdx].name); } catch(err) {}
-                    }
-                  }}
-                  style={{ flex:1, padding:'4px 8px', borderRadius:6, border:'1px solid var(--border2)',
-                    background:'var(--card2)', color:'var(--text)', fontSize:12 }}>
-                  {voices.map((v,i) => <option key={i} value={i}>{v.name} {v.lang ? `(${v.lang})` : ''}</option>)}
-                </select>
+            {/* Options */}
+            {q.options?.length > 0 && (
+              <div style={{ display:'flex', flexDirection:'column', gap:6 }}>
+                {q.options.map((opt, oi) => {
+                  const letter = String.fromCharCode(65+oi);
+                  return (
+                    <div key={oi} className={`narr-opt ${showAnswer && isCorrect(letter) ? 'correct' : ''}`}>
+                      <span style={{ fontWeight:700, minWidth:20 }}>{letter})</span>
+                      {opt}
+                    </div>
+                  );
+                })}
               </div>
             )}
-            <Slider label="Speed"  val={rate}  min={0.5} max={2.0} step={0.1} onChange={setRate}/>
-            <Slider label="Pitch"  val={pitch} min={0.5} max={2.0} step={0.1} onChange={setPitch}/>
-            <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginTop:4 }}>
-              {[['readOptions','Read options'],['readAnswer','Read answer'],['readExplanation','Read explanation']].map(([k,label])=>(
-                <label key={k} style={{ display:'flex', alignItems:'center', gap:5, cursor:'pointer', color:'var(--muted)' }}>
-                  <input type="checkbox" checked={k==='readOptions'?readOptions:k==='readAnswer'?readAnswer:readExplanation}
-                    onChange={e => {
-                      if (k==='readOptions') setReadOptions(e.target.checked);
-                      else if (k==='readAnswer') setReadAnswer(e.target.checked);
-                      else setReadExplanation(e.target.checked);
-                    }} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
-                  {label}
-                </label>
-              ))}
-            </div>
-          </div>
-        </details>
 
-        <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
-          Space = play/pause · ← → = navigate · A = answer · F = fav · D = done · C = copy · R = repeat · Esc = close
-        </div>
+            {/* Reveal answer */}
+            {!showAnswer ? (
+              <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Show Answer (A)">
+                Show Answer (A)
+              </button>
+            ) : (
+              <div style={{ padding:'10px 14px', borderRadius:8, background:'var(--gg)', border:'1px solid var(--green)',
+                color:'var(--green)', fontSize:13, fontWeight:600 }}>
+                <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+                  <span>✓ {q.answerKey ? `${q.answerKey} — ` : ''}{q.answerText}</span>
+                  <button className="btn ghost" onClick={() => setShowAnswer(false)} style={{ fontSize:11, padding:'2px 8px', color:'var(--green)' }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Hide Answer (A)">
+                    Hide (A)
+                  </button>
+                </div>
+                {q.explanation && <div style={{ marginTop:6, fontWeight:400, fontSize:12, color:'var(--text)' }}>{q.explanation}</div>}
+              </div>
+            )}
+
+            {/* Controls */}
+            <div style={{ display:'flex', gap:8, alignItems:'center', flexWrap:'wrap' }}>
+              <button className="btn" onClick={()=>go(-1)} disabled={idx===0} title="Previous (←)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>◀</button>
+              <button className="btn primary" onClick={togglePause} style={{ minWidth:95 }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
+                {paused ? '▶ Resume' : speaking ? '⏸ Pause' : '▶ Play'}
+              </button>
+              <button className="btn" onClick={()=>go(+1)} disabled={idx===currentDeck.length-1} title="Next (→)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>▶</button>
+              <button className="btn" onClick={handleRepeat} title="Repeat (R)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>↺ Repeat</button>
+
+              <div style={{ width:1, height:20, background:'var(--border2)', margin:'0 2px' }}/>
+
+              <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                style={{ fontWeight:700 }}>
+                📋 Copy
+              </button>
+              <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                style={{
+                  color: isFav ? '#f5a623' : 'var(--muted)',
+                  borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
+                  background: isFav ? 'rgba(245,166,35,.15)' : 'transparent',
+                  fontWeight: 700
+                }}>
+                {isFav ? '★' : '☆'} Fav
+              </button>
+              <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+                style={{
+                  color: isDone ? '#3ecf8e' : 'var(--muted)',
+                  borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
+                  background: isDone ? 'rgba(62,207,142,.15)' : 'transparent',
+                  fontWeight: 700
+                }}>
+                {isDone ? '✓' : '○'} Done
+              </button>
+
+              <div style={{ flex:1 }}/>
+              <label style={{ display:'flex', alignItems:'center', gap:5, fontSize:12, cursor:'pointer', color:'var(--muted)' }}>
+                <input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
+                Auto-advance
+              </label>
+            </div>
+
+            {/* Settings accordion */}
+            <details style={{ fontSize:12 }}>
+              <summary style={{ cursor:'pointer', color:'var(--muted)', fontWeight:600, listStyle:'none', display:'flex', alignItems:'center', gap:6 }}>
+                ⚙ Voice Settings
+              </summary>
+              <div style={{ display:'flex', flexDirection:'column', gap:10, marginTop:12 }}>
+                {voices.length > 0 && (
+                  <div style={{ display:'flex', alignItems:'center', gap:8 }}>
+                    <span style={{ color:'var(--muted)', minWidth:44, fontSize:12 }}>Voice</span>
+                    <select value={voiceIdx} onChange={e => {
+                        const nextIdx = +e.target.value;
+                        setVoiceIdx(nextIdx);
+                        if (voices[nextIdx]) {
+                          try { localStorage.setItem('pmcq_narr_voice', voices[nextIdx].name); } catch(err) {}
+                        }
+                      }}
+                      style={{ flex:1, padding:'4px 8px', borderRadius:6, border:'1px solid var(--border2)',
+                        background:'var(--card2)', color:'var(--text)', fontSize:12 }}>
+                      {voices.map((v,i) => <option key={i} value={i}>{v.name} {v.lang ? `(${v.lang})` : ''}</option>)}
+                    </select>
+                  </div>
+                )}
+                <Slider label="Speed"  val={rate}  min={0.5} max={2.0} step={0.1} onChange={setRate}/>
+                <Slider label="Pitch"  val={pitch} min={0.5} max={2.0} step={0.1} onChange={setPitch}/>
+                <div style={{ display:'flex', gap:12, flexWrap:'wrap', marginTop:4 }}>
+                  {[['readOptions','Read options'],['readAnswer','Read answer'],['readExplanation','Read explanation']].map(([k,label])=>(
+                    <label key={k} style={{ display:'flex', alignItems:'center', gap:5, cursor:'pointer', color:'var(--muted)' }}>
+                      <input type="checkbox" checked={k==='readOptions'?readOptions:k==='readAnswer'?readAnswer:readExplanation}
+                        onChange={e => {
+                          if (k==='readOptions') setReadOptions(e.target.checked);
+                          else if (k==='readAnswer') setReadAnswer(e.target.checked);
+                          else setReadExplanation(e.target.checked);
+                        }} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
+                      {label}
+                    </label>
+                  ))}
+                </div>
+              </div>
+            </details>
+
+            <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
+              Space = play/pause · ← → = navigate · A = answer · F = fav · D = done · C = copy · R = repeat · Esc = close
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

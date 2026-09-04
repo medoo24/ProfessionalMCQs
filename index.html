@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>QnA Hub</title>
 
+  <!-- PWA Manifest & Icons -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <meta name="theme-color" content="#2e5fad" />
+
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,7 +72,7 @@
   <script type="text/babel" src="src/components/CollectionsModal.jsx?v=5"></script>
   <script type="text/babel" src="src/components/PracticeMode.jsx?v=5"></script>
   <script type="text/babel" src="src/components/ReportModal.jsx?v=5"></script>
-  <script type="text/babel" src="src/components/NarrationMode.jsx?v=9"></script>
+  <script type="text/babel" src="src/components/NarrationMode.jsx?v=10"></script>
   <script type="text/babel" src="src/components/TVMode.jsx?v=5"></script>
   <script type="text/babel" src="src/components/ExamLauncher.jsx?v=5"></script>
 
@@ -76,6 +81,17 @@
   <script type="text/babel" src="src/components/Auth/UserMenu.jsx?v=5"></script>
 
   <!-- 7. Main App (renders root) -->
-  <script type="text/babel" src="src/components/App.jsx?v=9"></script>
+  <script type="text/babel" src="src/components/App.jsx?v=10"></script>
+
+  <!-- PWA Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('ServiceWorker registered:', reg.scope))
+          .catch(err => console.error('ServiceWorker failure:', err));
+      });
+    }
+  </script>
 </body>
 </html>
