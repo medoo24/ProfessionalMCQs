@@ -1,0 +1,1782 @@
+{
+  "metadata": {
+    "source": "b_ Nephro-Final",
+    "total_questions": 10
+  },
+  "questions": [
+    {
+      "lesson": "Urology::BPH::Anatomy",
+      "question": "According to McNeal's zonal anatomy of the prostate, which zone is the primary site of origin for Benign Prostatic Hyperplasia (BPH), and in which zone does Prostate Cancer most commonly arise?",
+      "options": [
+        "Transition zone; Peripheral zone",
+        "Peripheral zone; Transition zone",
+        "Central zone; Transition zone",
+        "Transition zone; Central zone"
+      ],
+      "answerKey": "A",
+      "answerText": "Transition zone; Peripheral zone",
+      "explanation": "The sources explicitly state that Benign Prostatic Hyperplasia (BPH) arises almost exclusively from the transition zone (TZ) of the prostate, which surrounds the proximal urethra. In contrast, prostate cancer (PCa) most commonly develops in the peripheral zone (PZ), which comprises about 70% of the gland.",
+      "tags": ["urology", "bph", "anatomy", "prostate_cancer"]
+    },
+    {
+      "lesson": "Urology::BPH::Symptomatology",
+      "question": "Lower Urinary Tract Symptoms (LUTS) are divided into storage, voiding, and post-micturition groups. Which of the following symptoms is classified under the storage (irritative) group?",
+      "options": [
+        "Hesitancy",
+        "Intermittency",
+        "Nocturia",
+        "Terminal dribbling"
+      ],
+      "answerKey": "C",
+      "answerText": "Nocturia",
+      "explanation": "Lower urinary tract symptoms are categorized functionally. Storage (irritative) symptoms include frequency, urgency, nocturia, dysuria, and urge incontinence. Voiding (obstructive) symptoms include hesitancy, weak stream, intermittency, straining, and prolonged voiding.",
+      "tags": ["urology", "bph", "luts", "symptoms"]
+    },
+    {
+      "lesson": "Urology::BPH::Symptomatology",
+      "question": "Based on the urology past exams and clinical review sheets, what is classically identified as the earliest symptom of Benign Prostatic Hyperplasia (BPH)?",
+      "options": [
+        "Dysuria",
+        "Nocturnal frequency",
+        "Hesitancy",
+        "Acute urinary retention"
+      ],
+      "answerKey": "B",
+      "answerText": "Nocturnal frequency",
+      "explanation": "The past exam questions and clinical summaries state that nocturnal frequency (nocturia) is the earliest symptom of BPH. It initially arises due to pelvic congestion during recumbency and later progresses to both nocturnal and diurnal frequency.",
+      "tags": ["urology", "bph", "luts", "exams"]
+    },
+    {
+      "lesson": "Urology::BPH::Diagnosis",
+      "question": "During Digital Rectal Examination (DRE), which set of features most reliably distinguishes Benign Prostatic Hyperplasia (BPH) from Prostatic Carcinoma?",
+      "options": [
+        "BPH is symmetrical, extremely tender, and warm, while cancer is smooth and rubbery.",
+        "BPH is asymmetrical, hard, and fixed, while cancer is soft and boggy.",
+        "BPH presents as a smooth, firm, elastic (rubbery), and symmetrically enlarged gland with a freely mobile rectal mucosa, while cancer presents as hard, irregular, and nodular.",
+        "DRE cannot distinguish BPH from cancer; assessment must rely entirely on a fixed PSA cutoff of 4 ng/mL."
+      ],
+      "answerKey": "C",
+      "answerText": "BPH presents as a smooth, firm, elastic (rubbery), and symmetrically enlarged gland with a freely mobile rectal mucosa, while cancer presents as hard, irregular, and nodular.",
+      "explanation": "The sources contrast the DRE findings of BPH and prostate cancer. BPH typically feels smooth, firm, elastic, and symmetrically enlarged with the rectal mucosa freely sliding over the gland. Prostate cancer characteristically feels hard, irregular, and nodular with possible asymmetry or fixed tissue.",
+      "tags": ["urology", "bph", "dre", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Urology::BPH::Management",
+      "question": "Which of the following statements is true regarding the correlation between prostate size, symptom severity, and bladder outlet obstruction?",
+      "options": [
+        "Prostate size correlates perfectly with symptom severity; large glands always cause severe obstruction.",
+        "Prostate size correlates imperfectly with symptom severity; a small prostate can obstruct through configuration or smooth-muscle tone, while a large prostate may be minimally symptomatic.",
+        "Watchful waiting is contraindicated if the prostate volume exceeds 30 mL on ultrasound.",
+        "Medical therapy with 5-alpha-reductase inhibitors is only effective for prostates under 30 mL."
+      ],
+      "answerKey": "B",
+      "answerText": "Prostate size correlates imperfectly with symptom severity or obstruction; a small prostate can obstruct through configuration or smooth-muscle tone, while a large prostate may be minimally symptomatic.",
+      "explanation": "The sources emphasize that prostate size correlates imperfectly with symptom severity or obstruction. A small prostate can cause significant obstruction due to its anatomic configuration or dynamic smooth-muscle tone (high alpha-adrenergic activity), whereas a large prostate may remain asymptomatic or minimally bothersome.",
+      "tags": ["urology", "bph", "prostate_size", "symptoms"]
+    },
+    {
+      "lesson": "Urology::BPH::Pharmacotherapy",
+      "question": "Alpha-1 adrenergic blockers (such as Tamsulosin or Silodosin) are commonly used as first-line medical therapy for moderate-to-severe LUTS. What is their mechanism of action and clinical effect on the prostate?",
+      "options": [
+        "They inhibit 5-alpha-reductase, resulting in a gradual reduction of prostate volume over 6 months.",
+        "They relax smooth muscle in the prostate and bladder neck, targeting the dynamic component of obstruction to provide rapid symptom relief without shrinking the gland.",
+        "They physically dilate the prostatic urethra and cause permanent atrophy of the glandular epithelium.",
+        "They act as selective parasympathomimetics to increase detrusor contractility."
+      ],
+      "answerKey": "B",
+      "answerText": "They relax smooth muscle in the prostate and bladder neck, targeting the dynamic component of obstruction to provide rapid symptom relief without shrinking the gland.",
+      "explanation": "Alpha-1 adrenergic blockers target the dynamic component of bladder outlet obstruction by relaxing the smooth muscle within the prostatic stroma and bladder neck. They provide rapid symptomatic relief and flow improvement but do not reduce prostate size or prevent long-term urinary retention.",
+      "tags": ["urology", "bph", "pharmacotherapy", "alpha_blockers"]
+    },
+    {
+      "lesson": "Urology::BPH::Pharmacotherapy",
+      "question": "A patient with bothersome LUTS and an enlarged prostate of 60 mL is started on Finasteride (a 5-alpha-reductase inhibitor). Which of the following is an expected characteristic of this therapy?",
+      "options": [
+        "It provides immediate, rapid relief of voiding symptoms within 24 to 48 hours.",
+        "It blocks the conversion of testosterone to dihydrotestosterone (DHT), gradually shrinking the prostate gland over 6 months or more and reducing the long-term risk of urinary retention and surgery.",
+        "It has no effect on serum Prostate-Specific Antigen (PSA) levels.",
+        "It targets only the dynamic smooth-muscle component of the bladder neck."
+      ],
+      "answerKey": "B",
+      "answerText": "It blocks the conversion of testosterone to dihydrotestosterone (DHT), gradually shrinking the prostate gland over 6 months or more and reducing the long-term risk of urinary retention and surgery.",
+      "explanation": "5-alpha-reductase inhibitors (5-ARIs) block the conversion of testosterone to DHT, the principal androgen driving prostate growth. They target the static (anatomic) component, leading to a gradual reduction in prostate volume, a drop in serum PSA, and a reduced long-term risk of acute urinary retention and the need for surgery. Clinical improvement requires 6 months or more.",
+      "tags": ["urology", "bph", "pharmacotherapy", "5_ari"]
+    },
+    {
+      "lesson": "Urology::BPH::Surgical_Indications",
+      "question": "Which of the following scenarios represents an absolute or strong indication for surgical intervention in a patient with benign prostatic obstruction (BPO)?",
+      "options": [
+        "A serum PSA level of 5.2 ng/mL in a patient with mild hesitancy.",
+        "Mild nocturnal frequency (once per night) that does not bother the patient.",
+        "Persistent or recurrent urinary retention, bladder stones, or upper urinary tract dilatation (hydronephrosis) with renal insufficiency secondary to obstruction.",
+        "A post-void residual (PVR) volume of 30 mL on a single measurement."
+      ],
+      "answerKey": "C",
+      "answerText": "Persistent or recurrent urinary retention, bladder stones, or upper urinary tract dilatation (hydronephrosis) with renal insufficiency secondary to obstruction.",
+      "explanation": "The sources outline strong/absolute indications for BPH surgery, which include: refractory or recurrent urinary retention, overflow incontinence, recurrent UTIs, bladder stones or large diverticula, treatment-resistant gross hematuria attributed to BPH, and upper urinary tract dilatation (hydronephrosis) due to BPO, with or without renal insufficiency.",
+      "tags": ["urology", "bph", "surgery", "indications"]
+    },
+    {
+      "lesson": "Urology::BPH::Surgical_Options",
+      "question": "A 67-year-old man with severe, medically refractory LUTS has an estimated prostate volume of 110 g on transrectal ultrasound. According to the surgical principles in the sources, what is the preferred surgical option for this patient?",
+      "options": [
+        "Transurethral Incision of the Prostate (TUIP)",
+        "Standard Monopolar Transurethral Resection of the Prostate (TURP)",
+        "Open, laparoscopic, or robotic simple prostatectomy (or endoscopic laser enucleation)",
+        "Watchful waiting combined with phytotherapy"
+      ],
+      "answerKey": "C",
+      "answerText": "Open, laparoscopic, or robotic simple prostatectomy (or endoscopic laser enucleation)",
+      "explanation": "Surgical technique selection is heavily dependent on prostate size. While TURP is the gold standard for prostates in the 30–80 g range, very large prostates (>80–100 g) are best managed with simple prostatectomy (where the adenoma is enucleated leaving the capsule intact) or laser enucleation (HoLEP/ThuLEP), as standard endoscopic resection in extremely large glands carries higher risks of incomplete resection and bleeding. TUIP is reserved for small prostates (<30 mL).",
+      "tags": ["urology", "bph", "surgery", "simple_prostatectomy"]
+    },
+    {
+      "lesson": "Urology::BPH::TURP_Complications",
+      "question": "During monopolar Transurethral Resection of the Prostate (TURP), systemic absorption of large volumes of non-conductive irrigation fluid (such as glycine) can lead to 'TUR syndrome'. What is the hallmark electrolyte abnormality of this complication?",
+      "options": [
+        "Hyperkalemia",
+        "Hyponatremia",
+        "Hypercalcemia",
+        "Hypophosphatemia"
+      ],
+      "answerKey": "B",
+      "answerText": "Hyponatremia",
+      "explanation": "Monopolar TURP requires non-conductive irrigation fluid (such as glycine or sorbitol). Systemic absorption of this fluid leads to intravascular volume expansion and dilutional hyponatremia (TUR syndrome). Bipolar TURP, which utilizes saline irrigation, significantly minimizes this risk.",
+      "tags": ["urology", "bph", "turp", "complications", "hyponatremia"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Clinical Presentation",
+      "question": "Which of the following clinical presentations most reliably distinguishes typical Acute Urinary Retention (AUR) from Chronic Urinary Retention (CUR)?",
+      "options": [
+        "AUR is characterized by a painless distended bladder, while CUR presents with severe constant suprapubic pain.",
+        "AUR presents with severe constant suprapubic pain, a palpable tender bladder, and an urgent, painful inability to void; whereas CUR is typically painless with a gradually adapting bladder.",
+        "AUR presents with continuous dribbling and overflow incontinence, while CUR presents with a sudden, complete cessation of urine and shock.",
+        "AUR is defined entirely by a post-void residual (PVR) volume > 300 mL, while CUR is diagnosed solely on clinical symptoms without measuring PVR."
+      ],
+      "answerKey": "B",
+      "answerText": "AUR presents with severe constant suprapubic pain, a palpable tender bladder, and an urgent, painful inability to void; whereas CUR is typically painless with a gradually adapting bladder.",
+      "explanation": "According to the sources, Acute Urinary Retention is characterized by severe, constant suprapubic pain, an acutely distended tender bladder, and a persistent urge to void with an inability to micturate [1-3]. In contrast, Chronic Urinary Retention is typically non-painful because the bladder gradually adapts to the incomplete emptying over time [1-5].",
+      "tags": ["urology", "urinary_retention", "clinical_presentation"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Management",
+      "question": "Which of the following reflects the current urological guidelines regarding the decompression of an acutely distended bladder in acute urinary retention?",
+      "options": [
+        "The bladder must be emptied slowly using routine staged clamping to prevent decompression hematuria and severe shock.",
+        "Warm baths, analgesia, and parasympathomimetic injections must be attempted for at least 2 hours before catheterization.",
+        "Routine staged or clamped 'slow decompression' is not required; complete drainage of the bladder is standard, followed by monitoring for uncommon post-decompression complications.",
+        "Immediate bladder decompression is contraindicated if the estimated residual volume exceeds 500 mL on a bladder scan."
+      ],
+      "answerKey": "C",
+      "answerText": "Routine staged or clamped 'slow decompression' is not required; complete drainage of the bladder is standard, followed by monitoring for uncommon post-decompression complications.",
+      "explanation": "Modern clinical practice has corrected the legacy teaching that the bladder should be emptied slowly to prevent bleeding [6, 7]. Current guidelines state that established painful retention requires prompt bladder decompression, and routine staged or clamped 'slow decompression' is unnecessary [6, 7]. Complete drainage is the standard of care, followed by monitoring for uncommon complications such as decompression hematuria, hypotension, and post-obstructive diuresis [6-8]. Warm baths or medications should never delay decompression [6, 7].",
+      "tags": ["urology", "urinary_retention", "management", "guidelines"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Etiology",
+      "question": "Certain medications can precipitate acute urinary retention by affecting bladder contractility or outlet resistance. Which of the following correctly pairs the drug class with its mechanism of dynamic urinary obstruction?",
+      "options": [
+        "Anticholinergics increase detrusor contractility; Sympathomimetics relax the bladder neck.",
+        "Anticholinergics inhibit bladder contractility; Sympathomimetics increase bladder neck and outlet resistance.",
+        "Calcium channel blockers increase detrusor contractility; Opioids relax the internal urethral sphincter.",
+        "Anticholinergics increase bladder neck resistance; Sympathomimetics inhibit detrusor contractility."
+      ],
+      "answerKey": "B",
+      "answerText": "Anticholinergics inhibit bladder contractility; Sympathomimetics increase bladder neck and outlet resistance.",
+      "explanation": "Drugs are a common cause of dynamic bladder outlet obstruction and retention [5, 9, 10]. Anticholinergics precipitate retention by inhibiting detrusor (bladder) contractility [9, 10]. Conversely, sympathomimetic agents precipitate retention by increasing bladder neck (BN) and urethral sphincter resistance [9, 10]. Other implicated drugs include opioids, antihistamines, and calcium channel blockers [5, 11, 12].",
+      "tags": ["urology", "urinary_retention", "pharmacology", "side_effects"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Chronic Retention",
+      "question": "The American Urological Association (AUA) consensus framework defines non-neurogenic chronic urinary retention based on which of the following criteria?",
+      "options": [
+        "A single post-void residual (PVR) volume > 100 mL accompanied by severe dysuria.",
+        "A post-void residual (PVR) volume > 300 mL persisting for at least 6 months, documented on two or more occasions.",
+        "An absolute anuria lasting more than 24 hours with bilateral hydronephrosis.",
+        "A post-void residual (PVR) volume > 50 mL on consecutive mornings."
+      ],
+      "answerKey": "B",
+      "answerText": "A post-void residual (PVR) volume > 300 mL persisting for at least 6 months, documented on two or more occasions.",
+      "options": [
+        "A single post-void residual (PVR) volume > 100 mL accompanied by severe dysuria.",
+        "A post-void residual (PVR) volume > 300 mL persisting for at least 6 months, documented on two or more occasions.",
+        "An absolute anuria lasting more than 24 hours with bilateral hydronephrosis.",
+        "A post-void residual (PVR) volume > 50 mL on consecutive mornings."
+      ],
+      "explanation": "The AUA consensus definition for non-neurogenic chronic urinary retention is a post-void residual (PVR) volume > 300 mL persisting for at least 6 months, demonstrated on two or more separate occasions [13]. The sources highlight that a single normal PVR is zero in theory, but small residual volumes can occur, meaning trends and clinical context are more important than one isolated measurement [7, 13].",
+      "tags": ["urology", "chronic_urinary_retention", "diagnosis"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Chronic Retention",
+      "question": "A patient is diagnosed with 'high-pressure' chronic urinary retention. Why does this specific subtype of chronic retention constitute a medical emergency that demands urgent specialist management?",
+      "options": [
+        "It carries an immediate 90% risk of bladder rupture into the peritoneal cavity.",
+        "It is associated with elevated intravesical storage pressure that transmits backpressure to the upper tracts, causing progressive hydronephrosis and renal failure.",
+        "It causes acute, excruciating suprapubic pain that leads to hypertensive crisis.",
+        "It prevents the insertion of any standard transurethral Foley catheter, requiring immediate open cystostomy."
+      ],
+      "answerKey": "B",
+      "answerText": "It is associated with elevated intravesical storage pressure that transmits backpressure to the upper tracts, causing progressive hydronephrosis and renal failure.",
+      "explanation": "High-pressure chronic retention is characterized by a large post-void residual volume accompanied by elevated intravesical storage pressures [4]. This elevated pressure transmits backward to the kidneys, causing bilateral upper-tract dilatation (hydronephrosis) and progressive renal impairment/obstructive nephropathy [4, 14, 15]. Unlike uncomplicated chronic retention, high-pressure retention requires urgent specialist intervention to decompress the system and preserve kidney function [4].",
+      "tags": ["urology", "chronic_urinary_retention", "complications", "renal_failure"]
+    },
+    {
+      "lesson": "Urology::Diagnostics::Uroflowmetry",
+      "question": "A patient with suspected bladder outlet obstruction (BOO) undergoes non-invasive uroflowmetry, which demonstrates a significantly reduced maximum flow rate (Qmax < 10 mL/s). How should this finding be interpreted according to the sources?",
+      "options": [
+        "A low flow rate is pathognomonic for mechanical urethral stricture and rules out BPH.",
+        "A low flow rate confirms bladder outlet obstruction, as detrusor function has no impact on flow velocity.",
+        "A low flow rate cannot distinguish bladder outlet obstruction from detrusor underactivity (weak bladder contraction), as both can produce low flow.",
+        "Any flow rate below 15 mL/s is an absolute indication for immediate transurethral resection of the prostate (TURP)."
+      ],
+      "answerKey": "C",
+      "answerText": "A low flow rate cannot distinguish bladder outlet obstruction from detrusor underactivity (weak bladder contraction), as both can produce low flow.",
+      "explanation": "The sources emphasize that lower urinary tract symptoms (LUTS) and flow parameters do not reliably establish the underlying pathophysiological mechanism [16, 17]. A weak urinary stream and low flow rate on uroflowmetry can result from bladder outlet obstruction, detrusor underactivity (weak bladder contraction), or a combination of both [16, 17]. Invasive pressure-flow studies (cystometry) are required in complex cases to definitively differentiate between the two [17].",
+      "tags": ["urology", "diagnostics", "uroflowmetry", "detrusor"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Emergency Management",
+      "question": "In which of the following clinical scenarios is blind urethral catheterization strictly contraindicated in a patient presenting with urinary retention?",
+      "options": [
+        "A 68-year-old male with known BPH and a prostate volume of 80 mL on ultrasound.",
+        "A patient who developed acute retention immediately following general anesthesia for a hernia repair.",
+        "A trauma patient with a pelvic fracture, blood at the urethral meatus, and inability to void.",
+        "A female patient with total urinary incontinence and a large cystocele."
+      ],
+      "answerKey": "C",
+      "answerText": "A trauma patient with a pelvic fracture, blood at the urethral meatus, and inability to void.",
+      "explanation": "In patients with pelvic fractures or trauma, the presence of blood at the urethral meatus, a high-riding/displaced prostate on digital rectal exam, perineal hematoma, or inability to void are classic signs of urethral injury [18-20]. In these cases, blind urethral catheterization attempts are strictly contraindicated due to the risk of converting a partial urethral tear into a complete disruption [21, 22]. A retrograde urethrogram (RUG) must be performed first to assess urethral integrity [21-23]. Emergency urinary drainage is achieved via a suprapubic catheter [22-24].",
+      "tags": ["urology", "trauma", "catheterization", "contraindications"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Chronic Retention",
+      "question": "Which of the following lists of chronic complications is classically associated with long-standing, uncorrected chronic urinary retention?",
+      "options": [
+        "Prostate cancer, epididymal cyst, and stress urinary incontinence.",
+        "Bladder diverticula, bladder stones, recurrent UTIs, vesicoureteric reflux (VUR), and renal insufficiency.",
+        "Acute glomerulonephritis, nephrotic syndrome, and renal cell carcinoma.",
+        "Minimal change disease, renal vein thrombosis, and hypercalciuria."
+      ],
+      "answerKey": "B",
+      "answerText": "Bladder diverticula, bladder stones, recurrent UTIs, vesicoureteric reflux (VUR), and renal insufficiency.",
+      "explanation": "Persistent incomplete bladder emptying and high intravesical pressure in chronic retention lead to several long-term structural and infectious sequelae [4, 14, 15]. These include detrusor compensation changes like trabeculations and bladder diverticula [14, 15, 25]; urinary stasis resulting in bladder stones and recurrent UTIs [14, 15, 25, 26]; vesicoureteric reflux (VUR) [14, 15]; and progressive hydronephrosis leading to renal insufficiency (obstructive nephropathy) [4, 14, 15, 25].",
+      "tags": ["urology", "chronic_urinary_retention", "complications"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Etiology",
+      "question": "Postoperative urinary retention (POUR) is a common clinical issue. Based on the urology teaching slides, which combination of factors is most highly associated with the development of postoperative retention?",
+      "options": [
+        "Inhalation anesthesia, minor upper-limb surgery, and pre-operative low fluid intake.",
+        "General anesthesia, pelvic surgery, spinal anesthesia, and postoperative administration of opioids or anticholinergic drugs.",
+        "Local anesthesia, outpatient cataract surgery, and pre-operative alpha-blocker therapy.",
+        "Age under 18 years, laparoscopic cholecystectomy, and early mobilization."
+      ],
+      "answerKey": "B",
+      "answerText": "General anesthesia, pelvic surgery, spinal anesthesia, and postoperative administration of opioids or anticholinergic drugs.",
+      "explanation": "The sources state that postoperative urinary retention is particularly common after general anesthesia, pelvic surgery, and spinal anesthesia [11]. It is further exacerbated by postoperative medications like opioids (which impair detrusor sensation and contractility) and anticholinergic drugs, as well as prolonged immobility and overhydration [9-11, 27].",
+      "tags": ["urology", "postoperative_retention", "risk_factors"]
+    },
+    {
+      "lesson": "Urology::Urinary Retention::Management",
+      "question": "A 72-year-old male presents to the emergency department with acute, painful urinary retention. Bladder scan reveals 750 mL of urine. Urethral catheterization is successful, immediately draining 750 mL of clear urine with rapid relief of his pain. What is the most appropriate next step in his clinical management?",
+      "options": [
+        "Perform immediate transurethral resection of the prostate (TURP) within 12 hours of admission.",
+        "Clamp the catheter after every 200 mL drained to prevent bladder spasm and bleeding.",
+        "Record the total drained volume, review his medications for retention-precipitating drugs, screen for infection, initiate an alpha-blocker (if due to BPH), and plan for a trial without catheter (TWOC).",
+        "Discharge the patient immediately with the catheter clamped, instructing him to unclamp it only when he feels suprapubic pain."
+      ],
+      "answerKey": "C",
+      "answerText": "Record the total drained volume, review his medications for retention-precipitating drugs, screen for infection, initiate an alpha-blocker (if due to BPH), and plan for a trial without catheter (TWOC).",
+      "explanation": "Once acute urinary retention is decompressed, immediate management consists of recording the drained volume, assessing renal function, and systematically evaluating for correctable precipitating factors such as constipation, UTIs, or medication side effects [6, 8]. For patients with Benign Prostatic Hyperplasia (BPH), starting an alpha-blocker (which relaxes prostatic smooth muscle) before a trial without catheter (TWOC) significantly increases the chance of successful voiding [28]. Routine clamping is not indicated [6, 7].",
+      "tags": ["urology", "urinary_retention", "management", "clinical_pathway"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Embryology",
+      "question": "Which embryological defect is responsible for the development of hypospadias in male infants?",
+      "options": [
+        "Failure of fusion of the urethral (urogenital) folds",
+        "Abnormal dorsal positioning of the genital tubercle",
+        "Failure of the cloacal membrane to rupture",
+        "Persistent patency of the allantois lumen"
+      ],
+      "answerKey": "A",
+      "answerText": "Failure of fusion of the urethral (urogenital) folds",
+      "explanation": "Hypospadias is a congenital anomaly where the external urethral meatus opens on the ventral (undersurface) of the penis [1, 2]. It embryologically results from the **failure of fusion of the urethral (urogenital) folds** during the development of the penile spongy urethra [2, 3]. Abnormal positioning of the genital tubercle causes epispadias [4], while failure of the allantois to obliterate results in urachal anomalies [5, 6].",
+      "tags": ["pediatrics::urology", "hypospadias", "embryology"]
+    },
+    {
+      "lesson": "Pediatric Urology::Epispadias::Associations",
+      "question": "Which congenital urinary anomaly is classically and most frequently associated with epispadias?",
+      "options": [
+        "Posterior urethral valves (PUV)",
+        "Bladder exstrophy",
+        "Bilateral cryptorchidism (undescended testes)",
+        "Pelviureteric junction obstruction (PUJO)"
+      ],
+      "answerKey": "B",
+      "answerText": "Bladder exstrophy",
+      "explanation": "Epispadias is characterized by a dorsal (superior) urethral opening [7, 8]. It is much less common than hypospadias and is **frequently associated with bladder exstrophy** as part of the bladder exstrophy-epispadias complex [4, 7, 9, 10].",
+      "tags": ["pediatrics::urology", "epispadias", "associations", "bladder_exstrophy"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Clinical Assessment",
+      "question": "A newborn male is examined in the nursery and found to have proximal (posterior) hypospadias. On physical examination, both testes are found to be non-palpable bilaterally. What is the most appropriate next clinical management step?",
+      "options": [
+        "Schedule an elective circumcision under local anesthesia in the nursery",
+        "Initiate continuous low-dose antibiotic prophylaxis to prevent ascending UTIs",
+        "Order an urgent evaluation for a potential Disorder of Sex Development (DSD), including endocrine and genetic screening",
+        "Plan for emergency bilateral open orchidopexy within the first 72 hours of life"
+      ],
+      "answerKey": "C",
+      "answerText": "Order an urgent evaluation for a potential Disorder of Sex Development (DSD), including endocrine and genetic screening",
+      "explanation": "While routine upper-tract imaging is not required for uncomplicated isolated distal hypospadias, the combination of **proximal (posterior) hypospadias with bilateral non-palpable testes** is a major clinical red flag. It requires **urgent evaluation for a potential disorder of sex development (DSD)**, including endocrinological and chromosomal/genetic assessment [11, 12].",
+      "tags": ["pediatrics::urology", "hypospadias", "dsd", "clinical_assessment"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Management",
+      "question": "An infant is born with typical distal hypospadias and a dorsal hooded prepuce. The parents request a routine newborn circumcision. What should the clinician advise them?",
+      "options": [
+        "Perform the circumcision immediately to reduce the risk of subpreputial bacterial colonization and UTI.",
+        "Delay circumcision until the infant is 4 years old so it can be performed alongside the definitive repair.",
+        "Delay or avoid circumcision because the prepuce (foreskin) is highly valuable and must be preserved for future urethral reconstruction.",
+        "Perform a dorsal preputial slit instead of a formal circumcision to facilitate normal voiding."
+      ],
+      "answerKey": "C",
+      "answerText": "Delay or avoid circumcision because the prepuce (foreskin) is highly valuable and must be preserved for future urethral reconstruction.",
+      "explanation": "Circumcision **should NOT be performed** in infants with hypospadias [8, 11, 12]. The prepuce (foreskin) is often redundant dorsally (dorsal hooded prepuce) and is **highly valuable for surgical reconstruction**, as the tissue is routinely used as a flap or graft to create the neouretra [8, 11, 12].",
+      "tags": ["pediatrics::urology", "hypospadias", "circumcision", "contraindications"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Surgical Timing",
+      "question": "According to contemporary, risk-adapted guidelines (such as EAU 2026), what is the preferred age range for performing primary surgical repair of symptomatic hypospadias?",
+      "options": [
+        "In the first 2 weeks of life (neonatal repair)",
+        "6 to 18 months of age",
+        "3 to 4 years of age",
+        "After pubertal development is fully complete"
+      ],
+      "answerKey": "B",
+      "answerText": "6 to 18 months of age",
+      "explanation": "Primary surgical repair for hypospadias is usually performed at **6 to 18 months of age** [8, 13]. Repairing the anomaly during this window is ideal for penile growth stages, tissue handling, and minimizing psychological impact before school age [8, 12, 13].",
+      "tags": ["pediatrics::urology", "hypospadias", "management", "surgical_timing"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Surgical Complications",
+      "question": "A 4-year-old boy who underwent proximal hypospadias repair as an infant presents with a spraying urinary stream and a visible leak of urine from the ventral penile shaft during voiding. What is the most likely diagnosis?",
+      "options": [
+        "Recurrent ventral chordee",
+        "Urethrocutaneous fistula",
+        "Meatal stenosis",
+        "Urethral diverticulum"
+      ],
+      "answerKey": "B",
+      "answerText": "Urethrocutaneous fistula",
+      "explanation": "A **urethrocutaneous fistula** is one of the most common surgical complications following hypospadias reconstruction [14]. It represents an abnormal tract communicating between the neourethra and the skin, which clinically presents as **urine leaking or spraying from the ventral aspect of the shaft** during micturition [13, 14]. Other complications include meatal stenosis, stricture, and diverticulum [7, 14].",
+      "tags": ["pediatrics::urology", "hypospadias", "complications", "fistula"]
+    },
+    {
+      "lesson": "Pediatric Urology::Epispadias::Embryology",
+      "question": "Epispadias is embryologically distinct from hypospadias. Which developmental error primarily leads to epispadias?",
+      "options": [
+        "Failure of fusion of the urethral folds",
+        "Abnormal, dorsal positioning of the genital tubercle",
+        "Failure of the cloacal membrane to rupture",
+        "Defective posterior urethral plate canalization"
+      ],
+      "answerKey": "B",
+      "answerText": "Abnormal, dorsal positioning of the genital tubercle",
+      "explanation": "While hypospadias is caused by failure of the urethral folds to fuse ventrally [2], epispadias results from the **abnormal positioning of the genital tubercle** during embryologic development [3, 4]. This abnormal displacement causes the urethral meatus to open on the **dorsal (superior) surface** of the penis [4, 8].",
+      "tags": ["pediatrics::urology", "epispadias", "embryology"]
+    },
+    {
+      "lesson": "Pediatric Urology::Hypospadias::Classification",
+      "question": "Based on the anatomical classification of the urethral meatus at birth, which of the following groups is categorized as a proximal (posterior) hypospadias?",
+      "options": [
+        "Glanular, coronal, or subcoronal",
+        "Midshaft or proximal penile",
+        "Penoscrotal, scrotal, or perineal",
+        "Distal penile or coronal"
+      ],
+      "answerKey": "C",
+      "answerText": "Penoscrotal, scrotal, or perineal",
+      "explanation": "Hypospadias is categorized into three main clinical severity groups based on the meatal position: **Anterior/Distal** (glanular, coronal, subcoronal); **Middle** (midshaft, proximal penile); and **Posterior/Proximal** (penoscrotal, scrotal, perineal) [1, 15, 16]. Proximal types represent the most severe forms, often featuring a split scrotum and severe downward ventral curvature (chordee) [1, 2, 15].",
+      "tags": ["pediatrics::urology", "hypospadias", "classification"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Epidemiology",
+      "question": "Which of the following congenital urinary anomalies represents the most common pathological cause of neonatal hydronephrosis?",
+      "options": [
+        "Posterior urethral valves (PUV)",
+        "Vesicoureteric reflux (VUR)",
+        "Pelviureteric junction obstruction (PUJO)",
+        "Congenital bladder diverticulum"
+      ],
+      "answerKey": "C",
+      "answerText": "Pelviureteric junction obstruction (PUJO)",
+      "explanation": "According to the sources, pelviureteric junction obstruction (PUJO) is impaired flow from the renal pelvis into the proximal ureter. It is the commonest pathological cause of neonatal hydronephrosis and is characteristically more frequent in boys and on the left side.",
+      "tags": ["pediatrics::urology", "pujo", "neonatal_hydronephrosis"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Pathophysiology",
+      "question": "In infants and young children, what is the most common intrinsic embryological mechanism responsible for Pelviureteric Junction Obstruction (PUJO)?",
+      "options": [
+        "Extrinsic compression or kinking by a lower-pole accessory renal crossing vessel",
+        "An intrinsic narrowing or aperistaltic segment due to abnormal smooth-muscle or neuromuscular development",
+        "Mechanical blockage of the proximal ureteric lumen by a sloughed renal papilla",
+        "Congenital ureterocele kinking the upper ureter"
+      ],
+      "answerKey": "B",
+      "answerText": "An intrinsic narrowing or aperistaltic segment due to abnormal smooth-muscle or neuromuscular development",
+      "explanation": "In infants and children, the primary mechanism of PUJO is intrinsic narrowing or an aperistaltic segment caused by abnormal smooth-muscle/neuromuscular development at the junction. In contrast, extrinsic compression from a lower-pole crossing vessel kinking the junction is typically recognized in older children and adults.",
+      "tags": ["pediatrics::urology", "pujo", "embryology", "pathophysiology"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Clinical Presentation",
+      "question": "An older child or young adult presents with episodic, sharp flank or loin pain accompanied by nausea and vomiting that is classically precipitated after a large intake of fluid (such as water, soda, or alcohol). This clinical presentation is known as:",
+      "options": [
+        "Potter sequence",
+        "Dietl crisis",
+        "Alport crisis",
+        "Fanconi syndrome"
+      ],
+      "answerKey": "B",
+      "answerText": "Dietl crisis",
+      "explanation": "Episode of flank pain after a large fluid intake describes intermittent pelviureteric junction obstruction (PUJO), classically referred to as a Dietl crisis. The sudden increase in urine volume rapidly distends the renal pelvis, causing severe pain, nausea, and vomiting.",
+      "tags": ["pediatrics::urology", "pujo", "symptoms", "dietl_crisis"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Diagnostics",
+      "question": "When managing a newborn with a prenatal history of significant hydronephrosis, when is the postnatal renal-bladder ultrasound typically recommended to avoid diagnostic error?",
+      "options": [
+        "Within the first 2 hours of life to prevent renal capsule rupture",
+        "After the first 48 hours of life, because early neonatal dehydration can underestimate the degree of collecting-system dilatation",
+        "At exactly 1 week of age, only after a voiding cystourethrogram (VCUG) is completed",
+        "At 6 weeks of age, once the kidney has ascended to its adult retroperitoneal position"
+      ],
+      "answerKey": "B",
+      "answerText": "After the first 48 hours of life, because early neonatal dehydration can underestimate the degree of collecting-system dilatation",
+      "explanation": "Postnatal renal-bladder ultrasound is usually performed after the first 48 hours of life because early neonatal dehydration can underestimate the true severity of dilatation. Performing the study too early might lead to a false sense of reassurance.",
+      "tags": ["pediatrics::urology", "pujo", "diagnostics", "ultrasound"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Diagnostics",
+      "question": "Under contemporary, risk-adapted guidelines, what is the recommended diagnostic approach regarding Voiding Cystourethrography (VCUG) in a child with suspected PUJO?",
+      "options": [
+        "VCUG is routinely required in all children diagnosed with PUJO to rule out silent vesicoureteric reflux.",
+        "VCUG is selective, guided by clinical and imaging warning signs such as a UTI, ureteric dilatation, abnormal bladder, or bilateral hydronephrosis in a male infant.",
+        "VCUG is strictly contraindicated due to the risk of introducing nephnephritogenic bacteria into the obstructed pelvis.",
+        "VCUG has been entirely replaced by DMSA renal scintigraphy as the first-line screening test."
+      ],
+      "answerKey": "B",
+      "answerText": "VCUG is selective, guided by clinical and imaging warning signs such as a UTI, ureteric dilatation, abnormal bladder, or bilateral hydronephrosis in a male infant.",
+      "explanation": "The sources correct the legacy clinical practice where VCUG was routinely ordered for all suspected PUJO cases. Under contemporary practice, VCUG is selective and guided by the presence of a UTI, ureteric dilatation, abnormal bladder on ultrasound, or bilateral hydronephrosis in a male infant (raising suspicion of VUR or lower urinary tract obstruction like PUV instead of isolated PUJO).",
+      "tags": ["pediatrics::urology", "pujo", "diagnostics", "vcug"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Imaging",
+      "question": "Which of the following imaging modalities represents the gold-standard functional assessment used to differentiate true mechanical obstruction from non-obstructive dilatation, as well as to measure split renal function in PUJO?",
+      "options": [
+        "99mTc-DMSA renal cortical scintigraphy",
+        "99mTc-MAG3 dynamic renography with diuretic (Lasix) washout",
+        "Retrograde pyelography",
+        "Contrast-enhanced CT Urography (CTU) with delayed excretory phases"
+      ],
+      "answerKey": "B",
+      "answerText": "99mTc-MAG3 dynamic renography with diuretic (Lasix) washout",
+      "explanation": "Dynamic renography (typically using 99mTc-MAG3 or DTPA) is the gold standard for assessing split renal function and drainage when functional obstruction is suspected. Diuretic renography distinguishes a mechanical pelvic-outlet blockage (where the tracer fails to wash out despite diuretic administration) from non-obstructive dilatation (where the tracer drains promptly). DMSA, by contrast, is a static scan used for detecting cortical defects and scarring.",
+      "tags": ["pediatrics::urology", "pujo", "imaging", "mag3", "renogram"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Management",
+      "question": "In a pediatric patient with unilateral pelviureteric junction obstruction (PUJO), which of the following clinical or imaging criteria represents a strong indication to proceed with surgical intervention rather than conservative observation?",
+      "options": [
+        "Asymptomatic unilateral hydronephrosis with a stable split renal function of 45% and no parenchymal thinning",
+        "Recurrent flank pain, febrile UTIs, or a documented fall in split renal function of >10 percentage points on serial renograms",
+        "A stable anteroposterior (AP) pelvic diameter of 12 mm on consecutive ultrasounds",
+        "A renal transit halftime (t1/2) of 10 minutes on dynamic MAG3 scanning"
+      ],
+      "answerKey": "B",
+      "answerText": "Recurrent flank pain, febrile UTIs, or a documented fall in split renal function of >10 percentage points on serial renograms",
+      "explanation": "The sources state that active observation is reasonable in asymptomatic unilateral dilatation with stable split function. However, surgical intervention is strongly indicated if there are recurrent febrile UTIs or flank pain attributable to PUJO, progressive parenchymal thinning, worsening dilatation, a baseline split function <40%, or a drop in split renal function of more than 10 percentage points on serial studies.",
+      "tags": ["pediatrics::urology", "pujo", "management", "indications"]
+    },
+    {
+      "lesson": "Pediatric Urology::PUJO::Surgical Management",
+      "question": "What is the standard, gold-standard surgical reference procedure used to relieve pelviureteric junction obstruction (PUJO) in children?",
+      "options": [
+        "Endopyelotomy",
+        "Anderson-Hynes dismembered pyeloplasty",
+        "Cohen cross-trigonal ureteral reimplantation",
+        "Bilateral ureteroureterostomy"
+      ],
+      "answerKey": "B",
+      "answerText": "Anderson-Hynes dismembered pyeloplasty",
+      "explanation": "The reference surgical operation for PUJO is the Anderson-Hynes dismembered pyeloplasty, which can be performed open, laparoscopically, or robotically to resect the obstructed segment and reconstruct the junction. Endopyelotomy plays a highly selective role, typically restricted to recurrent cases. Cohen reimplantation is used to treat vesicoureteric reflux (VUR), not PUJO.",
+      "tags": ["pediatrics::urology", "pujo", "pyeloplasty", "surgery"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Differential Diagnosis",
+      "question": "When evaluating a child presenting with an empty scrotum, which of the following is classically identified as the most common differential diagnosis?",
+      "options": [
+        "Undescended testis",
+        "Ectopic testis",
+        "Retractile testis",
+        "Testicular agenesis"
+      ],
+      "answerKey": "C",
+      "answerText": "Retractile testis",
+      "explanation": "According to the 'DD of empty scrotum' section in the sources, retractile testis is the commonest cause of an empty scrotum. Other differentials include undescended testis, ectopic testis, surgically removed testis, and testicular agenesis.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "diagnosis", "empty_scrotum"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Pathophysiology",
+      "question": "Which of the following statements correctly describes the hormonal and cellular function in males with a history of cryptorchidism?",
+      "options": [
+        "Testosterone levels and Leydig cell performance are severely deficient, while Sertoli cells and sperm counts remain normal.",
+        "Leydig cells and testosterone levels are usually not affected, whereas Sertoli cells are dysfunctional, leading to poor sperm counts and quality.",
+        "Both Leydig and Sertoli cell functions are universally destroyed from infancy, requiring immediate lifelong testosterone replacement.",
+        "Spermatogenesis is entirely unaffected by abdominal positioning, but Leydig cell failure causes severe gynecomastia in all untreated cases."
+      ],
+      "answerKey": "B",
+      "answerText": "Leydig cells and testosterone levels are usually not affected, whereas Sertoli cells are dysfunctional, leading to poor sperm counts and quality.",
+      "explanation": "The sources explicitly highlight that in cryptorchidism, testosterone levels and Leydig cell performance are usually not affected despite the disruption in sperm counts (poor quality, decreased motility, high abnormal morphology) and Sertoli cell function.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "pathophysiology", "hormones"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Fertility",
+      "question": "A young couple is seeking counseling regarding male fertility. The husband has a history of a unilateral undescended testicle that was surgically repaired at an early age. What should the clinician advise them based on the clinical evidence in the sources?",
+      "options": [
+        "Early surgical repair guarantees completely normal fertility and sperm parameters.",
+        "Men with a history of undescended testicles tend to have lower fertility than normal men, even if repaired early, likely due to an inherent testicular defect.",
+        "Surgical repair of a cryptorchid testicle completely destroys any future fertility potential.",
+        "Unilateral cryptorchidism carries zero risk of subfertility, as the contralateral descended testis always overcompensates."
+      ],
+      "answerKey": "B",
+      "answerText": "Men with a history of undescended testicles tend to have lower fertility than normal men, even if repaired early, likely due to an inherent testicular defect.",
+      "explanation": "The sources state that men with a history of undescended testicles tend to have lower fertility than normal men, even if the cryptorchid testicle was surgically repaired at an early age, which is thought to be due to an inherent testicular defect causing poor quality and quantity of sperm.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "fertility", "prognosis"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Infertility Risk",
+      "question": "Which combination of clinical factors is associated with the highest risk of long-term infertility in patients with a history of cryptorchidism?",
+      "options": [
+        "Unilateral inguinal testis repaired before 6 months of age.",
+        "Bilateral cryptorchidism, abdominal testicles, and delayed orchidopexy.",
+        "Bilateral retractile testes and early hormone screening.",
+        "Unilateral ectopic testis surgically removed in infancy."
+      ],
+      "answerKey": "B",
+      "answerText": "Bilateral cryptorchidism, abdominal testicles, and delayed orchidopexy.",
+      "explanation": "According to the sources, the risk of infertility is significantly increased in cases of bilateral cryptorchidism, abdominal testicles, and delayed orchidopexy. Early repair (orchidopexy) is crucial to minimize spermatogenic damage.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "infertility", "risk_factors"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Spermatogenesis",
+      "question": "What is the typical fate of spermatogenesis in an untreated abdominal testis after puberty?",
+      "options": [
+        "It matures normally and begins producing hyper-motile sperm.",
+        "There is generally no spermatogenesis at all in untreated abdominal testes after puberty.",
+        "It continues to function at approximately 50% of its normal capacity.",
+        "It undergoes hypertrophy to compensate for the higher abdominal temperature."
+      ],
+      "answerKey": "B",
+      "answerText": "There is generally no spermatogenesis at all in untreated abdominal testes after puberty.",
+      "explanation": "The sources specify that there is generally no spermatogenesis at all in untreated abdominal testes after puberty. This is because the higher core temperature of the abdomen halts the delicate process of spermatogenesis, which requires the cooler environment of the scrotum.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "pathophysiology", "puberty"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Infant Management",
+      "question": "A 3-month-old infant is found on routine examination to have an isolated, unilateral right inguinal undescended testis. What is the most appropriate initial management step?",
+      "options": [
+        "Perform immediate surgical orchidopexy within the first week of presentation.",
+        "Wait for spontaneous descent of the testis, as descent commonly occurs during the first few months of life.",
+        "Initiate high-dose systemic corticosteroids combined with immediate hormone assays.",
+        "Reassure the parents that no intervention is necessary until the child reaches puberty."
+      ],
+      "answerKey": "B",
+      "answerText": "Wait for spontaneous descent of the testis, as descent commonly occurs during the first few months of life.",
+      "explanation": "For an infant at 3 months of age presenting with an undescended testis, the standard management according to the clinical questions in the sources is to wait for spontaneous descent. Spontaneous descent is common up to 6 months of age.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "management", "infants"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Bilateral Management",
+      "question": "Based on the clinical exam questions and guidelines in the sources, what is the optimal management strategy for bilateral undescended testicles in an infant?",
+      "options": [
+        "Immediate open surgical placement of both testicles into the scrotum within 48 hours of birth.",
+        "Chorionic gonadotropin therapy for 1 month, followed by operative placement into the scrotum before age 1 if descent has not occurred.",
+        "Observation until the child is 2 years old because delayed spontaneous descent is extremely common in both testicles.",
+        "No medical or surgical therapy, with simple reassurance of the parent that full masculinization and normal function are guaranteed."
+      ],
+      "answerKey": "B",
+      "answerText": "Chorionic gonadotropin therapy for 1 month, followed by operative placement into the scrotum before age 1 if descent has not occurred.",
+      "explanation": "According to Question 24 in the Surgery MCQ clinical exam notes, the optimal management of bilateral undescended testicles in an infant is chorionic gonadotropin therapy for 1 month, followed by operative placement into the scrotum before age 1 if descent has not occurred.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "management", "surgery"]
+    },
+    {
+      "lesson": "Pediatric Urology::Cryptorchidism::Oncology Risk",
+      "question": "Cryptorchidism is a well-known risk factor for the development of testicular germ cell tumors (GCT). According to the sources, which of the following statements regarding this risk is correct?",
+      "options": [
+        "Unilateral inguinal cryptorchidism carries no increased risk of cancer compared to normal descended testes.",
+        "The incidence of malignancy in an undescended testis is 15 times that of the normal population, with the intra-abdominal variety posing the highest risk.",
+        "Testicular cancer only occurs in undescended testicles that have undergone early surgical repair.",
+        "Undescended testicles are exclusively associated with benign Leydig cell tumors and never develop seminomas."
+      ],
+      "answerKey": "B",
+      "answerText": "The incidence of malignancy in an undescended testis is 15 times that of the normal population, with the intra-abdominal variety posing the highest risk.",
+      "explanation": "The sources state that incompletely descended testes, especially the intra-abdominal variety, carry a significantly higher risk of malignancy. The incidence of malignancy in an undescended testis is 15 times that of the normal population, and 10% of patients with testicular tumors have a history of undescended testis.",
+      "tags": ["pediatrics::urology", "cryptorchidism", "oncology", "risk_factors"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Renal Injury",
+      "question": "A stable young patient presents with gross hematuria following a blunt retroperitoneal injury. A contrast-enhanced CT scan reveals a Grade III parenchymal laceration with a non-expanding perinephric hematoma. What is the standard initial management of this stable patient?",
+      "options": [
+        "Urgent surgical exploration via a transperitoneal approach",
+        "Conservative management (resuscitation, bed rest, analgesia, observation, and follow-up)",
+        "Transcatheter angioembolization of the renal artery",
+        "Urgent unilateral nephrectomy",
+        "Immediate retrograde ureteral stent placement"
+      ],
+      "answerKey": "B",
+      "answerText": "Conservative management (resuscitation, bed rest, analgesia, observation, and follow-up)",
+      "explanation": "According to the past surgical board exams in the sources, the standard management of a hemodynamically stable young patient with a blunt renal trauma is conservative (non-operative) treatment. Up to 80-85% of blunt renal injuries are contusions and minor lacerations that resolve spontaneously with supportive care, monitoring, and bed rest.",
+      "tags": ["surgery::renal_trauma", "management", "conservative_treatment"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Renal Injury",
+      "question": "Which of the following statements is correct regarding the correlation between hematuria and the severity of renal trauma?",
+      "options": [
+        "The degree of hematuria corresponds perfectly with the numerical grade of the renal injury.",
+        "Hematuria is always absent in renal contusions (Grade I) and only occurs in Grade IV and V lacerations.",
+        "The severity of hematuria does not match the severity of renal injury, and major vascular pedicle avulsion can occur without hematuria.",
+        "Gross hematuria always worsens progressively over the 24 hours following a minor renal contusion."
+      ],
+      "answerKey": "C",
+      "answerText": "The severity of hematuria does not match the severity of renal injury, and major vascular pedicle avulsion can occur without hematuria.",
+      "explanation": "The sources state as a key clinical pearl that the severity or degree of hematuria does not reliably match or correlate with the severity of renal trauma. Severe injuries, such as main renal artery thrombosis or vascular pedicle avulsion, may not present with hematuria at all, whereas a minor Grade I contusion can manifest with prominent gross hematuria.",
+      "tags": ["surgery::renal_trauma", "clinical_presentation", "hematuria"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Renal Injury",
+      "question": "A multiphase contrast-enhanced CT scan of a stable trauma patient reveals a renal parenchymal laceration extending greater than 1 cm deep into the cortex but with no evidence of collecting-system rupture or urinary extravasation. How is this injury classified under the AAST renal injury grading system?",
+      "options": [
+        "Grade I",
+        "Grade II",
+        "Grade III",
+        "Grade IV",
+        "Grade V"
+      ],
+      "answerKey": "C",
+      "answerText": "Grade III",
+      "explanation": "Under the AAST renal injury grading system detailed in the sources, Grade III is defined as a renal parenchymal laceration > 1 cm without collecting-system rupture or urinary extravasation. Grade II lacerations are <= 1 cm and confined to the cortex, while Grade IV lacerations extend into the collecting system or involve segmental vascular injury.",
+      "tags": ["surgery::renal_trauma", "aast_grading", "ct_scan"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Renal Injury",
+      "question": "While the majority of blunt renal injuries are managed conservatively, surgical exploration may be necessary in select circumstances. Which of the following represents an absolute or strong indication for surgical exploration of an injured kidney?",
+      "options": [
+        "A non-expanding, contained retroperitoneal hematoma",
+        "Hemodynamically stable Grade III renal laceration",
+        "Microscopic hematuria resolving within 6 hours of admission",
+        "An expanding or pulsatile hematoma, uncontrolled renal bleeding, or main renal vascular pedicle injury"
+      ],
+      "answerKey": "D",
+      "answerText": "An expanding or pulsatile hematoma, uncontrolled renal bleeding, or main renal vascular pedicle injury",
+      "explanation": "The sources list the absolute/strong indications for surgical intervention in renal trauma, which include: an expanding hematoma, uncontrolled bleeding, a pulsatile hematoma (especially when performing laparotomy for other intra-abdominal injuries), nonviable renal parenchyma, and acute main renovascular injury.",
+      "tags": ["surgery::renal_trauma", "exploration", "indications"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Ureteric Injury",
+      "question": "What is the most common etiology of ureteric injuries encountered in clinical practice?",
+      "options": [
+        "High-velocity deceleration injuries in motor vehicle accidents",
+        "Iatrogenic injury during pelvic, gynecological, colorectal, or endourological surgical procedures",
+        "Blunt physical blows directly to the flank or abdomen",
+        "Penetrating stab wounds to the posterior retroperitoneum"
+      ],
+      "answerKey": "B",
+      "answerText": "Iatrogenic injury during pelvic, gynecological, colorectal, or endourological surgical procedures",
+      "explanation": "The sources emphasize that external ureteric trauma from blunt or penetrating violence is rare. Instead, the most common cause of ureteric injury is iatrogenic—occurring unintentionally during major colorectal, gynecological (such as hysterectomy), pelvic, vascular, or endourological operations.",
+      "tags": ["surgery::ureteric_injury", "etiology", "iatrogenic"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Ureteric Injury",
+      "question": "A clinician suspects a patient has sustained a ureteric injury during a difficult pelvic procedure. What is the most sensitive confirmatory diagnostic test to delineate the exact anatomical site of the ureteric lesion, while also permitting immediate stent placement?",
+      "options": [
+        "Voiding cystourethrography (VCUG)",
+        "Transabdominal renal ultrasound",
+        "Retrograde pyelography (Retrograde Ureteropyelography - RUPG)",
+        "Non-contrast CT of the kidneys, ureters, and bladder (CT KUB)"
+      ],
+      "answerKey": "C",
+      "answerText": "Retrograde pyelography (Retrograde Ureteropyelography - RUPG)",
+      "explanation": "While contrast-enhanced CT with delayed/excretory images can identify urine leak or hydronephrosis, retrograde pyelography (RUPG) is the gold standard and most sensitive confirmatory test to localize and delineate the exact site and extent of a ureteric tear. Crucially, it also allows for immediate therapeutic intervention via retrograde ureteral stent placement.",
+      "tags": ["surgery::ureteric_injury", "investigations", "retrograde_pyelography"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Bladder Injury",
+      "question": "Which of the following statements correctly matches the pelvic trauma mechanism with the specific type of bladder rupture and its typical initial management?",
+      "options": [
+        "A pelvic fracture causes intraperitoneal bladder dome rupture; managed conservatively with a urethral catheter for 1 week.",
+        "A direct blow to a full, distended bladder causes intraperitoneal rupture at the dome; managed by urgent watertight surgical repair.",
+        "Shearing forces from pelvic fractures cause extraperitoneal bladder rupture; always requires open pelvic exploration and bladder neck excision.",
+        "Penetrating trauma causes extraperitoneal rupture; managed exclusively by bilateral percutaneous nephrostomy tubes."
+      ],
+      "answerKey": "B",
+      "answerText": "A direct blow to a full, distended bladder causes intraperitoneal rupture at the dome; managed by urgent watertight surgical repair.",
+      "explanation": "The sources describe two main types of bladder rupture. Intraperitoneal rupture classically results from a direct blow to a full, distended bladder, causing a high-pressure blowout at its weakest point (the dome), resulting in urine tracking into the peritoneal cavity (causing chemical peritonitis); this always requires prompt surgical repair. Conversely, extraperitoneal rupture is most commonly associated with pelvic fractures (90% of cases) and can often be managed conservatively.",
+      "tags": ["surgery::bladder_trauma", "intraperitoneal_rupture", "management"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Bladder Injury",
+      "question": "What is the gold-standard diagnostic imaging modality to confirm a suspected bladder rupture following pelvic trauma?",
+      "options": [
+        "Contrast-enhanced CT scan of the abdomen/pelvis without bladder retrograde filling",
+        "Retrograde cystography (conventional retrograde cystography or CT cystography with adequate retrograde filling)",
+        "Retrograde urethrogram (RUG)",
+        "Excretory intravenous urography (IVU)"
+      ],
+      "answerKey": "B",
+      "answerText": "Retrograde cystography (conventional retrograde cystography or CT cystography with adequate retrograde filling)",
+      "explanation": "The sources state that cystography—specifically retrograde cystography (conventional or retrograde CT cystography) with adequate passive bladder filling to document extravasation—is the gold standard for identifying and classifying a urinary bladder rupture.",
+      "tags": ["surgery::bladder_trauma", "diagnosis", "cystography"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Bladder Injury",
+      "question": "A 42-year-old male with a pelvic fracture is found on retrograde cystography to have an uncomplicated extraperitoneal bladder rupture with minimal urinary extravasation. What is the standard first-line treatment for this patient?",
+      "options": [
+        "Immediate transperitoneal surgical exploration and suture closure",
+        "Transurethral Foley's catheter drainage alone for approximately 2 weeks",
+        "Insertion of a suprapubic catheter accompanied by a peri-vesical surgical drain",
+        "Immediate bilateral percutaneous nephrostomies"
+      ],
+      "answerKey": "B",
+      "answerText": "Transurethral Foley's catheter drainage alone for approximately 2 weeks",
+      "explanation": "The sources outline that uncomplicated extraperitoneal bladder ruptures are treated conservatively with transurethral Foley's catheter drainage alone (typically for 2 weeks or 2-3 weeks) to allow the bladder wall to heal. Surgical repair of extraperitoneal rupture is reserved for complicated cases (e.g., associated with bone spicules, bladder neck tears, rectal or vaginal lacerations, open pelvic fractures, or persistent urine leak).",
+      "tags": ["surgery::bladder_trauma", "extraperitoneal_rupture", "management"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Urethral Injury",
+      "question": "A 25-year-old male is admitted to the emergency department after a high-speed motor vehicle collision. He has a pelvic fracture, is unable to void, and has blood at his urethral meatus. What is the most critical immediate clinical directive regarding his urinary tract?",
+      "options": [
+        "Blindly pass a standard 16F Foley catheter to assess the volume of retained urine.",
+        "Perform repeated gentle attempts to pass a coude-tip catheter under local anesthetic.",
+        "Avoid urethral catheterization and perform a retrograde urethrogram (RUG) to assess urethral integrity.",
+        "Proceed to immediate transabdominal pelvic exploration and primary surgical realignment."
+      ],
+      "answerKey": "C",
+      "answerText": "Avoid urethral catheterization and perform a retrograde urethrogram (RUG) to assess urethral integrity.",
+      "explanation": "The sources strongly warn that if a urethral injury is suspected (due to clinical clues like pelvic fracture, inability to micturate, a perineal/scrotal hematoma, or blood at the urethral meatus), blind urethral catheterization must be strictly avoided. Catheter passage can convert a partial urethral laceration into a complete disruption. A retrograde urethrogram (RUG) must be performed first to assess urethral integrity.",
+      "tags": ["surgery::urethral_trauma", "management", "avoid_harm"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Urethral Injury",
+      "question": "Which of the following clinical pairings of urethral injury is correct regarding anatomical location, typical mechanism, and characteristic physical examination findings?",
+      "options": [
+        "Posterior urethral injury affects the bulbar urethra; caused by straddle injury; presents with a \"butterfly\" pattern perineal hematoma.",
+        "Anterior urethral injury affects the prostatic urethra; caused by pelvic fracture; presents with urinary ascites and peritonitis.",
+        "Posterior urethral injury affects the membranous urethra; caused by pelvic fracture; presents with blood at the meatus and inability to void.",
+        "Anterior urethral injury affects the bladder neck; caused by difficult urethral instrumentation; presents with a high-riding prostate on DRE."
+      ],
+      "answerKey": "C",
+      "answerText": "Posterior urethral injury affects the membranous urethra; caused by pelvic fracture; presents with blood at the meatus and inability to void.",
+      "explanation": "Under the anatomical division in the sources: Posterior urethral injury typically accompanies pelvic fractures and occurs near the membranous or prostatic urethra, presenting with blood at the meatus, inability to void, and pelvic fracture. Anterior urethral injury is typically an isolated injury affecting the bulbous urethra, caused by straddle/perineal crush trauma, and presenting with perineal pain, hematoma, and superficial urine extravasation (which can extend into the scrotum and anterior abdominal wall).",
+      "tags": ["surgery::urethral_trauma", "anatomy", "clinical_presentation"]
+    },
+    {
+      "lesson": "Surgery::Urogenital Trauma::Genital Injury",
+      "question": "A 32-year-old man presents with acute, severe penile pain, sudden detumescence, and a large hematoma (\"eggplant deformity\") following trauma to his erect penis during intercourse. What is the underlying pathophysiology of this urological emergency, and what is its definitive management?",
+      "options": [
+        "Rupture of the superficial dorsal vein of the penis; managed conservatively with tight crepe compression bandages.",
+        "Thrombosis of the cavernous sinus; managed with immediate intra-cavernosal alpha-agonist injection.",
+        "Tear in the tunica albuginea of the corpus cavernosum; managed by urgent surgical exploration and repair of the tear.",
+        "Rupture of the suspensory ligament of the penis; managed by skeletal traction."
+      ],
+      "answerKey": "C",
+      "answerText": "Tear in the tunica albuginea of the corpus cavernosum; managed by urgent surgical exploration and repair of the tear.",
+      "explanation": "The sources state that trauma to an erect penis can lead to a penile fracture, which is pathophysiologically defined as a tear in the tunica albuginea of the corpus cavernosum. This requires urgent surgical exploration and suture repair of the tunica albuginea. Urethral injury may occasionally coexist and should be assessed.",
+      "tags": ["surgery::genital_trauma", "penile_fracture", "management"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Stone Composition",
+      "question": "Which of the following correctly describes the epidemiological frequency and radio-opacity of typical calcium oxalate stones?",
+      "options": [
+        "They represent approximately 10% of all stones and are radiolucent on standard X-ray.",
+        "They represent approximately 80% of all stones and are radiopaque on standard X-ray.",
+        "They represent approximately 50% of all stones and are poorly radio-opaque.",
+        "They represent approximately 5% of all stones and cannot be detected on non-contrast CT."
+      ],
+      "answerKey": "B",
+      "answerText": "They represent approximately 80% of all stones and are radiopaque on standard X-ray.",
+      "explanation": "Calcium stones (principally calcium oxalate and calcium phosphate) are the most common type, representing approximately 80% of all urinary stones [1]. Unlike uric acid stones, calcium-containing stones are typically radiopaque and visible on standard plain-film radiography (KUB) [2, 3].",
+      "tags": ["urology", "urolithiasis", "stone_composition", "calcium_oxalate"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Stone Composition",
+      "question": "A 45-year-old male with gout and metabolic syndrome presents with multiple smooth, hard, yellow-orange stones. Urinalysis reveals persistently acidic urine (pH < 5.5). Which of the following is true regarding these stones?",
+      "options": [
+        "They are composed of cystine, are highly radiopaque, and require aggressive urine acidification.",
+        "They are composed of uric acid, are radiolucent on standard plain X-ray, and can often be dissolved via urine alkalinization.",
+        "They are composed of struvite, are caused by urea-splitting bacteria, and are associated with alkaline urine (pH > 7.2).",
+        "They are drug-induced stones caused by loop diuretics and require normal dietary calcium restriction."
+      ],
+      "answerKey": "B",
+      "answerText": "They are composed of uric acid, are radiolucent on standard plain X-ray, and can often be dissolved via urine alkalinization.",
+      "explanation": "Uric acid stones make up 6–17% of all stones and are characteristically hard, smooth, multiple, yellow or red-brown, and radiolucent on plain film (though visible on non-contrast CT) [2, 4, 5]. They form in persistently acidic urine (pH < 5.5) and are classically associated with gout, metabolic syndrome, or high cell turnover [2]. Because their solubility increases dramatically with rising pH, they can often be chemically dissolved via oral urine alkalinization [2].",
+      "tags": ["urology", "urolithiasis", "stone_composition", "uric_acid"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Stone Composition",
+      "question": "A female patient presents with a large, branched 'staghorn' calculus in her right renal pelvis. Urinalysis reveals highly alkaline urine (pH > 7.2) and the presence of Proteus mirabilis. What is the chemical composition of this 'infected' stone?",
+      "options": [
+        "Calcium oxalate monohydrate",
+        "Pure cystine",
+        "Magnesium ammonium phosphate and carbonate apatite (Struvite)",
+        "Anhydrous uric acid"
+      ],
+      "answerKey": "C",
+      "answerText": "Magnesium ammonium phosphate and carbonate apatite (Struvite)",
+      "explanation": "Struvite stones (often called triple phosphate or 'infected' stones) are composed of magnesium ammonium phosphate and carbonate apatite [5, 6]. They form in alkaline urine (pH > 7.2) when urease-producing (urea-splitting) organisms—such as Proteus mirabilis, Klebsiella, or Pseudomonas—split urea into ammonia, bicarbonate, and carbonate ions [5, 6]. These stones are twice as common in females and are classically associated with large, branched staghorn calculi [5].",
+      "tags": ["urology", "urolithiasis", "stone_composition", "struvite"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Stone Composition",
+      "question": "Cystinuria is a genetic predisposing factor for recurrent stone formation starting in childhood. What is the underlying pathophysiology and classic radiographic appearance of cystine stones?",
+      "options": [
+        "Autosomal dominant mutation in the AGT gene; highly radiolucent on KUB.",
+        "Autosomal recessive mutation in the SLC3A1 gene on chromosome 2 leading to impaired proximal tubule reabsorption of dibasic amino acids; poorly radiopaque/faintly radiopaque on KUB.",
+        "X-linked mutation in the COL4A5 gene causing basement membrane splitting; highly radiopaque with hexagonal crystals.",
+        "Acquired proximal RTA with high urinary citrate levels; completely radiolucent."
+      ],
+      "answerKey": "B",
+      "answerText": "Autosomal recessive mutation in the SLC3A1 gene on chromosome 2 leading to impaired proximal tubule reabsorption of dibasic amino acids; poorly radiopaque/faintly radiopaque on KUB.",
+      "explanation": "Cystinuria is an autosomal recessive disorder of amino acid transport in the proximal renal tubule caused by mutations in genes like SLC3A1 on chromosome 2 [6, 7]. This leads to impaired transtubular reabsorption of filtered dibasic amino acids—specifically cystine, ornithine, arginine, and lysine (COLA)—resulting in excessive urinary excretion [6]. Because of cystine's low solubility, it precipitates into multiple hexagonal crystals/stones [6, 8]. On plain-film X-ray, cystine stones appear faintly or poorly radio-opaque [5, 9].",
+      "tags": ["urology", "urolithiasis", "stone_composition", "cystine"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Renal Colic",
+      "question": "A patient presents to the emergency department with sudden-onset, severe, waxing-and-waning flank pain radiating down to the groin. To help distinguish acute renal colic from an acute surgical abdomen with peritonitis, which classic physical presentation cue should the clinician note?",
+      "options": [
+        "Renal colic patients classically lie completely still to minimize diaphragmatic movement, whereas peritonitis patients are highly restless.",
+        "Renal colic patients are classically restless, constantly moving to find a comfortable position, whereas patients with peritonism tend to lie completely still.",
+        "Renal colic patients always display a high-grade fever (>39°C) and diffuse abdominal rigidity, whereas peritonitis patients are hemodynamically stable.",
+        "There is no clinical or physical distinction; both require immediate exploratory laparotomy."
+      ],
+      "answerKey": "B",
+      "answerText": "Renal colic patients are classically restless, constantly moving to find a comfortable position, whereas patients with peritonism tend to lie completely still.",
+      "explanation": "The sources emphasize a highly useful diagnostic 'exam pearl': patients suffering from acute renal/ureteric colic are classically restless and unable to find a comfortable position due to repeated ureteric spasm [10-12]. Conversely, patients with peritoneal irritation (peritonism) tend to lie completely still because any movement exacerbates their severe abdominal pain [10, 11].",
+      "tags": ["urology", "urolithiasis", "renal_colic", "clinical_presentation"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Diagnostics",
+      "question": "Which imaging modality is considered the gold standard for the acute diagnosis of suspected urinary stone disease and acute renal colic?",
+      "options": [
+        "Intravenous Urography (IVU / IVP)",
+        "Transabdominal Ultrasound only",
+        "Non-contrast Computed Tomography of the Kidneys, Ureters, and Bladder (NCCT KUB)",
+        "Magnetic Resonance Imaging (MRI)"
+      ],
+      "answerKey": "C",
+      "answerText": "Non-contrast Computed Tomography of the Kidneys, Ureters, and Bladder (NCCT KUB)",
+      "explanation": "Non-contrast CT KUB (NCCT) is the gold standard imaging modality for the diagnosis of acute renal colic and urinary stone disease [13-16]. It has replaced intravenous urography (IVU), which is now considered a historical standard [17, 18]. Ultrasound is used primarily as an initial assessment, as a first-line modality in children/pregnancy, or to evaluate hydronephrosis [9, 19].",
+      "tags": ["urology", "urolithiasis", "diagnostics", "ct_scan"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Renal Colic Management",
+      "question": "A 32-year-old male presents with severe left-sided renal colic, a temperature of 38.8°C, and chills. Urinalysis reveals pyuria, and ultrasound shows severe hydronephrosis behind a 7 mm obstructing mid-ureteric stone. What is the most appropriate immediate management strategy?",
+      "options": [
+        "Prescribe oral NSAIDs and an alpha-blocker, and discharge the patient home for a 4-week trial of conservative passage.",
+        "Administer parenteral antibiotics and perform urgent decompression of the collecting system via ureteric stenting or percutaneous nephrostomy.",
+        "Perform immediate emergency extracorporeal shock-wave lithotripsy (ESWL) to fragment the obstructing stone.",
+        "Initiate aggressive high-volume intravenous fluid loading (forced hydration) to push the stone through the obstruction."
+      ],
+      "answerKey": "B",
+      "answerText": "Administer parenteral antibiotics and perform urgent decompression of the collecting system via ureteric stenting or percutaneous nephrostomy.",
+      "explanation": "An obstructed kidney with signs of active infection (e.g., fever, rigors) or pyonephrosis is a life-threatening urological emergency [20-22]. It cannot be treated as 'simple colic' with antibiotics alone [20]. Immediate management requires resuscitation, prompt parenteral antibiotics, and urgent surgical decompression of the collecting system via a ureteric double-J stent or percutaneous nephrostomy [20, 21]. Definitive stone removal must be postponed until the infection is completely controlled [21].",
+      "tags": ["urology", "urolithiasis", "emergencies", "decompression"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Surgical Interventions",
+      "question": "A 28-year-old female who is 14 weeks pregnant presents with an uncomplicated 8 mm upper ureteric stone and mild hydronephrosis. Pain is well controlled on paracetamol. Which of the following statements is correct regarding the use of Shock-Wave Lithotripsy (SWL) for this patient?",
+      "options": [
+        "SWL is the ideal first-line treatment option because it is non-invasive and safe for the fetus.",
+        "SWL is absolutely contraindicated during pregnancy; if active intervention becomes necessary, ureteroscopy (URS) is the preferred modality.",
+        "SWL can be safely performed using low-energy settings under continuous ultrasound guidance.",
+        "SWL is only contraindicated in the third trimester; it is completely safe to perform in the first and second trimesters."
+      ],
+      "answerKey": "B",
+      "answerText": "SWL is absolutely contraindicated during pregnancy; if active intervention becomes necessary, ureteroscopy (URS) is the preferred modality.",
+      "explanation": "Pregnancy is an absolute contraindication for extracorporeal shock-wave lithotripsy (SWL) due to the risk of fetal injury [23-26]. If conservative observation fails and active intervention is required for a pregnant patient, ureteroscopy (URS) is the preferred, safe therapeutic choice [27].",
+      "tags": ["urology", "urolithiasis", "swl", "contraindications", "pregnancy"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Surgical Interventions",
+      "question": "Based on the renal stone size and anatomical treatment framework in the sources, which of the following procedures is considered the first-line treatment of choice for a renal pelvis stone larger than 2 cm (20 mm) or a complex staghorn calculus?",
+      "options": [
+        "Repeated sessions of non-invasive Extracorporeal Shock-Wave Lithotripsy (ESWL)",
+        "Open pyelolithotomy or radical nephrectomy",
+        "Percutaneous Nephrolithotomy (PCNL)",
+        "Continuous chemolysis via retrograde ureteral catheters"
+      ],
+      "answerKey": "C",
+      "answerText": "Percutaneous Nephrolithotomy (PCNL)",
+      "explanation": "For renal stones larger than 2 cm (20 mm) and most complex or staghorn calculi, Percutaneous Nephrolithotomy (PCNL) is the first-line treatment of choice [21, 28, 29]. PCNL provides the highest stone-free clearance rate for large stone burdens, whereas ESWL is limited by the risk of incomplete fragmentation, Steinstrasse, and the need for multiple repeat sessions in stones of this size [23, 26, 28].",
+      "tags": ["urology", "urolithiasis", "pcnl", "indications"]
+    },
+    {
+      "lesson": "Urology::Urolithiasis::Medical Management",
+      "question": "A 30-year-old female presents with an uncomplicated, asymptomatic 3 mm stone in her distal ureter with no hydronephrosis or infection. What is the most appropriate first-line treatment according to the clinical trials and guidelines in the sources?",
+      "options": [
+        "Immediate transurethral ureteroscopy (URS) with laser lithotripsy",
+        "Extracorporeal shock-wave lithotripsy (ESWL) within 48 hours of presentation",
+        "Conservative (medical) treatment, as approximately 90% of stones 4 mm or less in size will pass spontaneously",
+        "Open surgical ureterolithotomy to prevent potential long-term stricture formation"
+      ],
+      "answerKey": "C",
+      "answerText": "Conservative (medical) treatment, as approximately 90% of stones 4 mm or less in size will pass spontaneously",
+      "explanation": "According to urological consensus, small, uncomplicated stones have a very high likelihood of spontaneous passage [15]. Specifically, about 90% of stones 4 mm or less in size will pass spontaneously without requiring any surgical intervention [30]. Therefore, conservative management (hydration, analgesia, and observation) is the best first-line option [31-34]. Ureteroscopy or ESWL is reserved for larger stones (>5–10 mm), persistent pain, or complicating factors [15, 35].",
+      "tags": ["urology", "urolithiasis", "conservative_treatment", "medical_expulsive_therapy"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Pathology",
+      "question": "Which of the following represents the most common histological subtype of Renal Cell Carcinoma (RCC) in adults, and what is its primary pathogenesis?",
+      "options": [
+        "Papillary RCC; driven by MET gene mutation and chromophobe chromosome loss",
+        "Clear Cell RCC; driven by VHL gene loss on chromosome 3p and upregulation of VEGF-pathway angiogenesis",
+        "Chromophobe RCC; driven by Birt-Hogg-Dubé syndrome and intercalated cell hypertrophy",
+        "Collecting Duct Carcinoma; driven by PAX8 rearrangements and highly responsive to immunotherapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Clear Cell RCC; driven by VHL gene loss on chromosome 3p and upregulation of VEGF-pathway angiogenesis",
+      "explanation": "Clear Cell RCC is the most common adult histological subtype of RCC, accounting for approximately 75–80% of cases [1-3]. It is driven by the loss of the von Hippel-Lindau (VHL) tumor suppressor gene on chromosome 3p, which leads to massive upregulation of the vascular endothelial growth factor (VEGF) pathway and angiogenesis [1, 2, 4]. Other subtypes like Papillary (10–15%) and Chromophobe (~5%) have distinct genetic drivers [3].",
+      "tags": ["internal_medicine", "urology", "rcc", "pathology"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Clinical Presentation",
+      "question": "Which of the following statements best reflects the contemporary clinical presentation of Renal Cell Carcinoma (RCC) in adults?",
+      "options": [
+        "The majority of patients present with the classic triad of flank pain, gross hematuria, and a palpable abdominal mass.",
+        "More than 60% of renal masses are detected incidentally on routine abdominal imaging performed for unrelated symptoms.",
+        "Most patients present initially with lower extremity edema and severe acute renal failure.",
+        "RCC typically presents with symptomatic bone metastases as the first and only clinical finding."
+      ],
+      "answerKey": "B",
+      "answerText": "More than 60% of renal masses are detected incidentally on routine abdominal imaging performed for unrelated symptoms.",
+      "explanation": "In contemporary clinical practice, over 60% of renal masses are 'incidentalomas' detected incidentally on abdominal imaging (such as ultrasound, CT, or MRI) performed for unrelated symptoms [2, 5, 6]. The classic triad of flank pain, gross hematuria, and a palpable abdominal mass occurs in less than 10% of cases today and usually indicates advanced disease [2, 6, 7].",
+      "tags": ["internal_medicine", "urology", "rcc", "presentation"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Physical Examination",
+      "question": "A 68-year-old male is found to have a new-onset, persistent left-sided varicocele that does not disappear when he lies flat. What is the physiological mechanism explaining why this finding should raise suspicion for Left Renal Cell Carcinoma?",
+      "options": [
+        "The left testicular vein drains directly into the IVC, which is compressed by the primary renal mass.",
+        "Tumor thrombus invasion of the left renal vein obstructs the drainage of the left testicular vein, which drains directly into it.",
+        "Metastasis to the left inguinal lymph nodes causes severe lymphatic backup in the scrotum.",
+        "The tumor secretes high levels of systemic erythropoietin, leading to hyperviscosity and selective thrombosis of the pampiniform plexus."
+      ],
+      "answerKey": "B",
+      "answerText": "Tumor thrombus invasion of the left renal vein obstructs the drainage of the left testicular vein, which drains directly into it.",
+      "explanation": "Unlike the right testicular vein (which drains directly into the inferior vena cava), the left testicular vein drains directly into the left renal vein [8]. If left-sided RCC invades the left renal vein (forming a tumor thrombus), it obstructs left testicular vein drainage, presenting as a persistent left-sided varicocele that does not collapse when lying down [8]. This is an important clinical clue to left renal cell carcinoma [9].",
+      "tags": ["internal_medicine", "urology", "rcc", "physical_exam"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Paraneoplastic Syndromes",
+      "question": "Which of the following correctly describes Stauffer syndrome, a classic paraneoplastic effect associated with Renal Cell Carcinoma (RCC)?",
+      "options": [
+        "An osteolytic metastatic process in the vertebral column causing acute spinal cord compression.",
+        "A non-metastatic hepatic dysfunction characterized by elevated alkaline phosphatase, bilirubin, hypoalbuminemia, and prolonged prothrombin time that typically resolves after nephrectomy.",
+        "Severe hypercalcemia resulting from direct osteoclastic bone destruction by metastatic RCC cells.",
+        "Uncontrolled systemic hypertension resulting from direct mechanical occlusion of both main renal arteries."
+      ],
+      "answerKey": "B",
+      "answerText": "A non-metastatic hepatic dysfunction characterized by elevated alkaline phosphatase, bilirubin, hypoalbuminemia, and prolonged prothrombin time that typically resolves after nephrectomy.",
+      "explanation": "Stauffer syndrome is a reversible, non-metastatic hepatic dysfunction without liver metastases that is classically associated with RCC [8]. It is characterized by elevated alkaline phosphatase, elevated bilirubin, hypoalbuminemia, prolonged prothrombin time, and hypergammaglobulinemia, and typically resolves completely following nephrectomy [8].",
+      "tags": ["internal_medicine", "urology", "rcc", "paraneoplastic"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Diagnostics",
+      "question": "Which imaging modality is considered the gold standard for the primary staging and characterization of a suspected solid parenchymal renal mass?",
+      "options": [
+        "Intravenous pyelography (IVP)",
+        "Dedicated multiphasic contrast-enhanced computed tomography (CT) of the abdomen and chest",
+        "Fluorodeoxyglucose Positron Emission Tomography (FDG-PET/CT)",
+        "Transabdominal renal ultrasound with Doppler"
+      ],
+      "answerKey": "B",
+      "answerText": "Dedicated multiphasic contrast-enhanced computed tomography (CT) of the abdomen and chest",
+      "explanation": "Dedicated multiphasic contrast-enhanced CT of the abdomen and chest is the gold-standard imaging modality of choice for the diagnosis and staging of RCC [10-12]. Ultrasound is useful for initial detection and differentiating solid from cystic masses [12, 13] but cannot definitively stage. FDG-PET/CT and bone scans are not recommended for routine primary staging [14, 15].",
+      "tags": ["internal_medicine", "urology", "rcc", "diagnostics"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Staging",
+      "question": "A patient's contrast-enhanced CT reveals a 6 cm solid renal mass that directly invades the contiguous ipsilateral adrenal gland, with no regional lymph node or distant metastases. According to current TNM staging, how is this primary tumor classified?",
+      "options": [
+        "T1b",
+        "T3a",
+        "T4",
+        "T2"
+      ],
+      "answerKey": "C",
+      "answerText": "T4",
+      "explanation": "According to current TNM staging rules detailed in the sources, direct contiguous ipsilateral adrenal invasion is classified as T4 [16-18]. This is an important staging update; legacy staging tables incorrectly classified direct adrenal invasion as T3 [17]. T3 is reserved for renal vein/IVC extension and perinephric/renal-sinus fat invasion within Gerota's fascia [16, 17].",
+      "tags": ["internal_medicine", "urology", "rcc", "staging"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Surgery",
+      "question": "For a patient with a technically resectable 3.5 cm (T1a) solid enhancing cortical mass in the right kidney and a completely normal contralateral left kidney, what is the preferred contemporary surgical approach?",
+      "options": [
+        "Right radical nephrectomy to ensure widest possible tumor-free surgical margins",
+        "Right partial nephrectomy (nephron-sparing surgery)",
+        "Immediate retroperitoneal lymph-node dissection followed by high-dose immunotherapy",
+        "Bilateral partial nephrectomies to prevent metachronous recurrence"
+      ],
+      "answerKey": "B",
+      "answerText": "Right partial nephrectomy (nephron-sparing surgery)",
+      "explanation": "Partial nephrectomy (nephron-sparing surgery) is the treatment of choice for most technically resectable T1 tumors (including T1a <= 4cm and T1b <= 7cm), regardless of whether the opposite kidney is normal [15, 19-22]. It preserves functioning renal parenchyma, provides similar oncological outcomes, and reduces the long-term risk of developing chronic kidney disease [21-23].",
+      "tags": ["internal_medicine", "urology", "rcc", "surgery"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Surgery",
+      "question": "Which of the following statements represents the correct clinical guideline regarding adjuvant surgical steps during a radical nephrectomy for localized, clinically node-negative RCC?",
+      "options": [
+        "The ipsilateral adrenal gland must always be routinely removed in all patients undergoing nephrectomy.",
+        "Complete regional lymph-node dissection is mandatory for all organ-confined renal masses.",
+        "Neither routine adrenalectomy nor routine lymph-node dissection is recommended for organ-confined, clinically node-negative disease without clinical/imaging suspicion of involvement.",
+        "Urinary bladder removal must be routinely performed simultaneously as part of the radical nephrectomy."
+      ],
+      "answerKey": "C",
+      "answerText": "Neither routine adrenalectomy nor routine lymph-node dissection is recommended for organ-confined, clinically node-negative disease without clinical/imaging suspicion of involvement.",
+      "explanation": "Modern surgical guidelines have de-escalated several legacy practices. Neither routine ipsilateral adrenalectomy nor routine regional lymph-node dissection is recommended for organ-confined, clinically node-negative RCC unless there is clinical or imaging suspicion of involvement [21, 24]. The bladder is never removed in radical nephrectomy (it is only removed in radical cystectomy or radical nephroureterectomy) [25, 26].",
+      "tags": ["internal_medicine", "urology", "rcc", "surgery"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Systemic Therapy",
+      "question": "Which of the following is true regarding the systemic treatment of typical advanced clear-cell Renal Cell Carcinoma (RCC)?",
+      "options": [
+        "Typical clear-cell RCC is highly sensitive to standard cisplatin-based chemotherapy regimens.",
+        "Hormonal therapy with high-dose medroxyprogesterone is the preferred first-line standard.",
+        "Contemporary first-line therapy is usually based on immune-checkpoint inhibitor (ICI) combinations or an ICI plus a VEGF-targeted tyrosine kinase inhibitor (TKI).",
+        "Standard treatment relies solely on single-agent interferon-alpha or interleukin-2."
+      ],
+      "answerKey": "C",
+      "answerText": "Contemporary first-line therapy is usually based on immune-checkpoint inhibitor (ICI) combinations or an ICI plus a VEGF-targeted tyrosine kinase inhibitor (TKI).",
+      "explanation": "Typical clear-cell RCC is relatively resistant to conventional cytotoxic chemotherapy and radiotherapy [27, 28]. Contemporary first-line care has been revolutionized and is based on immune-checkpoint inhibitor (ICI) combinations (e.g., nivolumab-ipilimumab) or an ICI plus a VEGF-TKI (such as pembrolizumab-axitinib) [29, 30]. Cytokines (interferon, IL-2) and medroxyprogesterone are obsolete and no longer used [18, 31-33].",
+      "tags": ["internal_medicine", "urology", "rcc", "systemic_therapy"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::RCC::Diagnostics",
+      "question": "When is a percutaneous renal tumor core biopsy clinically indicated and recommended in a patient with a renal mass?",
+      "options": [
+        "Before every planned surgical partial or radical nephrectomy to confirm malignancy",
+        "To evaluate purely cystic, fluid-filled lesions like classic Bosniak Class I cysts",
+        "Before active surveillance, tumor ablation, or systemic therapy when no prior pathological diagnosis is available",
+        "Only after the patient has failed at least three cycles of systemic chemotherapy"
+      ],
+      "answerKey": "C",
+      "answerText": "Before active surveillance, tumor ablation, or systemic therapy when no prior pathological diagnosis is available",
+      "explanation": "Renal tumor biopsy is not mandatory before every surgically managed enhancing mass [34, 35]. However, it is strongly recommended before tumor ablation or systemic therapy (when no previous pathology exists), and is useful in selected active-surveillance or indeterminate cases [11, 35, 36]. Biopsies of purely cystic lesions (like Bosniak I) should be avoided unless a solid component is present [34, 37].",
+      "tags": ["internal_medicine", "urology", "rcc", "biopsy"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Staging",
+      "question": "Which of the following depth boundaries is the most critical factor in determining the therapeutic pathway for bladder cancer, dividing the disease spectrum into two fundamentally different management strategies?",
+      "options": [
+        "Invasion of the lamina propria (T1 vs. Ta)",
+        "Invasion of the detrusor muscle (T1 vs. T2)",
+        "Invasion of the perivesical fat (T2 vs. T3)",
+        "Invasion of the pelvic or abdominal wall (T3 vs. T4)"
+      ],
+      "answerKey": "B",
+      "answerText": "Invasion of the detrusor muscle (T1 vs. T2)",
+      "explanation": "The sources emphasize that the distinction between **T1 (invading lamina propria)** and **T2 (invading muscularis propria/detrusor muscle)** is clinically critical because the depth of muscle invasion changes management completely [1-4]. Ta, Tis, and T1 are managed as **Non-Muscle-Invasive Bladder Cancer (NMIBC)** with organ-preservation strategies, whereas T2 or higher is managed as **Muscle-Invasive Bladder Cancer (MIBC)**, requiring aggressive curative interventions [1-3].",
+      "tags": ["urology", "bladder_cancer", "staging", "mibc_vs_nmibc"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Etiology & Histology",
+      "question": "Which of the following is considered an established risk factor for bladder Squamous Cell Carcinoma (SCC) but is NOT historically considered a direct risk factor for standard Transitional Cell (Urothelial) Carcinoma?",
+      "options": [
+        "Cigarette smoking",
+        "Exposure to aromatic amines/aniline dyes",
+        "Chronic bladder schistosomiasis (bilharziasis) infection",
+        "Prior cyclophosphamide chemotherapy exposure"
+      ],
+      "answerKey": "C",
+      "answerText": "Chronic bladder schistosomiasis (bilharziasis) infection",
+      "explanation": "The sources explicitly highlight that **schistosomiasis (bilharziasis) predisposes patients mainly to Squamous Cell Carcinoma (SCC)** due to chronic mechanical irritation, abnormal tryptophan metabolism, and bacterial ammonia production [5-8]. In contrast, classic transitional cell (urothelial) carcinoma risk is driven by smoking, pelvic irradiation, cyclophosphamide, and occupational chemical exposure [5, 8-10].",
+      "tags": ["urology", "bladder_cancer", "etiology", "schistosomiasis", "scc"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::NMIBC Management",
+      "question": "A 65-year-old male patient undergoes a Transurethral Resection of a Bladder Tumor (TURBT). Pathological analysis reveals a high-grade T1 urothelial carcinoma, but the pathologist notes that no detrusor muscle is present in the specimen. According to guidelines, what is the most appropriate next step?",
+      "options": [
+        "Initiate immediate radical cystectomy",
+        "Perform a repeat TURBT within 2 to 6 weeks to ensure correct staging and eliminate residual disease",
+        "Start intravesical Bacillus Calmette-Guérin (BCG) immunotherapy without further surgery",
+        "Place the patient on active surveillance cystoscopy every 6 months"
+      ],
+      "answerKey": "B",
+      "answerText": "Perform a repeat TURBT within 2 to 6 weeks to ensure correct staging and eliminate residual disease",
+      "explanation": "A complete TURBT with **detrusor muscle present in the specimen** is essential to confirm that the tumor has not invaded the muscle [11, 12]. The sources state that a **repeat TURBT is indicated within 2–6 weeks** if the initial resection is incomplete, if detrusor muscle is absent (except for selected low-grade Ta tumors), or if T1 disease is diagnosed [11, 13]. This helps to improve staging accuracy and reduces residual disease [13].",
+      "tags": ["urology", "bladder_cancer", "turbt", "management", "nmibc"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::MIBC Management",
+      "question": "Based on the past exam questions and the clinical management matrix, what is the standard, standard-of-care curative treatment for a patient diagnosed with Stage T2b (muscle-invasive) bladder cancer?",
+      "options": [
+        "Transurethral resection (TURBT) alone",
+        "Radical cystectomy",
+        "Systemic chemotherapy alone",
+        "Intravesical Bacillus Calmette-Guérin (BCG) instillation"
+      ],
+      "answerKey": "B",
+      "answerText": "Radical cystectomy",
+      "explanation": "According to the past undergraduate examinations and clinical guidelines, the **standard treatment for stage T2b (and T2 in general) bladder cancer is a radical cystectomy** [14-20]. For eligible patients, radical cystectomy is routinely preceded by neoadjuvant cisplatin-based chemotherapy [2, 12, 14].",
+      "tags": ["urology", "bladder_cancer", "mibc", "radical_cystectomy", "exams"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::MIBC Management",
+      "question": "A 63-year-old male is diagnosed with bladder cancer invading the perivesical fat, staged as T3 N0 M0. Based on past urology board examinations, which of the following is the best therapeutic option?",
+      "options": [
+        "Radical cystectomy",
+        "Partial cystectomy",
+        "Radiotherapy",
+        "Systemic chemotherapy alone",
+        "BCG instillation in the bladder"
+      ],
+      "answerKey": "A",
+      "answerText": "Radical cystectomy",
+      "explanation": "This question directly replicates a recurring past exam question in the sources: a **63-year-old male diagnosed with stage T3 bladder cancer is best treated by radical cystectomy** [21-25]. Standard management for operable, locally advanced MIBC (such as T3) comprises radical cystectomy and pelvic lymph node dissection, frequently combined with perioperative chemotherapy [14, 19].",
+      "tags": ["urology", "bladder_cancer", "mibc", "radical_cystectomy", "exams"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::NMIBC Management",
+      "question": "Which of the following options represents the gold-standard, first-line adjuvant treatment for high-grade non-muscle-invasive bladder cancer (NMIBC) or carcinoma in situ (Tis) to reduce progression and recurrence?",
+      "options": [
+        "Immediate systemic platinum-based combination chemotherapy",
+        "Intravesical Bacillus Calmette-Guérin (BCG) immunotherapy",
+        "Immediate radical pelvic exenteration",
+        "External beam pelvic radiotherapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Intravesical Bacillus Calmette-Guérin (BCG) immunotherapy",
+      "explanation": "The sources confirm that **intravesical BCG (Bacillus Calmette-Guérin) is the gold standard** and first-line treatment for high-risk NMIBC, carcinoma in situ (CIS), and high-grade T1 tumors [12, 26-30]. BCG acts as an immunotherapy, stimulating a local immune response that destroys residual cancer cells, thereby significantly reducing both recurrence and progression rates [30].",
+      "tags": ["urology", "bladder_cancer", "nmibc", "bcg", "immunotherapy"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Urinary Diversion",
+      "question": "Following a radical cystectomy, which of the following lists of clinical factors must be evaluated to determine a patient's suitability for an orthotopic neobladder rather than an ileal conduit?",
+      "options": [
+        "None; orthotopic neobladder is the universal standard for all patients undergoing cystectomy.",
+        "Renal and hepatic function, urethral tumor involvement, severe bowel disease, and patient cognition/dexterity.",
+        "Prostate volume, history of nephrolithiasis, and presence of microscopic hematuria.",
+        "Patient age alone, with a strict cutoff at 50 years of age."
+      ],
+      "answerKey": "B",
+      "answerText": "Renal and hepatic function, urethral tumor involvement, severe bowel disease, and patient cognition/dexterity.",
+      "explanation": "The sources state that urinary diversion selection is highly individualized, and **orthotopic neobladder is not suitable for every patient** [31, 32]. Suitability depends on **renal and hepatic function, urethral tumor involvement, pre-existing bowel disease, patient cognition, and physical dexterity** to manage voiding mechanisms and potential metabolic or retention complications [31].",
+      "tags": ["urology", "bladder_cancer", "radical_cystectomy", "urinary_diversion"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Clinical Presentation",
+      "question": "Regarding the clinical presentation of urinary bladder carcinoma, which of the following statements represents an incorrect legacy concept or diagnostic trap?",
+      "options": [
+        "Bladder cancer is usually painless, especially in its early stages.",
+        "The presence of painful hematuria is more characteristic of stones or acute infection rather than early malignancy.",
+        "Bladder cancer is usually highly painful and symptomatic in its early, localized stages.",
+        "Visible, painless, total hematuria with blood clots is the classic hallmark presentation."
+      ],
+      "answerKey": "C",
+      "answerText": "Bladder cancer is usually highly painful and symptomatic in its early, localized stages.",
+      "explanation": "According to the sources, early bladder cancer has **no abnormal physical findings and is characteristically painless** [33-35]. Painful hematuria is typical for stones or infection [36], whereas **painless visible hematuria** in an adult is the classic presentation of bladder cancer and must be considered malignant until proven otherwise [34, 35, 37, 38]. Pain is usually a sign of advanced, locally invasive, or metastatic disease [35, 36].",
+      "tags": ["urology", "bladder_cancer", "presentation", "hematuria"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Clinical Presentation",
+      "question": "Based on the clinical anatomy and past exams, which of the following statements about non-bilharzial bladder cancer is UNTRUE?",
+      "options": [
+        "It is most commonly a transitional-cell (urothelial) carcinoma.",
+        "It occurs most frequently in the fundus (vault) of the bladder.",
+        "It usually presents as a cauliflower-like (papillary) mass.",
+        "It frequently manifests as painless hematuria."
+      ],
+      "answerKey": "B",
+      "answerText": "It occurs most frequently in the fundus (vault) of the bladder.",
+      "explanation": "This replicates a classic past exam question in the sources: it is **untrue that non-bilharzial bladder cancer occurs most frequently in the fundus** [39]. Non-bilharzial urothelial carcinoma typically arises from the lateral walls or base/trigone of the bladder [39]. The other choices (most commonly transitional-cell carcinoma, presenting as a cauliflower-like/papillary mass, and presenting as painless hematuria) are true statements [39].",
+      "tags": ["urology", "bladder_cancer", "pathology", "exams"]
+    },
+    {
+      "lesson": "Urology::Bladder Tumors::Etiology & Risk Factors",
+      "question": "Which of the following chemotherapy agents is associated with a significantly increased risk of developing urothelial bladder cancer, and what is the underlying mechanism of this toxicity?",
+      "options": [
+        "Cisplatin; direct renal tubular ischemia",
+        "Methotrexate; folic acid pathway antagonism in mucosal cells",
+        "Cyclophosphamide; excretion of its metabolite (acrolein) which directly damages the urothelium",
+        "Doxorubicin; cardiotoxicity transmitting venous backpressure to the pelvis"
+      ],
+      "answerKey": "C",
+      "answerText": "Cyclophosphamide; excretion of its metabolite (acrolein) which directly damages the urothelium",
+      "explanation": "The sources state that **cyclophosphamide increases the risk of bladder cancer because of its metabolite (acrolein)** [40]. Acrolein is excreted in the urine, where it comes into direct contact with and damages the urothelial lining of the bladder, inducing severe irritation, hemorrhagic cystitis, and long-term carcinogenic changes [8, 40, 41].",
+      "tags": ["urology", "bladder_cancer", "risk_factors", "chemotherapy", "cyclophosphamide"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Anatomy",
+      "question": "According to McNeal's zonal anatomy of the prostate, where do the majority of prostatic acinar adenocarcinomas arise, and how does this affect clinical detection on Digital Rectal Examination (DRE)?",
+      "options": [
+        "Over 70% arise in the transition zone; they are easily palpable on DRE from the rectal wall.",
+        "Over 70% arise in the peripheral zone; their posterior location makes them accessible to palpation on DRE, though a normal exam does not exclude cancer.",
+        "Approximately 25% arise in the central zone; they are highly aggressive and always cause early urinary outflow obstruction.",
+        "Over 90% arise in the periurethral glands; they present as a soft, boggy, exquisitely tender mass on DRE."
+      ],
+      "answerKey": "B",
+      "answerText": "Over 70% arise in the peripheral zone; their posterior location makes them accessible to palpation on DRE, though a normal exam does not exclude cancer.",
+      "explanation": "The sources state that the majority of prostate cancers (70–75%) arise in the peripheral zone (PZ), which comprises the lateral, posterior, and apical surfaces of the gland [1-3]. Due to their posterior location, they can be palpable on digital rectal examination (DRE) as a hard, irregular nodule or induration [1, 4]. However, because many early cancers are clinically inapparent or located out of reach, a normal DRE does not exclude malignancy [1].",
+      "tags": ["prostate_cancer", "anatomy", "dre"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Screening",
+      "question": "According to the modern EAU 2026 early detection guidelines, what is the recommended starting age for risk-adapted PSA screening in a well-informed man carrying a known BRCA2 germline mutation?",
+      "options": [
+        "From age 50",
+        "From age 45",
+        "From age 40",
+        "From age 35"
+      ],
+      "answerKey": "C",
+      "answerText": "From age 40",
+      "explanation": "The EAU 2026 early detection guidelines recommend a risk-adapted approach for well-informed men with a life expectancy of at least 10–15 years: starting at age 50 for average-risk men, at age 45 for men of African descent or those with a family history of prostate cancer diagnosed before age 60, and at age 40 for men who carry pathogenic BRCA2 germline mutations [5, 6].",
+      "tags": ["prostate_cancer", "screening", "brca2", "eau_guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Diagnostics",
+      "question": "In a 58-year-old man who is found to have an elevated serum Prostate-Specific Antigen (PSA) level of 6.2 ng/mL on a routine health check, what is the standard recommended first step before proceeding to a prostate biopsy?",
+      "options": [
+        "Immediate transrectal ultrasound (TRUS) systematic 12-core biopsy.",
+        "Radical prostatectomy because a PSA > 4 ng/mL confirms malignancy.",
+        "Exclude confounding factors (such as UTI), repeat the PSA assay to verify elevation, and if persistent, obtain a multiparametric MRI (mpMRI).",
+        "Perform an urgent bone scintigraphy (bone scan) to rule out osteoblastic metastases."
+      ],
+      "answerKey": "C",
+      "answerText": "Exclude confounding factors (such as UTI), repeat the PSA assay to verify elevation, and if persistent, obtain a multiparametric MRI (mpMRI).",
+      "explanation": "Modern guidelines emphasize that PSA is continuous and not a cancer-specific yes/no test [6]. For asymptomatic patients with moderately elevated PSA (e.g., 3–10 ng/mL), clinicians should first verify the elevation with a repeat PSA assay, rule out clinical confounders like urinary tract infections (UTI) or prostatitis, and then obtain a multiparametric MRI (mpMRI) before initiating a biopsy to localize suspect lesions and score them using PI-RADS v2.1 [6-10].",
+      "tags": ["prostate_cancer", "diagnostics", "psa", "mpmri"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Diagnostics",
+      "question": "When performing a prostate biopsy guided by mpMRI-ultrasound fusion, which biopsy route is increasingly favored in contemporary clinical practice, and what is the primary clinical advantage of this route?",
+      "options": [
+        "The transrectal route, because it completely avoids the need for local anesthesia.",
+        "The transperineal route, because it significantly reduces the risk of post-procedural infectious complications and sepsis.",
+        "The transurethral route, because it allows simultaneous resection of the transition zone.",
+        "The transvesical route, because it provides the best exposure of the central zone."
+      ],
+      "answerKey": "B",
+      "answerText": "The transperineal route, because it significantly reduces the risk of post-procedural infectious complications and sepsis.",
+      "explanation": "Modern guidelines state that the transperineal route is increasingly preferred over the transrectal route for prostate biopsies [8, 11, 12]. This preference is driven by the significantly lower risk of infectious complications and post-procedural sepsis associated with the transperineal approach [8, 11, 12].",
+      "tags": ["prostate_cancer", "diagnostics", "biopsy", "transperineal"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Pathology",
+      "question": "A pathologist reports a prostate needle-core biopsy as containing adenocarcinoma with a Gleason Score of 4 + 3 = 7. According to the International Society of Urological Pathology (ISUP) consensus terminology, which Grade Group (GG) does this represent?",
+      "options": [
+        "Grade Group 2 (GG2)",
+        "Grade Group 3 (GG3)",
+        "Grade Group 4 (GG4)",
+        "Grade Group 5 (GG5)"
+      ],
+      "answerKey": "B",
+      "answerText": "Grade Group 3 (GG3)",
+      "explanation": "The modern ISUP classification system groups Gleason scores into five Grade Groups: GG1 corresponds to Gleason 3+3=6; GG2 is Gleason 3+4=7 (predominantly pattern 3); GG3 is Gleason 4+3=7 (predominantly pattern 4); GG4 is Gleason 8 (4+4, 3+5, or 5+3); and GG5 is Gleason 9 or 10 [1, 13]. Gleason 4+3 is unfavorable intermediate-risk and corresponds to Grade Group 3 [13, 14].",
+      "tags": ["prostate_cancer", "pathology", "gleason_score", "isup_grade_group"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Staging & Risk",
+      "question": "According to current NCCN/EAU risk stratification, which clinical profile defines \"Low-Risk\" localized prostate cancer?",
+      "options": [
+        "PSA 10–20 ng/mL, Grade Group 2 (Gleason 3+4), and clinical stage cT2b",
+        "PSA < 10 ng/mL, Grade Group 1 (Gleason 6), and clinical stage cT1c to cT2a",
+        "PSA > 20 ng/mL, Grade Group 4 (Gleason 8), and clinical stage cT3a",
+        "Any PSA level, Grade Group 3 (Gleason 4+3), and clinical stage cT2c"
+      ],
+      "answerKey": "B",
+      "answerText": "PSA < 10 ng/mL, Grade Group 1 (Gleason 6), and clinical stage cT1c to cT2a",
+      "explanation": "The risk stratification tables in the sources define the Low-Risk category as having a serum PSA < 10 ng/mL, an ISUP Grade Group 1 (Gleason 3+3=6), and a clinical stage of cT1c to cT2a [13]. Active surveillance is the primary standard-of-care strategy for these patients if life expectancy exceeds 10 years [12, 15].",
+      "tags": ["prostate_cancer", "staging", "risk_stratification"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Management",
+      "question": "What is the key difference in intent and monitoring between Active Surveillance (AS) and Watchful Waiting (WW) for prostate cancer?",
+      "options": [
+        "AS is palliative and utilizes no serial imaging, whereas WW is curative and requires repeat biopsies every 6 months.",
+        "AS is a curative-intent strategy that defers active treatment in low-risk patients while preserving a curative window through structured monitoring (serial PSA, MRI, repeat biopsies); whereas WW is a palliative conservative strategy for patients with limited life expectancy or major comorbidities, focusing on symptom-directed follow-up.",
+        "AS is reserved for metastatic disease to monitor hormonal resistance, while WW is used exclusively in patients carrying the BRCA2 mutation who are under 40.",
+        "There is no clinical distinction; both terms refer to the immediate initiation of low-dose bilateral orchiectomy."
+      ],
+      "answerKey": "B",
+      "answerText": "AS is a curative-intent strategy that defers active treatment in low-risk patients while preserving a curative window through structured monitoring (serial PSA, MRI, repeat biopsies); whereas WW is a palliative conservative strategy for patients with limited life expectancy or major comorbidities, focusing on symptom-directed follow-up.",
+      "explanation": "The sources contrast active surveillance and watchful waiting [16, 17]. Active surveillance is designed to defer or avoid immediate treatment in low-risk or selected favorable intermediate-risk patients with >10-year life expectancy, utilizing structured monitoring (PSA, MRI, digital exams, repeat biopsies) to trigger curative intervention if reclassification occurs [15, 16]. Watchful waiting is a palliative conservative strategy for older or frail patients with limited life expectancy, where follow-up is clinical and intervention is triggered only by symptoms or complications [14, 16].",
+      "tags": ["prostate_cancer", "active_surveillance", "watchful_waiting"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Systemic Therapy",
+      "question": "What is the current standard of care for a fit patient presenting with de novo metastatic hormone-sensitive prostate cancer (mHSPC) according to modern guidelines?",
+      "options": [
+        "Immediate radical prostatectomy and pelvic lymph node dissection alone without any systemic therapy.",
+        "Systemic androgen deprivation therapy (ADT) monotherapy, as combination therapy has been shown to offer no survival advantage.",
+        "Intensified systemic therapy combining androgen deprivation therapy (ADT) with an androgen-receptor pathway inhibitor (ARPI), with or without docetaxel.",
+        "High-dose oral estrogens combined with systemic cyclophosphamide chemotherapy."
+      ],
+      "answerKey": "C",
+      "answerText": "Intensified systemic therapy combining androgen deprivation therapy (ADT) with an androgen-receptor pathway inhibitor (ARPI), with or without docetaxel.",
+      "explanation": "Modern guidelines state that for fit patients with de novo metastatic hormone-sensitive disease, ADT monotherapy is no longer the standard [18, 19]. Instead, combination systemic therapy is standard: combining ADT (castration) with an androgen-receptor pathway inhibitor (ARPI), with docetaxel used as part of selected triplet regimens, because this combination therapy significantly improves survival [11, 17-19].",
+      "tags": ["prostate_cancer", "metastatic", "adt", "systemic_therapy"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Metastasis",
+      "question": "Prostate cancer is highly bone-tropic. Which of the following represents the most common site for distant hematogenous metastasis and the classic radiographic type of these bone lesions?",
+      "options": [
+        "Long bones of the lower extremity; presenting as purely osteolytic lesions.",
+        "The skull; presenting as mixed lytic-blastic lesions with high serum alpha-fetoprotein.",
+        "The vertebral column (spine) and pelvis; presenting as characteristically osteoblastic (sclerotic) lesions.",
+        "The ribs and sternum; presenting as purely osteolytic lesions similar to renal cell carcinoma."
+      ],
+      "answerKey": "C",
+      "answerText": "The vertebral column (spine) and pelvis; presenting as characteristically osteoblastic (sclerotic) lesions.",
+      "explanation": "The sources state that the most common site for distant prostate cancer metastasis is bone—specifically the vertebral column (spine) and pelvis [7, 20-22]. Furthermore, past surgical board and undergraduate examinations highlight that while most other primary malignancies (like kidney, breast, and lung) metastasize with osteolytic lesions, prostate cancer classically presents with osteoblastic (sclerotic) bone lesions [23, 24].",
+      "tags": ["prostate_cancer", "metastasis", "osteoblastic", "spine"]
+    },
+    {
+      "lesson": "Internal Medicine::Urology::Prostate Cancer::Diagnostics & Exams",
+      "question": "Based on the clinical review sheets and correction tables in the sources, which legacy tumor marker is now considered obsolete for routine diagnosis or staging of prostate cancer, and which physical finding on DRE strongly differentiates BPH from prostate cancer?",
+      "options": [
+        "Serum acid phosphatase is obsolete; on DRE, BPH feels smooth, firm, and elastic with a mobile rectal mucosa, while prostate cancer feels hard and irregular.",
+        "Prostate-Specific Antigen (PSA) is obsolete; on DRE, BPH feels warm and fluctuant, while cancer feels soft and boggy.",
+        "Serum alkaline phosphatase is obsolete; on DRE, BPH feels nodular and fixed, while cancer feels symmetrically enlarged and elastic.",
+        "Urine cytology is obsolete; on DRE, BPH is completely non-palpable, while cancer presents with direct rectal wall ulceration."
+      ],
+      "answerKey": "A",
+      "answerText": "Serum acid phosphatase is obsolete; on DRE, BPH feels smooth, firm, and elastic with a mobile rectal mucosa, while prostate cancer feels hard and irregular.",
+      "explanation": "The sources explicitly highlight that serum acid phosphatase is an obsolete marker for routine diagnosis or staging of prostate cancer, having been replaced by PSA, pathology, and modern imaging [11, 15, 25]. On physical examination, DRE distinguishes BPH from cancer: BPH classically feels smooth, firm, and elastic (rubbery) with a symmetrically enlarged gland and a freely mobile rectal mucosa; whereas prostate cancer characteristically feels hard, irregular, and nodular with possible asymmetry or fixed overlying rectal wall [1, 20, 21, 26-29].",
+      "tags": ["prostate_cancer", "bph", "dre", "tumor_markers", "obsolete_tests"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Varicocele",
+      "question": "What is the estimated prevalence of varicoceles in the general male population compared to those presenting with an abnormal semen analysis?",
+      "options": [
+        "5% in the general population; 15% in those with abnormal semen analysis",
+        "15% in the general population; 40% in those with abnormal semen analysis",
+        "40% in the general population; 15% in those with abnormal semen analysis",
+        "10% in the general population; 10% in those with abnormal semen analysis"
+      ],
+      "answerKey": "B",
+      "answerText": "15% in the general population; 40% in those with abnormal semen analysis",
+      "explanation": "According to the sources, varicoceles are present in 15% of all men, but this incidence increases to 40% in those with an abnormal semen analysis. They represent the most common correctable cause of male infertility.",
+      "tags": ["andrology", "varicocele", "epidemiology"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Varicocele",
+      "question": "A clinician identifies an isolated right-sided varicocele during a physical examination of a 45-year-old male. Why does this clinical finding require urgent retroperitoneal imaging?",
+      "options": [
+        "It is a normal anatomical variant that requires no further evaluation.",
+        "It suggests a left renal vein obstruction due to congenital absence of the vena cava.",
+        "It suggests retroperitoneal pathology, such as a renal cell carcinoma with an obstructing tumor thrombus in the vena cava.",
+        "It is highly associated with a patent processus vaginalis and a direct inguinal hernia."
+      ],
+      "answerKey": "C",
+      "answerText": "It suggests retroperitoneal pathology, such as a renal cell carcinoma with an obstructing tumor thrombus in the vena cava.",
+      "explanation": "An isolated right-sided varicocele is an important red flag. While left-sided varicoceles are common due to the drainage of the left testicular vein into the left renal vein, a right-sided varicocele is suggestive of retroperitoneal pathology, such as renal cell carcinoma with a tumor thrombus obstructing the inferior vena cava.",
+      "tags": ["andrology", "varicocele", "diagnostics", "rcc"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Varicocele",
+      "question": "For a male patient presenting with subfertility and a clinically palpable varicocele accompanied by an abnormal semen analysis, what is considered the best initial treatment of choice?",
+      "options": [
+        "Long-term oral antioxidant therapy",
+        "Empirical Clomiphene citrate therapy",
+        "Microsurgical varicocelectomy",
+        "Immediate progression to IVF or ICSI directly"
+      ],
+      "answerKey": "C",
+      "answerText": "Microsurgical varicocelectomy",
+      "explanation": "According to past exams and clinical target notes in the sources, the best initial treatment for a clinically significant varicocele with abnormal semen parameters and documented infertility is a microsurgical varicocelectomy.",
+      "tags": ["andrology", "varicocele", "management"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Azoospermia",
+      "question": "A 34-year-old man presents with infertility. Semen analysis on two separate occasions confirms azoospermia. His testes are normal in size and consistency, and his serum hormone levels (testosterone, FSH, and LH) are all within normal limits. What is the most likely diagnosis?",
+      "options": [
+        "Primary seminiferous tubular failure",
+        "Klinefelter syndrome",
+        "Obstructive azoospermia",
+        "Secondary hypogonadism"
+      ],
+      "answerKey": "C",
+      "answerText": "Obstructive azoospermia",
+      "explanation": "An azoospermic patient who presents with normal testicular size and normal FSH, LH, and testosterone levels is highly likely to have obstructive (post-testicular) azoospermia. In this scenario, a testicular biopsy is indicated to confirm normal spermatogenesis before reconstructive surgery or sperm retrieval.",
+      "tags": ["andrology", "azoospermia", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Azoospermia",
+      "question": "A 31-year-old man presents with infertility. He reports normal libido and erections. Semen analysis reveals a very low semen volume of 0.6 mL and azoospermia. His testosterone, FSH, and LH levels are completely normal. Which of the following is the most appropriate initial investigation?",
+      "options": [
+        "Karyotyping",
+        "Post-ejaculatory urinalysis",
+        "Serum prolactin level",
+        "Diagnostic testicular biopsy"
+      ],
+      "answerKey": "B",
+      "answerText": "Post-ejaculatory urinalysis",
+      "explanation": "When semen volume is extremely low (below 1.0 mL) in the context of azoospermia with normal hormone levels, retrograde ejaculation must be suspected. The initial screening investigation is a post-ejaculatory urinalysis to check for the presence of spermatozoa in the bladder.",
+      "tags": ["andrology", "azoospermia", "diagnostics"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Klinefelter Syndrome",
+      "question": "A 29-year-old man presents with infertility. On physical examination, he has small, firm testes and mild gynecomastia. Semen analysis confirms azoospermia. Serum biochemistry demonstrates a decreased testosterone level with markedly elevated FSH and LH. What is the most likely underlying diagnosis?",
+      "options": [
+        "Kallmann syndrome",
+        "Klinefelter syndrome (XXY)",
+        "Obstructive azoospermia",
+        "Prolactinoma"
+      ],
+      "answerKey": "B",
+      "answerText": "Klinefelter syndrome (XXY)",
+      "explanation": "Klinefelter syndrome is a chromosomal abnormality (typically 47,XXY) characterized by primary hypogonadism, small firm testes, gynecomastia, azoospermia, and elevated gonadotropins (FSH and LH) with decreased testosterone.",
+      "tags": ["andrology", "klinefelter_syndrome", "genetic_disorders"]
+    },
+    {
+      "lesson": "Surgery::Urology::Testicular Tumors",
+      "question": "Serum tumor markers are essential in the diagnostic workup and staging of testicular germ cell tumors (GCTs). Which of the following statements correctly describes the marker profile of pure seminomas?",
+      "options": [
+        "Serum alpha-fetoprotein (AFP) is markedly elevated in more than 90% of cases.",
+        "Both AFP and human chorionic gonadotrophin (hCG) are always normal.",
+        "Serum AFP remains uniformly normal, as any elevation in AFP indicates a non-seminomatous component.",
+        "hCG is raised in 100% of pure seminoma cases."
+      ],
+      "answerKey": "C",
+      "answerText": "Serum AFP remains uniformly normal, as any elevation in AFP indicates a non-seminomatous component.",
+      "explanation": "According to the sources, serum alpha-fetoprotein (AFP) is never elevated (remains uniformly normal) in pure seminomas. If a patient with a suspected seminoma has an elevated AFP level, they are clinically managed as having a non-seminomatous germ cell tumor.",
+      "tags": ["urology", "testicular_cancer", "tumor_markers"]
+    },
+    {
+      "lesson": "Surgery::Urology::Testicular Tumors",
+      "question": "A 32-year-old man presents with a hard, painless, heavy right testicular mass that has been slowly enlarging. What is the definitive initial surgical management to establish a diagnosis and begin therapy?",
+      "options": [
+        "Transscrotal percutaneous needle core biopsy of the mass",
+        "High (radical) inguinal orchidectomy",
+        "High-dose systemic combination chemotherapy with cisplatin followed by active surveillance",
+        "Transvesical retroperitoneal lymph node dissection (RPLND)"
+      ],
+      "answerKey": "B",
+      "answerText": "High (radical) inguinal orchidectomy",
+      "explanation": "For any suspected testicular malignancy, a transscrotal biopsy is strictly avoided due to the risk of tumor seeding along the scrotal lymphatic pathways. Definitive management starts with a high (radical) inguinal orchidectomy.",
+      "tags": ["urology", "testicular_cancer", "management"]
+    },
+    {
+      "lesson": "Surgery::Urology::Testicular Tumors",
+      "question": "Cryptorchidism (undescended testis) is a well-established risk factor for developing testicular cancer. Which of the following statements is true regarding this association?",
+      "options": [
+        "The risk is limited to the inguinal variety, whereas abdominal testes carry no increased risk.",
+        "The incidence of testicular malignancy is 15 times higher than the general population, with the intra-abdominal variety posing the highest risk.",
+        "Successful early childhood orchidopexy completely eliminates any future risk of testicular cancer.",
+        "Testicular cancer only occurs in the contralateral, normally descended testis."
+      ],
+      "answerKey": "B",
+      "answerText": "The incidence of testicular malignancy is 15 times higher than the general population, with the intra-abdominal variety posing the highest risk.",
+      "explanation": "Incompletely descended testes, particularly the intra-abdominal variety, carry a high risk of malignancy. The incidence of malignancy in an undescended testis is 15 times that of the normal population, and approximately 10% of patients with testicular tumors have a history of cryptorchidism.",
+      "tags": ["urology", "testicular_cancer", "cryptorchidism", "risk_factors"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Male Infertility",
+      "question": "According to clinical findings and risk profiles described in the sources, what is the association between male subfertility and general cancer risk?",
+      "options": [
+        "Infertile men have a significantly decreased risk of developing cancer compared to the general population.",
+        "There is no statistically significant correlation between male subfertility and cancer.",
+        "Infertile men have an increased risk of developing cancer compared to the general population, with the risk being highest in azoospermic men.",
+        "Only men with a history of bilateral cryptorchidism have an increased risk of cancer."
+      ],
+      "answerKey": "C",
+      "answerText": "Infertile men have an increased risk of developing cancer compared to the general population, with the risk being highest in azoospermic men.",
+      "explanation": "The sources explicitly note that infertile men have an increased risk of developing cancer compared to the general population. This risk is highest in patients with azoospermia.",
+      "tags": ["andrology", "male_infertility", "oncology", "risk_factors"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Penile Trauma",
+      "question": "Penile fracture is a urological emergency that occurs due to blunt trauma to an erect penis. Which of the following represents the underlying pathology of this condition?",
+      "options": [
+        "Rupture of the superficial dorsal vein of the penis",
+        "Tear in the tunica albuginea of the corpus cavernosum",
+        "Complete transection of the urethra within the corpus spongiosum",
+        "Avulsion of the suspensory ligament of the penis"
+      ],
+      "answerKey": "B",
+      "answerText": "Tear in the tunica albuginea of the corpus cavernosum",
+      "explanation": "The sources state that trauma to an erect penis leads to penile fracture, which is pathologically defined as a tear in the tunica albuginea of the corpus cavernosum.",
+      "tags": ["surgery::andrology", "penile_fracture", "pathology"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Penile Trauma",
+      "question": "A 32-year-old man presents to the emergency department with severe penile pain, sudden detumescence, and a large hematoma ('eggplant deformity') following blunt trauma to his erect penis during sexual intercourse. What is the definitive management of this patient?",
+      "options": [
+        "Application of a tight crepe bandage and outpatient follow-up",
+        "Plaster fixation and bed rest for 4 weeks",
+        "Urgent surgical exploration and repair of the tunica albuginea",
+        "Transurethral Foley catheterization and watchful waiting"
+      ],
+      "answerKey": "C",
+      "answerText": "Urgent surgical exploration and repair of the tunica albuginea",
+      "explanation": "A penile fracture is a urological emergency that requires urgent surgical exploration and suture repair of the torn tunica albuginea to minimize long-term morbidity.",
+      "tags": ["surgery::andrology", "penile_fracture", "management"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Penile Trauma",
+      "question": "During the clinical evaluation of a patient with a suspected penile fracture, which of the following clinical signs should strongly alert the clinician to investigate for a coexisting urethral injury?",
+      "options": [
+        "Immediate detumescence and a 'rolling sign' over the hematoma",
+        "Blood at the urethral meatus or voiding difficulty",
+        "Severe suprapubic fullness and dullness to percussion",
+        "Presence of a unilateral inguinal hernia"
+      ],
+      "answerKey": "B",
+      "answerText": "Blood at the urethral meatus or voiding difficulty",
+      "explanation": "A penile fracture can be associated with a urethral injury. Clinicians must suspect a coexisting urethral injury if there is blood at the meatus or voiding difficulty, and manage it accordingly.",
+      "tags": ["surgery::andrology", "penile_fracture", "urethral_injury"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Priapism",
+      "question": "A 32-year-old man presents to the ER with an exquisitely painful, fully rigid penile erection of 15 hours duration. Penile blood gas analysis is performed. Which of the following blood gas profiles is characteristic of this patient's condition (Ischemic Low-Flow Priapism)?",
+      "options": [
+        "Normoxic, normocarbic, and alkaline blood gases",
+        "Hypoxic, hypercarbic, and acidotic blood gases",
+        "Hyperoxic, hypocarbic, and neutral pH blood gases",
+        "Blood gases identical to systemic arterial blood"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypoxic, hypercarbic, and acidotic blood gases",
+      "explanation": "Ischemic (veno-occlusive, low-flow) priapism is a painful, rigid urological emergency characterized by little or no cavernous arterial inflow. Penile blood gas aspiration characteristically reveals hypoxic, hypercarbic, and acidotic blood gases.",
+      "tags": ["surgery::andrology", "priapism", "diagnostics", "blood_gases"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Priapism",
+      "question": "A clinician is evaluating a patient who presents with a prolonged, involuntary erection to differentiate between Ischemic (Low-Flow) and Non-Ischemic (High-Flow) Priapism. According to the sources, which of the following represents the most important diagnostic investigation?",
+      "options": [
+        "Non-contrast spiral CT of the pelvis",
+        "Penile MRI with gadolinium enhancement",
+        "Coloured Duplex ultrasonography and penile blood gas analysis",
+        "Ascending voiding cystourethrography (VCUG)"
+      ],
+      "answerKey": "C",
+      "answerText": "Coloured Duplex ultrasonography and penile blood gas analysis",
+      "explanation": "The sources designate 'Coloured Duplex - Penile blood gases' as the most important investigations for priapism to determine the type (ischemic low-flow vs. non-ischemic high-flow) and guide immediate emergency treatment.",
+      "tags": ["surgery::andrology", "priapism", "investigations"]
+    },
+    {
+      "lesson": "Surgery::Andrology::Priapism",
+      "question": "If ischemic (low-flow) priapism is neglected or treatment is significantly delayed, what is the primary long-term organic cause of subsequent erectile dysfunction?",
+      "options": [
+        "Cavernous tissue fibrosis and failure of the cavernous veno-occlusive mechanism",
+        "Complete destruction of the pudendal nerve pathways",
+        "Hypogonadotropic hypogonadism due to Leydig cell necrosis",
+        "Retrograde ejaculation due to bladder neck incompetence"
+      ],
+      "answerKey": "A",
+      "answerText": "Cavernous tissue fibrosis and failure of the cavernous veno-occlusive mechanism",
+      "explanation": "Untreated ischemic priapism leads to prolonged hypoxia of the erectile tissue. Under the organic causes of erectile dysfunction, the sources highlight cavernous 'fibrosis (post-priapism)' as a primary venous/cavernous cause of permanent impotence.",
+      "tags": ["surgery::andrology", "priapism", "complications", "erectile_dysfunction"]
+    },
+    {
+      "lesson": "Surgery::Oncology::Prostate Cancer",
+      "question": "A 62-year-old male undergoes a radical prostatectomy for localized, high-grade prostate cancer. Postoperatively, he experiences severe erectile dysfunction. What is the primary anatomical and iatrogenic cause of organic erectile dysfunction following this procedure?",
+      "options": [
+        "Complete division of both internal pudendal arteries",
+        "Injury to the cavernous nerves (neuropraxia/damage to the neurovascular bundles)",
+        "Severing of the suspensory ligament of the penis",
+        "Direct mechanical trauma to the corpus spongiosum"
+      ],
+      "answerKey": "B",
+      "answerText": "Injury to the cavernous nerves (neuropraxia/damage to the neurovascular bundles)",
+      "explanation": "Erectile dysfunction following radical prostatectomy is primarily caused by iatrogenic injury or neuropraxia to the cavernous nerves (neurovascular bundles) that travel in close proximity to the prostatic capsule.",
+      "tags": ["surgery::oncology", "prostate_cancer", "radical_prostatectomy", "erectile_dysfunction"]
+    },
+    {
+      "lesson": "Surgery::Oncology::Prostate Cancer",
+      "question": "According to the surgical complications and past examinations in the sources, what is the most common sexual/ejaculatory complication that is inevitable after a radical prostatectomy?",
+      "options": [
+        "Retrograde ejaculation",
+        "Hematospermia",
+        "Priapism",
+        "Premature ejaculation"
+      ],
+      "answerKey": "A",
+      "answerText": "Retrograde ejaculation",
+      "explanation": "In the urology past exams section, a high-yield question asks for complications of prostate cancer, and lists 'Most common sexual complication after prostatectomy is retrograde ejaculation' as a true statement.",
+      "tags": ["surgery::oncology", "prostate_cancer", "complications", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Erectile Dysfunction",
+      "question": "A patient presenting with erectile dysfunction is being evaluated for potential drug-induced causes. According to the urological review sheets, which of the following drug classes is NOT typically associated with causing erectile dysfunction?",
+      "options": [
+        "Sedatives",
+        "Antidepressants",
+        "Antihypertensives",
+        "Antifungals"
+      ],
+      "answerKey": "D",
+      "answerText": "Antifungals",
+      "explanation": "According to the sources, medications that can impair male sexual function or cause erectile dysfunction include beta-blockers, thiazides, metoclopramide, sedatives, antidepressants, and antihypertensives.",
+      "tags": ["internal_medicine", "erectile_dysfunction", "pharmacology", "side_effects"]
+    },
+    {
+      "lesson": "Internal Medicine::Erectile Dysfunction",
+      "question": "A 64-year-old male with long-standing poorly controlled type 2 diabetes mellitus and peripheral arterial disease presents with progressive, constant erectile dysfunction. No nocturnal erections are present. What is the most likely pathophysiological category of his organic erectile dysfunction?",
+      "options": [
+        "Cavernous fibrosis post-priapism",
+        "Endocrine failure due to hyperprolactinemia",
+        "Mixed vascular insufficiency (atherosclerosis and microangiopathy) and diabetic neuropathy",
+        "Pure psychogenic anxiety"
+      ],
+      "answerKey": "C",
+      "answerText": "Mixed vascular insufficiency (atherosclerosis and microangiopathy) and diabetic neuropathy",
+      "explanation": "Diabetes mellitus leads to mixed organic erectile dysfunction through multiple mechanisms: diabetic autonomic neuropathy, microangiopathy, atherosclerosis, and arterial insufficiency.",
+      "tags": ["internal_medicine", "diabetic_nephropathy", "erectile_dysfunction", "pathophysiology"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Differential Diagnosis",
+      "question": "A 62-year-old female presents to the clinic to discuss her involuntary loss of urine. To help differentiate between Urgency Urinary Incontinence (UUI) and Stress Urinary Incontinence (SUI), which of the following clinical features is most indicative of UUI?",
+      "options": [
+        "Leaking of urine exclusively during physical activity such as running or coughing",
+        "The complete absence of nocturnal awakenings to pass urine",
+        "A sudden, strong, compelling desire to void that is accompanied by or immediately precedes the leakage",
+        "Immediate leakage of a few drops upon standing up from a chair with no prior warning"
+      ],
+      "answerKey": "C",
+      "answerText": "A sudden, strong, compelling desire to void that is accompanied by or immediately precedes the leakage",
+      "explanation": "Urgency urinary incontinence (UUI) is defined as involuntary urinary leakage accompanied by or immediately preceded by urgency—a sudden, compelling desire to void that is difficult to defer [1-4]. Unlike SUI, UUI is also classically associated with daytime frequency (>8 times/24 hours) and nocturia (usually waking up to urinate at night), whereas SUI is seldom associated with nocturia or sudden urge episodes [5-7].",
+      "tags": ["urology", "incontinence", "differential_diagnosis", "sui_vs_uui"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Stress Incontinence",
+      "question": "Female Stress Urinary Incontinence (SUI) typically results from pelvic floor dysfunction. Which of the following correctly pairs the underlying pathophysiology of SUI with its clinical description?",
+      "options": [
+        "Urethral Hypermobility occurs when the pelvic floor muscles fail to support the bladder neck and urethra during abdominal pressure spikes; Intrinsic Sphincter Deficiency (ISD) occurs when the sphincter is weak due to loss of the mucosal/submucosal sealing effect.",
+        "Urethral Hypermobility is caused by detrusor overactivity during bladder filling; Intrinsic Sphincter Deficiency is caused by a suprasacral spinal cord injury.",
+        "Urethral Hypermobility refers to mechanical urethral strictures; Intrinsic Sphincter Deficiency refers to uncoordinated relaxation of the levator ani muscles.",
+        "Urethral Hypermobility is treated primarily with antimuscarinic drugs; Intrinsic Sphincter Deficiency is treated with intermittent catheterization."
+      ],
+      "answerKey": "A",
+      "answerText": "Urethral Hypermobility occurs when the pelvic floor muscles fail to support the bladder neck and urethra during abdominal pressure spikes; Intrinsic Sphincter Deficiency (ISD) occurs when the sphincter is weak due to loss of the mucosal/submucosal sealing effect.",
+      "explanation": "SUI in women results from two primary anatomical and functional defects: (1) Urethral Hypermobility, where weakened pelvic floor muscles can no longer support the bladder neck and urethra, allowing them to descend and open during increases in intra-abdominal pressure; and (2) Intrinsic Sphincter Deficiency (ISD), which is a intrinsic weakness of the urethral sphincter itself, caused by the loss of the sealing and mucosal/submucosal coaptation effect [8-10].",
+      "tags": ["urology", "stress_incontinence", "pathophysiology", "women"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Stress Incontinence Management",
+      "question": "A 52-year-old postmenopausal woman complains of urinary leakage when coughing or sneezing. She has no pelvic organ prolapse. After she fails to improve with 3 months of supervised pelvic floor muscle exercises, she decides to undergo surgery. What is the gold-standard surgical treatment for her condition, and what is its mechanism?",
+      "options": [
+        "Burch Colposuspension; it paralyzes the detrusor muscle to prevent sudden high-pressure storage.",
+        "Mid-Urethral Sling (TVT or TOT); it prevents posterior and inferior descent of the bladder neck and reinforces sub-urethral support during intra-abdominal pressure spikes.",
+        "Intradetrusor Botulinum toxin (Botox) injection; it physically blocks the urethral outlet to prevent leakage.",
+        "Artificial Urinary Sphincter; it is the universal first-line option for all typical female SUI cases."
+      ],
+      "answerKey": "B",
+      "answerText": "Mid-Urethral Sling (TVT or TOT); it prevents posterior and inferior descent of the bladder neck and reinforces sub-urethral support during intra-abdominal pressure spikes.",
+      "explanation": "When conservative measures like pelvic floor (Kegel) exercises fail for female SUI, surgery is considered [11, 12]. The gold standard is a mid-urethral sling—such as tension-free vaginal tape (TVT) or transobturator tape (TOT) [11, 13, 14]. These slings prevent the posterior and inferior descent of the bladder neck and reinforce sub-urethral vaginal support during periods of increased intra-abdominal pressure [15, 16]. Burch colposuspension is an alternative that elevates the paraurethral tissue adjacent to the bladder neck to the iliopectineal ligament [14, 17].",
+      "tags": ["urology", "stress_incontinence", "surgery", "sling"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Stress Incontinence Management",
+      "question": "A clinician is discussing non-surgical pharmacological options with a female patient suffering from mild stress urinary incontinence. Which of the following correctly states the physiological mechanism and key contraindication of oral/topical estrogen therapy for SUI?",
+      "options": [
+        "Estrogens stimulate detrusor relaxation by blocking beta-3 adrenergic receptors; they are contraindicated in patients with severe uncontrolled diabetes mellitus.",
+        "Estrogens enhance the density and sensitivity of alpha-adrenergic receptors and exert trophic effects on the urethral mucosa; they are strictly contraindicated in women with a history of breast cancer.",
+        "Estrogens increase bladder capacity by directly inhibiting parasympathetic S2-4 pathways; they are contraindicated in patients with acute urinary retention.",
+        "Estrogens serve as a direct skeletal muscle relaxant for the levator ani; they are contraindicated in patients with a history of deep vein thrombosis."
+      ],
+      "answerKey": "B",
+      "answerText": "Estrogens enhance the density and sensitivity of alpha-adrenergic receptors and exert trophic effects on the urethral mucosa; they are strictly contraindicated in women with a history of breast cancer.",
+      "explanation": "Estrogen therapy can help female patients with SUI by enhancing the density and sensitivity of alpha-adrenergic receptors (which control internal sphincter tone) and by exerting trophic effects on the urethral mucosa, submucosa, and local collagen [18, 19]. However, because of the risk of stimulating hormone-sensitive malignancies, a history of breast cancer is a strict contraindication for estrogen therapy [18, 19].",
+      "tags": ["urology", "stress_incontinence", "pharmacology", "estrogen"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Urgency Incontinence",
+      "question": "A 56-year-old female presents with symptoms of Overactive Bladder (OAB) accompanied by urgency urinary incontinence. Urinalysis is completely normal. Which of the following classes of medications is commonly used as first-line pharmacotherapy, and what is its primary mechanism of action?",
+      "options": [
+        "Alpha-1 adrenergic blockers; they relax the bladder neck to reduce irritative storage symptoms.",
+        "Antimuscarinic agents; they inhibit bladder contractility (detrusor contractions), reduce sensory afferent input, and increase bladder capacity.",
+        "Loop diuretics; they promote rapid bladder emptying to avoid sudden urgency events.",
+        "Sympathomimetics; they stimulate the external urethral sphincter to remain tightly shut."
+      ],
+      "answerKey": "B",
+      "answerText": "Antimuscarinic agents; they inhibit bladder contractility (detrusor contractions), reduce sensory afferent input, and increase bladder capacity.",
+      "explanation": "The medical management of OAB and urgency urinary incontinence utilizes medications that inhibit involuntary detrusor contractions. Antimuscarinic agents (anticholinergics) are a mainstay of therapy; they work by inhibiting bladder contractility, reducing sensory (afferent) input to the CNS, and consequently increasing overall bladder capacity [10, 18]. Beta-3 adrenergic agonists (such as Mirabegron) are also a common option that facilitates bladder storage [20].",
+      "tags": ["urology", "urgency_incontinence", "oab", "pharmacology", "antimuscarinics"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Mixed Incontinence",
+      "question": "A 58-year-old female patient presents with a combination of stress urinary incontinence (leaking when coughing or sneezing) and urgency urinary incontinence (leaking preceded by a sudden, intense urge). What is the recommended management strategy for Mixed Urinary Incontinence (MUI)?",
+      "options": [
+        "Perform an immediate radical cystectomy and reconstruct an orthotopic neobladder.",
+        "Initiate high-dose systemic alpha-agonists and perform a Burch colposuspension simultaneously.",
+        "Direct treatment toward the most bothersome symptom first, utilizing a combination of bladder training and pelvic floor muscle exercises.",
+        "Treat the urgency component surgically and the stress component with continuous catheterization."
+      ],
+      "answerKey": "C",
+      "answerText": "Direct treatment toward the most bothersome symptom first, utilizing a combination of bladder training and pelvic floor muscle exercises.",
+      "explanation": "Mixed urinary incontinence (MUI) represents a combination of stress and urgency incontinence [3, 21]. The sources state that management of mixed incontinence should be directed toward the predominant or most bothersome symptom first [3, 21, 22]. Initial therapy typically combines conservative measures: bladder training (for the urgency component) plus pelvic floor muscle training (for the stress component) [22].",
+      "tags": ["urology", "mixed_incontinence", "management"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Overflow Incontinence",
+      "question": "A 68-year-old male with poorly controlled type 2 diabetes mellitus presents with continuous dribbling of urine, a weak urinary stream, and nocturnal enuresis. On physical examination, a large, non-tender abdominal mass is palpable in his suprapubic region. A bedside ultrasound reveals a post-void residual (PVR) volume of 650 mL. What is the diagnosis, and what is the underlying pathophysiology?",
+      "options": [
+        "Stress urinary incontinence; due to hypermobility of the prostatic urethra.",
+        "Urgency urinary incontinence; due to idiopathic detrusor overactivity.",
+        "Overflow incontinence; due to a decompensated, overdistended bladder secondary to chronic urinary retention (neurogenic detrusor weakness).",
+        "Total continuous incontinence; due to a newly formed prostatic-rectal fistula."
+      ],
+      "answerKey": "C",
+      "answerText": "Overflow incontinence; due to a decompensated, overdistended bladder secondary to chronic urinary retention (neurogenic detrusor weakness).",
+      "explanation": "Overflow incontinence is characterized by continuous involuntary loss of urine (often presenting as dribbling, weak stream, hesitancy, and nocturnal enuresis) resulting from mechanical forces on an overdistended bladder due to chronic urinary retention [21, 23, 24]. It is caused by bladder outlet obstruction or detrusor underactivity/weakness [21, 22]. In this diabetic patient, diabetic autonomic neuropathy has caused neurogenic detrusor weakness, leading to a high post-void residual (>300 mL) and subsequent overflow leakage [25-27].",
+      "tags": ["urology", "overflow_incontinence", "diabetic_neuropathy", "retention"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Total Incontinence",
+      "question": "A 32-year-old female patient presents to the urology clinic complaining of total, continuous urinary incontinence (persistent leakage of urine with no normal storage) that began shortly after a long, difficult, and obstructed vaginal delivery. What is the most likely underlying cause of her incontinence?",
+      "options": [
+        "Severe detrusor overactivity",
+        "Vesicovaginal fistula",
+        "Acquired intrinsic sphincter deficiency",
+        "Neurogenic bladder secondary to epidural anesthesia"
+      ],
+      "answerKey": "B",
+      "answerText": "Vesicovaginal fistula",
+      "explanation": "Continuous or total incontinence is characterized by persistent leakage without normal bladder storage [21]. A classic cause of total urinary incontinence in females following an obstructed vaginal delivery is a vesicovaginal fistula (an abnormal epithelialized communication between the bladder and the vagina) [28-35]. Vesicovaginal fistula is the most common urinary fistula in women [13, 36]. Management requires anatomical localization and surgical reconstruction [22, 37].",
+      "tags": ["urology", "total_incontinence", "vesicovaginal_fistula", "obstetrics"]
+    },
+    {
+      "lesson": "Urology::Urinary Incontinence::Male Stress Incontinence",
+      "question": "While stress urinary incontinence is highly common in women, it is relatively uncommon in the male population. According to the sources, in which clinical scenario does male stress urinary incontinence typically present?",
+      "options": [
+        "In young men presenting with acute bacterial prostatitis and urethral discharge",
+        "In older men with severe untreated benign prostatic hyperplasia (BPH)",
+        "Following previous urethral surgery (e.g., radical prostatectomy) or pelvic irradiation",
+        "Following a simple laparoscopic cholecystectomy"
+      ],
+      "answerKey": "C",
+      "answerText": "Following previous urethral surgery (e.g., radical prostatectomy) or pelvic irradiation",
+      "explanation": "Male stress urinary incontinence is uncommon [8, 10]. It typically only occurs if the male pelvic continence mechanisms (such as the external rhabdosphincter) have been damaged, classically following urethral or prostate surgery (such as radical prostatectomy) or pelvic irradiation [8, 10].",
+      "tags": ["urology", "stress_incontinence", "men", "radical_prostatectomy"]
+    },
+    {
+      "lesson": "Urology::Diagnostics::Incontinence",
+      "question": "A clinician is evaluating a patient with complex, recurrent urinary incontinence where the underlying mechanism remains uncertain. Which of the following diagnostic tools is considered the gold-standard functional test to measure bladder pressure, storage capability, and detrusor activity?",
+      "options": [
+        "Non-contrast CT scan of the Kidneys, Ureters, and Bladder (CT KUB)",
+        "Static 99mTc-DMSA renal cortical scintigraphy",
+        "Cystometry / pressure-flow studies (Urodynamic Study)",
+        "Rigid retroperitoneal laparoscopy"
+      ],
+      "answerKey": "C",
+      "answerText": "Cystometry / pressure-flow studies (Urodynamic Study)",
+      "explanation": "While history, physical examination, and post-void residual (PVR) estimation are essential first steps [24, 38], invasive urodynamic studies (specifically cystometry and pressure-flow studies) are the gold-standard functional investigations to evaluate complex, recurrent, or neurogenic voiding dysfunction [39-41]. Cystometry measures the relationship between intravesical pressure, detrusor pressure, and bladder volume during filling and storage, helping to objectively identify detrusor overactivity, poor compliance, or sphincteric incompetence [12, 39-41].",
+      "tags": ["urology", "diagnostics", "urodynamics", "cystometry"]
+    }
+  ]
+}
+    
