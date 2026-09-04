@@ -36,6 +36,7 @@ function ShortcutsPanel({ onClose }) {
     { title: 'Narration & TV Mode', items: [
       ['Space', 'Play / pause audio or slide timer'],
       ['← →', 'Previous / next question or slide'],
+      ['A', 'Show / hide answer in narration mode'],
       ['F', 'Toggle favorite for current question'],
       ['D', 'Mark done / unsolved for current question'],
       ['C', 'Copy question to clipboard'],

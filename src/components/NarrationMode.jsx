@@ -377,6 +377,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
       if (e.key === ' ')                   { e.preventDefault(); togglePause(); return; }
       if (e.key === 'ArrowRight')          { e.preventDefault(); go(+1); return; }
       if (e.key === 'ArrowLeft')           { e.preventDefault(); go(-1); return; }
+      if (e.key === 'a' || e.key === 'A') { e.preventDefault(); setShowAnswer(p => !p); return; }
       if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleFav(); return; }
       if (e.key === 'd' || e.key === 'D') { e.preventDefault(); toggleDone(); return; }
       if (e.key === 'c' || e.key === 'C') { e.preventDefault(); copyQuestion(); return; }
@@ -482,13 +483,18 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
 
         {/* Reveal answer */}
         {!showAnswer ? (
-          <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
-            Show Answer
+          <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Show Answer (A)">
+            Show Answer (A)
           </button>
         ) : (
           <div style={{ padding:'10px 14px', borderRadius:8, background:'var(--gg)', border:'1px solid var(--green)',
             color:'var(--green)', fontSize:13, fontWeight:600 }}>
-            ✓ {q.answerKey ? `${q.answerKey} — ` : ''}{q.answerText}
+            <div style={{ display:'flex', justifyContent:'space-between', alignItems:'center' }}>
+              <span>✓ {q.answerKey ? `${q.answerKey} — ` : ''}{q.answerText}</span>
+              <button className="btn ghost" onClick={() => setShowAnswer(false)} style={{ fontSize:11, padding:'2px 8px', color:'var(--green)' }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()} title="Hide Answer (A)">
+                Hide (A)
+              </button>
+            </div>
             {q.explanation && <div style={{ marginTop:6, fontWeight:400, fontSize:12, color:'var(--text)' }}>{q.explanation}</div>}
           </div>
         )}
@@ -575,7 +581,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
         </details>
 
         <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
-          Space = play/pause · ← → = navigate · F = fav · D = done · C = copy · R = repeat · Esc = close
+          Space = play/pause · ← → = navigate · A = answer · F = fav · D = done · C = copy · R = repeat · Esc = close
         </div>
       </div>
     </div>
