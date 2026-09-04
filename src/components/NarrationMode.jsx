@@ -338,10 +338,16 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
 
   const togglePause = () => {
-    if (speaking && !paused) {
-      synth.cancel();
-      setSpeaking(false);
+    if (synth.speaking && !synth.paused && !paused) {
+      synth.pause();
       setPaused(true);
+    } else if (paused) {
+      setPaused(false);
+      if (synth.paused) {
+        synth.resume();
+      } else {
+        speak(buildScript(q));
+      }
     } else {
       setPaused(false);
       speak(buildScript(q));
@@ -349,6 +355,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   };
 
   const handleRepeat = () => {
+    synth.cancel();
     setPaused(false);
     speak(buildScript(q));
   };
@@ -356,6 +363,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   const go = (n) => {
     synth.cancel();
     setSpeaking(false);
+    setPaused(false);
     setIdx(i => Math.max(0, Math.min(deck.length - 1, i + n)));
   };
 
