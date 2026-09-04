@@ -216,7 +216,11 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   const uttRef = useRef(null);
   const synth = window.speechSynthesis;
   const currentScriptRef = useRef('');
+  const currentStartCharRef = useRef(0);
   const charIndexRef = useRef(0);
+  const boundaryFiredRef = useRef(false);
+  const speechStartTimeRef = useRef(null);
+  const keepAliveRef = useRef(null);
 
   useEffect(() => { setLocalFavs(new Set(favIds)); }, [favIds]);
   useEffect(() => { setLocalDone(new Set(completedIds)); }, [completedIds]);
@@ -241,6 +245,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
       const found = newPool.findIndex(item => item.id === currId);
       if (found !== -1) newIdx = found;
     }
+    if (keepAliveRef.current) clearInterval(keepAliveRef.current);
     synth.cancel();
     setSpeaking(false);
     setPaused(false);
@@ -320,6 +325,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     load();
     synth.addEventListener('voiceschanged', load);
     return () => {
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
       synth.cancel();
       synth.removeEventListener('voiceschanged', load);
     };
@@ -394,12 +400,35 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   };
 
   const speak = (text, startChar = 0) => {
+    if (keepAliveRef.current) clearInterval(keepAliveRef.current);
     synth.cancel();
     if (!text) return;
     currentScriptRef.current = text;
+    currentStartCharRef.current = startChar;
     charIndexRef.current = startChar;
+    boundaryFiredRef.current = false;
+    speechStartTimeRef.current = null;
 
-    const toSpeak = startChar > 0 ? text.slice(startChar) : text;
+    let toSpeak = startChar > 0 ? text.slice(startChar) : text;
+    if (startChar > 0) {
+      const match = toSpeak.match(/^[\s,.;:!?\-—]+/);
+      if (match) {
+        startChar += match[0].length;
+        toSpeak = text.slice(startChar);
+        currentStartCharRef.current = startChar;
+        charIndexRef.current = startChar;
+      }
+    }
+    if (!toSpeak.trim()) {
+      setSpeaking(false);
+      setPaused(false);
+      charIndexRef.current = 0;
+      if (autoAdvance && idx < deck.length - 1) {
+        setTimeout(() => setIdx(i => i + 1), 800);
+      }
+      return;
+    }
+
     const utt = new SpeechSynthesisUtterance(toSpeak);
     utt.rate = rate;
     utt.pitch = pitch;
@@ -409,25 +438,44 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     }
 
     utt.onboundary = (e) => {
+      boundaryFiredRef.current = true;
       if (e.charIndex !== undefined) {
-        charIndexRef.current = startChar + e.charIndex;
+        charIndexRef.current = currentStartCharRef.current + e.charIndex;
       }
     };
 
     utt.onstart = () => {
+      speechStartTimeRef.current = Date.now();
       setSpeaking(true);
       setPaused(false);
     };
 
     utt.onend = () => {
       setSpeaking(false);
+      setPaused(false);
       charIndexRef.current = 0;
+      speechStartTimeRef.current = null;
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
       if (autoAdvance && idx < deck.length - 1) {
         setTimeout(() => setIdx(i => i + 1), 800);
       }
     };
 
-    utt.onerror = () => setSpeaking(false);
+    utt.onerror = () => {
+      setSpeaking(false);
+      speechStartTimeRef.current = null;
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
+    };
+
+    keepAliveRef.current = setInterval(() => {
+      if (synth.speaking && !synth.paused) {
+        synth.pause();
+        synth.resume();
+      } else {
+        clearInterval(keepAliveRef.current);
+      }
+    }, 10000);
+
     uttRef.current = utt;
     synth.speak(utt);
   };
@@ -439,35 +487,59 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     if (!paused) {
       speak(buildScript(q), 0);
     } else {
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
       synth.cancel();
       setSpeaking(false);
     }
-    return () => synth.cancel();
+    return () => {
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
+      synth.cancel();
+    };
   }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
 
   const togglePause = () => {
     if (speaking && !paused) {
-      synth.pause();
+      // Pause action
+      if (!boundaryFiredRef.current && speechStartTimeRef.current) {
+        const elapsedSec = (Date.now() - speechStartTimeRef.current) / 1000;
+        const currentRate = rate || 1.0;
+        const cps = 15.2 * currentRate;
+        const approxOffset = Math.floor(elapsedSec * cps);
+        let targetPos = Math.min(
+          currentScriptRef.current.length,
+          currentStartCharRef.current + approxOffset
+        );
+        if (targetPos < currentScriptRef.current.length) {
+          const spacePos = currentScriptRef.current.lastIndexOf(' ', targetPos);
+          if (spacePos > currentStartCharRef.current) {
+            targetPos = spacePos + 1;
+          }
+        }
+        charIndexRef.current = targetPos;
+      }
+      if (keepAliveRef.current) clearInterval(keepAliveRef.current);
+      synth.cancel();
+      setSpeaking(false);
       setPaused(true);
     } else if (paused) {
+      // Resume action
       setPaused(false);
-      if (synth.paused) {
-        synth.resume();
-        setTimeout(() => {
-          if (!synth.speaking) {
-            speak(currentScriptRef.current, charIndexRef.current);
-          }
-        }, 150);
+      const resumePos = charIndexRef.current || 0;
+      if (resumePos > 0 && resumePos < currentScriptRef.current.length) {
+        speak(currentScriptRef.current, resumePos);
       } else {
-        speak(currentScriptRef.current, charIndexRef.current);
+        speak(buildScript(q), 0);
       }
     } else {
+      // Play from stopped
       setPaused(false);
+      charIndexRef.current = 0;
       speak(buildScript(q), 0);
     }
   };
 
   const handleRepeat = () => {
+    if (keepAliveRef.current) clearInterval(keepAliveRef.current);
     synth.cancel();
     setPaused(false);
     charIndexRef.current = 0;
@@ -475,6 +547,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   };
 
   const go = (n) => {
+    if (keepAliveRef.current) clearInterval(keepAliveRef.current);
     synth.cancel();
     setSpeaking(false);
     setPaused(false);
