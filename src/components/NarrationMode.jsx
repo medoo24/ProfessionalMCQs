@@ -116,30 +116,93 @@ function TagFilterPanel({ allTags, restTags, selectedTags, onToggle, onClear, qu
   );
 }
 // ── NARRATION MODE ──────────────────────────────────────────────────────
+function scoreVoice(v) {
+  const name = (v.name || '').toLowerCase();
+  const lang = (v.lang || '').toLowerCase();
+
+  // Primary preference: Female Google voices
+  if (name === 'google us english' || name.includes('google us english')) return 1000;
+  if (name.includes('google') && name.includes('uk english female')) return 980;
+  if (name.includes('google') && (name.includes('female') || name.includes('woman'))) return 950;
+  if (name.includes('google') && lang.startsWith('en') && !name.includes('male')) return 920;
+  if (name.includes('google') && lang.startsWith('en')) return 880;
+  if (name.includes('google')) return 800;
+
+  // Secondary preference: Natural/Online high quality female voices (Edge Natural / modern browser voices)
+  if (name.includes('natural') && (name.includes('aria') || name.includes('jenny') || name.includes('sonia') || name.includes('female') || name.includes('ava') || name.includes('emma'))) return 750;
+  if (name.includes('samantha') || name.includes('victoria') || name.includes('karen') || name.includes('siri')) return 700;
+  if (name.includes('natural') || name.includes('online')) return 650;
+
+  // Deprioritize robotic/awful desktop SAPI voices (Microsoft David Desktop, Microsoft Zira Desktop, Microsoft Mark, etc.)
+  if (name.includes('desktop') || (name.includes('microsoft') && !name.includes('natural') && !name.includes('online'))) return -500;
+
+  // Other English female hints
+  if (lang.startsWith('en') && (name.includes('female') || name.includes('woman') || name.includes('girl') || name.includes('zira'))) return 400;
+
+  // Generic English voices
+  if (lang.startsWith('en')) return 200;
+
+  return 0;
+}
+
 function NarrationMode({ questions, displaySettings, onClose }) {
   const [idx, setIdx] = useState(0);
   const [speaking, setSpeaking] = useState(false);
   const [paused, setPaused] = useState(false);
-  const [rate, setRate] = useState(1.0);
-  const [pitch, setPitch] = useState(1.0);
+  const [rate, setRateState] = useState(() => parseFloat(localStorage.getItem('pmcq_narr_rate')) || 1.0);
+  const [pitch, setPitchState] = useState(() => parseFloat(localStorage.getItem('pmcq_narr_pitch')) || 1.0);
   const [voices, setVoices] = useState([]);
   const [voiceIdx, setVoiceIdx] = useState(0);
   const [showAnswer, setShowAnswer] = useState(false);
-  const [autoAdvance, setAutoAdvance] = useState(true);
+  const [autoAdvance, setAutoAdvanceState] = useState(() => {
+    const saved = localStorage.getItem('pmcq_narr_autoadvance');
+    return saved !== null ? saved === 'true' : true;
+  });
   const [readOptions, setReadOptions] = useState(true);
   const [readAnswer, setReadAnswer] = useState(true);
   const [readExplanation, setReadExplanation] = useState(true);
   const uttRef = useRef(null);
   const synth = window.speechSynthesis;
 
+  const setRate = (v) => {
+    setRateState(v);
+    try { localStorage.setItem('pmcq_narr_rate', String(v)); } catch(e) {}
+  };
+
+  const setPitch = (v) => {
+    setPitchState(v);
+    try { localStorage.setItem('pmcq_narr_pitch', String(v)); } catch(e) {}
+  };
+
+  const setAutoAdvance = (v) => {
+    setAutoAdvanceState(v);
+    try { localStorage.setItem('pmcq_narr_autoadvance', String(v)); } catch(e) {}
+  };
+
   useEffect(() => {
     const load = () => {
-      const v = synth.getVoices().filter(v => v.lang.startsWith('en'));
-      setVoices(v);
+      const all = synth.getVoices() || [];
+      if (all.length === 0) return;
+      const en = all.filter(v => (v.lang || '').toLowerCase().startsWith('en'));
+      const list = (en.length > 0 ? en : all).slice().sort((a, b) => scoreVoice(b) - scoreVoice(a));
+
+      setVoices(list);
+
+      const saved = localStorage.getItem('pmcq_narr_voice');
+      let targetIdx = 0;
+      if (saved) {
+        const found = list.findIndex(v => v.name === saved);
+        if (found !== -1) targetIdx = found;
+      }
+      setVoiceIdx(targetIdx);
     };
+
     load();
     synth.addEventListener('voiceschanged', load);
-    return () => { synth.cancel(); synth.removeEventListener('voiceschanged', load); };
+    return () => {
+      synth.cancel();
+      synth.removeEventListener('voiceschanged', load);
+    };
   }, []);
 
   const q = questions[idx];
@@ -162,10 +225,14 @@ function NarrationMode({ questions, displaySettings, onClose }) {
 
   const speak = (text) => {
     synth.cancel();
+    if (!text) return;
     const utt = new SpeechSynthesisUtterance(text);
     utt.rate = rate;
     utt.pitch = pitch;
-    if (voices[voiceIdx]) utt.voice = voices[voiceIdx];
+    if (voices[voiceIdx]) {
+      utt.voice = voices[voiceIdx];
+      utt.lang = voices[voiceIdx].lang || 'en-US';
+    }
     utt.onstart  = () => setSpeaking(true);
     utt.onend    = () => {
       setSpeaking(false);
@@ -179,11 +246,11 @@ function NarrationMode({ questions, displaySettings, onClose }) {
   };
 
   useEffect(() => {
-    if (!q) return;
+    if (!q || voices.length === 0) return;
     setShowAnswer(false);
     speak(buildScript(q));
     return () => synth.cancel();
-  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation]);
+  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
 
   const togglePause = () => {
     if (synth.paused) { synth.resume(); setPaused(false); }
@@ -202,7 +269,7 @@ function NarrationMode({ questions, displaySettings, onClose }) {
     };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
-  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation]);
+  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices]);
 
   if (!q) return null;
 
@@ -295,10 +362,16 @@ function NarrationMode({ questions, displaySettings, onClose }) {
             {voices.length > 0 && (
               <div style={{ display:'flex', alignItems:'center', gap:8 }}>
                 <span style={{ color:'var(--muted)', minWidth:44, fontSize:12 }}>Voice</span>
-                <select value={voiceIdx} onChange={e=>setVoiceIdx(+e.target.value)}
+                <select value={voiceIdx} onChange={e => {
+                    const nextIdx = +e.target.value;
+                    setVoiceIdx(nextIdx);
+                    if (voices[nextIdx]) {
+                      try { localStorage.setItem('pmcq_narr_voice', voices[nextIdx].name); } catch(err) {}
+                    }
+                  }}
                   style={{ flex:1, padding:'4px 8px', borderRadius:6, border:'1px solid var(--border2)',
                     background:'var(--card2)', color:'var(--text)', fontSize:12 }}>
-                  {voices.map((v,i) => <option key={i} value={i}>{v.name}</option>)}
+                  {voices.map((v,i) => <option key={i} value={i}>{v.name} {v.lang ? `(${v.lang})` : ''}</option>)}
                 </select>
               </div>
             )}
