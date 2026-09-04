@@ -120,32 +120,48 @@ function scoreVoice(v) {
   const name = (v.name || '').toLowerCase();
   const lang = (v.lang || '').toLowerCase();
 
-  // Primary preference: Female Google voices
-  if (name === 'google us english' || name.includes('google us english')) return 1000;
-  if (name.includes('google') && name.includes('uk english female')) return 980;
-  if (name.includes('google') && (name.includes('female') || name.includes('woman'))) return 950;
-  if (name.includes('google') && lang.startsWith('en') && !name.includes('male')) return 920;
-  if (name.includes('google') && lang.startsWith('en')) return 880;
-  if (name.includes('google')) return 800;
+  const isUK = lang.includes('gb') || lang.includes('uk') || name.includes('uk') || name.includes('united kingdom') || name.includes('british') || name.includes('great britain');
+  const isUS = lang.includes('us') || name.includes('us') || name.includes('united states');
+  const isFemale = name.includes('female') || name.includes('woman') || name.includes('girl') || name.includes('zira') || name.includes('samantha') || name.includes('victoria') || name.includes('karen') || name.includes('aria') || name.includes('jenny') || name.includes('sonia') || name.includes('ava') || name.includes('emma') || name === 'google us english' || name.includes('google us english') || name.includes('google uk english female');
+  const isMale = name.includes('male') || name.includes('man') || name.includes('guy') || name.includes('boy') || name.includes('david') || name.includes('george') || name.includes('mark') || name.includes('google uk english male');
+  const isGoogle = name.includes('google');
+  const isRoboticDesktop = name.includes('desktop') || (name.includes('microsoft') && !name.includes('natural') && !name.includes('online'));
 
-  // Secondary preference: Natural/Online high quality female voices (Edge Natural / modern browser voices)
-  if (name.includes('natural') && (name.includes('aria') || name.includes('jenny') || name.includes('sonia') || name.includes('female') || name.includes('ava') || name.includes('emma'))) return 750;
-  if (name.includes('samantha') || name.includes('victoria') || name.includes('karen') || name.includes('siri')) return 700;
-  if (name.includes('natural') || name.includes('online')) return 650;
+  // 1. Female UK (Google UK English Female first, then other UK female)
+  if (isGoogle && (name.includes('google uk english female') || (isUK && isFemale && !isMale))) return 2000;
+  if (isUK && isFemale && !isRoboticDesktop) return 1900;
+  if (isUK && !isMale && !isRoboticDesktop) return 1850;
 
-  // Deprioritize robotic/awful desktop SAPI voices (Microsoft David Desktop, Microsoft Zira Desktop, Microsoft Mark, etc.)
-  if (name.includes('desktop') || (name.includes('microsoft') && !name.includes('natural') && !name.includes('online'))) return -500;
+  // 2. Male UK (Google UK English Male first, then other UK male)
+  if (isGoogle && (name.includes('google uk english male') || (isUK && isMale))) return 1800;
+  if (isUK && isMale && !isRoboticDesktop) return 1700;
+  if (isUK && !isRoboticDesktop) return 1650;
 
-  // Other English female hints
-  if (lang.startsWith('en') && (name.includes('female') || name.includes('woman') || name.includes('girl') || name.includes('zira'))) return 400;
+  // 3. Female US (Google US English first, then other US female)
+  if (isGoogle && (name.includes('google us english') || (isUS && isFemale))) return 1600;
+  if (isGoogle && isUS && !isMale) return 1550;
+  if (isUS && isFemale && !isRoboticDesktop) return 1500;
+  if (isFemale && !isRoboticDesktop) return 1400;
 
-  // Generic English voices
-  if (lang.startsWith('en')) return 200;
+  // 4. Other Google English voices
+  if (isGoogle && lang.startsWith('en')) return 1300;
+  if (isGoogle) return 1200;
+
+  // 5. Natural / Online English voices
+  if (name.includes('natural') || name.includes('online')) return 1000;
+
+  // Deprioritize awful desktop SAPI voices
+  if (isRoboticDesktop) return -500;
+
+  // Other English
+  if (lang.startsWith('en')) return 500;
 
   return 0;
 }
 
 function NarrationMode({ questions, displaySettings, favIds = new Set(), completedIds = new Set(), onToggleFav, onToggleDone, onClose }) {
+  // Freeze question deck on open so marking done never shifts or removes questions mid-narration
+  const [deck] = useState(() => (questions && questions.length > 0 ? [...questions] : []));
   const [idx, setIdx] = useState(0);
   const [speaking, setSpeaking] = useState(false);
   const [paused, setPaused] = useState(false);
@@ -216,7 +232,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     };
   }, []);
 
-  const q = questions[idx];
+  const q = deck[idx];
 
   const toggleFav = () => {
     if (!q) return;
@@ -234,17 +250,51 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     flash(nextIsDone ? '✓ Marked Done' : '○ Marked Unsolved', '#3ecf8e');
   };
 
+  const copyQuestion = () => {
+    if (!q) return;
+    let txt = `Q: ${q.question}\n\n`;
+    if (q.options?.length) {
+      txt += q.options.map((o, i) => `${String.fromCharCode(65 + i)}) ${o}`).join('\n') + '\n\n';
+    }
+    if (q.answerKey || q.answerText) {
+      txt += `Answer: ${q.answerKey ? q.answerKey + ' — ' : ''}${q.answerText || ''}\n`;
+    }
+    if (q.explanation) {
+      txt += `Explanation: ${q.explanation}\n`;
+    }
+    const clip = txt.trim();
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(clip).then(() => {
+        flash('📋 Copied to Clipboard', 'var(--primary)');
+      }).catch(() => fallbackCopy(clip));
+    } else {
+      fallbackCopy(clip);
+    }
+  };
+
+  const fallbackCopy = (clip) => {
+    const ta = document.createElement('textarea');
+    ta.value = clip;
+    document.body.appendChild(ta);
+    ta.select();
+    try {
+      document.execCommand('copy');
+      flash('📋 Copied to Clipboard', 'var(--primary)');
+    } catch(e) {}
+    document.body.removeChild(ta);
+  };
+
   const buildScript = (q) => {
-    let parts = [`Question ${idx + 1} of ${questions.length}. ${q.question}`];
+    let parts = [`Question ${idx + 1} of ${deck.length}. ${q.question}`];
     if (readOptions && q.options?.length) {
       parts.push('Options:');
       q.options.forEach((o, i) => parts.push(`${['A','B','C','D','E'][i]}. ${o}`));
     }
-    if (readAnswer && displaySettings.showAnswer) {
+    if (readAnswer) {
       const ans = q.answerKey ? `${q.answerKey}. ${q.answerText || ''}` : (q.answerText || '');
       if (ans.trim()) parts.push(`Answer: ${ans}`);
     }
-    if (readExplanation && displaySettings.showExplanation && q.explanation) {
+    if (readExplanation && q.explanation) {
       parts.push(`Explanation: ${q.explanation}`);
     }
     return parts.join('. ');
@@ -260,14 +310,17 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
       utt.voice = voices[voiceIdx];
       utt.lang = voices[voiceIdx].lang || 'en-US';
     }
-    utt.onstart  = () => setSpeaking(true);
-    utt.onend    = () => {
+    utt.onstart = () => {
+      setSpeaking(true);
+      setPaused(false);
+    };
+    utt.onend = () => {
       setSpeaking(false);
-      if (autoAdvance && idx < questions.length - 1) {
+      if (autoAdvance && idx < deck.length - 1) {
         setTimeout(() => setIdx(i => i + 1), 800);
       }
     };
-    utt.onerror  = () => setSpeaking(false);
+    utt.onerror = () => setSpeaking(false);
     uttRef.current = utt;
     synth.speak(utt);
   };
@@ -275,36 +328,61 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   useEffect(() => {
     if (!q || voices.length === 0) return;
     setShowAnswer(false);
-    speak(buildScript(q));
+    if (!paused) {
+      speak(buildScript(q));
+    } else {
+      synth.cancel();
+      setSpeaking(false);
+    }
     return () => synth.cancel();
   }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
 
   const togglePause = () => {
-    if (synth.paused) { synth.resume(); setPaused(false); }
-    else              { synth.pause();  setPaused(true);  }
+    if (speaking && !paused) {
+      synth.cancel();
+      setSpeaking(false);
+      setPaused(true);
+    } else {
+      setPaused(false);
+      speak(buildScript(q));
+    }
   };
 
-  const go = (n) => { synth.cancel(); setIdx(i => Math.max(0, Math.min(questions.length-1, i+n))); };
+  const handleRepeat = () => {
+    setPaused(false);
+    speak(buildScript(q));
+  };
+
+  const go = (n) => {
+    synth.cancel();
+    setSpeaking(false);
+    setIdx(i => Math.max(0, Math.min(deck.length - 1, i + n)));
+  };
 
   useEffect(() => {
     const fn = e => {
-      if (e.key === 'Escape')      { onClose(); return; }
-      if (e.key === ' ')           { e.preventDefault(); togglePause(); return; }
-      if (e.key === 'ArrowRight')  { go(+1); return; }
-      if (e.key === 'ArrowLeft')   { go(-1); return; }
-      if (e.key === 'f' || e.key === 'F') { toggleFav(); return; }
-      if (e.key === 'd' || e.key === 'D') { toggleDone(); return; }
-      if (e.key === 'r' || e.key === 'R') { speak(buildScript(q)); return; }
+      if (e.target && (e.target.tagName === 'INPUT' || e.target.tagName === 'SELECT' || e.target.tagName === 'TEXTAREA')) {
+        if (e.key === 'Escape') onClose();
+        return;
+      }
+      if (e.key === 'Escape')              { onClose(); return; }
+      if (e.key === ' ')                   { e.preventDefault(); togglePause(); return; }
+      if (e.key === 'ArrowRight')          { e.preventDefault(); go(+1); return; }
+      if (e.key === 'ArrowLeft')           { e.preventDefault(); go(-1); return; }
+      if (e.key === 'f' || e.key === 'F') { e.preventDefault(); toggleFav(); return; }
+      if (e.key === 'd' || e.key === 'D') { e.preventDefault(); toggleDone(); return; }
+      if (e.key === 'c' || e.key === 'C') { e.preventDefault(); copyQuestion(); return; }
+      if (e.key === 'r' || e.key === 'R') { e.preventDefault(); handleRepeat(); return; }
     };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
-  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone]);
+  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone, speaking, deck]);
 
   if (!q) return null;
 
   const isFav  = localFavs.has(q.id);
   const isDone = localDone.has(q.id);
-  const pct = questions.length > 1 ? (idx / (questions.length - 1)) * 100 : 100;
+  const pct = deck.length > 1 ? (idx / (deck.length - 1)) * 100 : 100;
   const isCorrect = (letter) => q.answerKey && q.answerKey.toUpperCase() === letter;
 
   const Slider = ({ label, val, min, max, step, onChange }) => (
@@ -327,8 +405,12 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             Narration Mode
           </div>
 
-          <div style={{ display:'flex', alignItems:'center', gap:8 }}>
-            <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)"
+          <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+            <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+              style={{ fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700 }}>
+              <span>📋</span> Copy
+            </button>
+            <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
               style={{
                 fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
                 color: isFav ? '#f5a623' : 'var(--muted)',
@@ -337,7 +419,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
               }}>
               <span>{isFav ? '★' : '☆'}</span> Fav
             </button>
-            <button className="btn" onClick={toggleDone} title="Toggle Done (D)"
+            <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
               style={{
                 fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
                 color: isDone ? '#3ecf8e' : 'var(--muted)',
@@ -346,7 +428,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
               }}>
               <span>{isDone ? '✓' : '○'}</span> Done
             </button>
-            <button className="btn ghost" onClick={onClose} style={{ padding:'4px 8px' }}>✕</button>
+            <button className="btn ghost" onClick={onClose} style={{ padding:'4px 8px' }} tabIndex="-1">✕</button>
           </div>
         </div>
 
@@ -366,7 +448,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
         {/* Progress */}
         <div>
           <div style={{ display:'flex', justifyContent:'space-between', fontSize:11, color:'var(--muted)', marginBottom:5 }}>
-            <span>Q{idx+1} of {questions.length}</span>
+            <span>Q{idx+1} of {deck.length}</span>
             <span>{Math.round(pct)}%</span>
           </div>
           <div className="narr-progress"><div className="narr-progress-fill" style={{ width:`${pct}%` }}/></div>
@@ -392,7 +474,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
 
         {/* Reveal answer */}
         {!showAnswer ? (
-          <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)}>
+          <button className="btn" style={{ alignSelf:'flex-start', fontSize:12 }} onClick={() => setShowAnswer(true)} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
             Show Answer
           </button>
         ) : (
@@ -405,16 +487,20 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
 
         {/* Controls */}
         <div style={{ display:'flex', gap:8, alignItems:'center', flexWrap:'wrap' }}>
-          <button className="btn" onClick={()=>go(-1)} disabled={idx===0} title="Previous (←)">◀</button>
-          <button className="btn primary" onClick={togglePause} style={{ minWidth:90 }}>
+          <button className="btn" onClick={()=>go(-1)} disabled={idx===0} title="Previous (←)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>◀</button>
+          <button className="btn primary" onClick={togglePause} style={{ minWidth:95 }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
             {paused ? '▶ Resume' : speaking ? '⏸ Pause' : '▶ Play'}
           </button>
-          <button className="btn" onClick={()=>go(+1)} disabled={idx===questions.length-1} title="Next (→)">▶</button>
-          <button className="btn" onClick={()=>speak(buildScript(q))} title="Repeat (R)">↺ Repeat</button>
+          <button className="btn" onClick={()=>go(+1)} disabled={idx===deck.length-1} title="Next (→)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>▶</button>
+          <button className="btn" onClick={handleRepeat} title="Repeat (R)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>↺ Repeat</button>
 
           <div style={{ width:1, height:20, background:'var(--border2)', margin:'0 2px' }}/>
 
-          <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)"
+          <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
+            style={{ fontWeight:700 }}>
+            📋 Copy
+          </button>
+          <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
             style={{
               color: isFav ? '#f5a623' : 'var(--muted)',
               borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
@@ -423,7 +509,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             }}>
             {isFav ? '★' : '☆'} Fav
           </button>
-          <button className="btn" onClick={toggleDone} title="Toggle Done (D)"
+          <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
             style={{
               color: isDone ? '#3ecf8e' : 'var(--muted)',
               borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
@@ -435,7 +521,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
 
           <div style={{ flex:1 }}/>
           <label style={{ display:'flex', alignItems:'center', gap:5, fontSize:12, cursor:'pointer', color:'var(--muted)' }}>
-            <input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)} style={{accentColor:'var(--primary)'}}/>
+            <input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
             Auto-advance
           </label>
         </div>
@@ -472,7 +558,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
                       if (k==='readOptions') setReadOptions(e.target.checked);
                       else if (k==='readAnswer') setReadAnswer(e.target.checked);
                       else setReadExplanation(e.target.checked);
-                    }} style={{accentColor:'var(--primary)'}}/>
+                    }} style={{accentColor:'var(--primary)'}} tabIndex="-1"/>
                   {label}
                 </label>
               ))}
@@ -481,7 +567,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
         </details>
 
         <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
-          Space = pause · ← → = navigate · F = fav · D = done · R = repeat · Esc = close
+          Space = play/pause · ← → = navigate · F = fav · D = done · C = copy · R = repeat · Esc = close
         </div>
       </div>
     </div>

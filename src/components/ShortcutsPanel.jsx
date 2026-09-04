@@ -38,6 +38,7 @@ function ShortcutsPanel({ onClose }) {
       ['← →', 'Previous / next question or slide'],
       ['F', 'Toggle favorite for current question'],
       ['D', 'Mark done / unsolved for current question'],
+      ['C', 'Copy question to clipboard'],
       ['R', 'Repeat narration audio'],
       ['Esc', 'Close narration / TV mode'],
     ]},
