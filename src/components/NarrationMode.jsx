@@ -159,11 +159,43 @@ function scoreVoice(v) {
   return 0;
 }
 
-function NarrationMode({ questions, displaySettings, favIds = new Set(), completedIds = new Set(), onToggleFav, onToggleDone, onClose }) {
+function getPool(mode, questions, doneSet, favSet, weakSet) {
+  if (mode === 'done') return questions.filter(q => doneSet.has(q.id));
+  if (mode === 'fav') return questions.filter(q => favSet.has(q.id));
+  if (mode === 'weak') return questions.filter(q => weakSet.has(q.id));
+  if (mode === 'all') return [...questions];
+  const un = questions.filter(q => !doneSet.has(q.id));
+  return un.length > 0 ? un : [...questions];
+}
+
+function shuffleArray(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function NarrationMode({ questions, displaySettings, favIds = new Set(), completedIds = new Set(), weakIds = new Set(), onToggleFav, onToggleDone, onClose }) {
   const [filterMode, setFilterMode] = useState(() => {
     const saved = localStorage.getItem('pmcq_narr_filter');
-    return (saved === 'all' || saved === 'done' || saved === 'unsolved') ? saved : 'unsolved';
+    return ['unsolved', 'all', 'done', 'fav', 'weak'].includes(saved) ? saved : 'unsolved';
   });
+
+  const [localFavs, setLocalFavs] = useState(() => new Set(favIds));
+  const [localDone, setLocalDone] = useState(() => new Set(completedIds));
+  const [localWeak] = useState(() => new Set(weakIds));
+  const [isShuffled, setIsShuffled] = useState(false);
+
+  // Snapshot deck on filter switch or initial load so marking Done/Fav does NOT evaporate the current question
+  const [deck, setDeck] = useState(() => {
+    const initialMode = ['unsolved', 'all', 'done', 'fav', 'weak'].includes(localStorage.getItem('pmcq_narr_filter'))
+      ? localStorage.getItem('pmcq_narr_filter')
+      : 'unsolved';
+    return getPool(initialMode, questions, completedIds, favIds, weakIds);
+  });
+
   const [idx, setIdx] = useState(0);
   const [speaking, setSpeaking] = useState(false);
   const [paused, setPaused] = useState(false);
@@ -179,39 +211,72 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   const [readOptions, setReadOptions] = useState(true);
   const [readAnswer, setReadAnswer] = useState(true);
   const [readExplanation, setReadExplanation] = useState(true);
-  const [localFavs, setLocalFavs] = useState(() => new Set(favIds));
-  const [localDone, setLocalDone] = useState(() => new Set(completedIds));
   const [actionFlash, setActionFlash] = useState(null); // {text, color}
+
   const uttRef = useRef(null);
   const synth = window.speechSynthesis;
+  const currentScriptRef = useRef('');
+  const charIndexRef = useRef(0);
 
   useEffect(() => { setLocalFavs(new Set(favIds)); }, [favIds]);
   useEffect(() => { setLocalDone(new Set(completedIds)); }, [completedIds]);
 
-  const unsolvedPool = useMemo(() => questions.filter(q => !localDone.has(q.id)), [questions, localDone]);
-  const donePool     = useMemo(() => questions.filter(q => localDone.has(q.id)), [questions, localDone]);
-  const allPool      = questions;
-
-  const currentDeck = useMemo(() => {
-    if (filterMode === 'done') return donePool;
-    if (filterMode === 'all') return allPool;
-    return unsolvedPool.length > 0 ? unsolvedPool : allPool;
-  }, [filterMode, unsolvedPool, donePool, allPool]);
+  const counts = useMemo(() => ({
+    unsolved: questions.filter(q => !localDone.has(q.id)).length,
+    all: questions.length,
+    done: questions.filter(q => localDone.has(q.id)).length,
+    fav: questions.filter(q => localFavs.has(q.id)).length,
+    weak: questions.filter(q => localWeak.has(q.id)).length
+  }), [questions, localDone, localFavs, localWeak]);
 
   const handleFilterChange = (mode) => {
-    if (mode === filterMode) return;
+    if (mode === filterMode && !isShuffled) return;
     setFilterMode(mode);
+    setIsShuffled(false);
     try { localStorage.setItem('pmcq_narr_filter', mode); } catch(e) {}
-    let nextDeck = mode === 'done' ? donePool : mode === 'all' ? allPool : (unsolvedPool.length > 0 ? unsolvedPool : allPool);
-    const currId = currentDeck[idx]?.id;
+    const newPool = getPool(mode, questions, localDone, localFavs, localWeak);
+    const currId = deck[idx]?.id;
     let newIdx = 0;
-    if (currId && nextDeck.length > 0) {
-      const found = nextDeck.findIndex(item => item.id === currId);
+    if (currId && newPool.length > 0) {
+      const found = newPool.findIndex(item => item.id === currId);
       if (found !== -1) newIdx = found;
     }
     synth.cancel();
     setSpeaking(false);
+    setPaused(false);
+    charIndexRef.current = 0;
+    setDeck(newPool);
     setIdx(newIdx);
+  };
+
+  const handleShuffle = () => {
+    if (deck.length <= 1) return;
+    const currQ = deck[idx];
+    const shuffled = shuffleArray(deck);
+    let newIdx = 0;
+    if (currQ) {
+      const found = shuffled.findIndex(item => item.id === currQ.id);
+      if (found !== -1) newIdx = found;
+    }
+    setIsShuffled(true);
+    setDeck(shuffled);
+    setIdx(newIdx);
+    flash('🎲 Order Shuffled!', 'var(--primary)');
+  };
+
+  const handleResetOrder = () => {
+    if (!isShuffled) return;
+    const currQ = deck[idx];
+    const original = getPool(filterMode, questions, localDone, localFavs, localWeak);
+    let newIdx = 0;
+    if (currQ) {
+      const found = original.findIndex(item => item.id === currQ.id);
+      if (found !== -1) newIdx = found;
+    }
+    setIsShuffled(false);
+    setDeck(original);
+    setIdx(newIdx);
+    flash('↺ Original Order Restored', 'var(--primary)');
   };
 
   const setRate = (v) => {
@@ -260,7 +325,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     };
   }, []);
 
-  const q = currentDeck[idx];
+  const q = deck[idx];
 
   const toggleFav = () => {
     if (!q) return;
@@ -328,26 +393,40 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
     return parts.join('. ');
   };
 
-  const speak = (text) => {
+  const speak = (text, startChar = 0) => {
     synth.cancel();
     if (!text) return;
-    const utt = new SpeechSynthesisUtterance(text);
+    currentScriptRef.current = text;
+    charIndexRef.current = startChar;
+
+    const toSpeak = startChar > 0 ? text.slice(startChar) : text;
+    const utt = new SpeechSynthesisUtterance(toSpeak);
     utt.rate = rate;
     utt.pitch = pitch;
     if (voices[voiceIdx]) {
       utt.voice = voices[voiceIdx];
       utt.lang = voices[voiceIdx].lang || 'en-US';
     }
+
+    utt.onboundary = (e) => {
+      if (e.charIndex !== undefined) {
+        charIndexRef.current = startChar + e.charIndex;
+      }
+    };
+
     utt.onstart = () => {
       setSpeaking(true);
       setPaused(false);
     };
+
     utt.onend = () => {
       setSpeaking(false);
-      if (autoAdvance && idx < currentDeck.length - 1) {
+      charIndexRef.current = 0;
+      if (autoAdvance && idx < deck.length - 1) {
         setTimeout(() => setIdx(i => i + 1), 800);
       }
     };
+
     utt.onerror = () => setSpeaking(false);
     uttRef.current = utt;
     synth.speak(utt);
@@ -356,43 +435,51 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
   useEffect(() => {
     if (!q || voices.length === 0) return;
     setShowAnswer(false);
+    charIndexRef.current = 0;
     if (!paused) {
-      speak(buildScript(q));
+      speak(buildScript(q), 0);
     } else {
       synth.cancel();
       setSpeaking(false);
     }
     return () => synth.cancel();
-  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices, filterMode]);
+  }, [idx, rate, pitch, voiceIdx, readOptions, readAnswer, readExplanation, voices]);
 
   const togglePause = () => {
-    if (synth.speaking && !synth.paused && !paused) {
+    if (speaking && !paused) {
       synth.pause();
       setPaused(true);
     } else if (paused) {
       setPaused(false);
       if (synth.paused) {
         synth.resume();
+        setTimeout(() => {
+          if (!synth.speaking) {
+            speak(currentScriptRef.current, charIndexRef.current);
+          }
+        }, 150);
       } else {
-        speak(buildScript(q));
+        speak(currentScriptRef.current, charIndexRef.current);
       }
     } else {
       setPaused(false);
-      speak(buildScript(q));
+      speak(buildScript(q), 0);
     }
   };
 
   const handleRepeat = () => {
     synth.cancel();
     setPaused(false);
-    speak(buildScript(q));
+    charIndexRef.current = 0;
+    speak(buildScript(q), 0);
   };
 
   const go = (n) => {
     synth.cancel();
     setSpeaking(false);
     setPaused(false);
-    setIdx(i => Math.max(0, Math.min(currentDeck.length - 1, i + n)));
+    charIndexRef.current = 0;
+    setIdx(i => Math.max(0, Math.min(deck.length - 1, i + n)));
   };
 
   useEffect(() => {
@@ -410,12 +497,13 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
       if (e.key === 'd' || e.key === 'D') { e.preventDefault(); toggleDone(); return; }
       if (e.key === 'c' || e.key === 'C') { e.preventDefault(); copyQuestion(); return; }
       if (e.key === 'r' || e.key === 'R') { e.preventDefault(); handleRepeat(); return; }
+      if (e.key === 's' || e.key === 'S') { e.preventDefault(); handleShuffle(); return; }
     };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
-  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone, speaking, currentDeck]);
+  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone, speaking, deck]);
 
-  const pct = currentDeck.length > 1 ? (idx / (currentDeck.length - 1)) * 100 : 100;
+  const pct = deck.length > 1 ? (idx / (deck.length - 1)) * 100 : 100;
   const isFav  = q ? localFavs.has(q.id) : false;
   const isDone = q ? localDone.has(q.id) : false;
   const isCorrect = (letter) => q?.answerKey && q.answerKey.toUpperCase() === letter;
@@ -440,7 +528,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             Narration Mode
           </div>
 
-          {/* Segmented Filter Switch */}
+          {/* Segmented Filter Switch (Unsolved, All, Done, Fav, Weak) */}
           <div style={{
             display: 'flex',
             alignItems: 'center',
@@ -448,12 +536,15 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             border: '1px solid var(--border2)',
             borderRadius: 10,
             padding: 3,
-            gap: 3
+            gap: 2,
+            flexWrap: 'wrap'
           }}>
             {[
-              { id: 'unsolved', label: 'Unsolved', count: unsolvedPool.length, color: 'var(--primary)' },
-              { id: 'all',      label: 'All',      count: allPool.length,      color: 'var(--text)' },
-              { id: 'done',     label: 'Done',     count: donePool.length,     color: 'var(--green)' },
+              { id: 'unsolved', label: 'Unsolved', count: counts.unsolved, color: 'var(--primary)' },
+              { id: 'all',      label: 'All',      count: counts.all,      color: 'var(--text)' },
+              { id: 'done',     label: 'Done',     count: counts.done,     color: 'var(--green)' },
+              { id: 'fav',      label: '★ Fav',    count: counts.fav,      color: 'var(--yellow)' },
+              { id: 'weak',     label: '⚡ Weak',   count: counts.weak,     color: 'var(--red)' },
             ].map(tab => {
               const active = filterMode === tab.id;
               return (
@@ -463,7 +554,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
                   tabIndex="-1"
                   onFocus={e => e.currentTarget.blur()}
                   style={{
-                    padding: '3px 10px',
+                    padding: '3px 8px',
                     borderRadius: 7,
                     fontSize: 11,
                     fontWeight: 700,
@@ -474,14 +565,14 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
                     boxShadow: active ? '0 2px 6px rgba(0,0,0,0.25)' : 'none',
                     display: 'flex',
                     alignItems: 'center',
-                    gap: 5,
+                    gap: 4,
                     transition: 'all .15s ease'
                   }}
                 >
                   <span>{tab.label}</span>
                   <span style={{
-                    fontSize: 10,
-                    padding: '1px 5px',
+                    fontSize: 9,
+                    padding: '1px 4px',
                     borderRadius: 99,
                     background: active ? 'var(--card2)' : 'rgba(255,255,255,0.06)',
                     color: active ? tab.color : 'var(--muted)',
@@ -495,15 +586,44 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
           </div>
 
           <div style={{ display:'flex', alignItems:'center', gap:6 }}>
+            {/* Random / Shuffle and Reset button */}
+            <button
+              className="btn"
+              onClick={handleShuffle}
+              title="Shuffle question order (S)"
+              tabIndex="-1"
+              onFocus={e=>e.currentTarget.blur()}
+              style={{
+                fontSize:12, padding:'4px 8px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                background: isShuffled ? 'rgba(91,141,238,.18)' : undefined,
+                color: isShuffled ? 'var(--primary)' : undefined,
+                borderColor: isShuffled ? 'var(--primary)' : undefined
+              }}
+            >
+              <span>🎲</span> Shuffle
+            </button>
+            {isShuffled && (
+              <button
+                className="btn ghost"
+                onClick={handleResetOrder}
+                title="Reset to original order"
+                tabIndex="-1"
+                onFocus={e=>e.currentTarget.blur()}
+                style={{ fontSize:11, padding:'4px 6px', color:'var(--muted)' }}
+              >
+                ↺ Reset
+              </button>
+            )}
+
             {q && (
               <>
                 <button className="btn" onClick={copyQuestion} title="Copy Question (C)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
-                  style={{ fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700 }}>
+                  style={{ fontSize:12, padding:'4px 8px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700 }}>
                   <span>📋</span> Copy
                 </button>
                 <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
                   style={{
-                    fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                    fontSize:12, padding:'4px 8px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
                     color: isFav ? '#f5a623' : 'var(--muted)',
                     borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
                     background: isFav ? 'rgba(245,166,35,.15)' : 'var(--card2)'
@@ -512,7 +632,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
                 </button>
                 <button className="btn" onClick={toggleDone} title="Toggle Done (D)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}
                   style={{
-                    fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                    fontSize:12, padding:'4px 8px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
                     color: isDone ? '#3ecf8e' : 'var(--muted)',
                     borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
                     background: isDone ? 'rgba(62,207,142,.15)' : 'var(--card2)'
@@ -542,16 +662,22 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
         {!q ? (
           <div style={{ textAlign: 'center', padding: '36px 16px' }}>
             <div style={{ fontSize: 36, marginBottom: 10 }}>
-              {filterMode === 'done' ? '📝' : '🎉'}
+              {filterMode === 'done' ? '📝' : filterMode === 'fav' ? '★' : filterMode === 'weak' ? '⚡' : '🎉'}
             </div>
             <div style={{ fontSize: 16, fontWeight: 800, marginBottom: 6 }}>
-              {filterMode === 'done' ? 'No Solved Questions Yet' : 'All Questions Solved!'}
+              {filterMode === 'done' ? 'No Solved Questions Yet'
+                : filterMode === 'fav' ? 'No Favourites Marked Yet'
+                : filterMode === 'weak' ? 'No Weak Questions Found'
+                : 'All Questions Solved!'}
             </div>
             <div style={{ fontSize: 12, color: 'var(--muted)', marginBottom: 18 }}>
-              {filterMode === 'done' ? 'Mark questions as Done to narrate them here.' : 'Great job! You have solved all questions in this set.'}
+              {filterMode === 'done' ? 'Mark questions as Done to narrate them here.'
+                : filterMode === 'fav' ? 'Star questions as Favourites to narrate them here.'
+                : filterMode === 'weak' ? 'Questions with repeated mistakes will appear here.'
+                : 'Great job! You have solved all questions in this set.'}
             </div>
             <button className="btn primary" onClick={() => handleFilterChange('all')} tabIndex="-1">
-              Narrate All Questions ({allPool.length})
+              Narrate All Questions ({questions.length})
             </button>
           </div>
         ) : (
@@ -559,7 +685,9 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             {/* Progress */}
             <div>
               <div style={{ display:'flex', justifyContent:'space-between', fontSize:11, color:'var(--muted)', marginBottom:5 }}>
-                <span>Q{idx+1} of {currentDeck.length} <span style={{ textTransform:'capitalize', opacity:0.8 }}>({filterMode})</span></span>
+                <span>
+                  Q{idx+1} of {deck.length} <span style={{ textTransform:'capitalize', opacity:0.8 }}>({filterMode}{isShuffled ? ' · 🎲 shuffled' : ''})</span>
+                </span>
                 <span>{Math.round(pct)}%</span>
               </div>
               <div className="narr-progress"><div className="narr-progress-fill" style={{ width:`${pct}%` }}/></div>
@@ -607,8 +735,8 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
               <button className="btn primary" onClick={togglePause} style={{ minWidth:95 }} tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>
                 {paused ? '▶ Resume' : speaking ? '⏸ Pause' : '▶ Play'}
               </button>
-              <button className="btn" onClick={()=>go(+1)} disabled={idx===currentDeck.length-1} title="Next (→)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>▶</button>
-              <button className="btn" onClick={handleRepeat} title="Repeat (R)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>↺ Repeat</button>
+              <button className="btn" onClick={()=>go(+1)} disabled={idx===deck.length-1} title="Next (→)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>▶</button>
+              <button className="btn" onClick={handleRepeat} title="Repeat from beginning (R)" tabIndex="-1" onFocus={e=>e.currentTarget.blur()}>↺ Repeat</button>
 
               <div style={{ width:1, height:20, background:'var(--border2)', margin:'0 2px' }}/>
 
@@ -683,7 +811,7 @@ function NarrationMode({ questions, displaySettings, favIds = new Set(), complet
             </details>
 
             <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
-              Space = play/pause · ← → = navigate · A = answer · F = fav · D = done · C = copy · R = repeat · Esc = close
+              Space = play/pause · ← → = navigate · A = answer · F = fav · D = done · S = shuffle · C = copy · R = repeat · Esc = close
             </div>
           </>
         )}
