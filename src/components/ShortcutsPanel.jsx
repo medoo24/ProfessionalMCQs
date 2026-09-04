@@ -33,6 +33,14 @@ function ShortcutsPanel({ onClose }) {
       ['Enter / →', 'Next question'],
       ['Esc', 'Close exam'],
     ]},
+    { title: 'Narration & TV Mode', items: [
+      ['Space', 'Play / pause audio or slide timer'],
+      ['← →', 'Previous / next question or slide'],
+      ['F', 'Toggle favorite for current question'],
+      ['D', 'Mark done / unsolved for current question'],
+      ['R', 'Repeat narration audio'],
+      ['Esc', 'Close narration / TV mode'],
+    ]},
     { title: 'Global', items: [
       ['Ctrl+K', 'Show keyboard shortcuts'],
       ['Ctrl+R', 'Open report'],

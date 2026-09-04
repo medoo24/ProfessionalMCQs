@@ -145,7 +145,7 @@ function scoreVoice(v) {
   return 0;
 }
 
-function NarrationMode({ questions, displaySettings, onClose }) {
+function NarrationMode({ questions, displaySettings, favIds = new Set(), completedIds = new Set(), onToggleFav, onToggleDone, onClose }) {
   const [idx, setIdx] = useState(0);
   const [speaking, setSpeaking] = useState(false);
   const [paused, setPaused] = useState(false);
@@ -161,8 +161,14 @@ function NarrationMode({ questions, displaySettings, onClose }) {
   const [readOptions, setReadOptions] = useState(true);
   const [readAnswer, setReadAnswer] = useState(true);
   const [readExplanation, setReadExplanation] = useState(true);
+  const [localFavs, setLocalFavs] = useState(() => new Set(favIds));
+  const [localDone, setLocalDone] = useState(() => new Set(completedIds));
+  const [actionFlash, setActionFlash] = useState(null); // {text, color}
   const uttRef = useRef(null);
   const synth = window.speechSynthesis;
+
+  useEffect(() => { setLocalFavs(new Set(favIds)); }, [favIds]);
+  useEffect(() => { setLocalDone(new Set(completedIds)); }, [completedIds]);
 
   const setRate = (v) => {
     setRateState(v);
@@ -177,6 +183,11 @@ function NarrationMode({ questions, displaySettings, onClose }) {
   const setAutoAdvance = (v) => {
     setAutoAdvanceState(v);
     try { localStorage.setItem('pmcq_narr_autoadvance', String(v)); } catch(e) {}
+  };
+
+  const flash = (text, color='#3ecf8e') => {
+    setActionFlash({ text, color });
+    setTimeout(() => setActionFlash(null), 1200);
   };
 
   useEffect(() => {
@@ -206,6 +217,22 @@ function NarrationMode({ questions, displaySettings, onClose }) {
   }, []);
 
   const q = questions[idx];
+
+  const toggleFav = () => {
+    if (!q) return;
+    if (onToggleFav) onToggleFav(q.id);
+    const nextIsFav = !localFavs.has(q.id);
+    setLocalFavs(prev => { const n = new Set(prev); n.has(q.id) ? n.delete(q.id) : n.add(q.id); return n; });
+    flash(nextIsFav ? '★ Added to Fav' : '★ Removed from Fav', '#f5a623');
+  };
+
+  const toggleDone = () => {
+    if (!q) return;
+    if (onToggleDone) onToggleDone(q.id);
+    const nextIsDone = !localDone.has(q.id);
+    setLocalDone(prev => { const n = new Set(prev); n.has(q.id) ? n.delete(q.id) : n.add(q.id); return n; });
+    flash(nextIsDone ? '✓ Marked Done' : '○ Marked Unsolved', '#3ecf8e');
+  };
 
   const buildScript = (q) => {
     let parts = [`Question ${idx + 1} of ${questions.length}. ${q.question}`];
@@ -261,18 +288,22 @@ function NarrationMode({ questions, displaySettings, onClose }) {
 
   useEffect(() => {
     const fn = e => {
-      if (e.key === 'Escape')      onClose();
-      if (e.key === ' ')           { e.preventDefault(); togglePause(); }
-      if (e.key === 'ArrowRight')  go(+1);
-      if (e.key === 'ArrowLeft')   go(-1);
-      if (e.key === 'r' || e.key==='R') speak(buildScript(q));
+      if (e.key === 'Escape')      { onClose(); return; }
+      if (e.key === ' ')           { e.preventDefault(); togglePause(); return; }
+      if (e.key === 'ArrowRight')  { go(+1); return; }
+      if (e.key === 'ArrowLeft')   { go(-1); return; }
+      if (e.key === 'f' || e.key === 'F') { toggleFav(); return; }
+      if (e.key === 'd' || e.key === 'D') { toggleDone(); return; }
+      if (e.key === 'r' || e.key === 'R') { speak(buildScript(q)); return; }
     };
     window.addEventListener('keydown', fn);
     return () => window.removeEventListener('keydown', fn);
-  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices]);
+  }, [idx, rate, pitch, voiceIdx, paused, readOptions, readAnswer, readExplanation, voices, q, localFavs, localDone]);
 
   if (!q) return null;
 
+  const isFav  = localFavs.has(q.id);
+  const isDone = localDone.has(q.id);
   const pct = questions.length > 1 ? (idx / (questions.length - 1)) * 100 : 100;
   const isCorrect = (letter) => q.answerKey && q.answerKey.toUpperCase() === letter;
 
@@ -288,15 +319,49 @@ function NarrationMode({ questions, displaySettings, onClose }) {
 
   return (
     <div className="narr-overlay" onClick={onClose}>
-      <div className="narr-card" onClick={e=>e.stopPropagation()}>
+      <div className="narr-card" onClick={e=>e.stopPropagation()} style={{ position:'relative' }}>
         {/* Header */}
-        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between' }}>
+        <div style={{ display:'flex', alignItems:'center', justifyContent:'space-between', gap:8 }}>
           <div style={{ fontWeight:800, fontSize:16, display:'flex', alignItems:'center', gap:8 }}>
             <span className={speaking && !paused ? 'narr-speaking' : ''}>🔊</span>
             Narration Mode
           </div>
-          <button className="btn ghost" onClick={onClose}>✕</button>
+
+          <div style={{ display:'flex', alignItems:'center', gap:8 }}>
+            <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)"
+              style={{
+                fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                color: isFav ? '#f5a623' : 'var(--muted)',
+                borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
+                background: isFav ? 'rgba(245,166,35,.15)' : 'var(--card2)'
+              }}>
+              <span>{isFav ? '★' : '☆'}</span> Fav
+            </button>
+            <button className="btn" onClick={toggleDone} title="Toggle Done (D)"
+              style={{
+                fontSize:12, padding:'4px 10px', borderRadius:8, display:'flex', alignItems:'center', gap:4, fontWeight:700,
+                color: isDone ? '#3ecf8e' : 'var(--muted)',
+                borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
+                background: isDone ? 'rgba(62,207,142,.15)' : 'var(--card2)'
+              }}>
+              <span>{isDone ? '✓' : '○'}</span> Done
+            </button>
+            <button className="btn ghost" onClick={onClose} style={{ padding:'4px 8px' }}>✕</button>
+          </div>
         </div>
+
+        {/* Action Flash notification */}
+        {actionFlash && (
+          <div style={{
+            position:'absolute', top:'45%', left:'50%', transform:'translate(-50%,-50%)',
+            fontSize:22, fontWeight:800, color:actionFlash.color,
+            background:'rgba(0,0,0,.85)', padding:'12px 28px', borderRadius:14,
+            border:`2px solid ${actionFlash.color}55`, boxShadow:'0 8px 32px rgba(0,0,0,.5)',
+            pointerEvents:'none', animation:'fadeUp .15s ease-out', whiteSpace:'nowrap', zIndex:200
+          }}>
+            {actionFlash.text}
+          </div>
+        )}
 
         {/* Progress */}
         <div>
@@ -346,6 +411,28 @@ function NarrationMode({ questions, displaySettings, onClose }) {
           </button>
           <button className="btn" onClick={()=>go(+1)} disabled={idx===questions.length-1} title="Next (→)">▶</button>
           <button className="btn" onClick={()=>speak(buildScript(q))} title="Repeat (R)">↺ Repeat</button>
+
+          <div style={{ width:1, height:20, background:'var(--border2)', margin:'0 2px' }}/>
+
+          <button className="btn" onClick={toggleFav} title="Toggle Favourite (F)"
+            style={{
+              color: isFav ? '#f5a623' : 'var(--muted)',
+              borderColor: isFav ? 'rgba(245,166,35,.5)' : 'var(--border2)',
+              background: isFav ? 'rgba(245,166,35,.15)' : 'transparent',
+              fontWeight: 700
+            }}>
+            {isFav ? '★' : '☆'} Fav
+          </button>
+          <button className="btn" onClick={toggleDone} title="Toggle Done (D)"
+            style={{
+              color: isDone ? '#3ecf8e' : 'var(--muted)',
+              borderColor: isDone ? 'rgba(62,207,142,.5)' : 'var(--border2)',
+              background: isDone ? 'rgba(62,207,142,.15)' : 'transparent',
+              fontWeight: 700
+            }}>
+            {isDone ? '✓' : '○'} Done
+          </button>
+
           <div style={{ flex:1 }}/>
           <label style={{ display:'flex', alignItems:'center', gap:5, fontSize:12, cursor:'pointer', color:'var(--muted)' }}>
             <input type="checkbox" checked={autoAdvance} onChange={e=>setAutoAdvance(e.target.checked)} style={{accentColor:'var(--primary)'}}/>
@@ -394,7 +481,7 @@ function NarrationMode({ questions, displaySettings, onClose }) {
         </details>
 
         <div style={{ fontSize:10, color:'var(--muted)', textAlign:'center' }}>
-          Space = pause · ← → = navigate · R = repeat · Esc = close
+          Space = pause · ← → = navigate · F = fav · D = done · R = repeat · Esc = close
         </div>
       </div>
     </div>
