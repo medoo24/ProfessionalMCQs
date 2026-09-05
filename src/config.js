@@ -10,6 +10,15 @@ const AVAILABLE_FILES = [
   "data/GIT-Enhanced.json",
   "data/Cardio-1.json",
   "data/Cardio-2.json",
+  "data/Nephro_Academic-1.json",
+  "data/Nephro_IM-1.json",
+  "data/Nephro_Mixes-1.json",
+  "data/Nephro_PED-1.json",
+  "data/Nephro_Sur-1.json",
+  "data/Nephrology_PRO_527_MCQs.json",
+  "data/CardioThoracic_Organized_26_Topics_CONTENT_ONLY.json",
+  "data/Cardiology_pulmonology_424_mcqs.json",
+  "data/CardioPeds_mcqs_134.json",
   "data/Psychiatry.json",
   "data/Psycho.json"
 ];
