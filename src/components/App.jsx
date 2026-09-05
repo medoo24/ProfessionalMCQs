@@ -373,16 +373,44 @@ function App() {
     ];
   };
 
+  const uploadedFilesCache = useRef(new Map());
+
   // ── File loading ──
   const loadFile = (fileName) => {
     if (!fileName) return;
+    save('activeFile', fileName);
+    setActiveFile(fileName);
+    setIsLoading(true); setFetchError(null);
+    setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All');
+
+    // Check memory cache first for locally uploaded/combined files
+    if (uploadedFilesCache.current.has(fileName)) {
+      const cached = uploadedFilesCache.current.get(fileName);
+      const fk = cached.fileKey || fileKeyFrom(fileName);
+      setFileKey(fk);
+      setQuestions(cached.parsed);
+      setAvailableLessons(cached.lessons);
+      setIsLoading(false);
+      setFavIds(new Set(load('favs', [], fk)));
+      setCompletedIds(new Set(load('done', [], fk)));
+      setPinnedIds(new Set(load('pins', [], fk)));
+      setNotes(load('notes', {}, fk));
+      setCustomTags(load('ctags', {}, fk));
+      setSrData(load('sr', {}, fk));
+      setWrongCounts(load('wrong', {}, fk));
+      const savedSets = load('collectionSets', null, fk);
+      const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
+        : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
+      const sys = buildSystemSets(cached.parsed, cached.lessons);
+      setCollectionSets([...sys, ...userSets]);
+      setActiveSetId('set-lessons');
+      showToast(`Loaded ${cached.parsed.length} questions`);
+      return;
+    }
+
     const url = (fileName.startsWith('data/') || fileName.startsWith('http://') || fileName.startsWith('https://') || fileName.startsWith('/'))
       ? fileName
       : 'data/' + fileName;
-    save('activeFile', url);
-    setActiveFile(url);
-    setIsLoading(true); setFetchError(null);
-    setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All');
     fetch(url)
       .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
       .then(text => {
@@ -408,34 +436,135 @@ function App() {
       .catch(err => { setFetchError(`Cannot load "${fileName}". ${err.message}`); setIsLoading(false); });
   };
 
-  const handleFileUpload = (file) => {
-    const reader = new FileReader();
-    reader.onload = e => {
-      const fk = fileKeyFrom(file.name);
-      setFileKey(fk);
-      const { parsed, lessons } = parseTextData(e.target.result, fk);
-      setQuestions(parsed); setAvailableLessons(lessons);
-      save('activeFile', file.name);
-      setActiveFile(file.name); setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All'); setFetchError(null);
-      setFavIds(new Set(load('favs', [], fk)));
-      setCompletedIds(new Set(load('done', [], fk)));
-      setPinnedIds(new Set(load('pins', [], fk)));
-      setNotes(load('notes', {}, fk));
-      setCustomTags(load('ctags', {}, fk));
-      setSrData(load('sr', {}, fk));
-      setWrongCounts(load('wrong', {}, fk));
-      const savedSets = load('collectionSets', null, fk);
-      const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
-        : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
-      const sys = buildSystemSets(parsed, lessons);
-      setCollectionSets([...sys, ...userSets]);
-      setActiveSetId('set-lessons');
-      // Add uploaded file to available list if not already there
-      setAvailableFiles(prev => prev.includes(file.name) ? prev : [file.name, ...prev]);
-      showToast(`Loaded ${parsed.length} questions from "${file.name}"`);
-    };
-    reader.readAsText(file);
+  const readFileAsync = (file) => {
+    return new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = e => resolve({ file, text: e.target.result });
+      reader.onerror = () => reject(new Error(`Failed to read "${file.name}"`));
+      reader.readAsText(file);
+    });
   };
+
+  const handleFileUploads = async (fileInput) => {
+    if (!fileInput) return;
+    const files = Array.isArray(fileInput) ? fileInput : Array.from(fileInput);
+    if (!files.length) return;
+
+    try {
+      setIsLoading(true);
+      const readResults = await Promise.all(files.map(readFileAsync));
+      
+      const parsedFiles = readResults.map(({ file, text }) => {
+        const fk = fileKeyFrom(file.name);
+        const { parsed, lessons } = parseTextData(text, fk);
+        uploadedFilesCache.current.set(file.name, { fileKey: fk, parsed, lessons, text });
+        return { fileName: file.name, fileKey: fk, parsed, lessons, text };
+      });
+
+      if (parsedFiles.length === 1) {
+        // Single file flow
+        const pf = parsedFiles[0];
+        const fk = pf.fileKey;
+        setFileKey(fk);
+        setQuestions(pf.parsed);
+        setAvailableLessons(pf.lessons);
+        save('activeFile', pf.fileName);
+        setActiveFile(pf.fileName);
+        setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All'); setFetchError(null);
+        setFavIds(new Set(load('favs', [], fk)));
+        setCompletedIds(new Set(load('done', [], fk)));
+        setPinnedIds(new Set(load('pins', [], fk)));
+        setNotes(load('notes', {}, fk));
+        setCustomTags(load('ctags', {}, fk));
+        setSrData(load('sr', {}, fk));
+        setWrongCounts(load('wrong', {}, fk));
+        const savedSets = load('collectionSets', null, fk);
+        const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
+          : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
+        const sys = buildSystemSets(pf.parsed, pf.lessons);
+        setCollectionSets([...sys, ...userSets]);
+        setActiveSetId('set-lessons');
+        setAvailableFiles(prev => prev.includes(pf.fileName) ? prev : [pf.fileName, ...prev]);
+        setIsLoading(false);
+        showToast(`Loaded ${pf.parsed.length} questions from "${pf.fileName}"`);
+      } else {
+        // Multi-file combined flow
+        const allParsed = [];
+        const lessonsSet = new Set();
+        const mergedFavs = new Set();
+        const mergedDone = new Set();
+        const mergedPins = new Set();
+        const mergedNotes = {};
+        const mergedTags = {};
+        const mergedSr = {};
+        const mergedWrong = {};
+
+        parsedFiles.forEach(pf => {
+          allParsed.push(...pf.parsed);
+          pf.lessons.forEach(l => lessonsSet.add(l));
+
+          const fFavs = load('favs', [], pf.fileKey) || [];
+          fFavs.forEach(id => mergedFavs.add(id));
+          const fDone = load('done', [], pf.fileKey) || [];
+          fDone.forEach(id => mergedDone.add(id));
+          const fPins = load('pins', [], pf.fileKey) || [];
+          fPins.forEach(id => mergedPins.add(id));
+          Object.assign(mergedNotes, load('notes', {}, pf.fileKey) || {});
+          Object.assign(mergedTags, load('ctags', {}, pf.fileKey) || {});
+          Object.assign(mergedSr, load('sr', {}, pf.fileKey) || {});
+          Object.assign(mergedWrong, load('wrong', {}, pf.fileKey) || {});
+        });
+
+        const combinedName = `Combined (${parsedFiles.length} files)`;
+        const combinedFk = 'combined_' + parsedFiles.map(pf => pf.fileKey).join('_');
+        const allLessons = Array.from(lessonsSet);
+
+        uploadedFilesCache.current.set(combinedName, {
+          fileKey: combinedFk,
+          parsed: allParsed,
+          lessons: allLessons
+        });
+
+        setFileKey(combinedFk);
+        setQuestions(allParsed);
+        setAvailableLessons(allLessons);
+        save('activeFile', combinedName);
+        setActiveFile(combinedName);
+        setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All'); setFetchError(null);
+
+        setFavIds(mergedFavs);
+        setCompletedIds(mergedDone);
+        setPinnedIds(mergedPins);
+        setNotes(mergedNotes);
+        setCustomTags(mergedTags);
+        setSrData(mergedSr);
+        setWrongCounts(mergedWrong);
+
+        const sys = buildSystemSets(allParsed, allLessons);
+        const savedSets = load('collectionSets', null, combinedFk);
+        const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
+          : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
+        setCollectionSets([...sys, ...userSets]);
+        setActiveSetId('set-lessons');
+
+        const newNames = [combinedName, ...parsedFiles.map(pf => pf.fileName)];
+        setAvailableFiles(prev => {
+          const existing = new Set(prev);
+          const toAdd = newNames.filter(n => !existing.has(n));
+          return [...toAdd, ...prev];
+        });
+
+        setIsLoading(false);
+        showToast(`Loaded ${allParsed.length} questions from ${parsedFiles.length} files`);
+      }
+    } catch (err) {
+      console.error(err);
+      setIsLoading(false);
+      setFetchError(`Failed to load files: ${err.message}`);
+    }
+  };
+
+  const handleFileUpload = (file) => handleFileUploads([file]);
 
   useEffect(() => {
     const target = load('activeFile', AVAILABLE_FILES[0] || '');
@@ -761,7 +890,7 @@ function App() {
             </select>
           )}
           <button className="btn" onClick={() => fileInputRef.current?.click()}><I.Upload /><span>Upload</span></button>
-          <input ref={fileInputRef} type="file" accept=".txt,.csv,.tsv,.json" style={{ display: 'none' }} onChange={e => { if (e.target.files[0]) handleFileUpload(e.target.files[0]); }} />
+          <input ref={fileInputRef} type="file" multiple accept=".txt,.csv,.tsv,.json" style={{ display: 'none' }} onChange={e => { if (e.target.files && e.target.files.length > 0) { handleFileUploads(e.target.files); e.target.value = ''; } }} />
         </div>
 
         {/* Right */}
@@ -911,10 +1040,20 @@ function App() {
       {/* ── MAIN ── */}
       <main style={{ flex: 1, maxWidth: 1200, width: '100%', margin: '0 auto', padding: '18px 20px', boxSizing: 'border-box' }}>
         {!isLoading && !fetchError && questions.length === 0 && (
-          <div className={`upload-zone ${isDragOver ? 'drag' : ''} afu`} onDragOver={e => { e.preventDefault(); setIsDragOver(true); }} onDragLeave={() => setIsDragOver(false)} onDrop={e => { e.preventDefault(); setIsDragOver(false); const f = e.dataTransfer.files[0]; if (f) handleFileUpload(f); }} onClick={() => fileInputRef.current?.click()}>
+          <div className={`upload-zone ${isDragOver ? 'drag' : ''} afu`}
+            onDragOver={e => { e.preventDefault(); setIsDragOver(true); }}
+            onDragLeave={() => setIsDragOver(false)}
+            onDrop={e => {
+              e.preventDefault();
+              setIsDragOver(false);
+              const files = Array.from(e.dataTransfer.files || []);
+              if (files.length > 0) handleFileUploads(files);
+            }}
+            onClick={() => fileInputRef.current?.click()}
+          >
             <div style={{ fontSize: 40, marginBottom: 12 }}>📂</div>
-            <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 6 }}>Drop your question file here</div>
-            <div style={{ color: 'var(--muted)', fontSize: 13 }}>or click to browse — supports .txt, .csv, .tsv, .json</div>
+            <div style={{ fontWeight: 700, fontSize: 16, marginBottom: 6 }}>Drop your question file(s) here</div>
+            <div style={{ color: 'var(--muted)', fontSize: 13 }}>or click to browse — select one or multiple .txt, .csv, .tsv, .json files</div>
           </div>
         )}
         {isLoading && (<div style={{ display: 'flex', flexDirection: 'column', gap: 10, maxWidth: 700, margin: '0 auto', paddingTop: 20 }}>{[...Array(6)].map((_, i) => <div key={i} className="shimmer" style={{ height: compact ? 55 : 85, borderRadius: 12 }} />)}</div>)}
