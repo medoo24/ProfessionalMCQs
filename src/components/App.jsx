@@ -851,46 +851,261 @@ function App() {
 
   const exportToPDF = () => {
     if (!visibleQuestions.length) return showToast('Nothing to export', 'warn');
-    const { jsPDF } = window.jspdf;
+    const { jsPDF } = window.jspdf || {};
     if (!jsPDF) return showToast('PDF library not loaded', 'error');
     setIsExporting(true); showToast('Generating PDF...');
     try {
       const showOpts = displaySettings.showOptions, showAns = displaySettings.showAnswer, showExp = displaySettings.showExplanation, showTags = displaySettings.showTags;
       const titleLabel = activeCollId ? collections.find(c => c.id === activeCollId)?.name : activeTab === 'SR Due' ? 'SR Due' : (activeFile || 'Export');
       const doc = new jsPDF({ unit: 'pt', format: 'letter', orientation: 'portrait' });
-      const PW = 612, PH = 792, ML = 48, MR = 48, MT = 48, MB = 48, CW = PW - ML - MR;
-      const BLUE = [46, 95, 173], BLACK = [17, 17, 17], GRAY = [120, 120, 120], DKGRAY = [80, 80, 80], GREEN = [0, 110, 68], RED = [180, 40, 40], DONE = [30, 160, 80], LINE = [220, 220, 220], BGOPT = [245, 250, 255], BGCORRECT = [213, 240, 232];
+      const PW = 612, PH = 792, ML = 44, MR = 44, MT = 44, MB = 44, CW = PW - ML - MR;
+      
+      const PRIMARY = [37, 99, 235];
+      const DARK = [17, 24, 39];
+      const BODY = [31, 41, 55];
+      const MUTED = [107, 114, 128];
+      const LINE = [229, 231, 235];
+      const GREEN = [16, 149, 106];
+      const GREEN_BG = [236, 253, 245];
+      const GREEN_BORDER = [167, 243, 208];
+      const OPT_BG = [248, 250, 252];
+      const OPT_BORDER = [226, 232, 240];
+      const RED = [220, 38, 38];
+      const AMBER = [180, 83, 9];
+      const AMBER_BG = [254, 243, 199];
+
       let y = MT;
-      const checkPage = (need = 16) => { if (y + need > PH - MB) { doc.addPage(); y = MT; } };
-      const wrap = (text, maxW, fontSize) => { doc.setFontSize(fontSize); return doc.splitTextToSize(String(text || ''), maxW); };
-      const textBlock = (lines, x, fontSize, color, opts = {}) => { doc.setFontSize(fontSize); doc.setTextColor(...color); if (opts.bold) doc.setFont('helvetica', 'bold'); else if (opts.italic) doc.setFont('helvetica', 'italic'); else doc.setFont('helvetica', 'normal'); const lh = fontSize * 1.4; lines.forEach(line => { checkPage(lh); doc.text(line, x, y); y += lh; }); if (opts.after) y += opts.after; };
-      doc.setFillColor(...BLUE); doc.rect(ML, y, CW, 2, 'F'); y += 8;
-      textBlock([`QnA Hub — ${titleLabel}`], ML, 18, BLUE, { bold: true, after: 4 });
-      textBlock([`${visibleQuestions.length} questions  ·  ${new Date().toLocaleDateString()}`], ML, 9, GRAY, { after: 16 });
-      doc.setFillColor(...LINE); doc.rect(ML, y, CW, 0.5, 'F'); y += 12;
+      const checkPage = (need = 20) => {
+        if (y + need > PH - MB) {
+          doc.addPage();
+          y = MT;
+          return true;
+        }
+        return false;
+      };
+
+      // Header Bar
+      doc.setFillColor(...PRIMARY);
+      doc.roundedRect(ML, y, CW, 4, 2, 2, 'F');
+      y += 14;
+
+      // Title
+      doc.setFont('helvetica', 'bold');
+      doc.setFontSize(18);
+      doc.setTextColor(...PRIMARY);
+      doc.text(`QnA Hub — ${titleLabel}`, ML, y);
+      y += 18;
+
+      // Subtitle
+      doc.setFont('helvetica', 'normal');
+      doc.setFontSize(9);
+      doc.setTextColor(...MUTED);
+      doc.text(`${visibleQuestions.length} questions  ·  Generated on ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}`, ML, y);
+      y += 12;
+
+      // Separator
+      doc.setDrawColor(...LINE);
+      doc.setLineWidth(1);
+      doc.line(ML, y, ML + CW, y);
+      y += 16;
+
       visibleQuestions.forEach((q, qi) => {
-        checkPage(40);
-        const isDoneQ = completedIds.has(q.id), isWeakQ = weakIds.has(q.id), tag = customTags[q.id] || q.tag, note = notes[q.id];
-        const qLabel = `Q${qNum(q.id)}`; doc.setFillColor(...BLUE); doc.setTextColor(255, 255, 255); doc.setFont('helvetica', 'bold'); doc.setFontSize(9);
-        const badgeW = doc.getTextWidth(qLabel) + 8; doc.roundedRect(ML, y - 9, badgeW, 13, 2, 2, 'F'); doc.text(qLabel, ML + 4, y);
-        const qX = ML + badgeW + 6; const qColor = isDoneQ ? DONE : isWeakQ ? RED : BLACK;
-        const qLines = wrap(q.question, CW - badgeW - 8, 11); doc.setFont('helvetica', 'bold'); doc.setFontSize(11); doc.setTextColor(...qColor);
-        qLines.forEach((line, li) => { if (li > 0) { checkPage(16); doc.text(line, qX, y); y += 15.4; } else { doc.text(line, qX, y); y += 15.4; } }); y += 2;
-        if (q.lesson && q.lesson !== 'General') { checkPage(13); doc.setFont('helvetica', 'italic'); doc.setFontSize(8); doc.setTextColor(...GRAY); doc.text(q.lesson, ML + 4, y); y += 12; }
-        if (showOpts && q.options && q.options.length > 0) { y += 2; q.options.forEach((opt, oi) => { const letter = String.fromCharCode(65 + oi); const isCorrect = showAns && q.answerKey && q.answerKey.toUpperCase() === letter; const optLines = wrap(opt, CW - 30, 10); const rowH = Math.max(18, optLines.length * 14 + 6); checkPage(rowH); doc.setFillColor(...(isCorrect ? BGCORRECT : BGOPT)); doc.rect(ML, y - 11, CW, rowH, 'F'); doc.setFillColor(...(isCorrect ? GREEN : [90, 110, 160])); doc.circle(ML + 9, y - 4, 7, 'F'); doc.setTextColor(255, 255, 255); doc.setFont('helvetica', 'bold'); doc.setFontSize(8); doc.text(letter, ML + 6.5, y - 1); doc.setFont('helvetica', isCorrect ? 'bold' : 'normal'); doc.setFontSize(10); doc.setTextColor(...(isCorrect ? GREEN : DKGRAY)); optLines.forEach((line, li) => { if (li > 0) { checkPage(14); doc.text(line, ML + 22, y); y += 14; } else { doc.text(line, ML + 22, y); } }); y += rowH - (optLines.length - 1) * 14 - 2; }); y += 4; }
-        if (showAns) { const ansLine = (q.answerKey ? q.answerKey + ' — ' : '') + (q.answerText || ''); if (ansLine.trim()) { checkPage(16); doc.setFont('helvetica', 'bold'); doc.setFontSize(9.5); doc.setTextColor(...GREEN); doc.text('Answer: ', ML + 8, y); const labelW = doc.getTextWidth('Answer: '); doc.setFont('helvetica', 'normal'); const aLines = wrap(ansLine, CW - 8 - labelW, 9.5); aLines.forEach((line, li) => { if (li === 0) { doc.text(line, ML + 8 + labelW, y); y += 14; } else { checkPage(14); doc.text(line, ML + 8 + labelW, y); y += 14; } }); y += 2; } }
-        if (showExp && q.explanation) { checkPage(14); const expLines = wrap('Explanation: ' + q.explanation, CW - 8, 9); doc.setFont('helvetica', 'italic'); doc.setFontSize(9); doc.setTextColor(...DKGRAY); expLines.forEach(line => { checkPage(13); doc.text(line, ML + 8, y); y += 13; }); y += 2; }
-        if (showTags && tag) { checkPage(12); doc.setFont('helvetica', 'normal'); doc.setFontSize(8); doc.setTextColor(...GRAY); doc.text(`Tag: ${tag}`, ML + 8, y); y += 12; }
-        if (note) { checkPage(12); const nLines = wrap('Note: ' + note, CW - 8, 8); doc.setFont('helvetica', 'italic'); doc.setFontSize(8); doc.setTextColor(170, 136, 0); nLines.forEach(line => { checkPage(12); doc.text(line, ML + 8, y); y += 12; }); }
-        y += 6;
-        if (qi < visibleQuestions.length - 1) { checkPage(10); doc.setFillColor(...LINE); doc.rect(ML, y, CW, 0.5, 'F'); y += 10; }
+        const isDoneQ = completedIds.has(q.id), isWeakQ = weakIds.has(q.id);
+        const tag = customTags[q.id] || q.tag;
+        const note = notes[q.id];
+        const qLabel = `Q${qNum(q.id)}`;
+
+        // Calculate Question layout
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(9);
+        const badgeW = doc.getTextWidth(qLabel) + 12;
+
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(10.5);
+        const qLines = doc.splitTextToSize(q.question || '', CW - badgeW - 10);
+        const qLineH = 14.5;
+        const qTextH = qLines.length * qLineH;
+        const qBoxH = Math.max(18, qTextH);
+
+        checkPage(qBoxH + 25);
+
+        // Draw Badge
+        doc.setFillColor(...(isDoneQ ? [16, 149, 106] : isWeakQ ? [220, 38, 38] : PRIMARY));
+        doc.roundedRect(ML, y, badgeW, 16, 3, 3, 'F');
+        doc.setTextColor(255, 255, 255);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(9);
+        doc.text(qLabel, ML + 6, y + 11.5);
+
+        // Draw Question Text
+        const qColor = isDoneQ ? [16, 149, 106] : isWeakQ ? RED : DARK;
+        doc.setTextColor(...qColor);
+        doc.setFont('helvetica', 'bold');
+        doc.setFontSize(10.5);
+        qLines.forEach((line, li) => {
+          doc.text(line, ML + badgeW + 8, y + 11.5 + li * qLineH);
+        });
+        y += qBoxH + 4;
+
+        // Lesson Tag
+        if (q.lesson && q.lesson !== 'General') {
+          checkPage(14);
+          doc.setFont('helvetica', 'italic');
+          doc.setFontSize(8.5);
+          doc.setTextColor(...MUTED);
+          doc.text(`[ ${q.lesson} ]`, ML + 4, y + 9);
+          y += 14;
+        }
+
+        // Options
+        if (showOpts && q.options && q.options.length > 0) {
+          y += 2;
+          q.options.forEach((opt, oi) => {
+            const letter = String.fromCharCode(65 + oi);
+            const isCorrect = showAns && q.answerKey && q.answerKey.toUpperCase() === letter;
+            
+            doc.setFont('helvetica', isCorrect ? 'bold' : 'normal');
+            doc.setFontSize(9.5);
+            const optLines = doc.splitTextToSize(opt || '', CW - 36);
+            const optLineH = 13.5;
+            const padY = 5;
+            const rowH = Math.max(20, optLines.length * optLineH + padY * 2);
+
+            checkPage(rowH + 4);
+
+            // Row background
+            doc.setFillColor(...(isCorrect ? GREEN_BG : OPT_BG));
+            doc.setDrawColor(...(isCorrect ? GREEN_BORDER : OPT_BORDER));
+            doc.setLineWidth(0.75);
+            doc.roundedRect(ML, y, CW, rowH, 3, 3, 'FD');
+
+            // Option Letter Circle Badge
+            const circleY = y + padY + 5.5;
+            doc.setFillColor(...(isCorrect ? GREEN : [100, 116, 139]));
+            doc.circle(ML + 12, circleY, 6.5, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(8);
+            doc.text(letter, ML + 9.5, circleY + 2.8);
+
+            // Option Text lines
+            doc.setFont('helvetica', isCorrect ? 'bold' : 'normal');
+            doc.setFontSize(9.5);
+            doc.setTextColor(...(isCorrect ? GREEN : BODY));
+            optLines.forEach((line, li) => {
+              doc.text(line, ML + 26, y + padY + 9 + li * optLineH);
+            });
+
+            y += rowH + 4;
+          });
+          y += 2;
+        }
+
+        // Answer
+        if (showAns) {
+          const ansLine = (q.answerKey ? `Correct Answer: [ Option ${q.answerKey} ] ` : 'Correct Answer: ') + (q.answerText ? `— ${q.answerText}` : '');
+          if (ansLine.trim()) {
+            doc.setFont('helvetica', 'normal');
+            doc.setFontSize(9.5);
+            const aLines = doc.splitTextToSize(ansLine, CW - 16);
+            const aBoxH = aLines.length * 13.5 + 8;
+            checkPage(aBoxH + 4);
+
+            doc.setFillColor(240, 253, 244);
+            doc.setDrawColor(187, 247, 208);
+            doc.setLineWidth(0.5);
+            doc.roundedRect(ML, y, CW, aBoxH, 2, 2, 'FD');
+
+            doc.setFont('helvetica', 'bold');
+            doc.setFontSize(9.5);
+            doc.setTextColor(...GREEN);
+            aLines.forEach((line, li) => {
+              doc.text(line, ML + 8, y + 9.5 + li * 13.5);
+            });
+            y += aBoxH + 4;
+          }
+        }
+
+        // Explanation
+        if (showExp && q.explanation) {
+          doc.setFont('helvetica', 'italic');
+          doc.setFontSize(9);
+          const expLines = doc.splitTextToSize(`Explanation: ${q.explanation}`, CW - 16);
+          const expBoxH = expLines.length * 12.5 + 8;
+          checkPage(expBoxH + 4);
+
+          doc.setFillColor(248, 250, 252);
+          doc.setDrawColor(226, 232, 240);
+          doc.setLineWidth(0.5);
+          doc.roundedRect(ML, y, CW, expBoxH, 2, 2, 'FD');
+
+          doc.setTextColor(...BODY);
+          doc.setFont('helvetica', 'italic');
+          doc.setFontSize(9);
+          expLines.forEach((line, li) => {
+            doc.text(line, ML + 8, y + 9 + li * 12.5);
+          });
+          y += expBoxH + 4;
+        }
+
+        // Tags
+        if (showTags && tag) {
+          checkPage(14);
+          doc.setFont('helvetica', 'normal');
+          doc.setFontSize(8);
+          doc.setTextColor(...MUTED);
+          doc.text(`Tag: ${tag}`, ML + 4, y + 8);
+          y += 12;
+        }
+
+        // Notes
+        if (note) {
+          doc.setFont('helvetica', 'italic');
+          doc.setFontSize(8.5);
+          const noteLines = doc.splitTextToSize(`Note: ${note}`, CW - 16);
+          const noteH = noteLines.length * 12 + 6;
+          checkPage(noteH + 4);
+
+          doc.setFillColor(...AMBER_BG);
+          doc.roundedRect(ML, y, CW, noteH, 2, 2, 'F');
+          doc.setTextColor(...AMBER);
+          noteLines.forEach((line, li) => {
+            doc.text(line, ML + 6, y + 8.5 + li * 12);
+          });
+          y += noteH + 4;
+        }
+
+        // Divider
+        y += 4;
+        if (qi < visibleQuestions.length - 1) {
+          checkPage(14);
+          doc.setDrawColor(...LINE);
+          doc.setLineWidth(0.75);
+          doc.line(ML, y, ML + CW, y);
+          y += 12;
+        }
       });
+
+      // Page numbers & Running Footer
       const pageCount = doc.internal.getNumberOfPages();
-      for (let i = 1; i <= pageCount; i++) { doc.setPage(i); doc.setFont('helvetica', 'normal'); doc.setFontSize(8); doc.setTextColor(...GRAY); doc.text(`${i} / ${pageCount}`, PW / 2, PH - 18, { align: 'center' }); doc.text('QnA Hub', ML, PH - 18); }
+      for (let i = 1; i <= pageCount; i++) {
+        doc.setPage(i);
+        doc.setFont('helvetica', 'normal');
+        doc.setFontSize(8);
+        doc.setTextColor(...MUTED);
+        doc.text(`Page ${i} of ${pageCount}`, PW / 2, PH - 20, { align: 'center' });
+        doc.text('QnA Hub', ML, PH - 20);
+        doc.text(new Date().toLocaleDateString(), PW - MR, PH - 20, { align: 'right' });
+      }
+
       doc.save(`QnA_${(titleLabel || 'export').replace(/[^a-z0-9]/gi, '_')}.pdf`);
       showToast('PDF exported! ✓');
-    } catch (err) { console.error('PDF error', err); showToast('PDF failed: ' + err.message, 'error'); }
-    finally { setIsExporting(false); }
+    } catch (err) {
+      console.error('PDF error', err);
+      showToast('PDF failed: ' + err.message, 'error');
+    } finally {
+      setIsExporting(false);
+    }
   };
 
   // ── Tabs ──
