@@ -30,7 +30,7 @@ function ThemePicker({ theme, setTheme }) {
       {open&&(
         <div style={{position:'absolute',top:'calc(100% + 6px)',right:0,
           background:'var(--card)',border:'1px solid var(--border2)',borderRadius:'var(--r)',
-          boxShadow:'var(--shadowl)',zIndex:500,overflow:'hidden',minWidth:170,animation:'fadeUp .15s ease-out'}}>
+          boxShadow:'var(--shadowl)',zIndex:500,overflowY:'auto',maxHeight:'80vh',minWidth:190,animation:'fadeUp .15s ease-out'}}>
           {/* Static themes */}
           <div style={{padding:'6px 10px 3px',fontSize:10,fontWeight:700,color:'var(--muted)',
             textTransform:'uppercase',letterSpacing:'.07em'}}>Themes</div>

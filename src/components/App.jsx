@@ -81,6 +81,14 @@ function App() {
   const [syncStatus, setSyncStatus] = React.useState('local'); // 'local'|'idle'|'syncing'|'error'|'offline'
   const [lastSynced, setLastSynced] = React.useState(null);
   const [availableFiles, setAvailableFiles] = React.useState(AVAILABLE_FILES);
+  const [selectedFiles, setSelectedFiles] = useState(() => {
+    const saved = load('selectedFiles', null);
+    if (saved && Array.isArray(saved) && saved.length) return new Set(saved);
+    const single = load('activeFile', AVAILABLE_FILES[0] || '');
+    return new Set(single ? [single] : [AVAILABLE_FILES[0]]);
+  });
+  const [fileDDOpen, setFileDDOpen] = useState(false);
+  const [filesCountMap, setFilesCountMap] = useState({});
 
   // ── File & data ──
   const initFile = load('activeFile', AVAILABLE_FILES[0] || '');
@@ -159,6 +167,7 @@ function App() {
   const sessionStartRef = useRef(Date.now());
   const searchRef = useRef(null);
   const fileInputRef = useRef(null);
+  const fileDDRef = useRef(null);
   const searchDebRef = useRef(null);
   const lessonDDRef = useRef(null);
   const tagDDRef = useRef(null);
@@ -168,13 +177,6 @@ function App() {
     discoverDataFiles().then(files => {
       if (files && files.length) {
         setAvailableFiles(files);
-        const lastSaved = load('activeFile', null);
-        const targetFile = (lastSaved && files.includes(lastSaved))
-          ? lastSaved
-          : (activeFile && files.includes(activeFile) ? activeFile : files[0]);
-        if (targetFile) {
-          loadFile(targetFile);
-        }
       }
     });
   }, []);
@@ -244,6 +246,7 @@ function App() {
   // ── Close dropdowns on outside click ──
   useEffect(() => {
     const handler = e => {
+      if (fileDDRef.current && !fileDDRef.current.contains(e.target)) setFileDDOpen(false);
       if (lessonDDRef.current && !lessonDDRef.current.contains(e.target)) setLessonDDOpen(false);
       if (tagDDRef.current && !tagDDRef.current.contains(e.target)) setTagDDOpen(false);
     };
@@ -254,14 +257,41 @@ function App() {
   const weakIds = useMemo(() => new Set(Object.entries(wrongCounts).filter(([, c]) => c >= 3).map(([id]) => id)), [wrongCounts]);
   const collections = useMemo(() => collectionSets.flatMap(s => s.colls), [collectionSets]);
 
-  // ── Persistence ──
-  useEffect(() => save('favs', Array.from(favIds), fileKey), [favIds, fileKey]);
-  useEffect(() => save('done', Array.from(completedIds), fileKey), [completedIds, fileKey]);
-  useEffect(() => save('pins', Array.from(pinnedIds), fileKey), [pinnedIds, fileKey]);
-  useEffect(() => save('notes', notes, fileKey), [notes, fileKey]);
-  useEffect(() => save('ctags', customTags, fileKey), [customTags, fileKey]);
-  useEffect(() => save('sr', srData, fileKey), [srData, fileKey]);
-  useEffect(() => save('wrong', wrongCounts, fileKey), [wrongCounts, fileKey]);
+  // ── Partitioned Status Persistence ──
+  // Saves per-file data to current composite key AND synchronizes to each source file's dedicated namespace
+  const syncPartition = useCallback((key, data) => {
+    save(key, data, fileKey);
+
+    const sourceFks = new Set();
+    questions.forEach(q => {
+      if (q.fileKey) sourceFks.add(q.fileKey);
+      else if (q.id && q.id.includes('__')) sourceFks.add(q.id.split('__')[0]);
+    });
+
+    if (sourceFks.size > 0) {
+      sourceFks.forEach(fk => {
+        if (Array.isArray(data)) {
+          const fileIds = data.filter(id => id.startsWith(fk + '__'));
+          save(key, fileIds, fk);
+        } else if (data && typeof data === 'object') {
+          const fileMap = {};
+          Object.entries(data).forEach(([id, val]) => {
+            if (id.startsWith(fk + '__')) fileMap[id] = val;
+          });
+          save(key, fileMap, fk);
+        }
+        if (authUser?.uid) pushToCloud(authUser.uid, fk);
+      });
+    }
+  }, [fileKey, questions, authUser]);
+
+  useEffect(() => syncPartition('favs', Array.from(favIds)), [favIds, syncPartition]);
+  useEffect(() => syncPartition('done', Array.from(completedIds)), [completedIds, syncPartition]);
+  useEffect(() => syncPartition('pins', Array.from(pinnedIds)), [pinnedIds, syncPartition]);
+  useEffect(() => syncPartition('notes', notes), [notes, syncPartition]);
+  useEffect(() => syncPartition('ctags', customTags), [customTags, syncPartition]);
+  useEffect(() => syncPartition('sr', srData), [srData, syncPartition]);
+  useEffect(() => syncPartition('wrong', wrongCounts), [wrongCounts, syncPartition]);
   useEffect(() => save('collectionSets', collectionSets, fileKey), [collectionSets, fileKey]);
   useEffect(() => save('tvHistory', tvHistory), [tvHistory]);
   useEffect(() => save('sessions', sessions), [sessions]);
@@ -273,7 +303,7 @@ function App() {
   // ── Theme ──
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', theme);
-    ['aurora', 'synthwave', 'galaxy', 'candy'].forEach(t => document.body.classList.remove('live-' + t));
+    document.body.className = document.body.className.replace(/\blive-\S+/g, '').trim();
     const td = THEMES.find(t => t.id === theme);
     if (td?.live) document.body.classList.add('live-' + theme);
   }, [theme]);
@@ -375,65 +405,154 @@ function App() {
 
   const uploadedFilesCache = useRef(new Map());
 
-  // ── File loading ──
-  const loadFile = (fileName) => {
-    if (!fileName) return;
-    save('activeFile', fileName);
-    setActiveFile(fileName);
-    setIsLoading(true); setFetchError(null);
-    setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All');
-
-    // Check memory cache first for locally uploaded/combined files
+  // Helper to fetch or read parsed file from cache or network
+  const fetchOrGetParsedFile = async (fileName) => {
     if (uploadedFilesCache.current.has(fileName)) {
-      const cached = uploadedFilesCache.current.get(fileName);
-      const fk = cached.fileKey || fileKeyFrom(fileName);
-      setFileKey(fk);
-      setQuestions(cached.parsed);
-      setAvailableLessons(cached.lessons);
-      setIsLoading(false);
-      setFavIds(new Set(load('favs', [], fk)));
-      setCompletedIds(new Set(load('done', [], fk)));
-      setPinnedIds(new Set(load('pins', [], fk)));
-      setNotes(load('notes', {}, fk));
-      setCustomTags(load('ctags', {}, fk));
-      setSrData(load('sr', {}, fk));
-      setWrongCounts(load('wrong', {}, fk));
-      const savedSets = load('collectionSets', null, fk);
-      const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
-        : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
-      const sys = buildSystemSets(cached.parsed, cached.lessons);
-      setCollectionSets([...sys, ...userSets]);
-      setActiveSetId('set-lessons');
-      showToast(`Loaded ${cached.parsed.length} questions`);
-      return;
+      return uploadedFilesCache.current.get(fileName);
     }
-
     const url = (fileName.startsWith('data/') || fileName.startsWith('http://') || fileName.startsWith('https://') || fileName.startsWith('/'))
       ? fileName
       : 'data/' + fileName;
-    fetch(url)
-      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.text(); })
-      .then(text => {
-        const fk = fileKeyFrom(fileName);
-        setFileKey(fk);
-        const { parsed, lessons } = parseTextData(text, fk);
-        setQuestions(parsed); setAvailableLessons(lessons); setIsLoading(false);
-        setFavIds(new Set(load('favs', [], fk)));
-        setCompletedIds(new Set(load('done', [], fk)));
-        setPinnedIds(new Set(load('pins', [], fk)));
-        setNotes(load('notes', {}, fk));
-        setCustomTags(load('ctags', {}, fk));
-        setSrData(load('sr', {}, fk));
-        setWrongCounts(load('wrong', {}, fk));
-        const savedSets = load('collectionSets', null, fk);
-        const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
-          : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
-        const sys = buildSystemSets(parsed, lessons);
-        setCollectionSets([...sys, ...userSets]);
-        setActiveSetId('set-lessons');
-        showToast(`Loaded ${parsed.length} questions`);
-      })
-      .catch(err => { setFetchError(`Cannot load "${fileName}". ${err.message}`); setIsLoading(false); });
+    const r = await fetch(url);
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const text = await r.text();
+    const fk = fileKeyFrom(fileName);
+    const { parsed, lessons } = parseTextData(text, fk);
+    const data = { fileName, fileKey: fk, parsed, lessons, text };
+    uploadedFilesCache.current.set(fileName, data);
+    setFilesCountMap(prev => ({ ...prev, [fileName]: parsed.length }));
+    return data;
+  };
+
+  // Pre-load question counts for all available files so dropdown badges show counts
+  useEffect(() => {
+    availableFiles.forEach(f => {
+      if (!filesCountMap[f] && !f.startsWith('Combined')) {
+        fetchOrGetParsedFile(f).catch(() => {});
+      }
+    });
+  }, [availableFiles]);
+
+  // Main unified file loading engine for any combination of selected files
+  const loadSelectedFiles = async (filesSet) => {
+    const list = Array.from(filesSet || []).filter(Boolean);
+    if (!list.length) {
+      if (availableFiles.length) {
+        list.push(availableFiles[0]);
+      } else {
+        return;
+      }
+    }
+
+    setIsLoading(true);
+    setFetchError(null);
+    setSearchQuery('');
+    setDSearch('');
+    setSelectedLessons(new Set());
+    setSelectedTags(new Set());
+    setCollapsedIds(new Set());
+    setActiveTab('All');
+
+    try {
+      const parsedResults = await Promise.all(list.map(f => fetchOrGetParsedFile(f)));
+
+      const allParsed = [];
+      const lessonsSet = new Set();
+      const mergedFavs = new Set();
+      const mergedDone = new Set();
+      const mergedPins = new Set();
+      const mergedNotes = {};
+      const mergedTags = {};
+      const mergedSr = {};
+      const mergedWrong = {};
+
+      parsedResults.forEach(pf => {
+        allParsed.push(...pf.parsed);
+        pf.lessons.forEach(l => lessonsSet.add(l));
+
+        const fFavs = load('favs', [], pf.fileKey) || [];
+        fFavs.forEach(id => mergedFavs.add(id));
+        const fDone = load('done', [], pf.fileKey) || [];
+        fDone.forEach(id => mergedDone.add(id));
+        const fPins = load('pins', [], pf.fileKey) || [];
+        fPins.forEach(id => mergedPins.add(id));
+        Object.assign(mergedNotes, load('notes', {}, pf.fileKey) || {});
+        Object.assign(mergedTags, load('ctags', {}, pf.fileKey) || {});
+        Object.assign(mergedSr, load('sr', {}, pf.fileKey) || {});
+        Object.assign(mergedWrong, load('wrong', {}, pf.fileKey) || {});
+      });
+
+      const allLessons = Array.from(lessonsSet);
+      const isSingle = parsedResults.length === 1;
+      const effectiveFk = isSingle ? parsedResults[0].fileKey : ('mix_' + parsedResults.map(p => p.fileKey).join('_'));
+      const activeName = isSingle ? parsedResults[0].fileName : `Combined (${parsedResults.length} files)`;
+
+      setFileKey(effectiveFk);
+      setQuestions(allParsed);
+      setAvailableLessons(allLessons);
+      setActiveFile(activeName);
+      save('activeFile', activeName);
+      save('selectedFiles', list);
+
+      setFavIds(mergedFavs);
+      setCompletedIds(mergedDone);
+      setPinnedIds(mergedPins);
+      setNotes(mergedNotes);
+      setCustomTags(mergedTags);
+      setSrData(mergedSr);
+      setWrongCounts(mergedWrong);
+
+      const sys = buildSystemSets(allParsed, allLessons);
+      const savedSets = load('collectionSets', null, effectiveFk);
+      const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
+        : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
+      setCollectionSets([...sys, ...userSets]);
+      setActiveSetId('set-lessons');
+
+      setIsLoading(false);
+      showToast(isSingle
+        ? `Loaded ${allParsed.length} questions from "${parsedResults[0].fileName.split('/').pop()}"`
+        : `Loaded ${allParsed.length} questions from ${parsedResults.length} banks`);
+    } catch (err) {
+      console.error(err);
+      setIsLoading(false);
+      setFetchError(`Cannot load selected file(s). ${err.message}`);
+    }
+  };
+
+  const loadFile = (fileName) => {
+    const next = new Set([fileName]);
+    setSelectedFiles(next);
+    loadSelectedFiles(next);
+  };
+
+  const toggleFileSelect = (fileName) => {
+    setSelectedFiles(prev => {
+      const next = new Set(prev);
+      if (next.has(fileName)) {
+        if (next.size <= 1) {
+          showToast('At least one bank file must remain selected', 'warn');
+          return prev;
+        }
+        next.delete(fileName);
+      } else {
+        next.add(fileName);
+      }
+      loadSelectedFiles(next);
+      return next;
+    });
+  };
+
+  const selectAllFiles = () => {
+    const next = new Set(availableFiles);
+    setSelectedFiles(next);
+    loadSelectedFiles(next);
+  };
+
+  const clearAllFiles = () => {
+    const next = new Set([availableFiles[0]]);
+    setSelectedFiles(next);
+    loadSelectedFiles(next);
   };
 
   const readFileAsync = (file) => {
@@ -454,123 +573,39 @@ function App() {
       setIsLoading(true);
       const readResults = await Promise.all(files.map(readFileAsync));
       
-      const parsedFiles = readResults.map(({ file, text }) => {
+      const newFileNames = [];
+      readResults.forEach(({ file, text }) => {
         const fk = fileKeyFrom(file.name);
         const { parsed, lessons } = parseTextData(text, fk);
-        uploadedFilesCache.current.set(file.name, { fileKey: fk, parsed, lessons, text });
-        return { fileName: file.name, fileKey: fk, parsed, lessons, text };
+        uploadedFilesCache.current.set(file.name, { fileName: file.name, fileKey: fk, parsed, lessons, text });
+        setFilesCountMap(prev => ({ ...prev, [file.name]: parsed.length }));
+        newFileNames.push(file.name);
       });
 
-      if (parsedFiles.length === 1) {
-        // Single file flow
-        const pf = parsedFiles[0];
-        const fk = pf.fileKey;
-        setFileKey(fk);
-        setQuestions(pf.parsed);
-        setAvailableLessons(pf.lessons);
-        save('activeFile', pf.fileName);
-        setActiveFile(pf.fileName);
-        setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All'); setFetchError(null);
-        setFavIds(new Set(load('favs', [], fk)));
-        setCompletedIds(new Set(load('done', [], fk)));
-        setPinnedIds(new Set(load('pins', [], fk)));
-        setNotes(load('notes', {}, fk));
-        setCustomTags(load('ctags', {}, fk));
-        setSrData(load('sr', {}, fk));
-        setWrongCounts(load('wrong', {}, fk));
-        const savedSets = load('collectionSets', null, fk);
-        const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
-          : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
-        const sys = buildSystemSets(pf.parsed, pf.lessons);
-        setCollectionSets([...sys, ...userSets]);
-        setActiveSetId('set-lessons');
-        setAvailableFiles(prev => prev.includes(pf.fileName) ? prev : [pf.fileName, ...prev]);
-        setIsLoading(false);
-        showToast(`Loaded ${pf.parsed.length} questions from "${pf.fileName}"`);
-      } else {
-        // Multi-file combined flow
-        const allParsed = [];
-        const lessonsSet = new Set();
-        const mergedFavs = new Set();
-        const mergedDone = new Set();
-        const mergedPins = new Set();
-        const mergedNotes = {};
-        const mergedTags = {};
-        const mergedSr = {};
-        const mergedWrong = {};
+      setAvailableFiles(prev => {
+        const existing = new Set(prev);
+        const toAdd = newFileNames.filter(n => !existing.has(n));
+        return [...toAdd, ...prev];
+      });
 
-        parsedFiles.forEach(pf => {
-          allParsed.push(...pf.parsed);
-          pf.lessons.forEach(l => lessonsSet.add(l));
-
-          const fFavs = load('favs', [], pf.fileKey) || [];
-          fFavs.forEach(id => mergedFavs.add(id));
-          const fDone = load('done', [], pf.fileKey) || [];
-          fDone.forEach(id => mergedDone.add(id));
-          const fPins = load('pins', [], pf.fileKey) || [];
-          fPins.forEach(id => mergedPins.add(id));
-          Object.assign(mergedNotes, load('notes', {}, pf.fileKey) || {});
-          Object.assign(mergedTags, load('ctags', {}, pf.fileKey) || {});
-          Object.assign(mergedSr, load('sr', {}, pf.fileKey) || {});
-          Object.assign(mergedWrong, load('wrong', {}, pf.fileKey) || {});
-        });
-
-        const combinedName = `Combined (${parsedFiles.length} files)`;
-        const combinedFk = 'combined_' + parsedFiles.map(pf => pf.fileKey).join('_');
-        const allLessons = Array.from(lessonsSet);
-
-        uploadedFilesCache.current.set(combinedName, {
-          fileKey: combinedFk,
-          parsed: allParsed,
-          lessons: allLessons
-        });
-
-        setFileKey(combinedFk);
-        setQuestions(allParsed);
-        setAvailableLessons(allLessons);
-        save('activeFile', combinedName);
-        setActiveFile(combinedName);
-        setSearchQuery(''); setDSearch(''); setSelectedLessons(new Set()); setSelectedTags(new Set()); setCollapsedIds(new Set()); setActiveTab('All'); setFetchError(null);
-
-        setFavIds(mergedFavs);
-        setCompletedIds(mergedDone);
-        setPinnedIds(mergedPins);
-        setNotes(mergedNotes);
-        setCustomTags(mergedTags);
-        setSrData(mergedSr);
-        setWrongCounts(mergedWrong);
-
-        const sys = buildSystemSets(allParsed, allLessons);
-        const savedSets = load('collectionSets', null, combinedFk);
-        const userSets = savedSets ? savedSets.filter(s => s.type === 'user')
-          : [{ id: 'set-user-1', name: 'My Collections', type: 'user', colls: [] }];
-        setCollectionSets([...sys, ...userSets]);
-        setActiveSetId('set-lessons');
-
-        const newNames = [combinedName, ...parsedFiles.map(pf => pf.fileName)];
-        setAvailableFiles(prev => {
-          const existing = new Set(prev);
-          const toAdd = newNames.filter(n => !existing.has(n));
-          return [...toAdd, ...prev];
-        });
-
-        setIsLoading(false);
-        showToast(`Loaded ${allParsed.length} questions from ${parsedFiles.length} files`);
-      }
+      const nextSelection = new Set([...selectedFiles, ...newFileNames]);
+      setSelectedFiles(nextSelection);
+      await loadSelectedFiles(nextSelection);
     } catch (err) {
       console.error(err);
       setIsLoading(false);
-      setFetchError(`Failed to load files: ${err.message}`);
+      setFetchError(`Failed to upload files: ${err.message}`);
     }
   };
 
   const handleFileUpload = (file) => handleFileUploads([file]);
 
   useEffect(() => {
-    const target = load('activeFile', AVAILABLE_FILES[0] || '');
-    if (target && availableFiles.includes(target) && !questions.length) {
-      loadFile(target);
-    }
+    const saved = load('selectedFiles', null);
+    const initialSet = (saved && Array.isArray(saved) && saved.length)
+      ? new Set(saved)
+      : new Set([load('activeFile', AVAILABLE_FILES[0] || '') || AVAILABLE_FILES[0]]);
+    loadSelectedFiles(initialSet);
   }, []);
 
   // ── Toggles ──
@@ -882,14 +917,49 @@ function App() {
           {streak > 0 && <span title={`${streak} day streak!`} style={{ fontSize: 12, display: 'flex', alignItems: 'center', gap: 3, color: 'var(--yellow)' }}><I.Flame />×{streak}</span>}
         </div>
 
-        {/* Middle */}
+        {/* Middle: Multi-Bank Selector & Upload */}
         <div style={{ display: 'flex', alignItems: 'center', gap: 8, flex: 1, margin: '0 12px', maxWidth: 480 }}>
-          {availableFiles.length > 1 && (
-            <select className="input" style={{ maxWidth: 200 }} value={activeFile} onChange={e => { setActiveFile(e.target.value); loadFile(e.target.value); }}>
-              {availableFiles.map(f => <option key={f} value={f}>{f.split('/').pop()}</option>)}
-            </select>
-          )}
-          <button className="btn" onClick={() => fileInputRef.current?.click()}><I.Upload /><span>Upload</span></button>
+          <div ref={fileDDRef} style={{ position: 'relative', flex: 1, minWidth: 170 }}>
+            <button
+              className="btn"
+              onClick={() => setFileDDOpen(v => !v)}
+              style={{ width: '100%', justifyContent: 'space-between', padding: '6px 10px', fontSize: 12, gap: 6 }}
+              title="Select Question Bank Files"
+            >
+              <div style={{ display: 'flex', alignItems: 'center', gap: 6, overflow: 'hidden' }}>
+                <I.Folder />
+                <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', fontWeight: 700 }}>
+                  {selectedFiles.size === 1
+                    ? (Array.from(selectedFiles)[0].split('/').pop().replace(/\.(json|txt|csv|tsv)$/i, ''))
+                    : selectedFiles.size === availableFiles.length
+                      ? `All Banks (${selectedFiles.size})`
+                      : `${selectedFiles.size} Banks Mixed`}
+                </span>
+              </div>
+              <div style={{ display: 'flex', alignItems: 'center', gap: 4, flexShrink: 0 }}>
+                {questions.length > 0 && (
+                  <span style={{ fontSize: 10, fontFamily: 'var(--mono)', opacity: 0.8, background: 'var(--card2)', padding: '1px 5px', borderRadius: 4 }}>
+                    {questions.length} Qs
+                  </span>
+                )}
+                <I.Cd />
+              </div>
+            </button>
+            {fileDDOpen && (
+              <FileFilterPanel
+                availableFiles={availableFiles}
+                selectedFiles={selectedFiles}
+                onToggle={toggleFileSelect}
+                onSelectAll={selectAllFiles}
+                onClearAll={clearAllFiles}
+                onUploadClick={() => { setFileDDOpen(false); fileInputRef.current?.click(); }}
+                filesCountMap={filesCountMap}
+              />
+            )}
+          </div>
+          <button className="btn" onClick={() => fileInputRef.current?.click()} title="Upload question bank file(s)">
+            <I.Upload /><span>Upload</span>
+          </button>
           <input ref={fileInputRef} type="file" multiple accept=".txt,.csv,.tsv,.json" style={{ display: 'none' }} onChange={e => { if (e.target.files && e.target.files.length > 0) { handleFileUploads(e.target.files); e.target.value = ''; } }} />
         </div>
 

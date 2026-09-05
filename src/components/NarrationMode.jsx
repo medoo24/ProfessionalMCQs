@@ -1,8 +1,123 @@
 const { useState, useEffect, useRef, useMemo, useCallback, memo } = React;
 // ═══════════════════════════════════════════════════════════════════════
 // NarrationMode.jsx — Text-to-speech narration mode
-// Also includes: LessonFilterPanel, TagFilterPanel helper components
+// Also includes: FileFilterPanel, LessonFilterPanel, TagFilterPanel helper components
 // ═══════════════════════════════════════════════════════════════════════
+
+function FileFilterPanel({ availableFiles, selectedFiles, onToggle, onSelectAll, onClearAll, onUploadClick, filesCountMap = {} }) {
+  const [q, setQ] = useState('');
+  const inputRef = useRef(null);
+  useEffect(() => { setTimeout(() => inputRef.current?.focus(), 50); }, []);
+
+  const cleanName = f => f.replace(/^data\//, '').replace(/\.(json|txt|csv|tsv)$/i, '');
+
+  const filtered = useMemo(() => {
+    if (!q.trim()) return availableFiles;
+    const lo = q.toLowerCase();
+    return availableFiles.filter(f => f.toLowerCase().includes(lo) || cleanName(f).toLowerCase().includes(lo));
+  }, [availableFiles, q]);
+
+  return (
+    <div className="dropdown" style={{ width: 320, padding: 0, overflow: 'hidden', maxHeight: '80vh', display: 'flex', flexDirection: 'column' }}>
+      {/* Header / Search */}
+      <div style={{ padding: '8px 10px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 6, flexShrink: 0 }}>
+        <I.Search />
+        <input
+          ref={inputRef}
+          value={q}
+          onChange={e => setQ(e.target.value)}
+          placeholder="Filter question banks…"
+          style={{ flex: 1, background: 'none', border: 'none', outline: 'none', fontSize: 13, color: 'var(--text)', fontFamily: 'var(--font)' }}
+        />
+        {q && <button onClick={() => setQ('')} style={{ background: 'none', border: 'none', cursor: 'pointer', color: 'var(--muted)', padding: 0, lineHeight: 1 }}><I.X s={12} /></button>}
+      </div>
+
+      {/* Action shortcuts */}
+      <div style={{ padding: '6px 12px', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: 'var(--card2)', fontSize: 11, flexShrink: 0 }}>
+        <span style={{ color: 'var(--muted)', fontWeight: 600 }}>
+          {selectedFiles.size} of {availableFiles.length} bank(s) active
+        </span>
+        <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
+          <button
+            onClick={onSelectAll}
+            style={{ background: 'none', border: 'none', color: 'var(--primary)', fontWeight: 700, cursor: 'pointer', fontSize: 11, padding: 0 }}
+          >
+            Select All
+          </button>
+          <span style={{ color: 'var(--border2)' }}>|</span>
+          <button
+            onClick={onClearAll}
+            style={{ background: 'none', border: 'none', color: 'var(--red)', fontWeight: 700, cursor: 'pointer', fontSize: 11, padding: 0 }}
+          >
+            Reset
+          </button>
+        </div>
+      </div>
+
+      {/* Scrollable File List */}
+      <div style={{ maxHeight: 280, overflowY: 'auto', flex: 1 }}>
+        {filtered.length === 0 && <div style={{ padding: '12px 14px', fontSize: 12, color: 'var(--muted)', textAlign: 'center' }}>No matching bank files</div>}
+        {filtered.map(f => {
+          const isSel = selectedFiles.has(f);
+          const count = filesCountMap[f];
+          return (
+            <div
+              key={f}
+              className="dd-item"
+              onClick={() => onToggle(f)}
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: 8,
+                padding: '8px 12px',
+                cursor: 'pointer',
+                background: isSel ? 'var(--pg)' : undefined,
+                transition: 'background .1s'
+              }}
+            >
+              <input
+                type="checkbox"
+                checked={isSel}
+                onChange={() => {}}
+                style={{ accentColor: 'var(--primary)', cursor: 'pointer', flexShrink: 0 }}
+              />
+              <span
+                style={{
+                  flex: 1,
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  whiteSpace: 'nowrap',
+                  fontSize: 12,
+                  fontWeight: isSel ? 700 : 500,
+                  color: isSel ? 'var(--primary)' : 'var(--text)'
+                }}
+                title={f}
+              >
+                {cleanName(f)}
+              </span>
+              {count !== undefined && (
+                <span style={{ fontFamily: 'var(--mono)', fontSize: 10, color: isSel ? 'var(--primary)' : 'var(--muted)', background: 'var(--card2)', padding: '1px 5px', borderRadius: 4, flexShrink: 0, border: '1px solid var(--border)' }}>
+                  {count} Qs
+                </span>
+              )}
+            </div>
+          );
+        })}
+      </div>
+
+      {/* Upload button at bottom */}
+      <div style={{ padding: '6px 10px', borderTop: '1px solid var(--border)', background: 'var(--card2)', display: 'flex', justifyContent: 'center', flexShrink: 0 }}>
+        <button
+          className="btn ghost"
+          onClick={onUploadClick}
+          style={{ width: '100%', fontSize: 11, padding: '5px 8px', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 6, color: 'var(--primary)' }}
+        >
+          <I.Upload /> <span>+ Upload More Files</span>
+        </button>
+      </div>
+    </div>
+  );
+}
 
 function LessonFilterPanel({ availableLessons, selectedLessons, onToggle, onClear }) {
   const [q, setQ] = useState('');
