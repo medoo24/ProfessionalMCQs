@@ -10,13 +10,17 @@ function serveDataAndAssetsPlugin(): Plugin {
       server.middlewares.use((req, res, next) => {
         if (!req.url) return next();
 
+        // Rewrite root requests to index.source.html in dev server
+        if (req.url === '/' || req.url === '/index.html') {
+          req.url = '/index.source.html';
+        }
+
         // 1. Data folder requests
         if (req.url.startsWith('/data/') || req.url === '/data' || req.url === '/data/') {
           const relativePath = decodeURIComponent(req.url.replace(/^\/data\/?/, ''));
           const dataDir = path.resolve(__dirname, 'data');
 
           if (!relativePath) {
-            // Return HTML directory listing to emulate Python http.server for discoverDataFiles()
             try {
               const files = fs.readdirSync(dataDir);
               const links = files.map(f => `<a href="${f}">${f}</a>`).join('<br>\n');
@@ -72,6 +76,13 @@ function serveDataAndAssetsPlugin(): Plugin {
         fs.cpSync(dataSrc, dataDest, { recursive: true });
       }
 
+      // Ensure dist/index.html is created from dist/index.source.html
+      const distSourceHtml = path.resolve(__dirname, 'dist', 'index.source.html');
+      const distIndexHtml = path.resolve(__dirname, 'dist', 'index.html');
+      if (fs.existsSync(distSourceHtml)) {
+        fs.copyFileSync(distSourceHtml, distIndexHtml);
+      }
+
       // Copy sw.js, manifest.json, icon.svg to dist/
       ['sw.js', 'manifest.json', 'icon.svg'].forEach(file => {
         const src = path.resolve(__dirname, file);
@@ -87,6 +98,16 @@ function serveDataAndAssetsPlugin(): Plugin {
       if (fs.existsSync(distDir)) {
         fs.cpSync(distDir, docsDest, { recursive: true });
       }
+
+      // Mirror dist/assets to root assets/ and dist/index.html to root index.html for root branch deployment
+      const distAssets = path.resolve(__dirname, 'dist', 'assets');
+      const rootAssets = path.resolve(__dirname, 'assets');
+      if (fs.existsSync(distAssets)) {
+        fs.cpSync(distAssets, rootAssets, { recursive: true });
+      }
+      if (fs.existsSync(distIndexHtml)) {
+        fs.copyFileSync(distIndexHtml, path.resolve(__dirname, 'index.html'));
+      }
     },
   };
 }
@@ -97,6 +118,7 @@ export default defineConfig({
   build: {
     chunkSizeWarningLimit: 800,
     rollupOptions: {
+      input: path.resolve(__dirname, 'index.source.html'),
       output: {
         manualChunks(id) {
           if (id.includes('node_modules/firebase')) {
