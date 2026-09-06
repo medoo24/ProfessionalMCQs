@@ -1,0 +1,961 @@
+{
+  "metadata": {
+    "source": "b_ Nephro-Final",
+    "total_questions": 7
+  },
+  "questions": [
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "Which of the following is the most common cause of lower urinary tract (bladder outlet) obstruction in male infants?",
+      "options": [
+        "Congenital urethral stricture",
+        "Posterior urethral valves (PUV)",
+        "Pelviureteric junction obstruction (PUJO)",
+        "Congenital bladder diverticulum"
+      ],
+      "answerKey": "B",
+      "answerText": "Posterior urethral valves (PUV)",
+      "explanation": "Posterior urethral valves (PUV) are **congenital obstructing mucosal or membranous folds** located in the prostatic urethra unique to male patients. The sources explicitly highlight PUV as the **most common cause of lower urinary tract obstruction in male infants**, as well as the most common cause of bladder outlet obstruction in infants presenting around 3 months of age.",
+      "tags": ["pediatrics::urology", "puv", "obstruction"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "What is the most common urologic cause of chronic renal failure in male children?",
+      "options": [
+        "Horseshoe kidney",
+        "Pelviureteric junction obstruction (PUJO)",
+        "Posterior urethral valves (PUV)",
+        "Autosomal recessive polycystic kidney disease (AR-PCKD)"
+      ],
+      "answerKey": "C",
+      "answerText": "Posterior urethral valves (PUV)",
+      "explanation": "According to the sources, the **most common urologic cause of renal failure in male children** is posterior urethral valves. While other congenital anomalies like PUJO are common causes of neonatal hydronephrosis, the **high-pressure obstruction** and backpressure from uncorrected PUV threat renal parenchyma, leading to progressive, potentially irreversible tubular and interstitial damage and chronic kidney disease.",
+      "tags": ["pediatrics::urology", "puv", "renal_failure"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "A male infant presents with a poor urinary stream, a palpable bladder, and bilateral hydroureteronephrosis on ultrasound. What is the gold-standard imaging modality to confirm the suspected diagnosis of Posterior Urethral Valves (PUV)?",
+      "options": [
+        "DMSA renal scintigraphy",
+        "Voiding cystourethrography (VCUG) / Micturating cystourethrography (MCU)",
+        "MAG3 diuretic renography",
+        "Intravenous urography (IVU)"
+      ],
+      "answerKey": "B",
+      "answerText": "Voiding cystourethrography (VCUG) / Micturating cystourethrography (MCU)",
+      "explanation": "Voiding cystourethrography (VCUG), also known as micturating cystourethrography (MCU), is the **gold-standard investigation** to demonstrate urethral anatomy and confirm lower urinary tract obstruction like PUV. Any male infant presenting with a poor urinary stream and bilateral upper-tract dilatation should undergo VCUG to **rule out posterior urethral valves**. In contrast, DMSA evaluates cortical scarring, and MAG3 renography is used selectively to assess split renal function and drainage.",
+      "tags": ["pediatrics::urology", "puv", "diagnosis"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "The prostatic segment of the male posterior urethra, where posterior urethral valves typically arise, develops primarily from which embryologic structure?",
+      "options": [
+        "Ureteric bud",
+        "Metanephric mesenchyme",
+        "Pelvic part of the urogenital sinus",
+        "Mesonephric (Wolffian) ducts"
+      ],
+      "answerKey": "C",
+      "answerText": "Pelvic part of the urogenital sinus",
+      "explanation": "In males, the prostatic and membranous segments of the posterior urethra develop primarily from the **pelvic part of the urogenital sinus**. The ureteric bud gives rise to the collecting system (ureter, renal pelvis, calyces, collecting ducts), whereas the metanephric mesenchyme differentiates into the functional nephron (Bowman capsule to distal tubule).",
+      "tags": ["pediatrics::urology", "embryology", "puv"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "Which of the following represents the most critical immediate emergency step in the management of a newborn with acute urinary retention due to posterior urethral valves?",
+      "options": [
+        "Urgent bilateral cutaneous ureterostomies",
+        "Prompt bladder decompression via urethral catheterization",
+        "Emergency endoscopic valve ablation",
+        "High-dose intravenous loop diuretic therapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Prompt bladder decompression via urethral catheterization",
+      "explanation": "Immediate urinary drainage is the **most important emergency step** in lower urinary tract obstruction to protect renal function and prevent urosepsis. This is managed initially by **transurethral placement of a bladder catheter**, which provides temporary decompression and relief while the infant is stabilized and evaluated for definitive treatment. Direct valve destruction is performed once the infant is stable.",
+      "tags": ["pediatrics::urology", "puv", "management", "emergencies"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "What is the standard definitive surgical option used to relieve the mechanical voiding obstruction caused by posterior urethral valves (PUV)?",
+      "options": [
+        "Anderson-Hynes dismembered pyeloplasty",
+        "Transurethral endoscopic ablation or resection of the valves",
+        "Bilateral ureteral reimplantation",
+        "Cutaneous vesicostomy as first-line therapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Transurethral endoscopic ablation or resection of the valves",
+      "explanation": "The definitive management for posterior urethral valves is **transurethral resection, ablation, or endoscopic destruction** of the valvular leaflets (frequently using a balloon catheter or resectoscope). Temporary urinary diversion (e.g., vesicostomy) is reserved only for selected complex or refractory cases where safe endoscopic ablation cannot be immediately performed. Pyeloplasty is the treatment for pelviureteric junction obstruction (PUJO), not PUV.",
+      "tags": ["pediatrics::urology", "puv", "management"]
+    },
+    {
+      "lesson": "Pediatric Urology::Posterior Urethral Valves",
+      "question": "Severe, uncorrected posterior urethral valves (PUV) diagnosed prenatally can restrict fetal urine output, leading to oligohydramnios. Which classic life-threatening neonatal complication is associated with this lack of amniotic fluid (Potter sequence)?",
+      "options": [
+        "Tracheoesophageal fistula",
+        "Pulmonary hypoplasia",
+        "Biliary tract atresia",
+        "Duodenal atresia"
+      ],
+      "answerKey": "B",
+      "answerText": "Pulmonary hypoplasia",
+      "explanation": "Bilateral renal abnormalities or severe urinary tract obstruction resulting in oligohydramnios on prenatal imaging are classic red flags for clinically significant CAKUT. When severe PUV restricts fetal micturition, the lack of amniotic fluid causes **Potter sequence, which is characterized by pulmonary hypoplasia**. Many of these infants do not survive the neonatal period specifically due to these **severe pulmonary complications**.",
+      "tags": ["pediatrics::urology", "puv", "potter_sequence"]
+    },
+    {
+      "lesson": "Pediatric Urology::Vesicoureteric Reflux (VUR)",
+      "question": "Which of the following is considered the gold-standard diagnostic investigation to confirm the presence of Vesicoureteric Reflux (VUR) and determine its clinical grade?",
+      "options": [
+        "Renal and bladder ultrasound",
+        "Dimercaptosuccinic acid (DMSA) renal scintigraphy",
+        "Voiding cystourethrography (VCUG) / Micturating cystourethrography (MCU)",
+        "Magnetic resonance urography (MRU)"
+      ],
+      "answerKey": "C",
+      "answerText": "Voiding cystourethrography (VCUG) / Micturating cystourethrography (MCU)",
+      "explanation": "The sources explicitly state that **voiding cystourethrography (VCUG)**, also known as micturating cystourethrography (MCU), is the **gold-standard investigation** used to demonstrate and grade reflux. A renal ultrasound can evaluate for secondary signs like hydronephrosis, but a normal ultrasound does not exclude VUR.",
+      "tags": ["pediatrics::urology", "vur", "diagnosis"]
+    },
+    {
+      "lesson": "Pediatric Urology::Reflux Nephropathy",
+      "question": "A 4-year-old child presents with a history of recurrent febrile urinary tract infections. Which radionuclide imaging modality is the most sensitive test to evaluate for cortical defects and renal scarring associated with reflux nephropathy?",
+      "options": [
+        "99mTc-MAG3 dynamic renography",
+        "99mTc-DMSA renal scintigraphy",
+        "99mTc-DTPA renography",
+        "Voiding cystourethrography (VCUG)"
+      ],
+      "answerKey": "B",
+      "answerText": "99mTc-DMSA renal scintigraphy",
+      "explanation": "**99mTc-DMSA cortical scintigraphy** is the **most sensitive conventional test** for identifying pediatric renal cortical defects and chronic scarring. MAG3 or DTPA renography is primarily used to assess drainage/obstruction and split function, whereas VCUG is used to diagnose VUR but does not visualize renal parenchymal scarring.",
+      "tags": ["pediatrics::urology", "reflux_nephropathy", "renal_scarring", "imaging"]
+    },
+    {
+      "lesson": "Pediatric Urology::Vesicoureteric Reflux (VUR)",
+      "question": "A voiding cystourethrogram (VCUG) of a 2-year-old child reveals reflux of contrast reaching the renal pelvis and calyces, causing mild-to-moderate dilatation and tortuosity of the ureter and pelvicalyceal system with slight blunting of the calyces. Which grade of vesicoureteric reflux is this?",
+      "options": [
+        "Grade II",
+        "Grade III",
+        "Grade IV",
+        "Grade V"
+      ],
+      "answerKey": "B",
+      "answerText": "Grade III",
+      "explanation": "Vesicoureteric reflux (VUR) is graded from I to V. **Grade III** is characterized by **reflux reaching the renal pelvis and calyces with mild-to-moderate ureteric and pelvicalyceal dilatation and slight blunting** of calyces. Grade II has no dilatation, while Grade IV and V show more severe dilatation, tortuosity, and loss of papillary impressions.",
+      "tags": ["pediatrics::urology", "vur", "classification"]
+    },
+    {
+      "lesson": "Pediatric Urology::Reflux Nephropathy",
+      "question": "Which of the following pediatric patient profiles is associated with the highest risk of developing permanent renal scars (reflux nephropathy)?",
+      "options": [
+        "An asymptomatic toddler with Grade I vesicoureteric reflux",
+        "An infant with low-grade primary VUR and normal kidneys on ultrasound",
+        "A child with vesicoureteric reflux who experiences recurrent febrile urinary tract infections (pyelonephritis)",
+        "A child with primary VUR and resolved bladder-bowel dysfunction (BBD)"
+      ],
+      "answerKey": "C",
+      "answerText": "A child with vesicoureteric reflux who experiences recurrent febrile urinary tract infections (pyelonephritis)",
+      "explanation": "The development of pediatric renal scars (Reflux Nephropathy) is driven by the synergistic effect of **high-grade reflux, intrarenal reflux of infected urine (recurrent febrile UTIs/pyelonephritis), and bladder-bowel dysfunction (BBD)**. Recurrent systemic or febrile upper-tract infections are a major clinical driver of acquired parenchymal damage.",
+      "tags": ["pediatrics::urology", "reflux_nephropathy", "renal_scarring", "risk_factors"]
+    },
+    {
+      "lesson": "Pediatric Urology::Vesicoureteric Reflux (VUR)",
+      "question": "Under contemporary, risk-adapted guidelines (such as EAU/NICE), what is the preferred initial management approach for an asymptomatic toilet-trained child with low-grade primary VUR and normal kidneys?",
+      "options": [
+        "Continuous, low-dose prophylactic antibiotics",
+        "Observation, prompt urine culture, and early treatment of any symptomatic UTIs",
+        "Immediate transurethral endoscopic injection of a bulking agent",
+        "Urgent open surgical bilateral ureteric reimplantation"
+      ],
+      "answerKey": "B",
+      "answerText": "Observation, prompt urine culture, and early treatment of any symptomatic UTIs",
+      "explanation": "Contemporary guidelines recommend a **risk-adapted management strategy** rather than a universal recommendation for continuous antibiotic prophylaxis (CAP). For **asymptomatic, low-risk children with low-grade VUR and normal kidneys, observation with prompt treatment of UTIs** is preferred. Low-dose prophylaxis or surgical intervention is reserved for symptomatic infants, breakthrough febrile infections, or persistent high-grade VUR.",
+      "tags": ["pediatrics::urology", "vur", "management"]
+    },
+    {
+      "lesson": "Pediatric Urology::Vesicoureteric Reflux (VUR)",
+      "question": "Why is the assessment and treatment of Bladder-Bowel Dysfunction (BBD) – such as constipation, timed voiding, and dysfunctional voiding – a critical first-line step in toilet-trained children with vesicoureteric reflux (VUR)?",
+      "options": [
+        "Treating BBD is necessary to prepare the patient for immediate surgical bilateral ureteric reimplantation",
+        "High bladder pressures from voiding dysfunction promote reflux and recurrent febrile UTIs; resolving BBD reduces UTI risk and facilitates spontaneous VUR resolution",
+        "Resolving BBD completely reverses existing renal cortical scars shown on DMSA",
+        "BBD is a direct embryologic cause of primary short intramural ureteric tunnels"
+      ],
+      "answerKey": "B",
+      "answerText": "High bladder pressures from voiding dysfunction promote reflux and recurrent febrile UTIs; resolving BBD reduces UTI risk and facilitates spontaneous VUR resolution",
+      "explanation": "Secondary VUR can be caused or exacerbated by high intravesical pressures due to lower urinary tract dysfunction or bowel dysfunction. **Treating bladder-bowel dysfunction (BBD)** (e.g., urotherapy, treating constipation) **lowers intravesical pressure, significantly reduces the recurrence of febrile UTIs, and increases the rate of spontaneous VUR resolution** before surgical options are considered.",
+      "tags": ["pediatrics::urology", "vur", "bladder_bowel_dysfunction"]
+    },
+    {
+      "lesson": "Pediatric Urology::Reflux Nephropathy",
+      "question": "A 16-year-old patient who was treated for bilateral severe vesicoureteric reflux (VUR) during early childhood now presents with new-onset systemic hypertension and moderate proteinuria (urine ACR 450 mg/g). Reflux has long been resolved. What is the most likely cause of this presentation?",
+      "options": [
+        "Persistent active pyelonephritis",
+        "Adaptive hyperfiltration in surviving nephrons leading to secondary focal segmental glomerulosclerosis (FSGS)",
+        "Development of autosomal dominant polycystic kidney disease (ADPKD)",
+        "An acute post-streptococcal glomerulonephritis flare-up"
+      ],
+      "answerKey": "B",
+      "answerText": "Adaptive hyperfiltration in surviving nephrons leading to secondary focal segmental glomerulosclerosis (FSGS)",
+      "explanation": "Once childhood renal scarring (reflux nephropathy) reduces the functional nephron mass, a **vicious cycle of adaptive hyperfiltration** occurs in the surviving nephrons. This hyperfiltration injury causes **secondary focal segmental glomerulosclerosis (FSGS)**, presenting years later as progressive proteinuria, systemic hypertension, and decline in eGFR, even after reflux or infection has resolved.",
+      "tags": ["pediatrics::urology", "reflux_nephropathy", "complications", "fsgs"]
+    },
+    {
+      "lesson": "Pediatric Urology::Reflux Nephropathy",
+      "question": "A 24-year-old pregnant woman with a childhood history of reflux nephropathy is being evaluated during her first prenatal visit. Based on the pregnancy risk profiles described in the sources, what obstetric complications are most significantly associated with maternal reflux nephropathy?",
+      "options": [
+        "Gestational diabetes and macrosomia",
+        "Increased risk of urinary tract infections, acute pyelonephritis, and preterm labor",
+        "Severe polyhydramnios and congenital cardiac defects",
+        "Maternal development of autosomal recessive polycystic kidney disease (ARPKD)"
+      ],
+      "answerKey": "B",
+      "answerText": "Increased risk of urinary tract infections, acute pyelonephritis, and preterm labor",
+      "explanation": "The sources (including the comparative pregnancy study slides) show that women with **reflux nephropathy** have a significantly **increased maternal risk of urinary tract infections, acute pyelonephritis, and preterm labor**. It also carries risk for neonatal morbidity, preeclampsia, and potential deterioration of maternal renal function during pregnancy.",
+      "tags": ["pediatrics::urology", "reflux_nephropathy", "pregnancy", "complications"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "Autosomal Recessive Polycystic Kidney Disease (ARPKD) is primarily caused by mutations in which of the following genes, and on which chromosome is it located?",
+      "options": [
+        "PKD1, chromosome 16",
+        "PKD2, chromosome 4",
+        "PKHD1, chromosome 6",
+        "PKHD1, chromosome 5"
+      ],
+      "answerKey": "C",
+      "answerText": "PKHD1, chromosome 6",
+      "explanation": "According to the sources, Autosomal Recessive Polycystic Kidney Disease (ARPKD) is primarily caused by biallelic pathogenic variants in the PKHD1 gene located on chromosome 6 [1, 2]. The sources explicitly note as a correction that ARPKD is NOT a chromosome 5 disorder [2, 3]. In contrast, PKD1 (chromosome 16) and PKD2 (chromosome 4) are associated with autosomal dominant polycystic kidney disease (ADPKD) [4, 5].",
+      "tags": ["pediatrics::nephrology", "arpkd", "genetics"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "Severe prenatal manifestations of Autosomal Recessive Polycystic Kidney Disease (ARPKD) cause oligohydramnios. Which classic neonatal complication of Potter sequence is the primary cause of mortality in the immediate neonatal period?",
+      "options": [
+        "Congestive heart failure",
+        "Severe pulmonary hypoplasia",
+        "Hyperkalemic cardiac arrest",
+        "Uremic encephalopathy"
+      ],
+      "answerKey": "B",
+      "answerText": "Severe pulmonary hypoplasia",
+      "explanation": "Severe prenatally diagnosed ARPKD restricts fetal urine output, leading to oligohydramnios and the Potter sequence [6-8]. The sources state that many affected infants do not survive the immediate neonatal period due to these severe pulmonary complications (specifically pulmonary hypoplasia and respiratory distress) [6, 9-11].",
+      "tags": ["pediatrics::nephrology", "arpkd", "potter_sequence", "pulmonary"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "On physical examination of a newborn suspected of having Autosomal Recessive Polycystic Kidney Disease (ARPKD), what is the classical abdominal finding?",
+      "options": [
+        "Massively enlarged, non-palpable kidneys with a single giant solitary cyst",
+        "Bilaterally enlarged, cystic kidneys that are easily palpable",
+        "Unilateral palpable kidney with a contralateral hypoplastic kidney",
+        "Shrunken, echogenic, non-palpable kidneys"
+      ],
+      "answerKey": "B",
+      "answerText": "Bilaterally enlarged, cystic kidneys that are easily palpable",
+      "explanation": "The sources explicitly state that in infants presenting with ARPKD, the kidneys are bilaterally enlarged, cystic, and easily palpable in the abdomen [8, 9, 11]. Ultrasound typically reveals enlarged, echogenic kidneys with collecting-duct dilatation [6, 12].",
+      "tags": ["pediatrics::nephrology", "arpkd", "clinical_findings"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "For infants with Autosomal Recessive Polycystic Kidney Disease (ARPKD) who survive the immediate neonatal period, which long-term complications are inevitable during childhood?",
+      "options": [
+        "Early-onset sensorineural deafness and retinitis pigmentosa",
+        "Progressive renal failure, with or without hepatic failure",
+        "Complete development of bilateral staghorn urolithiasis",
+        "Cardiac valvular defects requiring early surgical replacement"
+      ],
+      "answerKey": "B",
+      "answerText": "Progressive renal failure, with or without hepatic failure",
+      "explanation": "For infants with ARPKD who survive past the neonatal period, progressive renal failure, with or without hepatic failure, is inevitable in early childhood [9, 10, 13]. Retinitis pigmentosa is not a defining ARPKD association; instead, it points toward nephronophthisis-related ciliopathies like Senior-Løken syndrome [1, 2].",
+      "tags": ["pediatrics::nephrology", "arpkd", "prognosis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "Which hepatobiliary pathology is classically associated with Autosomal Recessive Polycystic Kidney Disease (ARPKD) in children, eventually leading to portal hypertension?",
+      "options": [
+        "Hepatocellular carcinoma",
+        "Congenital hepatic fibrosis and ductal plate malformation",
+        "Biliary tract atresia and acute cholecystitis",
+        "Focal nodular hyperplasia"
+      ],
+      "answerKey": "B",
+      "answerText": "Congenital hepatic fibrosis and ductal plate malformation",
+      "explanation": "The hepatobiliary tract is invariably involved in ARPKD, classically manifesting as congenital hepatic fibrosis, ductal plate malformations, portal hypertension, splenomegaly, varices, and cholangitis risk [1, 6, 14]. There is a broad clinical spectrum, meaning not all patients exhibit identical severity of hepatic fibrosis [2, 3].",
+      "tags": ["pediatrics::nephrology", "arpkd", "liver", "fibrosis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "What is the primary management strategy for a pediatric patient diagnosed with Autosomal Recessive Polycystic Kidney Disease (ARPKD)?",
+      "options": [
+        "Routine bilateral nephrectomy at birth followed by immediate peritoneal dialysis",
+        "High-dose systemic corticosteroids and early prophylactic antibiotic therapy",
+        "Supportive care, aggressive control of hypertension and renal function, and potentially combined kidney-liver transplantation",
+        "Strict initiation of a low-protein diet and universal family screening at age 10"
+      ],
+      "answerKey": "C",
+      "answerText": "Supportive care, aggressive control of hypertension and renal function, and potentially combined kidney-liver transplantation",
+      "explanation": "The sources state that management of ARPKD is primarily supportive, with a core focus on the aggressive control of systemic hypertension and renal function [9, 10, 13]. Advanced cases require renal transplantation, with or without liver transplantation, during childhood [9, 10, 13]. Low-protein diets are not standard [12], and family screening discussions differ from ADPKD [15, 16].",
+      "tags": ["pediatrics::nephrology", "arpkd", "management", "transplant"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::ARPKD",
+      "question": "Embryologically, ARPKD is characterized by marked cystic dilatation of the collecting ducts. From which embryonic structure do these affected renal collecting ducts arise?",
+      "options": [
+        "Metanephric mesenchyme",
+        "Ureteric bud",
+        "Mesonephric (Wolffian) duct directly",
+        "Urogenital sinus"
+      ],
+      "answerKey": "B",
+      "answerText": "Ureteric bud",
+      "explanation": "In renal development, the collecting ducts, collecting tubules, calyces, renal pelvis, and ureter arise entirely from the ureteric bud (an outgrowth of the caudal mesonephric duct) [17-19]. The metanephric mesenchyme forms the functional nephron (Bowman capsule through the distal tubule) [17, 18]. The pathology of ARPKD primarily involves dilatation of these ureteric bud-derived collecting ducts [6, 18].",
+      "tags": ["pediatrics::nephrology", "embryology", "arpkd"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Definition",
+      "question": "Which of the following parameters conforms to the KDIGO (2025) definition of pediatric nephrotic-range proteinuria in children aged 1–18 years?",
+      "options": [
+        "Urine Protein-to-Creatinine Ratio (uPCR) ≥ 2.0 g/g (≥ 200 mg/mmol)",
+        "Urine Protein-to-Creatinine Ratio (uPCR) ≥ 0.2 g/g (≥ 20 mg/mmol)",
+        "Protein excretion ≥ 100 mg/m²/day",
+        "Dipstick protein of 1+ to 2+ on random urinalysis"
+      ],
+      "answerKey": "A",
+      "answerText": "Urine Protein-to-Creatinine Ratio (uPCR) ≥ 2.0 g/g (≥ 200 mg/mmol)",
+      "explanation": "According to the KDIGO 2025 essentials in the sources, pediatric nephrotic-range proteinuria in children aged 1–18 years is defined as a urine Protein-to-Creatinine Ratio (uPCR) ≥ 2 g/g (≥ 200 mg/mmol), urinary protein excretion ≥ 1000 mg/m²/day, or usually dipstick 3+ to 4+. A uPCR of ≤ 0.2 g/g (≤ 20 mg/mmol) indicates complete remission.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "definition", "diagnosis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Etiology & Pathology",
+      "question": "What is the most common histopathological variety of idiopathic nephrotic syndrome in children, and what are its characteristic findings under light microscopy (LM) and electron microscopy (EM)?",
+      "options": [
+        "Focal Segmental Glomerulosclerosis (FSGS); segmental sclerosis of some glomeruli on LM and normal podocytes on EM",
+        "Membranous Nephropathy (MN); diffuse glomerular basement membrane thickening on LM and subepithelial spikes on EM",
+        "Minimal Change Disease (MCD); normal or nearly normal glomeruli on LM and diffuse podocyte foot-process effacement on EM",
+        "Mesangial Proliferative Glomerulonephritis; mesangial expansion on LM and subendothelial tram-track deposits on EM"
+      ],
+      "answerKey": "C",
+      "answerText": "Minimal Change Disease (MCD); normal or nearly normal glomeruli on LM and diffuse podocyte foot-process effacement on EM",
+      "explanation": "The sources state that Minimal Change Disease (MCD, also called lipoid nephrosis or MCNS) is the most common cause of nephrotic syndrome in children, accounting for approximately 85% of cases of idiopathic childhood nephrotic syndrome. On light microscopy (LM), the glomeruli appear normal or nearly normal, whereas electron microscopy (EM) reveals diffuse podocyte foot-process effacement (fusion and retraction) without immune deposits.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "pathology", "minimal_change_disease"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Pathogenesis",
+      "question": "What is the primary pathogenic mechanism proposed to explain the loss of glomerular basement membrane (GBM) charge selectivity and subsequent heavy protein leakage in Minimal Change Disease (MCD)?",
+      "options": [
+        "Altered B-cell function leading to autoantibody-mediated direct cytotoxicity to podocytes",
+        "Altered T-cell function leading to increased secretion of lymphokines that alter GBM permeability and cause loss of negatively charged glycoproteins",
+        "In situ immune complex deposition within the subepithelial space with complement activation",
+        "Classical pathway complement activation resulting in glomerular basement membrane ruptures"
+      ],
+      "answerKey": "B",
+      "answerText": "Altered T-cell function leading to increased secretion of lymphokines that alter GBM permeability and cause loss of negatively charged glycoproteins",
+      "explanation": "According to the pathogenesis theory described in the sources, MCD is believed to involve altered T-cell function that leads to increased production of circulating lymphokines. These lymphokines alter glomerular capillary wall permeability and lead to the loss of negatively charged glycoproteins on the GBM. Because of the loss of these negative charges, proteins (particularly albumin) leak en masse into the urine.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "pathogenesis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Management",
+      "question": "A 4-year-old child presents with a typical first episode of idiopathic nephrotic syndrome. What is the recommended induction dose and duration of the first-line corticosteroid (Prednisone) therapy to minimize the risk of early relapse?",
+      "options": [
+        "Prednisone 60 mg/m²/day (maximum daily dose 60 mg) divided into 3–4 doses, administered for at least 4 weeks",
+        "Prednisone 2 mg/kg/day once daily in the morning, administered for exactly 2 weeks",
+        "Prednisone 40 mg/m²/day divided into 2 doses, administered for 10 days",
+        "Methylprednisolone pulse therapy of 30 mg/kg on alternate days for 1 week"
+      ],
+      "answerKey": "A",
+      "answerText": "Prednisone 60 mg/m²/day (maximum daily dose 60 mg) divided into 3–4 doses, administered for at least 4 weeks",
+      "explanation": "The primary pharmacological treatment for pediatric nephrotic syndrome is corticosteroid induction therapy. Prednisone is administered at a dose of 60 mg/m²/day (up to a maximum daily dose of 60 mg), divided into 3–4 daily doses. The sources emphasize that this induction therapy should be maintained for at least 4 weeks, even if the urine becomes protein-free earlier, to significantly reduce the frequency of subsequent relapses.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "corticosteroid_therapy", "prednisone"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Complications",
+      "question": "Children with active nephrotic syndrome are highly susceptible to bacterial infections, particularly spontaneous bacterial peritonitis. According to the past exam questions and clinical slide material, what is the most common causative organism of peritonitis in patients with idiopathic nephrotic syndrome?",
+      "options": [
+        "Escherichia coli",
+        "Staphylococcus aureus",
+        "Streptococcus pneumoniae",
+        "Pseudomonas aeruginosa"
+      ],
+      "answerKey": "C",
+      "answerText": "Streptococcus pneumoniae",
+      "explanation": "The sources explicitly identify Streptococcus pneumoniae (pneumococcus) as the most common organism causing peritonitis in patients with idiopathic nephrotic syndrome. To prevent this severe infectious complication, guidelines recommend administering the polyvalent pneumococcal vaccine once the child is in complete remission.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "complications", "infection"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Complications",
+      "question": "Based on the pediatric past exam questions in the sources, which of the following is the best clinical marker for assessing susceptibility to thromboembolism in a child with active nephrotic syndrome?",
+      "options": [
+        "Serum creatinine level",
+        "Degree of hypertension",
+        "Serum albumin level",
+        "Presence of lower extremity edema (leg swelling)"
+      ],
+      "answerKey": "C",
+      "answerText": "Serum albumin level",
+      "explanation": "In nephrotic syndrome, the loss of urinary proteins includes critical anticoagulants (e.g., antithrombin III), while hepatic synthesis of procoagulants is increased. Severe hypoalbuminemia directly mirrors the severity of this hypercoagulable state. Therefore, the past exams designate serum albumin level as the best marker for susceptibility to thromboembolism in these children.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "complications", "thromboembolism"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Complications",
+      "question": "A 6-year-old child with severe hypoalbuminemia secondary to active steroid-resistant nephrotic syndrome suddenly develops acute unilateral flank pain, severe hematuria, and a palpable abdominal mass. What is the most likely underlying complication?",
+      "options": [
+        "Acute post-streptococcal glomerulonephritis flare-up",
+        "Renal vein thrombosis",
+        "Renal artery stenosis",
+        "Development of an acute renal cyst"
+      ],
+      "answerKey": "B",
+      "answerText": "Renal vein thrombosis",
+      "explanation": "The sources note that children with active nephrotic syndrome are at a high risk of thromboembolic events. If a nephrotic child presents with acute flank pain and hematuria, the most likely diagnosis is renal vein thrombosis. This aligns with past exams from the sources identifying renal vein thrombosis as the sequela associated with flank pain and hematuria in nephrotic patients.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "complications", "thromboembolism"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Congenital Type",
+      "question": "Congenital nephrotic syndrome (Finnish type) is a severe genetic form of nephrotic syndrome. Which protein defect in the glomerular filtration barrier is responsible for this disease, and what is its typical course and management?",
+      "options": [
+        "Defect in Type IV collagen; managed with life-long high-dose prednisone",
+        "Defect in nephrin protein; medical treatment is ineffective, and renal transplantation is the definitive therapy",
+        "Defect in alpha-galactosidase A; managed with continuous cyclosporine infusion",
+        "Defect in podocin protein; resolves spontaneously within the first 5 years of life"
+      ],
+      "answerKey": "B",
+      "answerText": "Defect in nephrin protein; medical treatment is ineffective, and renal transplantation is the definitive therapy",
+      "explanation": "Congenital nephrotic syndrome (Finnish type) is caused by a genetic defect in the nephrin protein of the glomerular basement membrane (specifically the slit diaphragm), presenting at birth or within the first 3 months. It has an extremely poor prognosis, ending in chronic renal failure and death by age 3–5 years if untreated. There is no effective medical treatment; the only definitive option is renal transplantation.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "congenital_nephrotic_syndrome"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Biopsy Indications",
+      "question": "While a typical child aged 1–18 years presenting with a first episode of nephrotic syndrome does not require an initial kidney biopsy, several atypical features serve as clear indications for a biopsy. According to the sources, which of the following is an indication for renal biopsy in pediatric nephrotic syndrome?",
+      "options": [
+        "The child is aged 4 years at onset",
+        "Steroid resistance or steroid dependence",
+        "The presence of transient hypercholesterolemia (>220 mg/dL)",
+        "A history of an upper respiratory infection preceding the edema"
+      ],
+      "answerKey": "B",
+      "answerText": "Steroid resistance or steroid dependence",
+      "explanation": "In pediatric nephrotic syndrome, initial kidney biopsy is usually avoided because the majority of typical children have steroid-sensitive Minimal Change Disease. However, a biopsy is strongly indicated in cases of steroid resistance or steroid dependence, onset at an age < 2 years or > 8 years (or < 1 year or > 10 years in other traditional classifications), persistent hematuria and hypertension, renal impairment, or suspected secondary nephrotic syndrome.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "biopsy", "indications"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::Refractory Management",
+      "question": "A 5-year-old child with Minimal Change Disease fails to achieve complete remission after 4 to 6 weeks of daily standard-dose prednisone. What is the recommended second-line immunosuppressive agent that should be initiated next under specialist supervision?",
+      "options": [
+        "Intravenous loop diuretics (Furosemide) alone",
+        "Cyclophosphamide (3 mg/kg/day for 2 months) combined with low-dose steroids",
+        "Life-long daily Azathioprine combined with oral Methotrexate",
+        "Immediate high-dose intravenous Methylprednisolone pulse therapy for 6 months"
+      ],
+      "answerKey": "B",
+      "answerText": "Cyclophosphamide (3 mg/kg/day for 2 months) combined with low-dose steroids",
+      "explanation": "Under the classic pediatric nephrology pathway outlined in the sources, patients who do not respond to daily prednisone therapy after at least 4–6 weeks are considered steroid-resistant. These children should be referred to a pediatric nephrologist and initiated on second-line therapy with Cyclophosphamide at a dose of 3 mg/kg/day for 2 months, combined with low-dose steroids (while closely monitoring the white blood cell count for leukopenia). If cyclophosphamide fails, cyclosporine is the next step.",
+      "tags": ["pediatric_nephrology", "nephrotic_syndrome", "steroid_resistance", "management"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "A 7-year-old boy presents with sudden-onset cola-colored urine, periorbital edema, and mild hypertension. His mother reports he had a sore throat about 10 days ago. To distinguish Acute Post-Streptococcal Glomerulonephritis (PSGN) from IgA Nephropathy, which clinical timing clue is most helpful?",
+      "options": [
+        "IgA nephropathy typically presents with a longer latency period of 4–6 weeks after a pharyngitis infection.",
+        "PSGN typically causes synpharyngitic hematuria (occurring during or within days of a mucosal infection), while IgA nephropathy occurs after a latency of 1–3 weeks.",
+        "PSGN typically follows infection after a latent interval of 1–3 weeks, whereas IgA nephropathy classically presents with synpharyngitic hematuria (during or within days of infection).",
+        "Neither condition is associated with mucosal infections, and both require immediate skin cultures."
+      ],
+      "answerKey": "C",
+      "answerText": "PSGN typically follows infection after a latent interval of 1–3 weeks, whereas IgA nephropathy classically presents with synpharyngitic hematuria (during or within days of infection).",
+      "explanation": "The sources contrast the timing of these two classic causes of hematuria. IgA nephropathy commonly presents as synpharyngitic hematuria—meaning visible hematuria occurs during or shortly after a mucosal infection. In contrast, PSGN occurs after a distinct latent interval, usually 1 to 3 weeks after pharyngitis and several weeks after impetigo.",
+      "tags": ["pediatrics::nephrology", "psgn", "differential_diagnosis", "iga_nephropathy"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "Regarding the serum complement profile during the acute phase of typical Post-Streptococcal Glomerulonephritis (PSGN), which of the following represents the classic finding?",
+      "options": [
+        "Both complement C3 and complement C4 are significantly consumed and decreased.",
+        "Normal complement C4 and consumed (characteristically decreased) complement C3.",
+        "Consumed complement C4 and normal complement C3.",
+        "High levels of both serum complement C3 and complement C4."
+      ],
+      "answerKey": "B",
+      "answerText": "Normal complement C4 and consumed (characteristically decreased) complement C3.",
+      "explanation": "A classic diagnostic profile of typical PSGN includes characteristically decreased serum complement C3 levels with relatively preserved (normal) complement C4 levels during the acute phase, reflecting alternative pathway activation. Both the past exams and clinical review sheets in the sources highlight this specific complement pattern.",
+      "tags": ["pediatrics::nephrology", "psgn", "investigations", "complement"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "In a pediatric patient diagnosed with typical Acute Post-Streptococcal Glomerulonephritis (PSGN), serum complement C3 levels are monitored. Within what timeframe does C3 typically return to normal, and what should be suspected if hypocomplementemia persists beyond this window?",
+      "options": [
+        "C3 returns to normal within 2 weeks; persistent low C3 indicates acute tubular injury.",
+        "C3 returns to normal within 6–8 weeks; persistent low C3 should prompt concern for C3 glomerulopathy or ongoing membranoproliferative GN.",
+        "C3 returns to normal within 6 months; persistent low C3 is a normal finding and requires no further workup.",
+        "C3 never returns to normal, serving as a life-long marker of previous streptococcal exposure."
+      ],
+      "answerKey": "B",
+      "answerText": "C3 returns to normal within 6–8 weeks; persistent low C3 should prompt concern for C3 glomerulopathy or ongoing membranoproliferative GN.",
+      "explanation": "In PSGN, serum C3 commonly returns to normal within about 6 to 8 weeks (and up to 12 weeks). The sources state that persistent hypocomplementemia beyond this period is atypical for PSGN and should trigger further evaluation for other complement-mediated or ongoing immune-complex diseases, such as C3 glomerulopathy or membranoproliferative glomerulonephritis (MPGN).",
+      "tags": ["pediatrics::nephrology", "psgn", "prognosis", "complement"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "When a renal biopsy is performed in a patient with atypical or severe Post-Streptococcal Glomerulonephritis (PSGN), which classic finding is observed on Electron Microscopy (EM)?",
+      "options": [
+        "Diffuse and uniform thickening of the glomerular basement membrane without any deposits.",
+        "Linear IgG along the glomerular basement membrane.",
+        "Discrete, amorphous, electron-dense subepithelial deposits appearing as 'humps'.",
+        "Diffuse effacement of podocyte foot processes with normal basement membranes and no deposits."
+      ],
+      "answerKey": "C",
+      "answerText": "Discrete, amorphous, electron-dense subepithelial deposits appearing as 'humps'.",
+      "explanation": "Under electron microscopy, the classic diagnostic hallmark of post-infectious/post-streptococcal glomerulonephritis is the presence of discrete, amorphous, electron-dense subepithelial deposits on the epithelial side of the membrane, often described as 'humps'. In contrast, linear IgG is pathognomonic for anti-GBM disease, and foot-process effacement without deposits describes Minimal Change Disease.",
+      "tags": ["pediatrics::nephrology", "psgn", "pathology", "electron_microscopy"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "Only certain 'nephritogenic' strains of group A β-hemolytic streptococci can cause acute post-streptococcal glomerulonephritis. How are these strains identified, and what are the most common serotypes implicated?",
+      "options": [
+        "By typing of the O antigen of the cell wall, mainly serotypes 5 and 15.",
+        "By typing of the M protein of the cell wall, mainly serotypes 12, 4, and 1.",
+        "By identifying the presence of a polysaccharide capsule, mainly types Ia and Ib.",
+        "By detecting bacterial hemolysin-O production, mainly serotypes 3 and 9."
+      ],
+      "answerKey": "B",
+      "answerText": "By typing of the M protein of the cell wall, mainly serotypes 12, 4, and 1.",
+      "explanation": "The sources specify that only certain strains of group A β-hemolytic streptococci are nephritogenic. More than 90% of cases are traced to serotypes 12 (typically pharyngitis-associated), 4, and 1, which are identified by typing of the M protein in the cell wall.",
+      "tags": ["pediatrics::nephrology", "psgn", "etiology", "genetics"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "A 6-year-old child presents with typical, uncomplicated Acute Post-Streptococcal Glomerulonephritis (PSGN). What is the primary purpose of administering a 10-day course of systemic penicillin to this patient during the acute nephritic phase?",
+      "options": [
+        "Penicillin immediately reverses and resolves the established glomerular immune complex injury.",
+        "Penicillin is a potent immunosuppressant that directly reduces endocapillary hypercellularity.",
+        "Penicillin is given to eradicate any remaining nephritogenic group A streptococci to prevent transmission and limit spread.",
+        "Penicillin acts as an osmotic diuretic to promote rapid resolution of fluid overload and edema."
+      ],
+      "answerKey": "C",
+      "answerText": "Penicillin is given to eradicate any remaining nephritogenic group A streptococci to prevent transmission and limit spread.",
+      "explanation": "In PSGN, a 10-day course of penicillin (or erythromycin if allergic) is recommended to eradicate any residual nephritogenic streptococci and limit the spread of the infection to contacts. However, the sources emphasize that antibiotics do not reverse or treat the established, immune-mediated glomerulonephritis itself once the glomerular injury has occurred.",
+      "tags": ["pediatrics::nephrology", "psgn", "management", "antibiotics"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "Which of the following statements represents the correct clinical guideline regarding the use of corticosteroid or other immunosuppressive therapies in a typical child presenting with Post-Streptococcal Glomerulonephritis (PSGN)?",
+      "options": [
+        "Immunosuppressants and daily high-dose steroids should be started immediately in all patients with PSGN.",
+        "Steroids and cytotoxic drugs are generally avoided and not indicated for uncomplicated PSGN.",
+        "All patients with hematuria should receive a 5-month tapering course of prednisone.",
+        "Corticosteroids are used specifically to eradicate group A streptococci from the skin and throat."
+      ],
+      "answerKey": "B",
+      "answerText": "Steroids and cytotoxic drugs are generally avoided and not indicated for uncomplicated PSGN.",
+      "explanation": "Under the treatment guidelines outlined in the sources, immunosuppressive therapy (including corticosteroids and cytotoxic drugs) is not indicated and should be avoided in uncomplicated cases of PSGN. Management is primarily supportive (fluid restriction, diuretics, and blood pressure control). Exceptional, severe crescentic/rapidly progressive cases may require expert individualized decisions, but steroids are never routine.",
+      "tags": ["pediatrics::nephrology", "psgn", "management", "steroids"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "In a child presenting with classic Acute Post-Streptococcal Glomerulonephritis (PSGN), severe pitting edema coexists with a suppressed (low) serum renin level. What is the primary physiological mechanism explaining this low renin status despite severe edema?",
+      "options": [
+        "Direct blockade of the juxtaglomerular apparatus by nephritogenic streptococcal toxins.",
+        "Systemic volume expansion resulting from impaired renal sodium and water excretion, which feedback-suppresses renin release.",
+        "Concomitant primary hypoaldosteronism due to adrenal gland infection.",
+        "The compensatory effect of profound hypoalbuminemia that causes intravascular volume contraction."
+      ],
+      "answerKey": "B",
+      "answerText": "Systemic volume expansion resulting from impaired renal sodium and water excretion, which feedback-suppresses renin release.",
+      "explanation": "In classic PSGN, glomerular inflammation causes a decrease in GFR and a primary impairment in renal sodium and water excretion. This leads to primary fluid retention and intravascular volume expansion, which feedback-suppresses the renin-angiotensin-aldosterone system (RAAS), leading to low renin levels despite clinical edema and hypertension.",
+      "tags": ["pediatrics::nephrology", "psgn", "pathophysiology", "renin"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "A child presents with acute nephritic syndrome. His clinical history is notable for a scabbed-over skin infection (impetigo/pyoderma) in hot weather 4 weeks ago. Which of the following serologic tests is most informative and sensitive to document preceding cutaneous (skin) streptococcal infection?",
+      "options": [
+        "Antistreptolysin O (ASO) titer",
+        "Anti-deoxyribonuclease B (anti-DNase B) level",
+        "Antistreptokinase titer",
+        "Throat culture"
+      ],
+      "answerKey": "B",
+      "answerText": "Anti-deoxyribonuclease B (anti-DNase B) level",
+      "explanation": "While ASO titers are highly sensitive (~80%) after streptococcal pharyngitis, they are often low (<50%) or normal following skin infections (impetigo/pyoderma). The sources highlight that the anti-DNase B level is the most informative and sensitive antibody test to confirm a preceding cutaneous streptococcal infection (having ~80% sensitivity after skin infection).",
+      "tags": ["pediatrics::nephrology", "psgn", "investigations", "diagnosis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Glomerulonephritis::PSGN",
+      "question": "What is the typical clinical prognosis for children who develop Acute Post-Streptococcal Glomerulonephritis (PSGN) compared to adults?",
+      "options": [
+        "The disease is progressive in over 50% of children, whereas adults achieve universal spontaneous recovery.",
+        "Excellent prognosis in children, with complete recovery in more than 95% of cases; whereas adults are less benign and carry a higher risk of residual kidney impairment.",
+        "Both children and adults have an extremely poor prognosis, with over 90% progressing directly to end-stage renal disease (ESRD).",
+        "PSGN always causes chronic interstitial fibrosis in childhood, while adults rarely show any acute phase symptoms."
+      ],
+      "answerKey": "B",
+      "answerText": "Excellent prognosis in children, with complete recovery in more than 95% of cases; whereas adults are less benign and carry a higher risk of residual kidney impairment.",
+      "explanation": "The sources state that the prognosis for typical pediatric PSGN is excellent, with complete recovery occurring in more than 95% of cases. However, in adults, the disease is less benign; they present more atypically and have a higher risk of persistent proteinuria, abnormal GFR, and residual kidney impairment.",
+      "tags": ["pediatrics::nephrology", "psgn", "prognosis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "What is the most common genetic mutation and inheritance pattern associated with Alport Syndrome in children?",
+      "options": [
+        "COL4A3 mutation, Autosomal Recessive",
+        "COL4A4 mutation, Autosomal Dominant",
+        "COL4A5 mutation, X-linked",
+        "PKHD1 mutation, Autosomal Recessive"
+      ],
+      "answerKey": "C",
+      "answerText": "COL4A5 mutation, X-linked",
+      "explanation": "Alport syndrome (AS) is a hereditary type IV collagen disorder affecting the basement membranes of the glomerulus, cochlea, and eye [1-4]. The sources specify that mutations in the COL4A5 gene on the X-chromosome account for approximately 85% of cases (X-linked Alport Syndrome - XLAS) [1-5]. Autosomal recessive and autosomal dominant pedigrees involving COL4A3 and COL4A4 mutations also exist but are much less common [5-7].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "genetics"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "What is the classic appearance of the Glomerular Basement Membrane (GBM) under electron microscopy (EM) in a patient with fully developed Alport Syndrome?",
+      "options": [
+        "Diffuse subepithelial electron-dense 'humps' with intervening spikes",
+        "Irregular thickening alternating with thinning, accompanied by splitting and lamination of the lamina densa ('basket-weave' appearance)",
+        "Uniform, diffuse thickening of the GBM with subendothelial 'tram-track' duplication",
+        "Diffuse and uniform thinning of the GBM without any thickening or splitting"
+      ],
+      "answerKey": "B",
+      "answerText": "Irregular thickening alternating with thinning, accompanied by splitting and lamination of the lamina densa ('basket-weave' appearance)",
+      "explanation": "Under electron microscopy, the classic diagnostic hallmark of fully developed Alport syndrome is a glomerular basement membrane showing irregular foci of thickening alternating with attenuation (thinning) [7]. This is accompanied by pronounced splitting and lamination of the lamina densa, typically described as a 'basket-weave' pattern [6, 7]. Thin basement membrane disease, by contrast, demonstrates diffuse, isolated GBM thinning without these complex lamellated changes [5, 8].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "pathology", "electron_microscopy"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "Which of the following clinical statements regarding the urine profile of children with Alport Syndrome is correct?",
+      "options": [
+        "Proteinuria is typically severe and in the nephrotic range from infancy.",
+        "Proteinuria is usually absent in childhood, while hematuria is the primary finding.",
+        "Glucosuria, aminoaciduria, and phosphaturia are always present at onset.",
+        "Both microscopic hematuria and macroscopic hematuria are completely absent until adulthood."
+      ],
+      "answerKey": "B",
+      "answerText": "Proteinuria is usually absent in childhood, while hematuria is the primary finding.",
+      "explanation": "In children with Alport syndrome, hematuria (which is persistent and often macroscopic in males) is the typical presenting sign [1, 3, 4, 6, 9]. Conversely, proteinuria is characteristically absent during childhood and typically develops later as the disease progresses [1, 3, 4, 6, 9]. Glucosuria, aminoaciduria, and phosphaturia are signs of proximal tubular dysfunction (Fanconi syndrome), which is characteristic of cystinosis, not Alport syndrome [2, 10, 11].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "clinical_findings", "urinalysis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "A 6-year-old boy presents with persistent microscopic hematuria. The clinician suspects Alport Syndrome. According to the sources, which simple initial screening strategy is highly recommended if this condition is suspected?",
+      "options": [
+        "Perform an immediate percutaneous renal biopsy on the child",
+        "Test the child's hearing and perform a urine dipstick of the mother's urine",
+        "Order a 24-hour urine collection for calcium and oxalate excretion",
+        "Initiate high-dose corticosteroid therapy empirically and monitor response"
+      ],
+      "answerKey": "B",
+      "answerText": "Test the child's hearing and perform a urine dipstick of the mother's urine",
+      "explanation": "Because these collagen chains are critical in the cochlea, sensorineural hearing loss is a classic manifestation that may only be detectable by audiometry in early stages [1-4]. Furthermore, in the X-linked form, females (mothers) are carriers whose manifestations are typically limited to hematuria [12]. Thus, testing the child's hearing and performing a urine dipstick of the mother's urine is highly useful and non-invasive when Alport syndrome is suspected [4, 9].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "investigations", "screening"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "Which of the following extrarenal manifestations is classically associated with fully developed Alport Syndrome?",
+      "options": [
+        "Sensorineural hearing loss and eye disorders (e.g., anterior lenticonus, lens dislocation, posterior cataracts)",
+        "Early-onset gout, hyperuricemia, and severe hepatosplenomegaly",
+        "Photophobia due to corneal cystine crystals and mental retardation",
+        "Mitral valve prolapse, intracranial aneurysms, and hepatic cysts"
+      ],
+      "answerKey": "A",
+      "answerText": "Sensorineural hearing loss and eye disorders (e.g., anterior lenticonus, lens dislocation, posterior cataracts)",
+      "explanation": "Fully developed Alport syndrome is characterized by nephritis progressing to chronic renal failure, accompanied by nerve (sensorineural) deafness and ocular abnormalities [12]. These ocular features include anterior lenticonus, retinal changes, lens dislocation, posterior cataracts, and corneal dystrophy [6, 12]. Intracranial aneurysms, hepatic cysts, and mitral valve prolapse are classic extrarenal features of polycystic kidney disease, not Alport syndrome [13-16].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "extrarenal_findings"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "What finding on a skin biopsy is considered diagnostic for X-linked Alport Syndrome?",
+      "options": [
+        "Linear IgG deposition along the epidermal basement membrane",
+        "Absence of alpha-5 (A5) chains of type IV collagen in the epidermal basement membrane",
+        "Thickening of the dermal collagen fibers with Congo red apple-green birefringence",
+        "Granular IgA and C3 deposition in the dermal capillary loops"
+      ],
+      "answerKey": "B",
+      "answerText": "Absence of alpha-5 (A5) chains of type IV collagen in the epidermal basement membrane",
+      "explanation": "Because the mutated COL4A5 gene encodes the alpha-5 chain of type IV collagen, this chain is absent or abnormal in basement membranes throughout the body [1, 3-5]. Skin biopsy can be utilized as a diagnostic tool because the absence of alpha-5 (A5) chains of type IV collagen in the epidermal basement membrane is diagnostic of X-linked Alport Syndrome [4, 9].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "investigations", "biopsy"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "Which of the following rare, life-threatening complications can occur in some genotypes of Alport Syndrome patients after receiving a kidney transplant?",
+      "options": [
+        "Severe recurrent amyloidosis in the donor kidney graft",
+        "De novo post-transplant anti-GBM (Goodpasture) nephritis",
+        "Rapid development of secondary focal segmental glomerulosclerosis (FSGS) due to steroid resistance",
+        "Acute hemolytic uremic syndrome (HUS) triggered by the graft"
+      ],
+      "answerKey": "B",
+      "answerText": "De novo post-transplant anti-GBM (Goodpasture) nephritis",
+      "explanation": "Kidney transplantation is highly effective for patients with Alport syndrome [8]. However, because Alport patients lack the normal alpha-3, alpha-4, or alpha-5 collagen chains in their native basement membranes (which contain the Goodpasture antigen), their immune system can view these normal proteins in the donor kidney as foreign [5]. This can result in a rare, post-transplant anti-GBM nephritis in some genotypes [8].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "transplant", "complications"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Inherited Renal Disorders::Alport Syndrome",
+      "question": "Which legacy clinical concept regarding Alport Syndrome has been corrected in modern practice guidelines?",
+      "options": [
+        "Alport syndrome is now classified as a benign variant of autosomal recessive polycystic kidney disease.",
+        "Alport syndrome is not 'benign familial hematuria' because it carries a variable, sometimes high risk of progressive chronic kidney disease and kidney failure.",
+        "Alport syndrome is universally benign and never progresses to end-stage renal disease (ESRD).",
+        "Alport syndrome is treated primarily with long-term immunosuppressive pulse therapy."
+      ],
+      "answerKey": "B",
+      "answerText": "Alport syndrome is not 'benign familial hematuria' because it carries a variable, sometimes high risk of progressive chronic kidney disease and kidney failure.",
+      "explanation": "The sources explicitly correct the legacy clinical misconception that thin basement membrane disease and Alport syndrome represent a single, benign entity called 'benign familial hematuria' [17, 18]. Alport syndrome is a progressive hereditary collagen disorder that carries a variable but sometimes high risk of progressive CKD and renal failure, especially in high-risk genotypes [6, 17]. Early RAS blockade and nephroprotective management are recommended rather than observation alone [8, 17].",
+      "tags": ["pediatrics::nephrology", "alport_syndrome", "prognosis", "management"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Childhood Fanconi Syndrome",
+      "question": "Childhood Fanconi syndrome is a generalized proximal tubular dysfunction. Which of the following triads of urinary findings classically characterizes this syndrome?",
+      "options": [
+        "Hematuria, glycosuria, and proteinuria",
+        "Glycosuria, aminoaciduria, and phosphaturia",
+        "Uremia, phosphaturia, and albuminuria",
+        "Azotemia, edema, and hypertension"
+      ],
+      "answerKey": "B",
+      "answerText": "Glycosuria, aminoaciduria, and phosphaturia",
+      "explanation": "Fanconi syndrome is a generalized proximal tubular dysfunction characterized by the inappropriate urinary loss of multiple filtered solutes [1, 2]. Urinalysis classically reveals a triad of **glycosuria, aminoaciduria, and phosphaturia** [3], which can also be described as generalized aminoaciduria, glucosuria, and renal tubular acidosis (RTA) [4, 5].",
+      "tags": ["pediatrics::nephrology", "fanconi_syndrome", "diagnosis", "urinalysis"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Childhood Fanconi Syndrome",
+      "question": "A pediatrician evaluating a 3-year-old child suspects childhood Fanconi syndrome. Which of the following serum electrolyte abnormalities is most likely to be present and serve as a classic laboratory clue?",
+      "options": [
+        "Hyperphosphatemia",
+        "Hyperkalemia",
+        "Hypophosphatemia",
+        "Hypercalcemia"
+      ],
+      "answerKey": "C",
+      "answerText": "Hypophosphatemia",
+      "explanation": "Childhood Fanconi syndrome should be strongly suspected in children presenting with **hypophosphatemia** [6-9]. The proximal tubular injury leads to inappropriate renal phosphate wasting (phosphaturia), which depletes serum phosphate levels and clinically causes **rickets in children**, osteomalacia, bone pain, and pathological fractures [2].",
+      "tags": ["pediatrics::nephrology", "fanconi_syndrome", "laboratory", "electrolytes"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Cystinosis",
+      "question": "Cystinosis is the most common inherited cause of Fanconi syndrome in children. What is the primary genetic and pathophysiologic defect underlying this disease?",
+      "options": [
+        "Autosomal dominant mutation in the PKD1 gene leading to abnormal polycystin-1 expression",
+        "Autosomal recessive mutation in the CTNS gene encoding the lysosomal cystine transporter",
+        "X-linked recessive defect in the COL4A5 gene causing abnormal basement membrane collagen",
+        "Autosomal recessive defect in the alanine-glyoxylate transferase enzyme"
+      ],
+      "answerKey": "B",
+      "answerText": "Autosomal recessive mutation in the CTNS gene encoding the lysosomal cystine transporter",
+      "explanation": "Cystinosis is a rare autosomal recessive (AR) disorder caused by mutations in the **CTNS gene**, which encodes cystinosin, the **lysosomal cystine transporter** [10-12]. This defect results in massive **intralysosomal accumulation of cystine**, which generates cellular damage initially in renal tubular cells, manifesting as Fanconi syndrome [10, 12].",
+      "tags": ["pediatrics::nephrology", "cystinosis", "genetics", "pathophysiology"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Cystinosis",
+      "question": "A 15-month-old infant with confirmed cystinosis is brought to the ophthalmology clinic. What classic extrarenal manifestation of cystinosis should the clinician expect to find, and what symptom does it cause?",
+      "options": [
+        "Anterior lenticonus causing severe progressive hyperopia",
+        "Accumulation of cystine crystals in the cornea causing photophobia",
+        "Kayser-Fleischer rings causing night blindness",
+        "Lisch nodules in the iris causing visual field cuts"
+      ],
+      "answerKey": "B",
+      "answerText": "Accumulation of cystine crystals in the cornea causing photophobia",
+      "explanation": "In children with cystinosis, the massive intralysosomal accumulation of cystine affects multiple tissues [10, 12]. Accumulation of cystine crystals in the cornea is a hallmark extrarenal feature that classically causes **photophobia** [10, 12].",
+      "tags": ["pediatrics::nephrology", "cystinosis", "ophthalmology", "clinical_findings"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Oxalosis",
+      "question": "Primary Hyperoxaluria Type 1 is a severe autosomal recessive metabolic disorder that can lead to systemic oxalosis and chronic kidney disease in childhood. What is the specific enzymatic defect responsible for this condition?",
+      "options": [
+        "Deficiency of the cystinosin lysosomal transporter",
+        "Deficiency of alanine-glyoxylate transferase (AGT)",
+        "Deficiency of D-glycerate dehydrogenase",
+        "Deficiency of glyoxylate reductase"
+      ],
+      "answerKey": "B",
+      "answerText": "Deficiency of alanine-glyoxylate transferase (AGT)",
+      "explanation": "Primary hyperoxaluria Type 1 is an autosomal recessive trait caused by a defect in the enzyme **alanine-glyoxylate transferase (AGT)** [13, 14]. This deficiency diminishes the conversion of glyoxylate to glycine, which results in increased conversion of glyoxylate to **oxalate** [13, 14].",
+      "tags": ["pediatrics::nephrology", "primary_hyperoxaluria", "enzymes", "pathophysiology"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Oxalosis",
+      "question": "Uncontrolled accumulation of oxalate in Primary Hyperoxaluria Type 1 leads to severe renal pathology. Which of the following sequences of renal complications is classically observed in these children?",
+      "options": [
+        "Isolated hematuria, minimal change disease, and spontaneous resolution",
+        "Stone formation, nephrocalcinosis, tubulointerstitial nephritis, and subsequent renal failure",
+        "Glomerular hypercellularity, nephrotic syndrome, and secondary amyloidosis",
+        "Polycystic enlargement, renal vein thrombosis, and immediate anuria"
+      ],
+      "answerKey": "B",
+      "answerText": "Stone formation, nephrocalcinosis, tubulointerstitial nephritis, and subsequent renal failure",
+      "explanation": "In primary hyperoxaluria Type 1, excess oxalate forms insoluble complexes with calcium in the urine [14]. This leads to **stone formation, nephrocalcinosis, tubulointerstitial nephritis, and subsequently chronic renal failure (CRF)** [13, 14]. Both cystinosis and hyperoxaluria are high-yield metabolic causes of chronic renal failure (CRF) in childhood [15-19].",
+      "tags": ["pediatrics::nephrology", "primary_hyperoxaluria", "renal_scarring", "complications"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Oxalosis",
+      "question": "A child who underwent an extensive bowel resection for inflammatory bowel disease (IBD) is found to have significantly elevated urinary oxalate levels. What is the most likely mechanism of hyperoxaluria in this patient?",
+      "options": [
+        "An autosomal recessive genetic mutation in the alanine-glyoxylate transferase enzyme",
+        "Excessive dietary intake of vitamin C or high-oxalate foods",
+        "Enteric hyperoxaluria caused by increased dietary oxalate absorption in the colon due to small bowel malabsorption",
+        "Severe vitamin D deficiency causing decreased calcium absorption in the stomach"
+      ],
+      "answerKey": "C",
+      "answerText": "Enteric hyperoxaluria caused by increased dietary oxalate absorption in the colon due to small bowel malabsorption",
+      "explanation": "This patient has **enteric hyperoxaluria**, which is classically caused by small bowel malabsorption, IBD, or bowel resection [13, 14]. In these conditions, malabsorbed fatty acids in the gut lumen bind calcium (saponification), leaving dietary oxalate free and unbound. This results in **increased dietary oxalate absorption** in the colon, raising urinary oxalate excretion and leading to oxalate calcium stones [20].",
+      "tags": ["pediatrics::nephrology", "enteric_hyperoxaluria", "malabsorption", "stones"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Childhood Fanconi Syndrome",
+      "question": "Which of the following inherited metabolic disorders (Inborn Errors of Metabolism - IEMs) is associated with childhood renal Fanconi syndrome in addition to cystinosis?",
+      "options": [
+        "Alport syndrome",
+        "Autosomal dominant polycystic kidney disease (ADPKD)",
+        "Hereditary fructose intolerance",
+        "Primary hyperoxaluria Type 2"
+      ],
+      "answerKey": "C",
+      "answerText": "Hereditary fructose intolerance",
+      "explanation": "Inborn errors of metabolism (IEMs) classically associated with childhood renal Fanconi syndrome include cystinosis, Lowe syndrome, Dent disease, Wilson disease, **hereditary fructose intolerance**, galactosemia, tyrosinemia, mitochondrial disorders, and **Fanconi-Bickel syndrome** (glycogen storage type XI / hepatorenal glycogenosis) [4, 5, 21, 22].",
+      "tags": ["pediatrics::nephrology", "fanconi_syndrome", "metabolic_disorders", "etiology"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Presentation",
+      "question": "A 3-year-old child is brought to the clinic after his mother notices a swelling in his abdomen. On examination, a smooth, firm mass is palpated that is confined to the left side of the abdomen. What is the most common presentation of Wilms tumor (nephroblastoma) according to the sources?",
+      "options": [
+        "Gross, painless hematuria with passing of long ureteral clots",
+        "A painless abdominal or flank mass that is smooth, firm, and typically confined to one side",
+        "Severe, acute colicky flank pain radiating to the groin",
+        "Bilateral palpable kidneys accompanied by rapid-onset anasarca"
+      ],
+      "answerKey": "B",
+      "answerText": "A painless abdominal or flank mass that is smooth, firm, and typically confined to one side",
+      "explanation": "The sources state that the main presentation (seen in up to 90% of cases) of Wilms tumor is a painless abdominal or flank mass that is smooth, firm, and characteristically confined to one side of the abdomen [1-3].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "clinical_presentation"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Pathophysiology",
+      "question": "Up to 60% of pediatric patients with Wilms tumor present with systemic hypertension. What is the primary pathophysiological mechanism responsible for this finding?",
+      "options": [
+        "Invasion of the adrenal gland leading to catecholamine hypersecretion",
+        "Encroachment on the renal blood supply causing renal ischemia and subsequent excess renin production",
+        "Direct vascular compression of the abdominal aorta triggering coarctation-like syndrome",
+        "Severe hypercalcemia resulting from tumor secretion of parathyroid hormone-related peptide (PTHrP)"
+      ],
+      "answerKey": "B",
+      "answerText": "Encroachment on the renal blood supply causing renal ischemia and subsequent excess renin production",
+      "explanation": "According to the sources, hypertension in Wilms tumor is common (occurring in up to 60% of cases) and results from tumor encroachment on the local blood supply. This produces renal ischemia, which activates the renin-angiotensin-aldosterone system and causes excess renin production [3, 4].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "hypertension", "pathophysiology"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Associations",
+      "question": "A child is diagnosed with WAGR syndrome, a genetic predisposition spectrum associated with Wilms tumor. Which of the following groups of findings defines this clinical syndrome?",
+      "options": [
+        "Wilms tumor, Aniridia, Genitourinary anomalies, and Intellectual/developmental disability",
+        "Wilms tumor, Adrenal hypertrophy, Glomerulonephritis, and Retinitis pigmentosa",
+        "Wilms tumor, Ascites, Goiter, and Renal tubular acidosis",
+        "Wilms tumor, Alport nephritis, Giant platelets, and Rheumatoid arthritis"
+      ],
+      "answerKey": "A",
+      "answerText": "Wilms tumor, Aniridia, Genitourinary anomalies, and Intellectual/developmental disability",
+      "explanation": "WAGR syndrome is a well-established WT1-related predisposition spectrum. The acronym stands for Wilms tumor, Aniridia, Genitourinary anomalies, and intellectual/developmental disability (the sources explicitly correct the legacy term 'mental retardation' to 'intellectual/developmental disability') [5, 6].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "wagr", "genetics"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Associations",
+      "question": "A newborn is noted to have significant macroglossia, organomegaly, and lateralized overgrowth (hemihyperplasia). Which of the following syndromes is associated with these overgrowth features and carries a high risk of developing Wilms tumor?",
+      "options": [
+        "Denys-Drash syndrome",
+        "Beckwith-Wiedemann spectrum",
+        "Frasier syndrome",
+        "Alport syndrome"
+      ],
+      "answerKey": "B",
+      "answerText": "Beckwith-Wiedemann spectrum",
+      "explanation": "The Beckwith-Wiedemann spectrum/hemihyperplasia is characterized by overgrowth features including macroglossia, organomegaly, or lateralized overgrowth. Children with this spectrum carry an increased risk of embryonal tumors, necessitating tumor surveillance programs [4, 5].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "beckwith_wiedemann", "genetics"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Differential Diagnosis",
+      "question": "Which of the following clinical and laboratory findings classically helps distinguish an adrenal Neuroblastoma from a Wilms tumor (Nephroblastoma) in early childhood?",
+      "options": [
+        "Neuroblastoma is always perfectly smooth, round, and is never associated with systemic symptoms like fever.",
+        "Neuroblastoma typically presents with normal urinary catecholamine metabolites and never crosses the midline.",
+        "Neuroblastoma often arises from adrenal/sympathetic tissue, forms an irregular mass that crosses the midline, and displays elevated urinary catecholamines.",
+        "Wilms tumor shows massive elevations of urinary catecholamines, whereas neuroblastoma shows normal levels."
+      ],
+      "answerKey": "C",
+      "answerText": "Neuroblastoma often arises from adrenal/sympathetic tissue, forms an irregular mass that crosses the midline, and displays elevated urinary catecholamines.",
+      "explanation": "Neuroblastoma is a childhood tumor that simulates Wilms tumor. It typically forms an irregular mass that crosses the midline, encases major vessels, and presents with elevated urinary catecholamines. In contrast, typical Wilms tumor is smooth, firm, usually unilateral (does not cross the midline), and urinary catecholamines are within normal limits [3, 4].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "neuroblastoma", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Safety",
+      "question": "A clinician is evaluating a 4-year-old child with a highly suspicious, large, solid left renal mass. What critical 'safety rule' must be followed to avoid upstaging the tumor before or during treatment?",
+      "options": [
+        "Immediate percutaneous transabdominal needle biopsy must be performed to obtain a tissue diagnosis before calling oncology.",
+        "Avoid aggressive or casual abdominal palpation, unplanned biopsy, or incomplete surgery, as rupture or tumor spillage can upstage the disease.",
+        "Initiate immediate high-dose loop diuretics and systemic anticoagulation to prevent renal vein thrombosis.",
+        "Proceed directly to emergency open surgical exploration via a retroperitoneal approach without regional staging."
+      ],
+      "answerKey": "B",
+      "answerText": "Avoid aggressive or casual abdominal palpation, unplanned biopsy, or incomplete surgery, as rupture or tumor spillage can upstage the disease.",
+      "explanation": "The pediatric oncology rule emphasizes avoiding casual/unplanned biopsy, aggressive palpation, or incomplete surgery because tumor rupture/spillage will upstage the disease (e.g., upstaged to Stage III) [7, 8].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "clinical_practice_rules", "biopsy"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Staging",
+      "question": "According to the protocol-based staging criteria of childhood Wilms tumor, how is Stage V defined?",
+      "options": [
+        "Hematogenous metastases to distant sites (such as lungs or liver)",
+        "Bilateral renal tumors present at diagnosis",
+        "Involvement of regional lymph nodes with positive surgical margins",
+        "Extensive venous tumor thrombus extending above the level of the diaphragm"
+      ],
+      "answerKey": "B",
+      "answerText": "Bilateral renal tumours present at diagnosis",
+      "explanation": "Staging of Wilms tumor is protocol-specific. Stage I to IV represent progressive unilateral disease, whereas Stage V is uniquely reserved for bilateral renal tumors identified at initial diagnosis [9].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "staging"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Management",
+      "question": "How do the standard treatment pathways for an operable, unilateral, typical Wilms tumor differ between the Children's Oncology Group (COG) and the SIOP-based protocols?",
+      "options": [
+        "COG protocols rely exclusively on radiotherapy, whereas SIOP protocols utilize immediate chemotherapy and no surgery.",
+        "COG pathways often utilize upfront radical nephrectomy with lymph-node sampling, whereas SIOP-style pathways commonly initiate preoperative chemotherapy before resection.",
+        "COG pathways require bilateral nephrectomy at onset, whereas SIOP utilizes active surveillance for all unilateral lesions.",
+        "Both protocols avoid surgery entirely, relying on systemic immunotherapy combinations."
+      ],
+      "answerKey": "B",
+      "answerText": "COG pathways often utilize upfront radical nephrectomy with lymph-node sampling, whereas SIOP-style pathways commonly initiate preoperative chemotherapy before resection.",
+      "explanation": "The sources explain that North-American COG pathways typically favor upfront radical nephrectomy with lymph-node sampling, followed by adjuvant therapy. Conversely, SIOP-style pathways commonly employ preoperative chemotherapy first to shrink the tumor before surgical resection [9, 10].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "management", "cog_vs_siop"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Management",
+      "question": "A 4-year-old child presents with bilateral Wilms tumors (Stage V) or has a pre-existing genetic predisposition syndrome (such as Denys-Drash). What is the preferred treatment strategy to preserve long-term kidney function?",
+      "options": [
+        "Universal upfront bilateral radical nephrectomy and lifelong hemodialysis",
+        "Preoperative chemotherapy followed by a planned nephron-sparing surgery whenever oncologically feasible",
+        "High-dose systemic corticosteroids combined with local radiofrequency ablation",
+        "Immediate renal transplantation from a living donor before initiating any chemotherapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Preoperative chemotherapy followed by a planned nephron-sparing surgery whenever oncologically feasible",
+      "explanation": "In cases of bilateral disease, a solitary kidney, or genetic predisposition syndromes carrying high risk of metachronous tumors, preserving functioning renal tissue is vital. The preferred strategy is administering preoperative chemotherapy to downsize the tumor, followed by planned nephron-sparing surgery [10, 11].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "management", "nephron_sparing"]
+    },
+    {
+      "lesson": "Pediatric Urology::Wilms Tumor::Metastasis",
+      "question": "A child is diagnosed with advanced-stage Wilms tumor. According to the metastatic spread patterns described in the sources, what is the most common site of distant hematogenous metastasis?",
+      "options": [
+        "Vertebral column and long bones",
+        "Lungs",
+        "Brain",
+        "Contra-lateral adrenal gland"
+      ],
+      "answerKey": "B",
+      "answerText": "Lungs",
+      "explanation": "According to the sources, the lungs represent the most common metastatic site for typical Wilms tumor. Spread to the liver is less common, while bone and brain involvement is rare [4, 12].",
+      "tags": ["pediatrics::urology", "wilms_tumor", "metastasis"]
+    }
+  ]
+}
+

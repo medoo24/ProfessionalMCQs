@@ -1,0 +1,1482 @@
+{
+  "metadata": {
+    "source": "b_ Nephro-Final",
+    "total_questions": 10
+  },
+  "questions": [
+    {
+      "lesson": "Internal Medicine::Nephrology::Dysnatremia::Pseudohyponatremia",
+      "question": "A 54-year-old male with multiple myeloma and a serum IgG of 6.2 g/dL is found to have a serum sodium of 124 mmol/L on a routine automated chemistry analyzer. However, a concurrent arterial blood gas (ABG) with direct ion-selective electrode (ISE) measurements reveals a normal sodium of 140 mmol/L. Which of the following is the most accurate physiological explanation for this discrepancy?",
+      "options": [
+        "Severe hyperglycemia driving translocational movement of water from the intracellular to extracellular compartment",
+        "Isotonic pseudohyponatremia caused by extreme hyperproteinemia interfering with the indirect ISE measurement method",
+        "Hypovolemic hyponatremia from renal light chain-induced proximal tubule sodium wasting",
+        "Severe hypertriglyceridemia causing hypertonic hyponatremia due to increased serum viscosity"
+      ],
+      "answerKey": "B",
+      "answerText": "Isotonic pseudohyponatremia caused by extreme hyperproteinemia interfering with the indirect ISE measurement method",
+      "explanation": "According to the sources, severe hyperlipidemia or hyperproteinemia (such as in paraproteinemia/multiple myeloma) can cause isotonic pseudohyponatremia when measured by indirect ion-selective electrode (indirect ISE) methods. Measured osmolality remains normal, and direct ISE (such as on a blood gas analyzer) reports the true normal sodium. Hyperglycemia, by contrast, causes hypertonic/translocational hyponatremia, and these distinct entities should not be confused.",
+      "tags": ["hyponatremia", "pseudohyponatremia", "diagnostics", "multiple_myeloma"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hyponatremia::Etiology",
+      "question": "When evaluating a patient with hypotonic hyponatremia, differentiating euvolemic hyponatremia from other volume states is key. According to the diagnostic guidelines in the sources, which of the following is a mandatory clinical requirement before establishing a diagnosis of the Syndrome of Inappropriate Antidiuresis (SIAD)?",
+      "options": [
+        "Normal serum potassium and low urine sodium (<10 mmol/L)",
+        "Evidence of active volume depletion, such as postural hypotension or dry mucous membranes",
+        "Exclusion of adrenal insufficiency and hypothyroidism as potential underlying causes of impaired free-water excretion",
+        "Evidence of high-grade glomerular proteinuria and severe hypoalbuminemia"
+      ],
+      "answerKey": "C",
+      "answerText": "Exclusion of adrenal insufficiency and hypothyroidism as potential underlying causes of impaired free-water excretion",
+      "explanation": "According to the clinical guidelines in the sources, before diagnosing the Syndrome of Inappropriate Antidiuresis (SIAD), clinicians must actively exclude adrenal insufficiency (glucocorticoid deficiency) and hypothyroidism, both of which are common and reversible causes of impaired free-water excretion that present as euvolemic hypotonic hyponatremia.",
+      "tags": ["hyponatremia", "siadh", "diagnostics", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hyponatremia::Management",
+      "question": "A 72-year-old female presents with severe somnolence, confusion, and new-onset tonic-clonic seizures. Her serum sodium is 112 mmol/L. What is the immediate clinical management priority for this patient?",
+      "options": [
+        "Initiate fluid restriction to 500 mL/day and repeat the serum sodium in 24 hours",
+        "Start a slow intravenous infusion of 0.45% half-normal saline at 100 mL/hour to prevent rapid correction",
+        "Administer prompt intravenous boluses of 3% hypertonic saline to achieve an early symptom-mitigating rise of 4 to 6 mmol/L",
+        "Give oral urea and a vasopressin receptor antagonist (vaptan) immediately"
+      ],
+      "answerKey": "C",
+      "answerText": "Administer prompt intravenous boluses of 3% hypertonic saline to achieve an early symptom-mitigating rise of 4 to 6 mmol/L",
+      "explanation": "For patients presenting with severe symptoms of hyponatremia (such as seizures, coma, cardiorespiratory distress, or profound somnolence), the immediate clinical priority is prompt intravenous administration of 3% hypertonic saline boluses (often 100-150 mL over 10-20 minutes, repeated as necessary). The immediate goal is to achieve an early, symptom-relieving rise of approximately 4-6 mmol/L (or 5 mmol/L) in serum sodium. Complete etiologic classification and diagnostic testing must not delay this life-saving intervention.",
+      "tags": ["hyponatremia", "management", "emergencies", "hypertonic_saline"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hyponatremia::Complications",
+      "question": "During the therapy of chronic hyponatremia, what is the primary pathophysiological risk of exceeding the recommended daily correction limit (usually capped at 10 mmol/L in the first 24 hours and 8 mmol/L per 24 hours thereafter), and which patients are at the highest risk?",
+      "options": [
+        "Acute cerebral edema and herniation; primary risk in patients with severe hyperglycemia",
+        "Hyperkalemic metabolic acidosis; primary risk in patients taking spironolactone",
+        "Osmotic Demyelination Syndrome (ODS); primary risk in patients with very low baseline sodium, chronic alcoholism, malnutrition, liver disease, or hypokalemia",
+        "Acute tubular necrosis; primary risk in elderly patients with pre-existing CKD"
+      ],
+      "answerKey": "C",
+      "answerText": "Osmotic Demyelination Syndrome (ODS); primary risk in patients with very low baseline sodium, chronic alcoholism, malnutrition, liver disease, or hypokalemia",
+      "explanation": "Overly rapid or overcorrection of chronic hyponatremia can trigger Osmotic Demyelination Syndrome (ODS), also historically called pontine myelinolysis. The symptoms (dysarthria, dysphagia, paraparesis or quadriparesis, lethargy, coma, seizures) typically appear 2 to 6 days after the rapid correction and are often irreversible. Patients at the highest risk of ODS include those with very low baseline sodium, chronic alcoholism, malnutrition, advanced liver disease, or concurrent hypokalemia, necessitating stricter correction limits.",
+      "tags": ["hyponatremia", "complications", "osmotic_demyelination", "safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hyponatremia::Management",
+      "question": "A 28-year-old postpartum female is admitted with hypovolemic hyponatremia secondary to severe gastrointestinal losses. Following volume resuscitation with isotonic saline (0.9% NaCl), her blood pressure stabilizes, her tachycardia resolves, and her urine output suddenly surges to 450 mL/hour. What physiological event explains this sudden polyuria, and what is the primary therapeutic concern?",
+      "options": [
+        "Solute diuresis from sodium overload; concern is acute prerenal kidney injury",
+        "Suppression of endogenous ADH release due to restored effective circulating volume; concern is rapid, uncontrolled auto-correction of serum sodium causing ODS",
+        "Development of transient central diabetes insipidus; concern is hypernatremia",
+        "Recovery phase of acute tubular necrosis; concern is metabolic acidosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Suppression of endogenous ADH release due to restored effective circulating volume; concern is rapid, uncontrolled auto-correction of serum sodium causing ODS",
+      "explanation": "In hypovolemic hyponatremia, volume depletion stimulates persistent ADH secretion. Once intravascular volume is restored with isotonic fluids, the hemodynamic stimulus for ADH is abruptly removed. Endogenous ADH levels drop rapidly, closing the aquaporin-2 water channels in the collecting ducts and inducing a sudden, massive water diuresis (aquaresis). This rapid elimination of free water can cause serum sodium to rise too quickly (auto-correction), posing a major risk of osmotic demyelination syndrome.",
+      "tags": ["hyponatremia", "hypovolemia", "management", "adh", "physiological_principles"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hypernatremia::Diagnostics",
+      "question": "A 65-year-old elderly male is admitted with a serum sodium of 158 mmol/L, altered mental status, and severe dehydration. According to the diagnostic and therapeutic sequence for hypernatremia in the sources, which of the following represents the correct initial step in clinical management if the patient is in hemodynamic shock?",
+      "options": [
+        "Calculate the free-water deficit and immediately administer D5W intravenously at a rate of 250 mL/hour.",
+        "Stabilize the circulation and treat shock first using isotonic crystalloids (normal saline) before initiating free-water correction.",
+        "Administer intravenous furosemide combined with normal saline to force immediate sodium excretion.",
+        "Restrict all fluids and initiate urgent hemodialysis to lower serum sodium at a rate of 2 mmol/L/hour."
+      ],
+      "answerKey": "B",
+      "answerText": "Stabilize the circulation and treat shock first using isotonic crystalloids (normal saline) before initiating free-water correction.",
+      "explanation": "The clinical guidelines for hypernatremia in the sources emphasize that if circulation is compromised (shock), the first and most critical step is to stabilize the hemodynamic status using isotonic crystalloids. Restoring tissue perfusion takes precedence over correcting hyperosmolality; free-water replacement with water or hypotonic fluids (such as D5W) begins once hemodynamic stability is established.",
+      "tags": ["hypernatremia", "management", "hemodynamics", "resuscitation"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hypernatremia::Deficit Calculation",
+      "question": "A clinical team is managing a stable 70 kg man with chronic hypernatremia and a serum sodium of 160 mmol/L. Assuming his total body water (TBW) is approximately 40 liters, which of the following is the correct estimated free-water deficit for this patient, and what is the maximum recommended daily correction rate?",
+      "options": [
+        "Deficit: 2.5 Litres; Correction rate: no more than 20 mmol/L per day",
+        "Deficit: 5.7 Litres; Correction rate: about 0.5 mmol/L per hour (maximum 10–12 mmol/L per day)",
+        "Deficit: 10.0 Litres; Correction rate: about 2.0 mmol/L per hour to prevent acute brain demyelination",
+        "Deficit: 1.2 Litres; Correction rate: strictly controlled to avoid post-obstructive diuresis"
+      ],
+      "answerKey": "B",
+      "answerText": "Deficit: 5.7 Litres; Correction rate: about 0.5 mmol/L per hour (maximum 10–12 mmol/L per day)",
+      "explanation": "The sources detail that for a 70 kg man with chronic hypernatremia of 160 mmol/L and an estimated TBW of 40 liters, the free-water deficit is calculated as: 40 × (20 / 140) = 5.7 litres. The maximum recommended correction rate for chronic hypernatremia is about 0.5 mmol/L per hour, or no more than 10-12 mmol/L per day, to minimize the risk of cerebral edema.",
+      "tags": ["hypernatremia", "deficit_calculation", "math", "management_rate"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Water Balance::Physiology",
+      "question": "In the clinical evaluation of water balance, which of the following matches a renal tubule segment with its correct water permeability characteristics under physiological conditions?",
+      "options": [
+        "Proximal tubule: Impermeable to water; performs active sodium reclamation without fluid transit.",
+        "Thin descending limb of the loop of Henle: Highly permeable to water, allowing water to leave into the hypertonic medullary interstitium.",
+        "Thick ascending limb of the loop of Henle: Highly permeable to water, allowing rapid equilibration of urine with the cortex.",
+        "Collecting duct: Constantly and maximally permeable to water, completely independent of antidiuretic hormone levels."
+      ],
+      "answerKey": "B",
+      "answerText": "Thin descending limb of the loop of Henle: Highly permeable to water, allowing water to leave into the hypertonic medullary interstitium.",
+      "explanation": "Physiologically, water reabsorption is segment-specific. The proximal tubule performs bulk, largely iso-osmotic reabsorption of water (65-70%). The thin descending limb of the loop of Henle is highly permeable to water but impermeable to solutes, allowing water to leave into the hypertonic medullary interstitium. The thick ascending limb, by contrast, is impermeable to water but actively reabsorbs salt. The collecting duct's water permeability is variable and tightly regulated by ADH (vasopressin), which inserts aquaporin-2 water channels.",
+      "tags": ["physiology", "water_balance", "loop_of_henle", "tubular_reabsorption"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Water Balance::Diabetes Insipidus",
+      "question": "A patient is found to have high-volume hypotonic polyuria (>3.5 L/day) despite having a serum sodium of 148 mmol/L. The clinician suspects Diabetes Insipidus (DI). Which of the following correctly pairs a common etiology of Nephrogenic Diabetes Insipidus with its appropriate initial therapeutic management principle?",
+      "options": [
+        "Lithium therapy; managed with oral desmopressin (dDAVP) replacement as first-line therapy",
+        "Hypercalcemia or hypokalemia; managed by correcting the underlying electrolyte imbalance and ensuring free access to water",
+        "Intracranial pathology (tumors or trauma); managed with high-dose intravenous hypertonic saline",
+        "Chronic analgesic exposure; managed with oral spironolactone to suppress distal sodium delivery"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypercalcemia or hypokalemia; managed by correcting the underlying electrolyte imbalance and ensuring free access to water",
+      "explanation": "In nephrogenic diabetes insipidus (vasopressin resistance), the collecting duct cannot concentrate urine despite adequate ADH. Acquired causes include lithium, hypercalcemia, hypokalemia, chronic tubulointerstitial disease, and urinary obstruction. Treatment involves removing or treating the cause (correcting hypercalcemia/hypokalemia, stopping lithium or adding amiloride which blocks lithium entry through ENaC), restricting dietary solute, and ensuring free access to water. Desmopressin is the treatment for central DI, not nephrogenic DI.",
+      "tags": ["diabetes_insipidus", "nephrogenic_di", "lithium", "electrolytes"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Dysnatremia::Exams",
+      "question": "Based on the clinical examinations and pediatric nephrology files, which of the following is correct regarding the management of non-oliguric hyponatremia in a child?",
+      "options": [
+        "If the serum sodium is above 120 mEq/L, no immediate active treatment is indicated.",
+        "If the serum sodium is below 120 mEq/L, it should be aggressively corrected to 140 mEq/L using 5% sodium bicarbonate.",
+        "Every child with a sodium below 135 mEq/L requires an immediate dose of intravenous furosemide combined with potassium.",
+        "Treatment of non-oliguric hyponatremia is strictly contraindicated due to the risk of post-obstructive diuresis."
+      ],
+      "answerKey": "A",
+      "answerText": "If the serum sodium is above 120 mEq/L, no immediate active treatment is indicated.",
+      "explanation": "The pediatric nephrology files state that in non-oliguric hyponatremia: (1) If serum sodium is above 120 mEq/L, no active treatment is indicated (no ttt); (2) If it is below 120 mEq/L, it is corrected to 125 mEq/L using hypertonic saline (3%) based on the sodium deficit calculation: Na+ Deficit = (125 - serum Na+) × 0.6 × body weight (kg) (or 0.65 in some files).",
+      "tags": ["pediatrics", "hyponatremia", "exams", "management_thresholds"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Hyperkalemia",
+      "question": "A 65-year-old patient with advanced acute kidney injury has a serum potassium of 6.8 mEq/L and the ECG shows hyperacute peaked T waves with mild QRS widening. Which of the following is correct regarding the immediate administration of 10 mL of 10% calcium gluconate?",
+      "options": [
+        "It rapidly lowers the serum potassium concentration by shifting potassium into the intracellular compartment.",
+        "It enhances renal potassium excretion by blocking proximal tubule sodium-potassium-chloride cotransporters.",
+        "It stabilizes the cardiac cell membrane excitability against hyperkalemic cardiotoxicity but does not lower the serum potassium level.",
+        "It acts as a potent mineralocorticoid agonist to increase distal potassium secretion."
+      ],
+      "answerKey": "C",
+      "answerText": "It stabilizes the cardiac cell membrane excitability against hyperkalemic cardiotoxicity but does not lower the serum potassium level.",
+      "explanation": "According to the sources, calcium gluconate is administered in hyperkalemic emergencies to protect the myocardium and stabilize cell membranes, but it does not lower the serum potassium concentration. Lowering potassium requires therapies that shift potassium (such as insulin-glucose or beta2-agonists) or remove potassium (such as diuresis, binders, or dialysis).",
+      "tags": ["hyperkalemia", "calcium_gluconate", "management", "cardioprotection"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Hypokalemia",
+      "question": "Which of the following clinical features and ECG patterns is classically associated with severe hypokalemia (plasma potassium < 3.5 mEq/L)?",
+      "options": [
+        "Peaked T waves, shortened QT interval, and severe diarrhea",
+        "ST-segment depression, flattened or inverted T waves, prominent U waves, and muscular weakness or constipation",
+        "Hyperactive deep tendon reflexes, severe dehydration, and delta waves on ECG",
+        "Widened QRS complexes, prominent J waves, and high-volume solute diuresis"
+      ],
+      "answerKey": "B",
+      "answerText": "ST-segment depression, flattened or inverted T waves, prominent U waves, and muscular weakness or constipation",
+      "explanation": "The sources outline that hypokalemia is characterized by ST-segment depression, flattening/inversion of the T wave, prominent U waves, and a prolonged QT/QU interval. Systemic clinical features include skeletal muscle weakness, cramps, constipation, abdominal distension, and potentially paralytic ileus.",
+      "tags": ["hypokalemia", "ecg", "clinical_manifestations"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Calcium",
+      "question": "An ICU patient with a normal corrected total serum calcium of 2.3 mmol/L is noted to have significant hyperventilation (respiratory alkalosis) and develops acute perioral numbness and carpopedal spasm. What is the physiological explanation for this presentation?",
+      "options": [
+        "Alkalemia causes direct toxic irritation of peripheral nerve endings, independent of calcium levels.",
+        "Alkalemia increases the binding of calcium to albumin, lowering the biologically active ionized calcium fraction.",
+        "Alkalemia causes a rapid intracellular shift of phosphate, which precipitates as calcium phosphate in the blood.",
+        "Respiratory alkalosis impairs parathyroid hormone secretion, inducing temporary hypoparathyroidism."
+      ],
+      "answerKey": "B",
+      "answerText": "Alkalemia increases the binding of calcium to albumin, lowering the biologically active ionized calcium fraction.",
+      "explanation": "According to the sources, alkalemia increases calcium binding to albumin, which selectively lowers the physiologically active, ionized calcium fraction. This can trigger symptomatic tetany (such as paresthesia or carpopedal spasms) despite a completely normal total serum calcium level.",
+      "tags": ["calcium", "alkalosis", "ionized_calcium", "pathophysiology"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Hypercalcemia",
+      "question": "Based on contemporary clinical practice updates in the sources, what is the role of loop diuretics (like furosemide) in the management of acute severe hypercalcemia?",
+      "options": [
+        "They represent the absolute first-line gold standard therapy to rapidly lower serum calcium before rehydration is initiated.",
+        "They should be administered continuously as a fixed combination with intravenous calcitonin and bisphosphonates.",
+        "They are not routine calcium-lowering therapy and can worsen volume depletion; they should only be used when needed for fluid overload after adequate rehydration.",
+        "They act primarily by inhibiting the calcium-sensing receptor (CaSR) in the thick ascending limb of Henle."
+      ],
+      "answerKey": "C",
+      "answerText": "They are not routine calcium-lowering therapy and can worsen volume depletion; they should only be used when needed for fluid overload after adequate rehydration.",
+      "explanation": "The sources explicitly correct legacy medical practice: loop diuretics are not a routine calcium-lowering therapy and can worsen volume depletion. The first-line therapy is volume expansion with isotonic saline, and loop diuretics should be reserved for managing volume/fluid overload after the patient is adequately rehydrated.",
+      "tags": ["hypercalcemia", "furosemide", "loop_diuretics", "legacy_practice"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Calcium",
+      "question": "Which of the following clinical conditions or findings is correctly matched with its relationship to calcium disorders according to the clinical review guidelines and past university exams?",
+      "options": [
+        "Dehydration — classically recognized as a common sign of acute hypocalcemia.",
+        "Sarcoidosis — a well-documented cause of severe hypocalcemia.",
+        "Dehydration — a common clinical consequence of hypercalcemia; Sarcoidosis — a classic cause of hypercalcemia/hypercalciuria.",
+        "Alport syndrome — typically presents with autosomal-recessive hypercalcemic nephrocalcinosis."
+      ],
+      "answerKey": "C",
+      "answerText": "Dehydration — a common clinical consequence of hypercalcemia; Sarcoidosis — a classic cause of hypercalcemia/hypercalciuria.",
+      "explanation": "Based on the diagnostic exams and guidelines, dehydration is NOT a sign of hypocalcemia (which instead presents with tetany, paresthesias, or prolonged QT). Dehydration is a key complication of hypercalcemia due to polyuria. Additionally, sarcoidosis is NOT a cause of hypocalcemia; rather, it is a classic cause of hypercalcemia and hypercalciuria due to extrarenal synthesis of active Vitamin D.",
+      "tags": ["hypercalcemia", "hypocalcemia", "sarcoidosis", "exams"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Magnesium",
+      "question": "A patient is found to have a serum potassium of 2.8 mEq/L and a total calcium of 1.8 mmol/L, both of which remain stubbornly low despite aggressive intravenous and oral replacement therapy. Which underlying electrolyte deficiency is most likely driving this treatment resistance?",
+      "options": [
+        "Severe hyperphosphatemia",
+        "Hypomagnesemia",
+        "Type 4 renal tubular acidosis",
+        "SGLT2-inhibitor-induced hyponatremia"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypomagnesemia",
+      "explanation": "The sources emphasize that magnesium deficiency often accompanies hypokalemia and hypocalcemia and can make both of these deficits refractory to replacement therapy. Correcting the hypomagnesemia is necessary to resolve the hypokalemia and hypocalcemia.",
+      "tags": ["magnesium", "refractory_hypokalemia", "hypocalcemia", "diagnostics"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Electrolyte_Disorders::Phosphate",
+      "question": "Which of the following pathophysiological mechanisms is a recognized cause of hypophosphatemia due to an intracellular shift, and what is a severe clinical consequence of profound hypophosphatemia?",
+      "options": [
+        "Malnutrition and diarrhea; causing severe metabolic alkalosis",
+        "Refeeding syndrome or insulin treatment of DKA; causing muscle weakness, respiratory failure, or hemolysis",
+        "Hypoparathyroidism; causing acute coronary syndrome",
+        "Chronic lithium use; causing bilateral kidney calcification"
+      ],
+      "answerKey": "B",
+      "answerText": "Refeeding syndrome or insulin treatment of DKA; causing muscle weakness, respiratory failure, or hemolysis",
+      "explanation": "An intracellular shift of phosphate is classically triggered by refeeding syndrome or insulin treatment of DKA (as glucose uptake drives phosphate into cells). Severe hypophosphatemia (commonly below 0.32 mmol/L or 1 mg/dL) can lead to critical clinical consequences, including muscle weakness, respiratory failure (due to diaphragmatic weakness), rhabdomyolysis, hemolysis (due to ATP depletion in RBCs), and reduced 2,3-DPG.",
+      "tags": ["phosphate", "hypophosphatemia", "refeeding_syndrome", "dka"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::CKD_MBD",
+      "question": "In patients with progressive Chronic Kidney Disease (CKD), which of the following represents the correct sequence of events leading to secondary hyperparathyroidism and Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD)?",
+      "options": [
+        "Phosphate wasting and hypercalcemia directly stimulate the parathyroid gland to release excess PTH.",
+        "Declining nephron function leads to phosphate retention and reduced active vitamin D (calcitriol) production, which triggers compensatory increases in FGF23 and PTH.",
+        "Chronic hypercalciuria and metabolic alkalosis drive bone demineralization and parathyroid gland hyperplasia.",
+        "Metformin toxicity blocks intestinal calcium transport, forcing a secondary rise in PTH."
+      ],
+      "answerKey": "B",
+      "answerText": "Declining nephron function leads to phosphate retention and reduced active vitamin D (calcitriol) production, which triggers compensatory increases in FGF23 and PTH.",
+      "explanation": "As GFR declines in CKD, phosphate excretion drops, leading to phosphate retention. Simultaneously, the kidney's ability to produce active Vitamin D (calcitriol) is impaired. These changes lead to compensatory increases in FGF23 and PTH (secondary hyperparathyroidism) to maintain mineral balance, which eventually results in disordered bone remodeling (renal osteodystrophy) and vascular/soft-tissue calcification.",
+      "tags": ["ckd_mbd", "pathophysiology", "parathyroid_hormone", "phosphate_retention"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Tubular_Disorders::Fanconi",
+      "question": "A patient is suspected of having Fanconi Syndrome. Which of the following biochemically defines this syndrome, and what mineral/bone disorder is classically associated with it?",
+      "options": [
+        "Isolated renal glycosuria with hypercalcemia; leading to bilateral nephrolithiasis.",
+        "Generalized proximal tubular wasting of glucose, phosphate, bicarbonate, and potassium; leading to hypophosphatemic rickets in children or osteomalacia in adults.",
+        "Isolated distal hydrogen secretion defect with hyperkalemia; leading to osteopetrosis.",
+        "Selective medullary collecting duct damage with hypernatremia; leading to chronic osteomyelitis."
+      ],
+      "answerKey": "B",
+      "answerText": "Generalized proximal tubular wasting of glucose, phosphate, bicarbonate, and potassium; leading to hypophosphatemic rickets in children or osteomalacia in adults.",
+      "explanation": "According to the sources, Fanconi syndrome is defined as generalized proximal tubular dysfunction causing inappropriate urinary loss of multiple filtered solutes, including glucose (glycosuria without hyperglycemia), phosphate (phosphaturia), bicarbonate (Type 2 proximal RTA), and potassium. The chronic urinary phosphate wasting (hypophosphatemia) leads to rickets in children, and osteomalacia, bone pain, or pathologic fractures in adults.",
+      "tags": ["fanconi_syndrome", "proximal_tubule", "hypophosphatemia", "osteomalacia"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::RTA::Diagnostics",
+      "question": "A clinician is evaluating a patient with normal-anion-gap hyperchloremic metabolic acidosis. Which of the following statements is correct regarding the diagnostic utility of the Urine Anion Gap (UAG)?",
+      "options": [
+        "The UAG is calculated as Urine Sodium - Urine Chloride; a positive UAG always indicates gastrointestinal bicarbonate wasting.",
+        "The UAG (Urine Na + Urine K - Urine Cl) is a surrogate marker for urinary ammonium; a positive UAG suggests impaired distal renal ammonium excretion (RTA), whereas a negative UAG points to extrarenal bicarbonate loss (diarrhea).",
+        "The UAG is highly reliable in the presence of severe ketonuria, drug anions, or extremely low urine sodium.",
+        "Both RTA and diarrhea produce an identical, highly negative UAG because renal tubule function remains intact."
+      ],
+      "answerKey": "B",
+      "answerText": "The UAG (Urine Na + Urine K - Urine Cl) is a surrogate marker for urinary ammonium; a positive UAG suggests impaired distal renal ammonium excretion (RTA), whereas a negative UAG points to extrarenal bicarbonate loss (diarrhea).",
+      "explanation": "According to the sources, the Urine Anion Gap (UAG = Na + K - Cl) acts as a surrogate for ammonium excretion (NH4+ is excreted with Cl-). In extrarenal metabolic acidosis (e.g., diarrhea), healthy kidneys increase NH4+ and Cl- excretion, making the UAG negative. In renal tubular acidosis (RTA), the kidney cannot excrete ammonium appropriately, so the UAG remains positive (+).",
+      "tags": ["uag", "urine_anion_gap", "rta", "metabolic_acidosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Interpretation",
+      "question": "A patient's arterial blood gas (ABG) shows a pH of 7.37, HCO3- of 15 mmol/L, and a PaCO2 of 26 mmHg. How should this acid-base profile be clinically interpreted?",
+      "options": [
+        "Isolated simple metabolic acidosis with complete respiratory compensation",
+        "Mixed metabolic acidosis and primary respiratory alkalosis",
+        "Mixed metabolic acidosis and primary respiratory acidosis",
+        "Isolated simple respiratory alkalosis with complete renal compensation"
+      ],
+      "answerKey": "B",
+      "answerText": "Mixed metabolic acidosis and primary respiratory alkalosis",
+      "explanation": "A pH within the normal reference range (7.35–7.45) in the presence of abnormal bicarbonate and carbon dioxide values does not prove 'complete physiologic compensation.' Physiologic compensation does not return the pH to normal. Using Winters formula: expected PaCO2 = 1.5 * (15) + 8 ± 2 = 30.5 ± 2 mmHg (range 28.5–32.5 mmHg). Because the measured PaCO2 of 26 mmHg is significantly lower than the expected compensatory range, a second primary process is present: primary respiratory alkalosis.",
+      "tags": ["acid_base", "interpretation", "mixed_disorders", "winters_formula"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Interpretation",
+      "question": "A patient presenting with acute kidney injury is evaluated via arterial blood gas (ABG) with the following results: pH 7.22, HCO3- of 15 mmol/L, and a PaCO2 of 41 mmHg. What is the correct clinical diagnosis of this patient's acid-base state?",
+      "options": [
+        "Simple, uncompensated metabolic acidosis",
+        "Mixed metabolic acidosis and primary respiratory acidosis",
+        "Mixed metabolic acidosis and primary respiratory alkalosis",
+        "Simple, partially compensated respiratory acidosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Mixed metabolic acidosis and primary respiratory acidosis",
+      "explanation": "The primary process is metabolic acidosis, characterized by a low bicarbonate of 15 mmol/L. According to Winters formula, the expected compensatory PaCO2 is 1.5 * (15) + 8 ± 2 = 30.5 ± 2 mmHg. Because the measured PaCO2 of 41 mmHg is substantially higher than the expected compensatory ceiling of 32.5 mmHg, this represents alveolar hypoventilation, confirming mixed metabolic acidosis and a primary respiratory acidosis.",
+      "tags": ["acid_base", "interpretation", "mixed_disorders", "atn"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Anion Gap",
+      "question": "A patient in the intensive care unit is evaluated for severe sepsis. Laboratory results show: serum Sodium 136 mmol/L, Chloride 102 mmol/L, Bicarbonate 18 mmol/L, and serum Albumin 2.0 g/dL (normal baseline is 4.0 g/dL). What is this patient's corrected anion gap?",
+      "options": [
+        "16 mmol/L",
+        "21 mmol/L",
+        "11 mmol/L",
+        "26 mmol/L"
+      ],
+      "answerKey": "B",
+      "answerText": "21 mmol/L",
+      "explanation": "The measured anion gap is calculated as: Na - (Cl + HCO3) = 136 - (102 + 18) = 16 mmol/L. Because albumin is the major unmeasured anion, the gap must be corrected for hypoalbuminemia to avoid underestimating a high-gap acidosis. The formula is: Corrected AG = measured AG + 2.5 * (4.0 - albumin in g/dL). Thus, Corrected AG = 16 + 2.5 * (4.0 - 2.0) = 16 + 5 = 21 mmol/L.",
+      "tags": ["acid_base", "anion_gap", "hypoalbuminemia", "diagnostics"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Etiology",
+      "question": "The modern mnemonic 'GOLD MARK' is used to systematically recall the major causes of a high-anion-gap metabolic acidosis. Which of the following etiologies represents the 'O' component of this mnemonic?",
+      "options": [
+        "Oxalosis",
+        "Oxoproline (pyroglutamic acid)",
+        "Osmolar ketones",
+        "Organophosphates"
+      ],
+      "answerKey": "B",
+      "answerText": "Oxoproline (pyroglutamic acid)",
+      "explanation": "The modern high-gap mnemonic GOLD MARK represents: Glycols (ethylene/propylene), Oxoproline (pyroglutamic acid, typically associated with chronic acetaminophen use and glutathione depletion), L-lactate, D-lactate, Methanol, Aspirin (salicylates), Renal failure, and Ketoacidosis.",
+      "tags": ["acid_base", "anion_gap", "gold_mark", "etiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Compensation",
+      "question": "A patient with severe COPD has chronic hypercapnia with a stable baseline PaCO2 of 70 mmHg. According to the physiological compensation guidelines, how should the serum bicarbonate change in chronic respiratory acidosis?",
+      "options": [
+        "It should rise by approximately 3 mmol/L above normal baseline.",
+        "It should rise by approximately 11 to 12 mmol/L above normal baseline.",
+        "It should remain completely unchanged because the kidneys cannot compensate for hypercapnia.",
+        "It should fall by 6 mmol/L due to chronic hyperchloremic renal wasting."
+      ],
+      "answerKey": "B",
+      "answerText": "It should rise by approximately 11 to 12 mmol/L above normal baseline.",
+      "explanation": "In chronic respiratory acidosis, renal compensation takes 3 to 5 days to complete. Bicarbonate increases by approximately 3.5 to 4 mmol/L for every 10 mmHg chronic increase in PaCO2 above 40 mmHg. With a PaCO2 of 70 mmHg (30 mmHg above normal), the expected bicarbonate increase is 3 * (3.5 to 4) = 10.5 to 12 mmol/L above the standard normal baseline of 24 mmol/L (yielding a compensated bicarbonate of ~35 mmol/L).",
+      "tags": ["acid_base", "respiratory_acidosis", "compensation", "copd"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Mixed Disorders",
+      "question": "Which of the following toxic ingestions is classically associated with an early mixed acid-base pattern characterized by a primary respiratory alkalosis combined with a high-anion-gap metabolic acidosis?",
+      "options": [
+        "Ethylene glycol",
+        "Salicylate (Aspirin) poisoning",
+        "Metformin toxicity",
+        "Methanol ingestion"
+      ],
+      "answerKey": "B",
+      "answerText": "Salicylate (Aspirin) poisoning",
+      "explanation": "Salicylate toxicity classically causes a mixed acid-base disorder. It directly stimulates the medullary respiratory center in the brain, causing hyperventilation and a primary respiratory alkalosis. Simultaneously, it interferes with cellular metabolism and oxidative phosphorylation, leading to the accumulation of organic acids and causing a coexisting primary high-anion-gap metabolic acidosis.",
+      "tags": ["acid_base", "mixed_disorders", "salicylate", "toxicology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Management",
+      "question": "A patient presents with hyperventilation and respiratory alkalosis secondary to panic. What is the modern clinical consensus regarding the legacy practice of having the patient rebreathe into a paper bag?",
+      "options": [
+        "It is a harmless first-line therapy that should be used routinely to rapidly restore CO2.",
+        "It is unsafe because it can cause dangerous hypoxemia and can delay the diagnosis of serious underlying emergencies like pulmonary embolism or sepsis.",
+        "It is strictly contraindicated in pediatric patients but remains the gold standard in adults.",
+        "It should only be performed using high-flow supplemental oxygen delivered inside the bag."
+      ],
+      "answerKey": "B",
+      "answerText": "It is unsafe because it can cause dangerous hypoxemia and can delay the diagnosis of serious underlying emergencies like pulmonary embolism or sepsis.",
+      "explanation": "Modern clinical guidelines strongly warn against paper-bag rebreathing. Hyperventilation is a common response to serious emergencies such as hypoxemia, pulmonary embolism, sepsis, or salicylate toxicity. Paper-bag breathing can cause critical hypoxemia, worsen myocardial ischemia, and delay the correct diagnosis and treatment of the underlying cause.",
+      "tags": ["acid_base", "respiratory_alkalosis", "paper_bag", "safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Mixed Disorders",
+      "question": "In a patient with a high-anion-gap metabolic acidosis, how is delta ratio analysis (delta AG / delta HCO3-) clinically utilized to evaluate for an additional, coexisting metabolic process?",
+      "options": [
+        "A ratio of <0.4 indicates a concurrent respiratory alkalosis.",
+        "A ratio of >2.0 indicates a coexisting metabolic alkalosis or pre-existing chronic respiratory acidosis.",
+        "A ratio of >2.0 proves that the respiratory compensation is fully complete.",
+        "A ratio of >2.0 indicates a coexisting normal-anion-gap metabolic acidosis."
+      ],
+      "answerKey": "B",
+      "answerText": "A ratio of >2.0 indicates a coexisting metabolic alkalosis or pre-existing chronic respiratory acidosis.",
+      "explanation": "The delta ratio compares the change in anion gap (Corrected AG - normal AG) to the change in bicarbonate (24 - measured HCO3-). If the anion gap rises disproportionately more than the bicarbonate falls (ratio > 2.0), it means the measured bicarbonate is higher than expected. This indicates a concurrent metabolic alkalosis (e.g., from vomiting or diuretics) or a pre-existing chronic respiratory acidosis.",
+      "tags": ["acid_base", "delta_ratio", "mixed_disorders", "anion_gap"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Diagnostics",
+      "question": "In evaluating a normal-anion-gap (hyperchloremic) metabolic acidosis, how is the Urine Anion Gap (UAG) used to differentiate gastrointestinal from renal bicarbonate wasting?",
+      "options": [
+        "A positive UAG suggests a gastrointestinal cause like severe diarrhea.",
+        "A negative UAG suggests increased renal ammonium excretion (typical of diarrhea), whereas a positive UAG indicates impaired renal ammonium excretion (typical of RTA).",
+        "A positive UAG indicates massive proximal bicarbonate loading.",
+        "The UAG is highly reliable in patients with severe ketonuria or those taking large doses of penicillin."
+      ],
+      "answerKey": "B",
+      "answerText": "A negative UAG suggests increased renal ammonium excretion (typical of diarrhea), whereas a positive UAG indicates impaired renal ammonium excretion (typical of RTA).",
+      "explanation": "The UAG (measured as Urine Na + K - Cl) acts as a surrogate marker for urinary ammonium (NH4+) excretion. When the GI tract loses bicarbonate (e.g., diarrhea), the healthy kidney responds by increasing NH4+ and Cl- excretion, making the UAG negative. In renal tubular acidosis (RTA), the kidney cannot excrete ammonium appropriately, so the UAG remains positive (+). The UAG is unreliable if unusual urine anions (like ketoacids or certain drugs) are present.",
+      "tags": ["acid_base", "uag", "rta", "metabolic_acidosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acid-Base::Management",
+      "question": "According to the corrected safety updates in the sources, which of the following statements is true regarding the clinical administration of hydrochloric acid (HCl)?",
+      "options": [
+        "HCl is a standard, routine first-line ward treatment to correct severe metabolic acidosis.",
+        "HCl is never a treatment for metabolic acidosis; its use is reserved only for highly specialized, critical-care settings for severe refractory metabolic alkalosis.",
+        "HCl should be routinely administered as a fixed package with sodium bicarbonate to stabilize blood pH.",
+        "HCl is a highly effective, safe oral therapy to treat type 4 hyperkalemic RTA."
+      ],
+      "answerKey": "B",
+      "answerText": "HCl is never a treatment for metabolic acidosis; its use is reserved only for highly specialized, critical-care settings for severe refractory metabolic alkalosis.",
+      "explanation": "The clinical updates correct an OCR error in legacy notes: hydrochloric acid is never a treatment for metabolic acidosis. For metabolic alkalosis, IV HCl is a hazardous treatment that is rarely used, only in specialized critical-care/nephrology settings for severe refractory cases (pH > 7.55 with complications), not as routine therapy.",
+      "tags": ["acid_base", "management", "hydrochloric_acid", "safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RRT::Dialysis Initiation",
+      "question": "A 62-year-old male with Stage 5 Chronic Kidney Disease (eGFR 8 mL/min/1.73 m²) is reviewed in the clinic. He has no edema, normal blood pressure, a serum potassium of 4.8 mEq/L, and bicarbonate of 22 mEq/L. He reports feeling very well, with a normal appetite, stable weight, and no cognitive changes. What is the most appropriate next step regarding dialysis initiation?",
+      "options": [
+        "Initiate maintenance hemodialysis immediately based on his GFR crossing the Stage 5 threshold.",
+        "Continue conservative medical management and monitor closely, as he is clinically stable and asymptomatic.",
+        "Create an emergency temporary internal jugular catheter for immediate dialytic clearance.",
+        "Recommend a preemptive bilateral native nephrectomy to prepare for imminent dialysis."
+      ],
+      "answerKey": "B",
+      "answerText": "Continue conservative medical management and monitor closely, as he is clinically stable and asymptomatic.",
+      "explanation": "Dialysis initiation should be based on a composite clinical and biochemical assessment of symptoms, signs, quality of life, and refractory complications, rather than a single laboratory value or GFR threshold in a stable, asymptomatic patient [1-3].",
+      "tags": ["nephrology", "rrt", "dialysis_initiation", "ckd"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::RRT Planning",
+      "question": "According to the clinical practice guidelines highlighted in the sources, at what threshold of renal function or risk is it recommended to initiate formal kidney replacement therapy (KRT) planning, including transplant referral and access education?",
+      "options": [
+        "Only when the patient develops overt uremic symptoms such as pericarditis or encephalopathy.",
+        "When the eGFR is <15–20 mL/min/1.73 m² OR the calculated 2-year kidney failure risk exceeds 40%.",
+        "When the serum creatinine exceeds 8.0 mg/dL in non-diabetic individuals.",
+        "Immediately upon the clinical detection of microalbuminuria (Category A2)."
+      ],
+      "answerKey": "B",
+      "answerText": "When the eGFR is <15–20 mL/min/1.73 m² OR the calculated 2-year kidney failure risk exceeds 40%.",
+      "explanation": "Early predialysis preparation and education are essential to facilitate shared decision-making, access creation, and preemptive transplant evaluation. KDIGO suggests starting this planning when the eGFR is <15–20 mL/min/1.73 m² or the 2-year risk of progression to kidney failure exceeds 40% [4, 5].",
+      "tags": ["ckd", "rrt_planning", "kdigo_guidelines", "referral"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RRT::Urgent Dialysis",
+      "question": "A patient with advanced renal failure is evaluated in the emergency department. Which of the following clinical findings represents an absolute, urgent indication to initiate renal replacement therapy?",
+      "options": [
+        "A stable serum creatinine of 5.5 mg/dL accompanied by mild ankle swelling.",
+        "A serum potassium of 5.6 mEq/L with normal sinus rhythm on ECG.",
+        "Clinical evidence of uremic pericarditis (e.g., a pericardial friction rub).",
+        "Chronic normochromic normocytic anemia with a stable hemoglobin of 8.5 g/dL."
+      ],
+      "answerKey": "C",
+      "answerText": "Clinical evidence of uremic pericarditis (e.g., a pericardial friction rub).",
+      "explanation": "Absolute/urgent indications for dialysis include refractory acidosis, refractory hyperkalemia, refractory fluid overload, and severe uremic complications such as uremic pericarditis, uremic encephalopathy, or uremic neuropathy [1, 6].",
+      "tags": ["rrt", "hemodialysis", "urgent_dialysis", "absolute_indications"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RRT::Vascular Access",
+      "question": "A 52-year-old female with progressive Stage 4 CKD is expected to require long-term hemodialysis. She presents to the emergency department with acute volume overload requiring temporary dialysis catheter placement. Why does current clinical practice strongly recommend avoiding the subclavian vein for temporary access in this patient?",
+      "options": [
+        "Subclavian vein access carries a 100% risk of hyperacute bacterial endocarditis.",
+        "Subclavian venous stenosis frequently develops, which can permanently compromise the future creation or function of a long-term arteriovenous fistula in that arm.",
+        "The subclavian route strictly prohibits the subsequent use of systemic heparin during hemodialysis.",
+        "Subclavian catheters interfere with the systemic endocrine activation of calcitriol."
+      ],
+      "answerKey": "B",
+      "answerText": "Subclavian venous stenosis frequently develops, which can permanently compromise the future creation or function of a long-term arteriovenous fistula in that arm.",
+      "explanation": "Catheterization of the subclavian vein carries a high risk of developing central venous stenosis. This can permanently obstruct venous outflow from that extremity, compromising the future creation, maturation, or long-term patency of an ipsilateral AV fistula or graft [7].",
+      "tags": ["rrt", "hemodialysis", "vascular_access", "fistula"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RRT::PD Complications",
+      "question": "A 44-year-old patient on continuous ambulatory peritoneal dialysis (CAPD) presents with abdominal pain and cloudy peritoneal effluent. According to the ISPD 2022 guidelines, what minimum criteria must be met to establish a diagnosis of PD-associated peritonitis?",
+      "options": [
+        "The presence of high-grade fever (>38.5°C), positive blood cultures, and a WBC count >10,000/µL.",
+        "At least two of: (1) clinical features of peritonitis (pain or cloudy effluent), (2) effluent WBC >100/µL (after ≥2 hour dwell) with >50% polymorphonuclear cells, and (3) a positive effluent culture.",
+        "A single positive effluent culture for Staphylococcus aureus, even in the complete absence of abdominal pain or effluent turbidity.",
+        "A serum C-reactive protein (CRP) >100 mg/L combined with visible exit-site purulence."
+      ],
+      "answerKey": "B",
+      "answerText": "At least two of: (1) clinical features of peritonitis (pain or cloudy effluent), (2) effluent WBC >100/µL (after ≥2 hour dwell) with >50% polymorphonuclear cells, and (3) a positive effluent culture.",
+      "explanation": "The ISPD 2022 peritonitis guideline states that a diagnosis of PD peritonitis is established when at least two of the three listed criteria are present: clinical signs, inflammatory effluent cell counts, and microbiological confirmation [8, 9].",
+      "tags": ["rrt", "peritoneal_dialysis", "peritonitis", "ispd"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RRT::PD Physiology",
+      "question": "Unlike hemodialysis, which uses a synthetic dialyzer membrane, peritoneal dialysis utilizes the patient's own peritoneum. What is the primary physiological mechanism driving ultrafiltration (water removal) during a peritoneal dialysis dwell?",
+      "options": [
+        "High hydrostatic pressure generated by an extracorporeal blood pump.",
+        "An osmotic or oncotic gradient established by adding agents like glucose or icodextrin to the dialysate fluid.",
+        "Active, ATP-dependent transport of water molecules through peritoneal endothelial cells.",
+        "Convective solvent drag driven by a high-velocity countercurrent dialysate flow."
+      ],
+      "answerKey": "B",
+      "answerText": "An osmotic or oncotic gradient established by adding agents like glucose or icodextrin to the dialysate fluid.",
+      "explanation": "In peritoneal dialysis, solute clearance is achieved primarily via diffusion, whereas water removal (ultrafiltration) is driven by osmosis. This is generated by using glucose or icodextrin-containing dialysate to create an osmotic gradient across the peritoneal membrane [10, 11].",
+      "tags": ["rrt", "peritoneal_dialysis", "ultrafiltration", "physiology"]
+    },
+    {
+      "lesson": "Surgery::Urology::Transplantation::Surgical Technique",
+      "question": "A 38-year-old male is undergoing a deceased-donor kidney transplant. Which of the following is correct regarding the standard surgical placement of the allograft and the management of his native kidneys?",
+      "options": [
+        "The donor kidney is placed in the orthotopic position (lumbar region) after performing a routine bilateral native nephrectomy.",
+        "The donor kidney is placed extraperitoneally in an iliac fossa, and the native kidneys are normally left intact in the absence of specific clinical indications for removal.",
+        "The donor kidney is implanted directly into the peritoneal cavity, and a unilateral native nephrectomy is performed to create space.",
+        "The donor kidney is anastomosed directly to the portal vein to ensure first-pass hepatic metabolism."
+      ],
+      "answerKey": "B",
+      "answerText": "The donor kidney is placed extraperitoneally in an iliac fossa, and the native kidneys are normally left intact in the absence of specific clinical indications for removal.",
+      "explanation": "In standard kidney transplantation, the donor kidney is placed extraperitoneally in the iliac fossa and connected to the iliac vessels and bladder. The native kidneys are usually retained. Nephrectomy is reserved for clear indications such as recurrent sepsis, malignancy, severe symptoms, or space constraints in polycystic disease [12, 13].",
+      "tags": ["transplant", "urology", "surgical_technique", "nephrectomy"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Transplantation::Complications",
+      "question": "Solid organ transplant recipients require lifelong maintenance immunosuppression to prevent allograft rejection. Which of the following malignancies is most significantly increased in risk among post-transplant patients due to this chronic immunosuppressive state?",
+      "options": [
+        "Small cell lung cancer secondary to direct calcineurin inhibitor pulmonary deposition.",
+        "Skin cancers (such as squamous cell carcinoma) and post-transplant lymphoproliferative disorder (PTLD).",
+        "Clear cell renal cell carcinoma of the newly transplanted allograft.",
+        "Medullary thyroid carcinoma secondary to chronic calcitonin suppression."
+      ],
+      "answerKey": "B",
+      "answerText": "Skin cancers (such as squamous cell carcinoma) and post-transplant lymphoproliferative disorder (PTLD).",
+      "explanation": "Chronic immunosuppression impairs host immune surveillance, leading to a significantly increased risk of opportunistic malignancies. Squamous cell carcinoma of the skin and PTLD (often driven by EBV mismatch) are classic, high-yield post-transplant neoplastic complications [14].",
+      "tags": ["transplant", "immunosuppression", "malignancy", "ptld"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Pregnancy and Dialysis",
+      "question": "A 28-year-old female on maintenance hemodialysis becomes pregnant. According to the guidelines in the sources, what represents the recommended dialysis strategy during her pregnancy, and why?",
+      "options": [
+        "Dialysis intensity should be decreased to less than 10 hours/week to minimize hemodynamic fluctuations and protect the uterine artery.",
+        "Dialysis should be intensified to at least 20 hours/week (often up to 48 hours/week) to maintain a low pre-dialysis urea (<15 mmol/L), which is associated with vastly improved infant survival.",
+        "Peritoneal dialysis must be initiated immediately because hemodialysis is an absolute contraindication during pregnancy.",
+        "Dialysis should be held entirely during the first trimester to prevent teratogenic electrical interference."
+      ],
+      "answerKey": "B",
+      "answerText": "Dialysis should be intensified to at least 20 hours/week (often up to 48 hours/week) to maintain a low pre-dialysis urea (<15 mmol/L), which is associated with vastly improved infant survival.",
+      "explanation": "Pregnancy outcomes in patients on dialysis are highly dependent on the intensity and duration of treatment. Intensifying dialysis to at least 20 hours/week (and up to 48 hours/week) to maintain pre-dialysis urea levels <15 mmol/L is strongly associated with better outcomes, including improved infant survival rates and reduced rates of severe preterm delivery [15-17].",
+      "tags": ["pregnancy", "hemodialysis", "dialysis_duration", "obstetrics"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Pregnancy Post-Transplant",
+      "question": "A 32-year-old female who received a successful kidney transplant 3 years ago has stable allograft function (serum creatinine 110 µmol/L), minimal proteinuria, and no history of rejection. She is planning a pregnancy. Which of her current maintenance immunosuppressive medications must be discontinued and replaced prior to conception due to proven teratogenicity?",
+      "options": [
+        "Prednisolone",
+        "Mycophenolate mofetil (MMF)",
+        "Tacrolimus",
+        "Azathioprine"
+      ],
+      "answerKey": "B",
+      "answerText": "Mycophenolate mofetil (MMF)",
+      "explanation": "While prednisolone, tacrolimus, cyclosporine, and azathioprine are considered relatively safe and are commonly continued during pregnancy under close monitoring, mycophenolate mofetil (MMF) or mycophenolic acid is highly teratogenic and is associated with significant risks of spontaneous abortion and congenital malformations. MMF must be stopped and switched to a safer alternative (such as azathioprine) well before conception [18].",
+      "tags": ["transplant", "pregnancy", "mycophenolate", "teratogenicity"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::CKD in Pregnancy::Outcomes",
+      "question": "A 31-year-old female patient with a history of kidney transplantation is planning a pregnancy. According to the baseline renal function outcomes presented in the sources, what successful pregnancy outcome rate and risk of persistent post-pregnancy kidney function impairment are expected if her baseline serum creatinine is maintained < 125 μmol/L?",
+      "options": [
+        "97% successful outcome rate; 15% risk of persistent post-pregnancy kidney function impairment",
+        "75% successful outcome rate; 82% risk of persistent post-pregnancy kidney function impairment",
+        "50% successful outcome rate; 5% risk of persistent post-pregnancy kidney function impairment",
+        "100% successful outcome rate; 0% risk of persistent post-pregnancy kidney function impairment"
+      ],
+      "answerKey": "A",
+      "answerText": "97% successful outcome rate; 15% risk of persistent post-pregnancy kidney function impairment",
+      "explanation": "The sources outline that pregnancy outcomes following renal transplantation are vastly better than on dialysis, boasting a 95% success rate [1]. Specifically, if the mother's baseline creatinine is < 125 μmol/L, she has a 97% chance of a successful outcome, compared to a 75% success rate if baseline creatinine is > 125 μmol/L [2]. Additionally, persistent post-pregnancy kidney function impairment develops in 15% of transplant patients [2].",
+      "tags": ["obstetrics", "transplant", "pregnancy", "outcomes"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Hypertension::Management",
+      "question": "A pregnant patient with chronic kidney disease and chronic hypertension is being managed in the clinic. According to the obstetric hypertension guidelines in the sources, what is the target blood pressure, and what diastolic blood pressure threshold should be avoided?",
+      "options": [
+        "Target BP < 130/80 mmHg; avoid treating to a diastolic BP < 70 mmHg",
+        "Target BP < 140/90 mmHg; avoid treating to a diastolic BP < 80 mmHg",
+        "Target BP < 150/100 mmHg; avoid treating to a diastolic BP < 90 mmHg",
+        "Target BP < 120/80 mmHg; avoid treating to a diastolic BP < 60 mmHg"
+      ],
+      "answerKey": "B",
+      "answerText": "Target BP < 140/90 mmHg; avoid treating to a diastolic BP < 80 mmHg",
+      "explanation": "In pregnant patients with chronic hypertension and coexisting CKD, the blood pressure target is < 140/90 mmHg [3, 4]. The guidelines emphasize that clinicians should not treat blood pressure to a diastolic blood pressure < 80 mmHg [3, 5]. Uncontrolled hypertension at conception is a major risk factor for fetal death [6].",
+      "tags": ["pregnancy", "hypertension", "ckd", "targets"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Dialysis during Pregnancy::Intensity",
+      "question": "A 29-year-old pregnant patient on maintenance hemodialysis is being managed by a multidisciplinary team. According to the clinical evidence in the sources, what dialysis duration is recommended, and how does this affect infant survival?",
+      "options": [
+        "Dialysis should be limited to < 14 hours/week to prevent maternal uterine hypoperfusion.",
+        "Intensifying dialysis to certainly > 20 hours/week is recommended, as it is associated with a statistically significant improvement in infant survival.",
+        "A strict nocturnal protocol of 10 hours/week is the only regimen proven to completely eliminate pre-eclampsia.",
+        "Standard dialysis frequency should be reduced by 50% in the third trimester once CTG monitoring begins."
+      ],
+      "answerKey": "B",
+      "answerText": "Intensifying dialysis to certainly > 20 hours/week is recommended, as it is associated with a statistically significant improvement in infant survival.",
+      "explanation": "The sources state that dialysis during pregnancy should be as intensive as possible, certainly exceeding 20 hours/week, with a goal of maintaining pre-dialysis urea < 15 mmol/L [7]. Increasing dialysis duration to > 20 hours/week (and up to 48±5 hours/week) is associated with a statistically significant (p < 0.05) increase in infant survival and decreased preterm delivery rates [8-10].",
+      "tags": ["pregnancy", "dialysis", "hemodialysis", "infant_survival"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Dialysis during Pregnancy::Diagnosis",
+      "question": "Diagnosing pregnancy in a woman on maintenance dialysis can be clinically challenging due to high rates of baseline amenorrhoea. According to the sources, what diagnostic strategy is recommended if there is a suspected pregnancy with an elevated serum βhCG but no visible fetal heart beat on early ultrasound?",
+      "options": [
+        "Assume a diagnosis of choriocarcinoma and initiate immediate chemotherapy.",
+        "Repeat the serum βhCG and repeat the obstetric ultrasound in 1-2 weeks.",
+        "Perform a therapeutic uterine curettage immediately to prevent life-threatening uterine rupture.",
+        "Induce a diagnostic menstruation by administering high-dose oral spironolactone."
+      ],
+      "answerKey": "B",
+      "answerText": "Repeat the serum βhCG and repeat the obstetric ultrasound in 1-2 weeks.",
+      "explanation": "The sources outline that diagnosing pregnancy in a dialysis patient involves assessing serum βhCG and performing an early ultrasound [11, 12]. If the serum βhCG is elevated but no fetal heart beat is detected, the correct clinical path is to assess serial βhCG and repeat the ultrasound in 1-2 weeks [12].",
+      "tags": ["pregnancy", "dialysis", "diagnostics", "ultrasound"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Pre-eclampsia::Prophylaxis",
+      "question": "A 32-year-old pregnant female with Stage 3 Chronic Kidney Disease (CKD) presents for her first prenatal visit at 11 weeks of gestation. According to the NICE clinical guidelines in the sources, what pharmacologic prophylaxis is recommended for pre-eclampsia, and what is its starting timing?",
+      "options": [
+        "Initiate low-molecular-weight heparin (LMWH) starting at 20 weeks of gestation.",
+        "Administer aspirin 75 mg daily starting from 12 weeks of gestation until the birth of the baby.",
+        "Provide oral spironolactone 25 mg daily starting immediately upon conception.",
+        "Start prophylactic ciprofloxacin daily from the second trimester onward."
+      ],
+      "answerKey": "B",
+      "answerText": "Administer aspirin 75 mg daily starting from 12 weeks of gestation until the birth of the baby.",
+      "explanation": "According to the NICE clinical guidelines featured in the sources, women at high risk of pre-eclampsia—specifically those with chronic kidney disease (CKD), chronic hypertension, diabetes, autoimmune diseases (like SLE/APS), or previous hypertensive gestational disease—should be advised to take aspirin 75 mg daily from 12 weeks of gestation until the birth of the baby [13, 14]. In these high-risk women, aspirin yields a 25% relative risk reduction (NNT = 19) for pre-eclampsia [14].",
+      "tags": ["pre-eclampsia", "prophylaxis", "aspirin", "ckd"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Dialysis during Pregnancy::Management",
+      "question": "Managing a pregnant patient on dialysis requires strict attention to fluid and nutritional parameters. According to the clinical guidelines in the sources, what are the recommended target dry weight increases and daily dietary protein requirements?",
+      "options": [
+        "No dry weight increase in the first trimester, followed by 0.5 kg/week; protein intake of 0.8 g/kg/day.",
+        "Increase target weight by 1.5 kg over the first trimester, then 0.2–0.4 kg/week from week 15; protein intake > 1.8 g/kg/day.",
+        "Increase target weight by 5.0 kg in the first trimester, then 1.0 kg/week; protein restriction < 0.6 g/kg/day to minimize urea.",
+        "Maintain a strictly stable dry weight throughout the entire pregnancy; protein intake of 1.2 g/kg/day."
+      ],
+      "answerKey": "B",
+      "answerText": "Increase target weight by 1.5 kg over the first trimester, then 0.2–0.4 kg/week from week 15; protein intake > 1.8 g/kg/day.",
+      "explanation": "For pregnant patients on dialysis, target weight should increase by 1.5 kg over the first trimester, and then by 0.2–0.4 kg/week from week 15 [5]. Nutritional guidelines require a high protein intake of > 1.8 g/kg/day and an energy intake of 30 kcal/kg/day, along with water-soluble vitamin and folic acid supplementation [5].",
+      "tags": ["pregnancy", "dialysis", "nutrition", "dry_weight"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Pharmacology::Hypertension",
+      "question": "A pregnant patient with chronic kidney disease is found to have a blood pressure of 152/92 mmHg at 14 weeks of gestation. Which of the following drugs represents a safe first-line choice to manage her hypertension, and which class is strictly contraindicated?",
+      "options": [
+        "Safe: Spironolactone; Contraindicated: Labetalol",
+        "Safe: Labetalol, Methyldopa, or Nifedipine; Contraindicated: ACE inhibitors or ARBs",
+        "Safe: Moxonidine or Diltiazem; Contraindicated: Methyldopa",
+        "Safe: Enalapril; Contraindicated: Hydralazine"
+      ],
+      "answerKey": "B",
+      "answerText": "Safe: Labetalol, Methyldopa, or Nifedipine; Contraindicated: ACE inhibitors or ARBs",
+      "explanation": "The sources explicitly categorize safe and contraindicated drugs in pregnancy: safe antihypertensives include labetalol, methyldopa, nifedipine, and hydralazine [15]. Conversely, ACE inhibitors, angiotensin receptor blockers (ARBs), spironolactone, moxonidine, and diltiazem are contraindicated or avoided during pregnancy due to maternal/fetal toxicity risks [15-17].",
+      "tags": ["pregnancy", "pharmacology", "antihypertensives", "contraindications"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Pharmacology::Transplantation",
+      "question": "A 30-year-old female with a functioning renal transplant wishes to plan a pregnancy. Which of her current maintenance immunosuppressive agents must be stopped and switched to a safer alternative prior to conception, and what is the typical recommended post-transplant wait time before conceiving?",
+      "options": [
+        "Stop: Prednisolone; Wait: 6 months post-transplant",
+        "Stop: Mycophenolate mofetil (MMF) or Mycophenolic acid; Wait: 2 years post-transplant",
+        "Stop: Tacrolimus or Cyclosporine; Wait: 5 years post-transplant",
+        "Stop: Azathioprine; Wait: 3 months post-transplant"
+      ],
+      "answerKey": "B",
+      "answerText": "Stop: Mycophenolate mofetil (MMF) or Mycophenolic acid; Wait: 2 years post-transplant",
+      "explanation": "Pregnancy post-transplant requires careful pre-conception medication review. Safe immunosuppressants include prednisolone, cyclosporine, tacrolimus, and azathioprine [18]. However, mycophenolate mofetil (MMF), mycophenolic acid, sirolimus, and methotrexate are contraindicated and must be replaced [18]. Standard guidelines recommend waiting 2 years post-transplant (or 12–18 months in some centers) with stable renal function and minimal proteinuria/hypertension before attempting conception [1].",
+      "tags": ["pregnancy", "transplant", "mycophenolate", "immunosuppression"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Physiology::Pregnancy",
+      "question": "According to the renal physiology and past examination files in the sources, how do renal blood flow, glomerular filtration rate (GFR), and serum creatinine levels typically change during the first trimester of a normal pregnancy?",
+      "options": [
+        "Renal blood flow and GFR decrease significantly, causing serum creatinine to slightly increase.",
+        "GFR increases and renal blood flow rises, causing serum creatinine to slightly decrease.",
+        "There are zero hemodynamic or filtration changes, and serum creatinine remains exactly at the pre-pregnancy baseline.",
+        "Microalbuminuria is a normal, expected physiological finding in all healthy, early pregnancies."
+      ],
+      "answerKey": "B",
+      "answerText": "GFR increases and renal blood flow rises, causing serum creatinine to slightly decrease.",
+      "explanation": "The sources point out a classic physiological and exam pearl: pregnancy induces renal vasodilation, which increases GFR and renal blood flow [19-21]. This gestational hyperfiltration causes serum creatinine to slightly decrease in the first trimester [19, 21-25]. Thus, stating that serum creatinine slightly increases in the first trimester is false [22, 24]. Microalbuminuria is also an abnormal (not a usual) finding in early pregnancy that predicts pre-eclampsia [19, 21, 26, 27].",
+      "tags": ["pregnancy", "physiology", "creatinine", "gfr"]
+    },
+    {
+      "lesson": "Obstetrics::Renal Disease::Peritoneal Dialysis in Pregnancy",
+      "question": "A pregnant patient on renal replacement therapy is discussing her modality options. Based on the clinical evidence in the sources, which of the following is correct regarding the use of Peritoneal Dialysis (PD) during pregnancy?",
+      "options": [
+        "PD is an absolute contraindication in pregnancy because the abdominal catheter induces fetal trauma.",
+        "PD is associated with a 90% risk of maternal peritonitis and must be converted to hemodialysis immediately.",
+        "PD is a safe and viable option in pregnancy; while conception rates may be lower, infection rates are not higher, and there is no contraindication to Caesarean delivery.",
+        "PD is preferred because it allows the patient to maintain a standard non-pregnancy dry weight."
+      ],
+      "answerKey": "C",
+      "answerText": "PD is a safe and viable option in pregnancy; while conception rates may be lower, infection rates are not higher, and there is no contraindication to Caesarean delivery.",
+      "explanation": "The sources state that Peritoneal Dialysis (PD) is a fully viable option in pregnancy [28]. While conception rates on PD may be lower, maternal/fetal infection rates are not higher, and there is no contraindication to Caesarean section [28].",
+      "tags": ["pregnancy", "dialysis", "peritoneal_dialysis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Pharmacology::Renal Dosing",
+      "question": "The clinical chapters explicitly warning against historical dosing mistakes highlight that which of the following legacy formulas is highly unsafe and must be completely removed from clinical practice?",
+      "options": [
+        "eGFR = K × Height / Serum Creatinine",
+        "Adjusted dose = standard dose / serum creatinine (or adjusted interval = standard interval × serum creatinine)",
+        "Creatinine clearance = [(140 - age) × weight] / [72 × serum creatinine]",
+        "Corrected Anion Gap = Measured Anion Gap + 2.5 × (4.0 - Albumin)"
+      ],
+      "answerKey": "B",
+      "answerText": "Adjusted dose = standard dose / serum creatinine (or adjusted interval = standard interval × serum creatinine)",
+      "explanation": "The sources state that the legacy formula 'adjusted dose = dose / serum creatinine' (or multiplying the interval by serum creatinine) is unsafe and has been removed [1-3]. Serum creatinine is not a linear measure of clearance, and using these simple ratios can cause severe underdosing or fatal drug toxicity [2]. Dosing should instead use product-specific recommendations based on GFR/CrCl, clinical context, body size, stability, and therapeutic monitoring [1, 3].",
+      "tags": ["pharmacology", "renal_dosing", "safety_updates", "clinical_errors"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Pharmacology::Filtration Markers",
+      "question": "A patient with stable kidney function is started on trimethoprim-sulfamethoxazole. Five days later, their serum creatinine has risen from 1.0 mg/dL to 1.3 mg/dL, while their serum cystatin C and urine output remain normal. What is the pharmacological explanation for this clinical finding?",
+      "options": [
+        "The drug has caused acute interstitial nephritis with sterile pyuria.",
+        "The drug has caused acute tubular necrosis from direct mitochondrial injury.",
+        "Trimethoprim inhibits the proximal tubular secretion of creatinine without causing a true decline in GFR (pseudo-AKI).",
+        "The drug has induced afferent arteriolar vasoconstriction due to systemic prostaglandin depletion."
+      ],
+      "answerKey": "C",
+      "answerText": "Trimethoprim inhibits the proximal tubular secretion of creatinine without causing a true decline in GFR (pseudo-AKI).",
+      "explanation": "According to the sources, trimethoprim, cimetidine, and cobicistat can cause a 'pseudo-AKI' by inhibiting the active proximal tubular secretion of creatinine [4-6]. This raises serum creatinine without causing a true reduction in glomerular filtration rate (GFR). This benign elevation can be distinguished from true GFR decline by confirming stable cystatin C levels or measuring GFR directly [4, 5].",
+      "tags": ["pharmacology", "pseudo_aki", "creatinine", "filtration_markers", "trimethoprim"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AKI::Hemodynamics",
+      "question": "Which of the following drug combinations represents the classic 'triple whammy' that precipitously impairs renal perfusion, and what is the underlying pathophysiology?",
+      "options": [
+        "Aminoglycosides, cisplatin, and loop diuretics; causing synergistic direct proximal tubular epithelial cell lysis.",
+        "NSAIDs, ACE inhibitors (or ARBs), and diuretics; where NSAIDs prevent prostaglandin-mediated afferent vasodilation, ACE inhibitors cause efferent vasodilation, and diuretics cause intravascular volume depletion.",
+        "Cyclosporine, tacrolimus, and lithium; causing progressive interstitial fibrosis and medullary vascular loop spasm.",
+        "Metformin, SGLT2 inhibitors, and contrast media; leading to intense renal parenchymal lactic acidosis."
+      ],
+      "answerKey": "B",
+      "answerText": "NSAIDs, ACE inhibitors (or ARBs), and diuretics; where NSAIDs prevent prostaglandin-mediated afferent vasodilation, ACE inhibitors cause efferent vasodilation, and diuretics cause intravascular volume depletion.",
+      "explanation": "The sources describe the 'triple whammy' as the concurrent use of an NSAID, an ACEi or ARB, and a diuretic, which severely threatens renal hemodynamics—especially during dehydration or gastroenteritis [6, 7]. Diuretics cause volume depletion, NSAIDs block protective prostaglandin-dependent afferent arteriolar vasodilation, and ACEi/ARBs prevent compensatory angiotensin-II-mediated efferent vasoconstriction, leading to an abrupt, severe drop in intraglomerular pressure and GFR [7-9].",
+      "tags": ["aki", "hemodynamics", "triple_whammy", "nsaids", "raas_blockade"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AKI::Pathology",
+      "question": "A patient with severe osteoarthritis who has been taking heavy doses of over-the-counter ibuprofen presents with acute kidney injury. Based on the pathology corrections in the sources, what is the classic acute hemodynamic mechanism of NSAID-associated AKI?",
+      "options": [
+        "Heavy precipitation of insoluble analgesic drug crystals within the distal collecting tubules.",
+        "Prostaglandin-dependent hemodynamic compromise (afferent arteriolar vasoconstriction) rather than direct, classic acute tubular necrosis (ATN).",
+        "Intense direct chemical necrosis of the glomerular basement membrane podocyte foot processes.",
+        "Severe, irreversible thrombotic microangiopathy in the peritubular capillary plexus."
+      ],
+      "answerKey": "B",
+      "answerText": "Prostaglandin-dependent hemodynamic compromise (afferent arteriolar vasoconstriction) rather than direct, classic acute tubular necrosis (ATN).",
+      "explanation": "The sources explicitly correct a common legacy misconception: NSAIDs do not routinely cause classic direct acute tubular necrosis as their principal mechanism [10, 11]. Instead, the typical acute mechanism of NSAID-induced GFR decline is hemodynamic AKI due to reduced prostaglandin-dependent afferent arteriolar vasodilation [8, 11, 12]. The clinical chapters emphasize distinguishing this hemodynamic GFR drop from NSAID-induced acute interstitial nephritis (AIN), glomerular disease (MCD +/- AIN), or chronic analgesic nephropathy [10, 12].",
+      "tags": ["aki", "nsaids", "hemodynamics", "prostaglandins", "pathophysiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Crystal Nephropathy::Management",
+      "question": "An oncology patient undergoing chemotherapy is at risk of high-dose methotrexate-induced crystal nephropathy. Which of the following prophylactic regimens is recommended in the therapeutic guidelines to prevent intratubular precipitation?",
+      "options": [
+        "Forced urine acidification with high-dose ascorbic acid (Vitamin C).",
+        "Vigorous isotonic intravenous hydration, urine alkalinization, and level-guided leucovorin administration.",
+        "Immediate prophylactic hemodialysis before the drug is infused, combined with low-dose dopamine.",
+        "Routine administration of oral calcium polystyrene sulfonate to chelate methotrexate in the gut."
+      ],
+      "answerKey": "B",
+      "answerText": "Vigorous isotonic intravenous hydration, urine alkalinization, and level-guided leucovorin administration.",
+      "explanation": "To prevent methotrexate-induced crystal nephropathy, the treatment protocols require vigorous intravenous hydration, urine alkalinization (which increases methotrexate solubility in the tubule), and level-guided leucovorin rescue [13]. If severe toxicity and delayed clearance develop, the enzyme glucarpidase may be indicated [13]. In contrast, IV acyclovir requires hydration and slow infusion but does not routinely require urine alkalinization [14].",
+      "tags": ["crystal_nephropathy", "methotrexate", "alkalinization", "chemotherapy", "oncology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::eGFR::Limitations",
+      "question": "In which of the following patients is a standard creatinine-based eGFR equation (such as CKD-EPI) most likely to produce a falsely elevated estimate of true kidney function, potentially leading to dangerous overdosing of renally cleared medications?",
+      "options": [
+        "A 30-year-old competitive bodybuilder with high muscle mass taking daily creatine supplements.",
+        "An elderly, cachectic patient with severe muscle wasting or an amputee.",
+        "A healthy patient on a high-protein, cooked-meat diet.",
+        "An adult patient with an acute, transient volume-depleted prerenal state."
+      ],
+      "answerKey": "B",
+      "answerText": "An elderly, cachectic patient with severe muscle wasting or an amputee.",
+      "explanation": "Creatinine is a product of muscle metabolism. In patients with significantly reduced muscle mass (due to severe cachexia, malnutrition, paralysis, neuromuscular disease, or amputation), creatinine generation is exceptionally low, yielding a falsely low serum creatinine [7, 15]. This leads standard creatinine-based eGFR equations to overestimate true GFR, creating a high risk of drug accumulation and toxicity [7, 15]. In contrast, high muscle mass or creatine supplements artificially raise creatinine, leading to an underestimate of GFR [15].",
+      "tags": ["egfr", "creatinine", "limitations", "muscle_mass", "dosing_safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Diagnostics",
+      "question": "A patient started on a proton-pump inhibitor (PPI) three weeks ago develops unexplained acute kidney injury. Urinalysis reveals sterile pyuria. Which of the following is correct regarding the diagnosis of acute interstitial nephritis (AIN) in this patient?",
+      "options": [
+        "The diagnosis is excluded if the patient does not present with the classic triad of fever, rash, and peripheral eosinophilia.",
+        "Urine eosinophil testing is the gold standard and is highly reliable to confirm PPI-induced AIN.",
+        "The classic allergic triad is absent in most patients; urine eosinophils are unreliable, and kidney biopsy remains the reference standard if the diagnosis is uncertain.",
+        "A biopsy is contraindicated, and the patient should be treated empirically with immediate high-dose cyclophosphamide."
+      ],
+      "answerKey": "C",
+      "answerText": "The classic allergic triad is absent in most patients; urine eosinophils are unreliable, and kidney biopsy remains the reference standard if the diagnosis is uncertain.",
+      "explanation": "The clinical updates emphasize that the classic triad of fever, rash, and peripheral eosinophilia is absent in the vast majority of AIN cases [3, 16, 17]. Furthermore, urine eosinophils are highly unreliable and do not confirm or exclude the diagnosis [3, 17]. Kidney biopsy remains the reference standard when the diagnosis or treatment decision is uncertain [17, 18].",
+      "tags": ["ain", "diagnostics", "biopsy", "sterile_pyuria", "allergic_triad"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Pharmacology::Contrast Media",
+      "question": "A patient with an eGFR of 28 mL/min/1.73 m² requires a clinically essential contrast-enhanced CT scan. What is the recommended strategy regarding their long-term metformin therapy and contrast administration?",
+      "options": [
+        "Metformin is directly nephrotoxic and must be stopped permanently; the contrast scan must be cancelled.",
+        "Metformin is not directly nephrotoxic; the main concern is the risk of lactic acidosis if the patient develops contrast-associated AKI. Metformin should be withheld at the time of or prior to the procedure and held for 48 hours, and only restarted after confirming stable renal function.",
+        "Contrast-associated AKI can be fully prevented by mixing metformin directly with the iodinated contrast agent before injection.",
+        "Metformin should be continued at a double dose to increase renal perfusion during the contrast exposure."
+      ],
+      "answerKey": "B",
+      "answerText": "Metformin is not directly nephrotoxic; the main concern is the risk of lactic acidosis if the patient develops contrast-associated AKI. Metformin should be withheld at the time of or prior to the procedure and held for 48 hours, and only restarted after confirming stable renal function.",
+      "explanation": "The clinical guidelines emphasize that metformin itself is not a nephrotoxic drug [19, 20]. The concern is that if a patient develops acute kidney injury (AKI) from contrast (or any other cause), metformin will accumulate, posing a severe risk of drug-induced lactic acidosis [20]. Metformin should be held during high-risk acute illnesses or contrast procedures in patients with low GFR and only restarted once stable renal function is documented [19, 20].",
+      "tags": ["pharmacology", "contrast_media", "metformin", "lactic_acidosis", "safety_protocols"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Tubular Disorders::Lithium",
+      "question": "A patient on long-term lithium therapy for bipolar disorder develops high-volume hypotonic polyuria and mild hypernatremia. Which tubular defect has developed, and what is a key management strategy?",
+      "options": [
+        "Proximal renal tubular acidosis (Type 2 RTA); managed with high-dose thiazide diuretics to waste bicarbonate.",
+        "Nephrogenic diabetes insipidus (NDI); managed by ensuring free access to water, avoiding dehydration, and utilizing amiloride to block lithium entry through the epithelial sodium channel (ENaC).",
+        "Central diabetes insipidus; managed by immediate surgical removal of the native kidneys.",
+        "Type 4 hyperkalemic RTA; managed by initiating high-dose potassium supplements."
+      ],
+      "answerKey": "B",
+      "answerText": "Nephrogenic diabetes insipidus (NDI); managed by ensuring free access to water, avoiding dehydration, and utilizing amiloride to block lithium entry through the epithelial sodium channel (ENaC).",
+      "explanation": "Lithium is a classic cause of acquired nephrogenic diabetes insipidus (characterized by a tubular water-concentrating defect, hypotonic polyuria, and hypernatremia if water access is restricted) [6, 21-23]. A key therapeutic strategy highlighted in the sources is the use of amiloride, which selectively blocks the epithelial sodium channel (ENaC) in the collecting duct, preventing lithium from entering and poisoning the principal cells [22]. Free access to water and avoiding dehydration are essential [23, 24].",
+      "tags": ["lithium", "nephrogenic_di", "amiloride", "tubular_disorders", "water_balance"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::AKI::Nephrotoxicity",
+      "question": "According to the Al-Azhar University and board exam files, which of the following nephrotoxic medications is most commonly associated with the development of acute tubular necrosis (ATN) in children?",
+      "options": [
+        "Amlodipine",
+        "Atenolol",
+        "Gentamicin (Aminoglycosides)",
+        "Paracetamol"
+      ],
+      "answerKey": "C",
+      "answerText": "Gentamicin (Aminoglycosides)",
+      "explanation": "Past examinations and pediatric files repeatedly emphasize that aminoglycosides (such as gentamicin or garamycine) are the drugs most commonly associated with nephrotoxicity and acute tubular necrosis (ATN) in children [25-28]. ATN secondary to aminoglycosides is typically non-oliguric and results from direct proximal tubular accumulation and toxicity [29].",
+      "tags": ["pediatrics", "aminoglycosides", "gentamicin", "atn", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acute Pyelonephritis",
+      "question": "Which of the following microorganisms is the most common causative pathogen of acute pyelonephritis?",
+      "options": [
+        "Proteus mirabilis",
+        "Escherichia coli",
+        "Klebsiella pneumoniae",
+        "Pseudomonas aeruginosa"
+      ],
+      "answerKey": "B",
+      "answerText": "Escherichia coli",
+      "explanation": "Escherichia coli (E. coli) is the most common causative organism, representing approximately 80% to 90% of acute pyelonephritis cases [1-3].",
+      "tags": ["pyelonephritis", "microbiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::UTI Treatment",
+      "question": "Why is nitrofurantoin inappropriate for the treatment of acute pyelonephritis?",
+      "options": [
+        "It causes severe acute tubular necrosis",
+        "It does not achieve adequate therapeutic concentrations in renal parenchymal tissue",
+        "It is highly active only against Gram-positive organisms",
+        "It is rapidly metabolized by liver enzymes"
+      ],
+      "answerKey": "B",
+      "answerText": "It does not achieve adequate therapeutic concentrations in renal parenchymal tissue",
+      "explanation": "Nitrofurantoin achieves high urinary concentrations but poor renal tissue penetration, meaning it is ineffective for treating parenchymal infections like pyelonephritis [4, 5].",
+      "tags": ["pharmacology", "treatment"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Urinalysis",
+      "question": "Which of the following urinalysis findings is highly supportive of renal parenchymal inflammation (such as acute pyelonephritis) rather than localized lower UTI?",
+      "options": [
+        "Red blood cell (RBC) casts",
+        "WBC (leukocyte) casts",
+        "Hyaline casts",
+        "Squamous epithelial cells"
+      ],
+      "answerKey": "B",
+      "answerText": "WBC (leukocyte) casts",
+      "explanation": "WBC casts support renal parenchymal inflammation and are indicative of upper urinary tract involvement [6, 7].",
+      "tags": ["urinalysis", "diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic Pyelonephritis",
+      "question": "What is the classic morphological finding on imaging that defines chronic pyelonephritis?",
+      "options": [
+        "Symmetrically enlarged kidneys with diffuse cortical thickening",
+        "Bilateral multiple thin-walled fluid-filled cysts",
+        "Asymmetric small kidney with focal cortical scars overlying dilated/clubbed calyces",
+        "Enlarged renal pelvis with normal cortical thickness"
+      ],
+      "answerKey": "C",
+      "answerText": "Asymmetric small kidney with focal cortical scars overlying dilated/clubbed calyces",
+      "explanation": "Chronic pyelonephritis is characterized by asymmetric small, shrunken kidneys with focal coarse scars in the overlying cortex accompanied by calyceal blunting/distortion [8-10].",
+      "tags": ["chronic pyelonephritis", "radiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Acute Pyelonephritis",
+      "question": "A patient's urine culture grows Staphylococcus aureus in the absence of urinary tract instrumentation. What should this finding prompt the clinician to investigate?",
+      "options": [
+        "A primary ascending urinary tract infection",
+        "A bloodstream/endovascular infection (bacteremia)",
+        "An obstruction caused by a struvite stone",
+        "A chronic catheter-associated colonization"
+      ],
+      "answerKey": "B",
+      "answerText": "A bloodstream/endovascular infection (bacteremia)",
+      "explanation": "Staphylococcus aureus in the urine without prior instrumentation is uncommon as a primary ascending UTI and should trigger evaluation for hematogenous seeding or a bloodstream infection [11-13].",
+      "tags": ["microbiology", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urological Emergencies",
+      "question": "A patient presents with acute renal colic, high-grade fever, and hydronephrosis. Which of the following is the most appropriate next step in management?",
+      "options": [
+        "Prescribe oral fluoroquinolones and follow up in 72 hours",
+        "Perform immediate shockwave lithotripsy to fragment the stone",
+        "Administer IV antibiotics and arrange urgent urologic decompression",
+        "Wait for the urine culture results before starting therapy"
+      ],
+      "answerKey": "C",
+      "answerText": "Administer IV antibiotics and arrange urgent urologic decompression",
+      "explanation": "An infected obstructed urinary tract (e.g., obstruction plus infection/fever) is a urological emergency. Urgent decompression via ureteric stent or percutaneous nephrostomy is required alongside IV antibiotics [14-16].",
+      "tags": ["emergency", "treatment"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic Pyelonephritis",
+      "question": "Which of the following predisposing factors is most strongly associated with the childhood development of chronic pyelonephritic scars?",
+      "options": [
+        "Analgesic abuse",
+        "Diabetes mellitus",
+        "Vesicoureteral reflux (VUR)",
+        "Asymptomatic bacteriuria"
+      ],
+      "answerKey": "C",
+      "answerText": "Vesicoureteral reflux (VUR)",
+      "explanation": "Reflux nephropathy (associated with VUR) is the primary driver of chronic pyelonephritic scarring in pediatric populations [17, 18].",
+      "tags": ["pediatrics", "pathogenesis"]
+    },
+    {
+      "lesson": "Pediatrics::Nephrology::Investigations",
+      "question": "Which of the following imaging modalities is used specifically to detect and document cortical renal scarring?",
+      "options": [
+        "Voiding cystourethrogram (VCUG)",
+        "Dimercaptosuccinic acid (DMSA) renal scan",
+        "Intravenous pyelogram (IVP)",
+        "Non-contrast CT abdomen"
+      ],
+      "answerKey": "B",
+      "answerText": "Dimercaptosuccinic acid (DMSA) renal scan",
+      "explanation": "DMSA scans are specifically used to detect and document the presence of renal cortical scarring [19, 20].",
+      "tags": ["pediatrics", "radiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic Pyelonephritis",
+      "question": "What is the recommended management strategy for a patient with chronic pyelonephritis who has asymptomatic pyuria or stable imaging scars?",
+      "options": [
+        "Prescribe long-term prophylactic antibiotics",
+        "Do not prescribe prolonged or repeated antibiotics unless symptomatic infection is present",
+        "Perform an immediate nephrectomy to prevent chronic infection",
+        "Manipulate the urinary pH with regular ammonium chloride"
+      ],
+      "answerKey": "B",
+      "answerText": "Do not prescribe prolonged or repeated antibiotics unless symptomatic infection is present",
+      "explanation": "Prolonged or repeated antibiotics should not be used simply because imaging shows an old scar or because asymptomatic pyuria is present [8, 21]. Management focuses on treating active, culture-proven symptomatic infections [8, 21].",
+      "tags": ["treatment", "chronic pyelonephritis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Urolithiasis",
+      "question": "Which of the following clinical findings should strongly prompt consideration of a urease-producing Proteus infection and an associated struvite (magnesium ammonium phosphate) stone?",
+      "options": [
+        "Persistent acidic urine (pH < 5.5)",
+        "Highly alkaline urine",
+        "Heavy albuminuria (> 3.5 g/day)",
+        "Presence of red-cell casts on microscopy"
+      ],
+      "answerKey": "B",
+      "answerText": "Highly alkaline urine",
+      "explanation": "Proteus species split urea to produce ammonia, raising the urinary pH to alkaline levels, which promotes struvite (triple phosphate) stone formation [12].",
+      "tags": ["microbiology", "urolithiasis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urethritis",
+      "question": "A 24-year-old male presents with urethral discharge and dysuria after a recent sexual exposure. Which of the following is the preferred and most sensitive diagnostic test to confirm infection with Neisseria gonorrhoeae or Chlamydia trachomatis?",
+      "options": [
+        "Routine midstream urine culture and sensitivity",
+        "Gram stain of the urethral discharge only",
+        "Nucleic Acid Amplification Test (NAAT) on first-catch urine or urethral swab",
+        "Pelvic and scrotal ultrasound"
+      ],
+      "answerKey": "C",
+      "answerText": "Nucleic Acid Amplification Test (NAAT) on first-catch urine or urethral swab",
+      "explanation": "NAAT is the preferred diagnostic modality because it is highly sensitive and specific for both Neisseria gonorrhoeae and Chlamydia trachomatis, and first-catch urine performs exceptionally well.",
+      "tags": ["urethritis", "sexually transmitted infections", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Sexually Transmitted Infections",
+      "question": "According to current CDC treatment guidelines for confirmed or strongly suspected gonococcal urethritis in a patient weighing less than 150 kg, which regimen is recommended when chlamydial infection has not been excluded?",
+      "options": [
+        "Ciprofloxacin 500 mg orally as a single dose",
+        "Doxycycline 100 mg orally twice daily for 7 days as monotherapy",
+        "Ceftriaxone 500 mg IM once plus Doxycycline 100 mg orally twice daily for 7 days",
+        "Azithromycin 1 g orally as a single dose"
+      ],
+      "answerKey": "C",
+      "answerText": "Ceftriaxone 500 mg IM once plus Doxycycline 100 mg orally twice daily for 7 days",
+      "explanation": "First-line therapy for gonococcal urethritis is Ceftriaxone 500 mg IM once (for patients <150 kg). If chlamydia has not been excluded, oral Doxycycline 100 mg twice daily for 7 days must be added.",
+      "tags": ["urethritis", "sexually transmitted infections", "treatment"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "A 45-year-old male presents with abrupt onset of fever, malaise, pelvic pain, and urinary hesitancy. On digital rectal examination (DRE), the prostate is warm, boggy, and exquisitely tender. Which of the following is strictly contraindicated in this patient during the acute phase of infection?",
+      "options": [
+        "Midstream urine culture and sensitivity",
+        "Vigorous prostatic massage or aggressive manipulation",
+        "Empirical broad-spectrum intravenous antibiotic therapy",
+        "Obtaining a complete blood count (CBC) and blood cultures"
+      ],
+      "answerKey": "B",
+      "answerText": "Vigorous prostatic massage or aggressive manipulation",
+      "explanation": "Prostatic massage is strictly contraindicated in acute bacterial prostatitis because it is extremely painful and can precipitate bacteremia and systemic sepsis.",
+      "tags": ["prostatitis", "contraindications", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "A patient with acute bacterial prostatitis develops acute urinary retention and is unable to void. Which of the following is the most appropriate management strategy to drain the bladder?",
+      "options": [
+        "Forceful insertion of a large-bore Foley transurethral catheter",
+        "Insertion of a suprapubic (SP) catheter",
+        "Administer high-dose loop diuretics and monitor hourly output",
+        "Clean intermittent self-catheterization (CIC) every 6 hours"
+      ],
+      "answerKey": "B",
+      "answerText": "Insertion of a suprapubic (SP) catheter",
+      "explanation": "If a patient with acute bacterial prostatitis develops urinary retention, placing a suprapubic catheter is highly favored over transurethral catheterization to avoid painful urethral instrumentation and reduce the risk of septicemia.",
+      "tags": ["prostatitis", "complications", "treatment"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "A 48-year-old male presents with pelvic pain, painful ejaculation, and recurrent symptomatic urinary tract infections caused by the same strain of Escherichia coli. Which of the following is the most likely underlying diagnosis?",
+      "options": [
+        "Asymptomatic inflammatory prostatitis",
+        "Chronic pelvic pain syndrome (CP/CPPS)",
+        "Chronic bacterial prostatitis",
+        "Benign prostatic hyperplasia with bladder calculi"
+      ],
+      "answerKey": "C",
+      "answerText": "Chronic bacterial prostatitis",
+      "explanation": "Chronic bacterial prostatitis is characterized by recurrent symptomatic UTIs with the same pathogen and localized prostatic/voiding symptoms. It is the most common cause of recurrent UTI in adult men.",
+      "tags": ["prostatitis", "pathology", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "Unlike in the acute phase, prostatic massage is used diagnostically in patients suspected of having chronic bacterial prostatitis. Why is this maneuver performed?",
+      "options": [
+        "To therapeuticially express infected prostatic calculi",
+        "To obtain expressed prostatic secretions (EPS) or post-massage urine for localization cultures",
+        "To assess the prostate for hard malignant nodules",
+        "To decrease the duration of oral fluoroquinolone therapy"
+      ],
+      "answerKey": "B",
+      "answerText": "To obtain expressed prostatic secretions (EPS) or post-massage urine for localization cultures",
+      "explanation": "Confirming chronic bacterial prostatitis relies on localization cultures (like 2-glass or 4-glass tests), which compare pre- and post-prostatic massage urine/prostatic fluid specimens to prove bacterial localization to the prostate.",
+      "tags": ["prostatitis", "diagnosis", "pathology"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "A 35-year-old male has been experiencing deep pelvic and perineal pain for over 4 months. Repeated urine and semen cultures are consistently negative for bacterial growth. What is the recommended management approach for this patient?",
+      "options": [
+        "Prescribe a 6-month empirical course of Fluoroquinolones",
+        "Perform an immediate transurethral resection of the prostate (TURP)",
+        "Utilize a multimodal strategy targeting pain, pelvic-floor, urinary, and psychosocial symptoms",
+        "Treat with long-term low-dose suppressive nitrofurantoin"
+      ],
+      "answerKey": "C",
+      "answerText": "Utilize a multimodal strategy targeting pain, pelvic-floor, urinary, and psychosocial symptoms",
+      "explanation": "Chronic prostatitis/chronic pelvic pain syndrome (CP/CPPS) is defined by pelvic pain for >3 months without consistently proven bacterial infection. Management is multimodal, and repeated antibiotic courses are not automatically appropriate.",
+      "tags": ["prostatitis", "pelvic pain", "treatment"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "When treating a stable outpatient with acute bacterial prostatitis, how long should the oral fluoroquinolone (the antibiotic of choice) be continued?",
+      "options": [
+        "A short course of 3 to 5 days",
+        "Exactly 7 to 10 days",
+        "A course of 4 to 6 weeks",
+        "Indefinitely until PSA levels completely normalize"
+      ],
+      "answerKey": "C",
+      "answerText": "A course of 4 to 6 weeks",
+      "explanation": "To achieve sufficient prostate tissue penetration, eradicate the pathogen, and prevent the development of chronic bacterial prostatitis, antibiotics should be continued for a defined course of 4 to 6 weeks.",
+      "tags": ["prostatitis", "pharmacology", "treatment"]
+    },
+    {
+      "lesson": "Surgery::Urology::Prostatitis",
+      "question": "During an episode of acute bacterial prostatitis, a patient's serum Prostate-Specific Antigen (PSA) is found to be significantly elevated (e.g., 15 ng/mL). What is the most appropriate clinical action?",
+      "options": [
+        "Recommend an immediate prostate biopsy to rule out prostate cancer",
+        "Recognize that PSA is often elevated during active infection and should not be used diagnostically at this time",
+        "Interpret this as a confirmation of benign prostatic hyperplasia (BPH) and start daily tamsulosin immediately",
+        "Diagnose prostate cancer immediately and refer for radical prostatectomy"
+      ],
+      "answerKey": "B",
+      "answerText": "Recognize that PSA is often elevated during active infection and should not be used diagnostically at this time",
+      "explanation": "Serum PSA is not specific for prostate cancer; it can be significantly elevated by benign conditions such as BPH, urinary retention, and especially acute prostatitis. PSA should not be used diagnostically during an active infection, and evaluation should be delayed until the inflammation has completely resolved.",
+      "tags": ["prostatitis", "diagnosis", "PSA"]
+    },
+    {
+      "lesson": "Surgery::Urology::Schistosomiasis",
+      "question": "A patient presents with terminal hematuria, dysuria, and a history of swimming in freshwater lakes in an endemic region. Urine microscopy reveals eggs with a terminal spine. What is the classic long-term malignancy associated with this infection if left untreated?",
+      "options": [
+        "Transitional cell carcinoma of the bladder",
+        "Squamous cell carcinoma of the bladder",
+        "Adenocarcinoma of the prostate",
+        "Renal cell carcinoma"
+      ],
+      "answerKey": "B",
+      "answerText": "Squamous cell carcinoma of the bladder",
+      "explanation": "Chronic infection with Schistosoma haematobium (urogenital schistosomiasis) causes terminal hematuria, bladder lesions, and severe fibrotic complications. It is specifically associated with an increased risk of developing squamous cell carcinoma of the bladder.",
+      "tags": ["schistosomiasis", "hematuria", "complications"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urogenital Schistosomiasis",
+      "question": "A traveler presents with terminal hematuria after swimming in a freshwater lake in an endemic area of North Africa. Transmission of this parasite to humans occurs through the penetration of intact skin by which of the following larval forms, and what is its intermediate snail host?",
+      "options": [
+        "Miracidia, Biomphalaria snails",
+        "Cercariae, Bulinus snails",
+        "Metacercariae, Lymnaea snails",
+        "Schistosomulae, Oncomelania snails"
+      ],
+      "answerKey": "B",
+      "answerText": "Cercariae, Bulinus snails",
+      "explanation": "Freshwater exposure allows cercariae released by infected Bulinus snails to penetrate intact human skin, migrating through the circulation to mature into adult S. haematobium worms in the vesical venous plexus.",
+      "tags": ["schistosomiasis", "pathogenesis", "microbiology"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urogenital Schistosomiasis",
+      "question": "Chronic infection with Schistosoma haematobium is a well-known risk factor for developing squamous cell carcinoma (SCC) of the bladder. Which of the following biochemical or mechanical processes is cited in the sources as a contributing mechanism to this oncogenesis?",
+      "options": [
+        "Secretion of high levels of alkaline phosphatase causing tissue necrosis",
+        "Increased beta-glucuronidase enzyme transforming non-carcinogenic compounds into carcinogenic compounds",
+        "Direct viral co-infection with Hepatitis B causing genetic instability",
+        "Deposition of calcium oxalate crystals leading to squamous metaplasia"
+      ],
+      "answerKey": "B",
+      "answerText": "Increased beta-glucuronidase enzyme transforming non-carcinogenic compounds into carcinogenic compounds",
+      "explanation": "The oncogenic mechanisms of bilharzial-associated SCC of the bladder include mechanical irritation by the ova, chronic infection producing NH3 (leading to metaplasia), abnormal tryptophan metabolism by the worm, and elevated beta-glucuronidase enzyme activity.",
+      "tags": ["schistosomiasis", "complications", "oncology"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urogenital Schistosomiasis",
+      "question": "According to World Health Organization (WHO) recommendations, which of the following is the standard diagnostic technique for demonstrating Schistosoma haematobium eggs in the urine?",
+      "options": [
+        "Midstream urine Gram stain and routine culture",
+        "Urine filtration using nylon, paper, or polycarbonate filters",
+        "24-hour urine collection for total protein and eosinophil count",
+        "First-morning void cystourethroscopy with cytology"
+      ],
+      "answerKey": "B",
+      "answerText": "Urine filtration using nylon, paper, or polycarbonate filters",
+      "explanation": "WHO identifies urine filtration using nylon, paper, or polycarbonate filters as the standard technique to demonstrate S. haematobium eggs. Collecting urine around midday or after activity optimizes egg excretion.",
+      "tags": ["schistosomiasis", "diagnosis"]
+    },
+    {
+      "lesson": "Surgery::Urology::Urogenital Schistosomiasis",
+      "question": "What is the primary antiparasitic drug of choice and recommended dosing strategy for active urogenital schistosomiasis?",
+      "options": [
+        "Metrifonate 10 mg/kg weekly for 3 weeks",
+        "Praziquantel 40 mg/kg orally, administered in two divided doses over one day",
+        "Oxamniquine 15 mg/kg as a single oral dose",
+        "Sulfadiazine and pyrimethamine for 14 days"
+      ],
+      "answerKey": "B",
+      "answerText": "Praziquantel 40 mg/kg orally, administered in two divided doses over one day",
+      "explanation": "Praziquantel is the drug of choice against all major Schistosoma species. For S. haematobium, current practice recommends a total of 40 mg/kg orally in two divided doses over one day.",
+      "tags": ["schistosomiasis", "treatment", "pharmacology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "How does Mycobacterium tuberculosis initially gain entry into the urinary system?",
+      "options": [
+        "Direct ascending invasion from the urethra and bladder",
+        "Hematogenous dissemination via the bloodstream",
+        "Lymphatic spread from the gastrointestinal tract",
+        "Local extension from adjacent peritoneal tissues"
+      ],
+      "answerKey": "B",
+      "answerText": "Hematogenous dissemination via the bloodstream",
+      "explanation": "The urinary system is initially invaded by the bloodstream, with primary sites of tuberculosis infection establishing in the kidney, prostate, and epididymis. Other urogenital organs are subsequently infected by descending local spread.",
+      "tags": ["renal tuberculosis", "pathogenesis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "A 38-year-old patient is suspected of having genitourinary tuberculosis. Which of the following clinical manifestations represents the earliest and main local symptom of renal tuberculosis?",
+      "options": [
+        "Dull aching pain in the loin",
+        "Gross, painless, total hematuria",
+        "Increased urinary frequency",
+        "High-grade fever with rigors"
+      ],
+      "answerKey": "C",
+      "answerText": "Increased urinary frequency",
+      "explanation": "While constitutional symptoms like night sweats and weight loss can occur, increased urinary frequency is recognized as the earliest and main local symptom of renal tuberculosis.",
+      "tags": ["renal tuberculosis", "clinical presentation"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "Which of the following laboratory findings is classic and highly suggestive of renal tuberculosis, warranting specific mycobacterial testing?",
+      "options": [
+        "Alkaline urine with triple phosphate crystals",
+        "Heavy proteinuria (>3.5 g/day) with fatty casts",
+        "Sterile pyuria (pus cells in the urine with no growth on routine bacterial culture)",
+        "Hematuria with dysmorphic red blood cells and RBC casts"
+      ],
+      "answerKey": "C",
+      "answerText": "Sterile pyuria (pus cells in the urine with no growth on routine bacterial culture)",
+      "explanation": "Sterile pyuria (the presence of WBCs in urine in the absence of routinely culturable bacterial pathogens) accompanied by hematuria is a hallmark presentation that should immediately raise clinical suspicion of renal tuberculosis.",
+      "tags": ["renal tuberculosis", "diagnosis", "urinalysis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "While sterile pyuria raises clinical suspicion, which of the following findings is NOT sufficient to establish a definitive, sure diagnosis of renal tuberculosis?",
+      "options": [
+        "Sterile pyuria on standard urinalysis",
+        "Acid-fast bacilli (AFB) identified on Ziehl-Neelsen (ZN) staining of urine",
+        "Positive culture on Lowenstein-Jensen medium from early morning urine specimens",
+        "Positive culture on BACTEC liquid medium"
+      ],
+      "answerKey": "A",
+      "answerText": "Sterile pyuria on standard urinalysis",
+      "explanation": "Sterile pyuria is a key clinical clue but is not specific to TB (it can occur in interstitial nephritis, etc.). Definitive diagnosis requires microbiological confirmation, such as positive acid-fast bacilli on ZN stain or positive cultures on Lowenstein-Jensen or BACTEC media.",
+      "tags": ["renal tuberculosis", "diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "A patient undergoing evaluation for chronic urinary frequency and loin pain has an intravenous pyelogram (IVP) performed. Which of the following radiological findings is characteristically associated with renal tuberculosis?",
+      "options": [
+        "Symmetrical bilateral renal enlargement with normal collecting systems",
+        "Indistinct outline of the renal papillae, narrowing of the collecting system, or a 'putty kidney' due to extensive calcification",
+        "Dilated, non-obstructed ureters with bilateral ureterocele",
+        "Normal kidney size with multiple thin-walled parenchymal cysts"
+      ],
+      "answerKey": "B",
+      "answerText": "Indistinct outline of the renal papillae, narrowing of the collecting system, or a 'putty kidney' due to extensive calcification",
+      "explanation": "Radiological hallmarks of renal TB on IVP/imaging include narrowing of the collecting system from fibrotic strictures, an indistinct outline of the papillae, parenchymal calcification, and in end-stages, a completely calcified 'putty kidney' (autonephrectomy).",
+      "tags": ["renal tuberculosis", "radiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Renal TB",
+      "question": "In cases of complicated genitourinary tuberculosis, several surgical procedures may be utilized to restore function or eradicate non-functioning infected tissue. Which of the following procedures is correctly matched with its clinical indication in the sources?",
+      "options": [
+        "Renal cavernotomy — indicated for a single closed pyocalyx",
+        "Ileo-cystoplasty — indicated as the primary treatment for early unscarred bladder involvement",
+        "Nephro-ureterectomy — indicated only when the contralateral kidney is severely diseased",
+        "Augmentation cystoplasty — indicated for active, non-fibrotic tuberculous cystitis"
+      ],
+      "answerKey": "A",
+      "answerText": "Renal cavernotomy — indicated for a single closed pyocalyx",
+      "explanation": "According to the sources, renal cavernotomy is indicated for a single closed pyocalyx, ileo-cystoplasty is used to augment a severely contracted bladder, and nephro-ureterectomy is performed when the contralateral kidney is healthy.",
+      "tags": ["renal tuberculosis", "treatment", "surgery"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Cardiorenal Syndrome",
+      "question": "A patient with a long-standing history of congestive heart failure is found to have progressive chronic kidney disease (CKD) driven by chronic venous congestion. Which type of cardiorenal syndrome (CRS) does this clinical presentation represent?",
+      "options": [
+        "Type 1 Cardiorenal Syndrome",
+        "Type 2 Cardiorenal Syndrome",
+        "Type 3 Cardiorenal Syndrome",
+        "Type 4 Cardiorenal Syndrome"
+      ],
+      "answerKey": "B",
+      "answerText": "Type 2 Cardiorenal Syndrome",
+      "explanation": "Type 2 Cardiorenal Syndrome describes chronic cardiac disease (such as long-standing heart failure with congestion) driving progressive CKD [1].",
+      "tags": ["cardiorenal_syndrome", "heart_kidney_interaction"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Pharmacology",
+      "question": "Following the initiation of an ACE inhibitor or ARB in a patient with diabetic nephropathy, a serum creatinine rise is observed. Up to what percentage of rise in creatinine is generally acceptable and considered a reflection of the expected hemodynamic effect, provided volume status and potassium are stable?",
+      "options": [
+        "10%",
+        "20%",
+        "30%",
+        "50%"
+      ],
+      "answerKey": "C",
+      "answerText": "30%",
+      "explanation": "A serum creatinine rise up to approximately 30% is acceptable after initiating or increasing the dose of an ACE inhibitor or ARB, reflecting the expected hemodynamic effect of reduced intraglomerular pressure via efferent arteriolar vasodilation [2, 3].",
+      "tags": ["hemodynamics", "pharmacology", "ace_inhibitors"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Nephrotic Syndrome",
+      "question": "Which of the following describes the 'overfill' mechanism of edema formation in patients with Nephrotic Syndrome?",
+      "options": [
+        "Severe hypoalbuminemia causing plasma oncotic pressure to fall, leading to intravascular volume depletion and secondary RAAS activation",
+        "Primary renal sodium retention expanding extracellular volume, where the patient is not intravascularly depleted",
+        "Increased glomerular capillary permeability leading to direct interstitial protein leakage",
+        "Systemic vasodilation causing capillary fluid shifts independently of renal handling"
+      ],
+      "answerKey": "B",
+      "answerText": "Primary renal sodium retention expanding extracellular volume, where the patient is not intravascularly depleted",
+      "explanation": "In the 'overfill' mechanism of nephrotic edema, primary renal sodium retention (including distal nephron mechanisms) expands extracellular volume. Many of these patients are not truly volume depleted and respond well to sodium restriction and loop diuretics [4].",
+      "tags": ["nephrotic_syndrome", "edema", "volume_regulation"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Drug-Induced Kidney Injury",
+      "question": "The 'triple whammy' combination of drugs is highly notorious for inducing severe hemodynamic acute kidney injury (AKI). What are the three drug classes involved in this interaction, and what is their combined pathophysiological effect on renal hemodynamics?",
+      "options": [
+        "Beta-blockers, Calcium channel blockers, and Loop diuretics; causing systemic vasodilation and profound hypotension",
+        "NSAIDs, ACE inhibitors/ARBs, and Diuretics; causing combined afferent vasoconstriction and efferent vasodilation that dramatically reduces GFR",
+        "Aminoglycosides, Vancomycin, and Loop diuretics; causing direct proximal tubular necrosis",
+        "SGLT2 inhibitors, Acetazolamide, and Thiazides; causing profound osmotic diuresis and severe hypovolemia"
+      ],
+      "answerKey": "B",
+      "answerText": "NSAIDs, ACE inhibitors/ARBs, and Diuretics; causing combined afferent vasoconstriction and efferent vasodilation that dramatically reduces GFR",
+      "explanation": "The 'triple whammy' refers to the concurrent use of NSAIDs (which reduce prostaglandin-mediated afferent arteriolar vasodilation), ACE inhibitors/ARBs (which block efferent arteriolar vasoconstriction), and Diuretics (which cause volume depletion). This combination severely impairs renal autoregulation and GFR [3, 5-7].",
+      "tags": ["toxicology", "hemodynamics", "drug_interaction"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Cardiorenal Syndrome",
+      "question": "An acute renocardiac syndrome (Type 3 Cardiorenal Syndrome) occurs when an acute kidney injury (AKI) directly precipitates acute cardiac dysfunction. Which of the following is a classic clinical example of this bidirectional interaction?",
+      "options": [
+        "Sepsis causing simultaneous acute myocardial depression and acute tubular necrosis",
+        "Severe acute tubular necrosis leading to hyperkalemic arrhythmia, uremic pericardial disease, or pulmonary edema from fluid overload",
+        "Chronic glomerulonephritis leading to secondary hypertension, left ventricular hypertrophy, and diastolic heart failure",
+        "Acute decompensated heart failure with low cardiac output causing prerenal azotemia"
+      ],
+      "answerKey": "B",
+      "answerText": "Severe acute tubular necrosis leading to hyperkalemic arrhythmia, uremic pericardial disease, or pulmonary edema from fluid overload",
+      "explanation": "Type 3 CRS (Acute renocardiac) is characterized by AKI precipitating acute cardiac dysfunction. Classic examples include AKI causing pulmonary edema, hyperkalemic arrhythmia, or uremic pericardial disease [1].",
+      "tags": ["cardiorenal_syndrome", "hemodynamics"]
+    },
+    {
+      "lesson": "Academic::Physiology::Renal Blood Flow",
+      "question": "How does the Juxtaglomerular Apparatus (JGA) coordinate autoregulation of renal blood flow and GFR via tubuloglomerular feedback?",
+      "options": [
+        "Granular cells directly sense plasma oncotic pressure and secrete aldosterone",
+        "Macula densa cells sense tubular sodium chloride delivery and trigger afferent arteriolar tone adjustments",
+        "Extraglomerular mesangial cells secrete erythropoietin in response to localized tubular hypoxia",
+        "Podocyte slit diaphragms contract to narrow the glomerular capillary lumen when GFR is too high"
+      ],
+      "answerKey": "B",
+      "answerText": "Macula densa cells sense tubular sodium chloride delivery and trigger afferent arteriolar tone adjustments",
+      "explanation": "Autoregulation via tubuloglomerular feedback involves macula densa cells sensing distal tubular sodium chloride delivery and adjusting afferent arteriolar tone and renin release to maintain stable renal blood flow and GFR [8, 9].",
+      "tags": ["physiology", "autoregulation", "GFR"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Cardiorenal Syndrome",
+      "question": "During active treatment of acute decompensated heart failure with aggressive loop diuresis, a modest rise in serum creatinine is noted. Which clinical strategy is recommended according to modern cardiorenal guidelines?",
+      "options": [
+        "Immediately stop all loop diuretics to avoid permanent structural acute tubular injury",
+        "Continue effective decongestion as long as the clinical status and congestion are improving, and reassess for true volume depletion, hypotension, or sepsis",
+        "Infuse normal saline immediately to restore renal perfusion and reverse the creatinine rise",
+        "Switch the patient to a potassium-sparing diuretic like spironolactone as the sole agent to avoid further GFR decline"
+      ],
+      "answerKey": "B",
+      "answerText": "Continue effective decongestion as long as the clinical status and congestion are improving, and reassess for true volume depletion, hypotension, or sepsis",
+      "explanation": "A modest creatinine rise during heart failure diuresis does not automatically represent harmful structural kidney injury. Clinicians should not stop decongestion solely for a modest rise when clinical status is improving, as persistent venous congestion itself is highly damaging to renal function [10-12].",
+      "tags": ["cardiorenal_syndrome", "heart_failure", "diurietics"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Electrolytes and Volume",
+      "question": "In patients with advanced liver cirrhosis, hemodynamic and circulatory dysfunction can lead to both hepatorenal syndrome (HRS) and electrolyte abnormalities. What type of hyponatremia is characteristically associated with cirrhosis?",
+      "options": [
+        "Isovolemic hyponatremia",
+        "Hypervolemic hyponatremia",
+        "Hypovolemic hyponatremia",
+        "Pseudohyponatremia"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypervolemic hyponatremia",
+      "explanation": "Cirrhosis is a classic cause of hypervolemic hyponatremia due to systemic vasodilatation, effective arterial underfilling, and subsequent non-osmotic ADH and RAAS activation, which leads to water retention exceeding sodium retention [13].",
+      "tags": ["electrolytes", "cirrhosis", "hyponatremia"]
+    },
+    {
+      "lesson": "Academic::Physiology::Hormonal Regulation",
+      "question": "What are the primary direct renal actions and physiological purposes of Atrial/Brain Natriuretic Peptides (ANP/BNP) during volume excess?",
+      "options": [
+        "They promote water reabsorption by inserting aquaporin-2 water channels in the collecting duct",
+        "They promote natriuresis and suppress renin and aldosterone signaling to reduce sodium and volume excess",
+        "They stimulate 1-alpha hydroxylation of vitamin D to increase intestinal calcium absorption",
+        "They stimulate erythropoietin release in response to systemic congestion"
+      ],
+      "answerKey": "B",
+      "answerText": "They promote natriuresis and suppress renin and aldosterone signaling to reduce sodium and volume excess",
+      "explanation": "Atrial/brain natriuretic peptides are released in response to atrial/ventricular stretch. They promote natriuresis (sodium excretion) and suppress the renin-angiotensin-aldosterone system (RAAS) to reduce sodium and volume excess [14].",
+      "tags": ["physiology", "hormones", "natriuresis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Cardiorenal Syndrome",
+      "question": "Which of the following pathophysiological cascades best illustrates Type 4 (Chronic Renocardiac) Cardiorenal Syndrome?",
+      "options": [
+        "Acute kidney injury causing hyperkalemic ventricular fibrillation",
+        "Chronic kidney disease contributing to chronic cardiac dysfunction, such as left ventricular hypertrophy, vascular calcification, or ischemic disease",
+        "Sepsis causing simultaneous inflammation and injury of both the heart and the kidney",
+        "Acute myocardial infarction causing cardiogenic shock and secondary prerenal acute kidney injury"
+      ],
+      "answerKey": "B",
+      "answerText": "Chronic kidney disease contributing to chronic cardiac dysfunction, such as left ventricular hypertrophy, vascular calcification, or ischemic disease",
+      "explanation": "Type 4 Cardiorenal Syndrome (Chronic Renocardiac) describes chronic kidney disease contributing to chronic cardiac disease, such as left ventricular hypertrophy, vascular calcification, ischemic heart disease, or chronic heart failure [1].",
+      "tags": ["cardiorenal_syndrome", "CKD"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Glomerular Diseases",
+      "question": "Which type of glomerular lesion is sickle cell disease classically associated with as an adaptive or secondary cause, often presenting with nephrotic-range proteinuria without profound hypoalbuminemia?",
+      "options": [
+        "Minimal Change Disease (MCD)",
+        "Membranous Nephropathy (MN)",
+        "Focal Segmental Glomerulosclerosis (FSGS)",
+        "Membranoproliferative Glomerulonephritis (MPGN)"
+      ],
+      "answerKey": "C",
+      "answerText": "Focal Segmental Glomerulosclerosis (FSGS)",
+      "explanation": "Sickle cell disease is a recognized secondary/adaptive cause of Focal Segmental Glomerulosclerosis (FSGS) [1]. It typically presents with nephrotic-range proteinuria without profound hypoalbuminemia [1]. Management focuses on treating the underlying driver rather than routine immunosuppression [1].",
+      "tags": ["sickle_cell_disease", "secondary_FSGS", "proteinuria"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Sickle Cell Nephropathy",
+      "question": "In patients with sickle cell disease, which clinical and functional renal abnormalities typically occur early and can precede the development of overt chronic kidney disease (CKD)?",
+      "options": [
+        "Tubular concentrating defect and hematuria",
+        "Severe nephrocalcinosis and alkaline urine",
+        "Hypofiltration and severe hypokalemia",
+        "Anuria and acute bilateral cortical necrosis"
+      ],
+      "answerKey": "A",
+      "answerText": "Tubular concentrating defect and hematuria",
+      "explanation": "In sickle-cell disease, hyperfiltration, albuminuria, papillary necrosis, hematuria, and progressive CKD can occur [2]. A tubular concentrating defect and hematuria are notable early features that may precede overt CKD [2].",
+      "tags": ["sickle_cell_disease", "concentrating_defect", "hematuria"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Tubulointerstitial Disorders",
+      "question": "A patient with a history of sickle cell disease presents with flank pain, fever, and hematuria, raising clinical concern for papillary necrosis. According to the sources, which other etiologies are classically associated with renal papillary necrosis?",
+      "options": [
+        "Post-streptococcal glomerulonephritis and IgA nephropathy",
+        "Alport syndrome and autosomal dominant polycystic kidney disease",
+        "Diabetes mellitus, analgesic abuse, or severe infection",
+        "Minimal change disease and acute pyelonephritis"
+      ],
+      "answerKey": "C",
+      "answerText": "Diabetes mellitus, analgesic abuse, or severe infection",
+      "explanation": "Papillary necrosis can occur as a complication of diabetes, analgesic abuse, sickle cell disease, or severe infection [3]. It is a renal non-glomerular cause of bleeding and typically presents with flank pain, fever, or a history of analgesic/sickle-cell exposure [4, 5].",
+      "tags": ["papillary_necrosis", "sickle_cell_disease", "diabetes", "analgesics"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hematuria",
+      "question": "Based on the nephrology question banks in the sources, which of the following is highlighted as a common renal manifestation of sickle cell anemia?",
+      "options": [
+        "Polycystic kidney",
+        "Kidney infection",
+        "Hematuria",
+        "Nephrocalcinosis"
+      ],
+      "answerKey": "C",
+      "answerText": "Hematuria",
+      "explanation": "The sources explicitly identify hematuria as a common renal manifestation of sickle cell anemia [6]. In pediatric patients, hemoglobinopathies (including sickle cell) are categorized as common non-glomerular renal causes of hematuria [7, 8].",
+      "tags": ["sickle_cell_disease", "hematuria", "manifestations"]
+    },
+    {
+      "lesson": "Pediatrics::Nephrology::Chronic Kidney Disease",
+      "question": "When classifying the etiology of progressive chronic renal failure (CRF) in children, 'Sickle cell nephropathy' is categorized under which pathophysiological group of renal injury?",
+      "options": [
+        "Non-glomerular causes",
+        "Glomerular causes",
+        "Obstructive causes",
+        "Prerenal causes"
+      ],
+      "answerKey": "B",
+      "answerText": "Glomerular causes",
+      "explanation": "In pediatric nephrology classifications, 'Sickle cell nephropathy' is grouped under the Glomerular causes of chronic kidney damage [9-11]. Progressive renal injury in these patients is driven by mechanisms such as hyperfiltration injury, systemic and intra-renal hypertension, and persistent proteinuria which has a direct toxic effect causing glomerular sclerosis [12, 13].",
+      "tags": ["sickle_cell_nephropathy", "chronic_kidney_disease", "pediatric_nephrology"]
+    }
+  ]
+}
+
+
+
+    

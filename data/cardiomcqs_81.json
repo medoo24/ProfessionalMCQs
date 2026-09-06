@@ -1,0 +1,744 @@
+{
+  "metadata": {
+    "source": "MCQs in Pediatrics: Review of Nelson Textbook of Pediatrics, 20th Edition — Part XX: The Cardiovascular System",
+    "author": "Zuhair M. Almusawi",
+    "total_questions": 81,
+    "lesson": "Pediatrics::Cardiovascular System",
+    "question_source": "User-provided cardiovascular question set, pages 325-339.",
+    "answer_key_source": "Corresponding cardiovascular answer/explanation section, pages 340-345.",
+    "score_against_source_key": "81/81",
+    "percentage": "100%",
+    "explanation_note": "Answer keys follow the source answer section. Explanations are concise paraphrases of the source rationale rather than verbatim reproductions."
+  },
+  "questions": [
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Congenital Heart Disease",
+      "question": "CHARGE association is characterized by which of the following cardiac features?",
+      "options": ["Endocardial cushion defect", "Supravalvular aortic stenosis", "Tetralogy of Fallot", "Patent ductus arteriosus", "Anomalous pulmonary venous return"],
+      "answerKey": "C",
+      "answerText": "Tetralogy of Fallot",
+      "explanation": "CHARGE association is particularly associated with conotruncal and aortic arch abnormalities, including tetralogy of Fallot.",
+      "tags": ["cardiology::congenital-heart-disease", "syndromes::CHARGE"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cardiomyopathy",
+      "question": "Hypertrophic cardiomyopathy is a recognized association with which of the following?",
+      "options": ["Infant of a diabetic mother", "Marfan syndrome", "Williams syndrome", "Trisomy 21 (Down syndrome)", "45,X (Turner syndrome)"],
+      "answerKey": "A",
+      "answerText": "Infant of a diabetic mother",
+      "explanation": "Infants of diabetic mothers may develop transient hypertrophic cardiomyopathy, particularly disproportionate septal hypertrophy.",
+      "tags": ["cardiology::cardiomyopathy", "neonatology::infant-of-diabetic-mother"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cardiac Examination",
+      "question": "The following are characteristics of a venous hum EXCEPT:",
+      "options": ["Continuous murmur", "Heard in the infraclavicular region", "Usually grade I-III/VI", "Louder with the patient in the supine position", "Changes with compression of the jugular vein"],
+      "answerKey": "D",
+      "answerText": "Louder with the patient in the supine position",
+      "explanation": "A venous hum is typically louder when the child is upright and diminishes or disappears when supine or when the jugular vein is compressed.",
+      "tags": ["cardiology::murmurs", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Chest Pain",
+      "question": "Chest pain in pediatric patients often generates significant concern. Of the following choices, the MOST common cause is:",
+      "options": ["Myocarditis", "Pericarditis", "Pleurisy", "Pneumothorax", "Pneumonia"],
+      "answerKey": "E",
+      "answerText": "Pneumonia",
+      "explanation": "The source keys pneumonia among these choices. Pediatric chest pain is usually noncardiac, with respiratory, musculoskeletal, gastrointestinal, anxiety-related, and idiopathic causes being much more common than primary cardiac disease.",
+      "tags": ["cardiology::chest-pain", "respiratory::pneumonia"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cyanotic Congenital Heart Disease",
+      "question": "Congenital heart disease causing cyanosis without respiratory distress includes the following EXCEPT:",
+      "options": ["Tricuspid atresia", "Aortic stenosis", "Ebstein anomaly", "Pulmonary atresia", "Tetralogy of Fallot"],
+      "answerKey": "B",
+      "answerText": "Aortic stenosis",
+      "explanation": "Aortic stenosis is primarily an obstructive left-sided lesion and does not characteristically produce the cyanosis-without-respiratory-distress pattern of the other listed lesions.",
+      "tags": ["cardiology::cyanosis", "congenital-heart-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Transposition of Great Arteries",
+      "question": "The MOST common cyanotic cardiac lesion to present in the newborn period is:",
+      "options": ["D-transposition of the great arteries", "Hypoplastic left heart syndrome", "Tetralogy of Fallot", "Truncus arteriosus", "Pulmonary atresia"],
+      "answerKey": "A",
+      "answerText": "D-transposition of the great arteries",
+      "explanation": "D-transposition represents only a minority of congenital heart defects overall but is the most common cyanotic congenital cardiac lesion presenting during the neonatal period.",
+      "tags": ["cardiology::TGA", "neonatology::cyanosis"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Tricuspid Atresia",
+      "question": "An ECG showing left ventricular hypertrophy with a superior QRS axis between 0° and -90° is characteristic of:",
+      "options": ["Tricuspid atresia", "Ebstein anomaly", "Pulmonary atresia", "Pulmonary stenosis", "Tetralogy of Fallot"],
+      "answerKey": "A",
+      "answerText": "Tricuspid atresia",
+      "explanation": "Tricuspid atresia characteristically produces left ventricular dominance and a superior or leftward QRS axis.",
+      "tags": ["cardiology::tricuspid-atresia", "ECG"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypoplastic Left Heart Syndrome",
+      "question": "The MOST common cause of death from cardiac defects in the first month of life is:",
+      "options": ["D-transposition without associated lesions", "Hypoplastic left heart syndrome", "Pulmonary atresia", "Truncus arteriosus", "Complex single ventricle"],
+      "answerKey": "B",
+      "answerText": "Hypoplastic left heart syndrome",
+      "explanation": "Although relatively uncommon among all congenital heart defects, hypoplastic left heart syndrome was identified by the source as the leading cardiac-defect cause of death during the first month.",
+      "tags": ["cardiology::HLHS", "neonatology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Heart Failure",
+      "question": "All of the following are causes of heart failure in a full-term neonate EXCEPT:",
+      "options": ["Asphyxial cardiomyopathy", "Coarctation of the aorta", "Hypoplastic left heart syndrome", "Transposition of the great arteries", "Ventricular septal defect"],
+      "answerKey": "E",
+      "answerText": "Ventricular septal defect",
+      "explanation": "An isolated VSD usually does not cause heart failure immediately in a term neonate because pulmonary vascular resistance remains high initially; symptoms generally develop as resistance falls.",
+      "tags": ["cardiology::heart-failure", "cardiology::VSD"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Heart Failure",
+      "question": "Which of the following is a sign of right-sided heart failure?",
+      "options": ["Edema", "Tachypnea", "Orthopnea", "Wheezing", "Pulmonary edema"],
+      "answerKey": "A",
+      "answerText": "Edema",
+      "explanation": "Systemic venous congestion causes edema, hepatomegaly, and distended neck veins in right-sided failure, whereas pulmonary symptoms predominate in left-sided failure.",
+      "tags": ["cardiology::heart-failure", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Syncope",
+      "question": "The MOST common cause of syncope in children is:",
+      "options": ["Wolff-Parkinson-White syndrome", "Prolonged QT syndrome", "Atrioventricular block", "Neurocardiogenic syncope", "Myocarditis"],
+      "answerKey": "D",
+      "answerText": "Neurocardiogenic syncope",
+      "explanation": "Vasovagal or neurocardiogenic syncope is the commonest form of syncope in otherwise healthy children.",
+      "tags": ["cardiology::syncope", "neurocardiogenic-syncope"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Coarctation of Aorta",
+      "question": "Of the following, the MOST common clinical sign of coarctation of the aorta in older children is:",
+      "options": ["Cardiac enlargement", "Notching of the inferior borders of the ribs", "A systolic ejection click or thrill in the suprasternal notch", "Differential blood pressure: arms greater than legs", "Diminished or absent femoral or lower-extremity pulses"],
+      "answerKey": "D",
+      "answerText": "Differential blood pressure: arms greater than legs",
+      "explanation": "Upper-extremity hypertension with lower blood pressure in the legs is the source's most consistent clinical sign of coarctation in an older child.",
+      "tags": ["cardiology::coarctation", "hypertension"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Chest X-Ray",
+      "question": "Increased pulmonary markings, reflecting increased pulmonary blood flow, are seen in:",
+      "options": ["Pulmonary atresia", "Truncus arteriosus", "Tetralogy of Fallot", "Tricuspid atresia", "Ebstein anomaly"],
+      "answerKey": "B",
+      "answerText": "Truncus arteriosus",
+      "explanation": "Truncus arteriosus generally produces increased pulmonary blood flow, whereas pulmonary atresia, TOF, tricuspid atresia, and Ebstein anomaly usually have decreased pulmonary vascular markings.",
+      "tags": ["cardiology::chest-xray", "cardiology::truncus-arteriosus"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Neonatal Heart Failure",
+      "question": "The following are causes of congestive heart failure and cardiomegaly during the newborn period without a murmur EXCEPT:",
+      "options": ["Endocardial fibroelastosis", "Asphyxia", "Glycogen storage disease (Pompe disease)", "Paroxysmal supraventricular tachycardia", "Sepsis"],
+      "answerKey": "A",
+      "answerText": "Endocardial fibroelastosis",
+      "explanation": "The source places endocardial fibroelastosis as a cause of heart failure after the neonatal period rather than as a typical neonatal presentation.",
+      "tags": ["cardiology::heart-failure", "neonatology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Supraventricular Tachycardia",
+      "question": "Supraventricular tachycardia in children differs from physiologic sinus tachycardia by all of the following EXCEPT:",
+      "options": ["Sudden onset and termination", "Persistent ventricular rate greater than 180 beats/min", "Fixed RR interval on ECG", "Abnormal P-wave shape or axis, or absent P waves", "Evident change in heart rate with activity"],
+      "answerKey": "E",
+      "answerText": "Evident change in heart rate with activity",
+      "explanation": "SVT has little variation with activity, crying, or breath-holding, whereas sinus tachycardia changes in response to physiologic stimuli.",
+      "tags": ["cardiology::SVT", "ECG"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Infective Endocarditis",
+      "question": "The following cardiac lesions are at increased risk for bacterial endocarditis EXCEPT:",
+      "options": ["Mitral insufficiency", "Aortic stenosis", "Secundum atrial septal defect", "Coarctation of the aorta", "Patent ductus arteriosus"],
+      "answerKey": "C",
+      "answerText": "Secundum atrial septal defect",
+      "explanation": "An uncomplicated secundum ASD carries very low infective endocarditis risk compared with turbulent high-velocity lesions such as valvar disease, coarctation, or PDA.",
+      "tags": ["cardiology::endocarditis", "cardiology::ASD"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Kawasaki Disease",
+      "question": "The following factors are strongly associated with development of coronary artery disease in Kawasaki disease EXCEPT:",
+      "options": ["Duration of fever greater than 16 days", "First-degree heart block", "Cardiomegaly", "Male gender", "Age less than 1 year"],
+      "answerKey": "B",
+      "answerText": "First-degree heart block",
+      "explanation": "The source distinguishes first-degree heart block from more significant dysrhythmias associated with increased coronary complication risk.",
+      "tags": ["cardiology::Kawasaki", "coronary-artery-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Prostaglandin E1",
+      "question": "The following are major side effects of prostaglandin E1 EXCEPT:",
+      "options": ["Apnea", "Fever", "Cutaneous flushing", "Seizures", "Hypertension"],
+      "answerKey": "E",
+      "answerText": "Hypertension",
+      "explanation": "Important PGE1 adverse effects include apnea, fever, flushing, seizures and hemodynamic effects such as hypotension rather than hypertension.",
+      "tags": ["cardiology::PGE1", "pharmacology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Epidemiology",
+      "question": "Which of the following cardiac lesions has been identified more commonly in males?",
+      "options": ["Transposition of the great arteries", "Atrial septal defect", "Ventricular septal defect", "Patent ductus arteriosus", "Pulmonic stenosis"],
+      "answerKey": "A",
+      "answerText": "Transposition of the great arteries",
+      "explanation": "The source notes that TGA and left-sided obstructive lesions are somewhat more common in boys, while ASD, VSD, PDA and pulmonary stenosis are more frequent in girls.",
+      "tags": ["cardiology::TGA", "epidemiology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Atrial Septal Defect",
+      "question": "In MOST patients with an atrial septal defect, the characteristic physical finding is:",
+      "options": ["Right ventricular systolic lift", "Fixed splitting of the second heart sound", "Systolic ejection murmur", "Short rumbling mid-diastolic murmur", "Mild left precordial bulge"],
+      "answerKey": "B",
+      "answerText": "Fixed splitting of the second heart sound",
+      "explanation": "ASD classically causes a widely and fixed split S2 that changes little during respiration.",
+      "tags": ["cardiology::ASD", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Ventricular Septal Defect",
+      "question": "Indications for surgical closure of a ventricular septal defect include the following EXCEPT:",
+      "options": ["Symptoms and failure to thrive that cannot be controlled medically", "Infants aged 6-12 months with large defects and pulmonary hypertension", "Patients older than 24 months with a Qp:Qs ratio greater than 2:1", "Patients with a supracristal VSD of any size", "Severe pulmonary vascular disease nonresponsive to pulmonary vasodilators"],
+      "answerKey": "E",
+      "answerText": "Severe pulmonary vascular disease nonresponsive to pulmonary vasodilators",
+      "explanation": "Fixed severe pulmonary vascular disease represents advanced irreversible pulmonary hypertension, in which closing the VSD may be contraindicated rather than beneficial.",
+      "tags": ["cardiology::VSD", "cardiac-surgery"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Supracristal VSD",
+      "question": "Regarding supracristal ventricular septal defect, the following are true EXCEPT:",
+      "options": ["Supracristal VSD may be complicated by aortic insufficiency in 50-90% of patients", "The incidence is higher in Asian children", "Aortic insufficiency often is not recognized until late in the first decade of life", "The murmur is usually heard at the mid to upper left sternal border", "Closure at the time of diagnosis is not recommended in an asymptomatic child"],
+      "answerKey": "E",
+      "answerText": "Closure at the time of diagnosis is not recommended in an asymptomatic child",
+      "explanation": "The source recommends closure of supracristal VSDs when diagnosed because progressive aortic cusp prolapse and aortic regurgitation can develop even in asymptomatic children.",
+      "tags": ["cardiology::VSD", "aortic-regurgitation"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Coarctation of Aorta",
+      "question": "All of the following are signs of coarctation of the aorta EXCEPT:",
+      "options": ["Femoral pulses are weak or absent", "Bounding pulses of the arms", "Femoral pulse occurs slightly before the radial pulse", "Blood pressure in the legs is lower than that in the arms", "Precordial impulse and heart sounds are usually normal"],
+      "answerKey": "C",
+      "answerText": "Femoral pulse occurs slightly before the radial pulse",
+      "explanation": "Normally the femoral pulse is slightly earlier than the radial pulse. Coarctation produces radial-femoral delay, with the femoral pulse occurring after the radial pulse.",
+      "tags": ["cardiology::coarctation", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulmonary Hypertension",
+      "question": "All of the following are causes of chronic pulmonary venous hypertension EXCEPT:",
+      "options": ["Congenital mitral stenosis", "Total anomalous pulmonary venous return with obstruction", "Peripheral pulmonary stenosis", "Left atrial myxomas", "Cor triatriatum"],
+      "answerKey": "C",
+      "answerText": "Peripheral pulmonary stenosis",
+      "explanation": "Pulmonary venous hypertension results from obstruction to pulmonary venous or left atrial outflow; peripheral pulmonary arterial stenosis does not produce this mechanism.",
+      "tags": ["cardiology::pulmonary-hypertension", "pulmonary-venous-hypertension"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Mitral Valve Prolapse",
+      "question": "Regarding mitral valve prolapse, all of the following are true EXCEPT:",
+      "options": ["It is predominantly congenital", "It is usually sporadic", "It is more common in girls", "The dominant abnormal signs are auscultatory", "Antibiotic prophylaxis is recommended during surgery and dental procedures"],
+      "answerKey": "E",
+      "answerText": "Antibiotic prophylaxis is recommended during surgery and dental procedures",
+      "explanation": "Routine infective endocarditis antibiotic prophylaxis is not recommended solely for uncomplicated mitral valve prolapse.",
+      "tags": ["cardiology::mitral-valve-prolapse", "endocarditis-prophylaxis"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Bradycardia",
+      "question": "Sinus bradycardia in neonates is considered when the sinus rate is:",
+      "options": ["Less than 100 beats/min", "Less than 90 beats/min", "Less than 80 beats/min", "Less than 70 beats/min", "Less than 60 beats/min"],
+      "answerKey": "B",
+      "answerText": "Less than 90 beats/min",
+      "explanation": "The source defines neonatal sinus bradycardia as a sinus rate below 90 beats/min, compared with below 60 beats/min in older children.",
+      "tags": ["cardiology::bradycardia", "neonatology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Supraventricular Tachycardia",
+      "question": "The following procedures may abort an attack of supraventricular tachycardia EXCEPT:",
+      "options": ["Placing the face in ice water", "Straining", "Breath holding", "Standing on the head", "Ocular pressure"],
+      "answerKey": "E",
+      "answerText": "Ocular pressure",
+      "explanation": "Ocular pressure should not be performed because of potential eye injury. Safer vagal maneuvers are preferred.",
+      "tags": ["cardiology::SVT", "vagal-maneuvers"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Long QT Syndrome",
+      "question": "The following drugs may cause long QT syndrome EXCEPT:",
+      "options": ["Trimethoprim/sulfamethoxazole", "Erythromycin", "Imipramine", "Pentostam", "Risperidone"],
+      "answerKey": "D",
+      "answerText": "Pentostam",
+      "explanation": "The source keys Pentostam as the exception and specifically notes pentamidine as an antiprotozoal drug associated with QT prolongation.",
+      "tags": ["cardiology::long-QT", "pharmacology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypertrophic Cardiomyopathy",
+      "question": "The MOST common cause of death in competitive athletes is:",
+      "options": ["Aortic stenosis", "Hypertrophic cardiomyopathy", "Coronary artery abnormalities", "Myocarditis", "Long QT syndrome"],
+      "answerKey": "B",
+      "answerText": "Hypertrophic cardiomyopathy",
+      "explanation": "In the source, hypertrophic cardiomyopathy, with or without left ventricular outflow obstruction, is identified as the leading cause of sudden death in competitive athletes.",
+      "tags": ["cardiology::HCM", "sports-cardiology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Infective Endocarditis",
+      "question": "The leading causative agents for endocarditis in pediatric patients are:",
+      "options": ["Group D enterococci", "Viridans-type streptococci", "Pseudomonas aeruginosa", "Fungal organisms", "Serratia marcescens"],
+      "answerKey": "B",
+      "answerText": "Viridans-type streptococci",
+      "explanation": "Viridans streptococci and Staphylococcus aureus are highlighted as major causes of pediatric infective endocarditis.",
+      "tags": ["cardiology::endocarditis", "infectious-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Infective Endocarditis",
+      "question": "Which of the following is a major Duke criterion for diagnosis of infective endocarditis?",
+      "options": ["New valve regurgitant flow by echocardiography", "Osler nodes", "Single positive blood culture", "Serologic evidence of infection", "Elevated erythrocyte sedimentation rate"],
+      "answerKey": "A",
+      "answerText": "New valve regurgitant flow by echocardiography",
+      "explanation": "Evidence of endocardial involvement, including new valvular regurgitation on echocardiography, is a major Duke criterion.",
+      "tags": ["cardiology::endocarditis", "diagnosis::Duke-criteria"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Vital Signs",
+      "question": "The lower limit of pulse rate in a neonate at rest is:",
+      "options": ["50/min", "60/min", "70/min", "80/min", "90/min"],
+      "answerKey": "C",
+      "answerText": "70/min",
+      "explanation": "The source gives the resting neonatal pulse range as approximately 70-190/min, with an average near 125/min.",
+      "tags": ["cardiology::vital-signs", "neonatology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulse Examination",
+      "question": "Careful evaluation of pulse character is important in congenital heart disease. A wide pulse pressure with bounding pulses may suggest all of the following EXCEPT:",
+      "options": ["Patent ductus arteriosus", "Aortic insufficiency", "Cardiomyopathy", "Anemia", "Anxiety"],
+      "answerKey": "C",
+      "answerText": "Cardiomyopathy",
+      "explanation": "Cardiomyopathy is more likely to produce diminished pulses when cardiac output is impaired rather than the bounding pulses and wide pulse pressure described.",
+      "tags": ["cardiology::pulse", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::ECG",
+      "question": "Tall, narrow and spiked P waves are seen in:",
+      "options": ["Ebstein anomaly", "Ventricular septal defect", "Patent ductus arteriosus", "Severe mitral stenosis", "Mitral regurgitation"],
+      "answerKey": "A",
+      "answerText": "Ebstein anomaly",
+      "explanation": "Tall peaked P waves signify right atrial enlargement and may occur prominently in Ebstein anomaly.",
+      "tags": ["cardiology::ECG", "cardiology::Ebstein-anomaly"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Ebstein Anomaly",
+      "question": "In-utero heart failure with fetal pleural and pericardial effusions and generalized ascites may occur in:",
+      "options": ["Ventricular septal defect", "Coarctation of the aorta", "D-transposition of the great arteries", "Ebstein anomaly", "Single ventricle"],
+      "answerKey": "D",
+      "answerText": "Ebstein anomaly",
+      "explanation": "Severe tricuspid regurgitation in Ebstein anomaly can impose a major fetal right-sided volume load and produce hydrops fetalis.",
+      "tags": ["cardiology::Ebstein-anomaly", "fetal-cardiology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hemodynamics",
+      "question": "Of the following, the cardiac lesion resulting in increased volume load is:",
+      "options": ["Valvular pulmonic stenosis", "Patent ductus arteriosus", "Valvular aortic stenosis", "Coarctation of the aorta", "Mitral stenosis"],
+      "answerKey": "B",
+      "answerText": "Patent ductus arteriosus",
+      "explanation": "PDA causes a left-to-right shunt and therefore increased pulmonary flow and left-sided volume loading.",
+      "tags": ["cardiology::PDA", "hemodynamics::volume-load"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cyanotic Congenital Heart Disease",
+      "question": "Of the following, the cyanotic cardiac lesion with decreased pulmonary blood flow is:",
+      "options": ["Transposition of the great vessels", "Single ventricle", "Truncus arteriosus", "Tricuspid atresia", "Total anomalous pulmonary venous return without obstruction"],
+      "answerKey": "D",
+      "answerText": "Tricuspid atresia",
+      "explanation": "Tricuspid atresia belongs to the group of cyanotic lesions in which pulmonary blood flow is reduced.",
+      "tags": ["cardiology::tricuspid-atresia", "cyanotic-heart-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulmonary Hypertension",
+      "question": "The predominant manifestations of primary pulmonary hypertension include the following EXCEPT:",
+      "options": ["Exercise intolerance", "Precordial chest pain", "Syncope", "Low arterial oxygen saturation", "Dizziness"],
+      "answerKey": "D",
+      "answerText": "Low arterial oxygen saturation",
+      "explanation": "Arterial oxygen saturation is generally normal in primary pulmonary hypertension unless an intracardiac shunt or another cause of hypoxemia is present.",
+      "tags": ["cardiology::pulmonary-hypertension", "clinical-features"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulmonary Vasodilators",
+      "question": "The following are common side effects of sildenafil EXCEPT:",
+      "options": ["Flushing", "Elevated liver function tests", "Headache", "Diarrhea", "Myalgia"],
+      "answerKey": "B",
+      "answerText": "Elevated liver function tests",
+      "explanation": "The source keys elevated liver enzymes as the exception. Its accompanying note discusses liver-enzyme elevation among bosentan adverse effects, so B is the intended non-sildenafil effect in this MCQ.",
+      "tags": ["cardiology::pulmonary-hypertension", "pharmacology::sildenafil"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Postoperative Care",
+      "question": "Postoperative pulmonary hypertension following cardiac surgery can be managed with:",
+      "options": ["Hyperventilation and inhaled nitric oxide", "Catecholamines", "Phosphodiesterase inhibitors", "Nitroprusside", "Diuretics"],
+      "answerKey": "A",
+      "answerText": "Hyperventilation and inhaled nitric oxide",
+      "explanation": "Acute postoperative pulmonary hypertensive crises can be treated by reducing pulmonary vascular resistance, including optimized ventilation and inhaled nitric oxide.",
+      "tags": ["cardiology::postoperative-care", "pulmonary-hypertension"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cardiac Surgery",
+      "question": "Patients who have undergone surgery involving cardiopulmonary bypass should be watched carefully for:",
+      "options": ["Epilepsy", "Learning disabilities", "Anemia", "Pulmonary hypertension", "Arrhythmias"],
+      "answerKey": "B",
+      "answerText": "Learning disabilities",
+      "explanation": "Children exposed to cardiopulmonary bypass, particularly in the neonatal period, require developmental follow-up because mild-to-moderate learning difficulties may become evident during school years.",
+      "tags": ["cardiology::cardiac-surgery", "neurodevelopment"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Postpericardiotomy Syndrome",
+      "question": "Postpericardiotomy syndrome is characterized by all of the following EXCEPT:",
+      "options": ["Fever", "Decreased appetite", "Listlessness", "Vomiting", "Chest pain"],
+      "answerKey": "E",
+      "answerText": "Chest pain",
+      "explanation": "The syndrome typically includes a delayed febrile illness with constitutional and gastrointestinal symptoms; chest pain may occur but is not consistently present.",
+      "tags": ["cardiology::postpericardiotomy", "cardiac-surgery"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Congenital Heart Disease Follow-Up",
+      "question": "For which of the following is total repair considered achievable with essentially no requirement for long-term follow-up?",
+      "options": ["Atrial septal defect", "Ventricular septal defect", "Valvar pulmonic stenosis", "Uncomplicated tetralogy of Fallot", "Isolated patent ductus arteriosus"],
+      "answerKey": "E",
+      "answerText": "Isolated patent ductus arteriosus",
+      "explanation": "The source notes that isolated PDA is the lesion for which complete repair is most plausibly regarded as definitive without ongoing congenital-cardiology follow-up.",
+      "tags": ["cardiology::PDA", "follow-up"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pregnancy",
+      "question": "Pregnancy is contraindicated in mothers with:",
+      "options": ["Severe pulmonary hypertension", "Ventricular septal defect", "Prosthetic valves", "Atrial septal defect", "Unoperated cyanotic congenital heart disease"],
+      "answerKey": "A",
+      "answerText": "Severe pulmonary hypertension",
+      "explanation": "Severe pulmonary hypertension carries very high maternal morbidity and mortality during pregnancy and is therefore a major contraindication.",
+      "tags": ["cardiology::pregnancy", "pulmonary-hypertension"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Ventricular Septal Defect",
+      "question": "Surgical repair of a VSD at the time of diagnosis should be considered in:",
+      "options": ["Small supracristal VSD", "Nonrestrictive VSD", "Hemodynamically significant VSD", "Restrictive VSD", "VSD with heart failure"],
+      "answerKey": "A",
+      "answerText": "Small supracristal VSD",
+      "explanation": "Even a small supracristal VSD may require early closure because aortic cusp prolapse can cause progressive aortic regurgitation and permanent valve damage.",
+      "tags": ["cardiology::VSD", "cardiac-surgery"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Atrioventricular Septal Defect",
+      "question": "The MOST common long-term complication after early repair of complete atrioventricular canal before pulmonary vascular disease develops is:",
+      "options": ["Left AV valve regurgitation", "Subaortic stenosis", "Residual ventricular-level shunts", "Complete heart block", "Endocarditis"],
+      "answerKey": "A",
+      "answerText": "Left AV valve regurgitation",
+      "explanation": "Residual or recurrent left AV valve regurgitation is the major long-term complication, and a subset of patients ultimately need valve reoperation.",
+      "tags": ["cardiology::AVSD", "cardiac-surgery"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Patent Ductus Arteriosus",
+      "question": "Patients with a small PDA have the following criteria EXCEPT:",
+      "options": ["Continuous murmur heard best at the left upper sternal border", "Normal peripheral pulses", "Normal pulmonary artery pressure by echocardiography", "Asymptomatic with normal life expectancy", "Risk for endocarditis is extremely low"],
+      "answerKey": "E",
+      "answerText": "Risk for endocarditis is extremely low",
+      "explanation": "A tiny silent PDA has an extremely low endocarditis risk, but an audible small PDA has a higher endocarditis risk despite negligible hemodynamic effects.",
+      "tags": ["cardiology::PDA", "endocarditis"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulmonary Stenosis",
+      "question": "Severe pulmonary valve stenosis is defined as a peak gradient of:",
+      "options": ["Greater than 40 mm Hg", "Greater than 45 mm Hg", "Greater than 50 mm Hg", "Greater than 55 mm Hg", "Greater than 60 mm Hg"],
+      "answerKey": "C",
+      "answerText": "Greater than 50 mm Hg",
+      "explanation": "The source defines severe pulmonary valve stenosis as a peak gradient above 50 mm Hg, at which intervention becomes likely.",
+      "tags": ["cardiology::pulmonary-stenosis", "echocardiography"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Aortic Stenosis",
+      "question": "Critical aortic stenosis is associated with the following EXCEPT:",
+      "options": ["Cardiomegaly", "Pulmonary edema", "Weak pulses in all extremities", "Pale skin", "Maximum intensity of the murmur"],
+      "answerKey": "E",
+      "answerText": "Maximum intensity of the murmur",
+      "explanation": "In critical aortic stenosis, severely reduced cardiac output can make the murmur surprisingly soft despite very severe obstruction.",
+      "tags": ["cardiology::aortic-stenosis", "physical-examination"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Coarctation of Aorta",
+      "question": "All of the following are true regarding diagnosis of coarctation of the aorta EXCEPT:",
+      "options": ["Cardiac enlargement may occur with severe coarctation", "Rib notching is common by late childhood", "Doppler is useful for demonstrating the site of obstruction", "CT and MRI are valuable when echocardiography is equivocal", "Diagnostic catheterization is mandatory before surgery"],
+      "answerKey": "E",
+      "answerText": "Diagnostic catheterization is mandatory before surgery",
+      "explanation": "When echocardiography, CT or MRI adequately defines the anatomy, invasive diagnostic catheterization is not routinely required before repair.",
+      "tags": ["cardiology::coarctation", "diagnostic-imaging"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Shone Complex",
+      "question": "Shone complex consists of the following EXCEPT:",
+      "options": ["Coarctation of the aorta", "Subvalvar aortic stenosis", "Valvar aortic stenosis", "Pulmonic stenosis", "Mitral stenosis"],
+      "answerKey": "D",
+      "answerText": "Pulmonic stenosis",
+      "explanation": "Shone complex consists of multiple left-sided obstructive lesions involving the mitral valve, left ventricular outflow tract and aorta; pulmonic stenosis is a right-sided lesion.",
+      "tags": ["cardiology::Shone-complex", "congenital-heart-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Tetralogy of Fallot",
+      "question": "Paroxysmal hypercyanotic attacks in tetralogy of Fallot are characterized by:",
+      "options": ["Early evening occurrence", "Increase in intensity of the systolic murmur", "Unpredictable onset", "Metabolic alkalosis", "More frequent spells in patients with marked cyanosis at rest"],
+      "answerKey": "C",
+      "answerText": "Unpredictable onset",
+      "explanation": "Tet spells are typically spontaneous and unpredictable, often occurring after awakening or vigorous crying; the murmur usually becomes softer and severe episodes cause metabolic acidosis.",
+      "tags": ["cardiology::TOF", "hypercyanotic-spell"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Tetralogy of Fallot",
+      "question": "Depending on the frequency and severity of hypercyanotic attacks in tetralogy of Fallot, all of the following procedures are appropriate EXCEPT:",
+      "options": ["Placement in the knee-chest position", "Administration of oxygen", "Subcutaneous morphine", "Rapid IV sodium bicarbonate irrespective of spell severity", "Intravenous propranolol"],
+      "answerKey": "D",
+      "answerText": "Rapid IV sodium bicarbonate irrespective of spell severity",
+      "explanation": "Bicarbonate is reserved for unusually severe, persistent spells associated with significant metabolic acidosis rather than being given routinely to every spell.",
+      "tags": ["cardiology::TOF", "emergency-management"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Tetralogy of Fallot",
+      "question": "The typical radiologic configuration of tetralogy of Fallot includes all of the following EXCEPT:",
+      "options": ["Normal heart size", "Elevation of the cardiac apex", "Convexity in the region of the main pulmonary artery", "Right-sided aortic arch", "Diminished pulmonary vascularity"],
+      "answerKey": "C",
+      "answerText": "Convexity in the region of the main pulmonary artery",
+      "explanation": "TOF characteristically has a concave pulmonary artery segment due to pulmonary outflow tract hypoplasia, contributing to the boot-shaped appearance.",
+      "tags": ["cardiology::TOF", "chest-xray"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Ebstein Anomaly",
+      "question": "The severity of symptoms and degree of cyanosis in Ebstein anomaly depend principally on the extent of:",
+      "options": ["Cardiac dysrhythmias", "Displacement of the tricuspid valve", "Atrial right-to-left shunt", "Pulmonary vascular resistance", "Polycythemia"],
+      "answerKey": "B",
+      "answerText": "Displacement of the tricuspid valve",
+      "explanation": "Clinical severity varies with the degree of apical displacement of the tricuspid valve and the associated impairment of effective right ventricular function and outflow.",
+      "tags": ["cardiology::Ebstein-anomaly", "congenital-heart-disease"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Transposition of Great Arteries",
+      "question": "In D-transposition of the great vessels, all of the following are true EXCEPT:",
+      "options": ["Systemic veins return to the right atrium", "Pulmonary veins return to the left atrium", "Connections between the atria and ventricles are normal", "The aorta is posterior and to the right of the pulmonary artery", "The aorta is anterior and to the right of the pulmonary artery"],
+      "answerKey": "D",
+      "answerText": "The aorta is posterior and to the right of the pulmonary artery",
+      "explanation": "In d-TGA the aorta arises anteriorly from the right ventricle and lies anterior and to the right of the pulmonary artery.",
+      "tags": ["cardiology::TGA", "cardiac-anatomy"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::TAPVR",
+      "question": "Obstructed total anomalous pulmonary venous return is a pediatric cardiac surgical emergency because:",
+      "options": ["Prostaglandin therapy is usually not effective", "Severe pulmonary congestion develops", "The left atrium may be small", "The left ventricle may be small", "Pulmonary hypertension develops"],
+      "answerKey": "A",
+      "answerText": "Prostaglandin therapy is usually not effective",
+      "explanation": "Unlike duct-dependent lesions, obstructed TAPVR is not generally relieved by prostaglandin E1 and requires urgent surgical relief of the pulmonary venous obstruction.",
+      "tags": ["cardiology::TAPVR", "cardiac-emergency"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::TAPVR",
+      "question": "In neonates with total anomalous pulmonary venous return and marked pulmonary venous obstruction, chest X-ray demonstrates:",
+      "options": ["Small heart", "Enlarged heart", "Prominent pulmonary artery", "Prominent right ventricle", "Subaortic stenosis"],
+      "answerKey": "A",
+      "answerText": "Small heart",
+      "explanation": "Obstructed TAPVR typically produces severe pulmonary edema with a relatively small cardiac silhouette.",
+      "tags": ["cardiology::TAPVR", "chest-xray"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Truncus Arteriosus",
+      "question": "In truncus arteriosus, all of the following are true EXCEPT:",
+      "options": ["A VSD is always present", "The truncus overrides the defect", "Both ventricles are at systemic pressure", "Heart failure ensues immediately after birth", "Clinical cyanosis is usually mild"],
+      "answerKey": "D",
+      "answerText": "Heart failure ensues immediately after birth",
+      "explanation": "Pulmonary vascular resistance is still high immediately after birth; heart failure becomes prominent as resistance falls and pulmonary blood flow increases during the first weeks of life.",
+      "tags": ["cardiology::truncus-arteriosus", "heart-failure"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypoplastic Left Heart Syndrome",
+      "question": "Clinical manifestations of hypoplastic left-heart syndrome include:",
+      "options": ["Cyanosis is always obvious in the first 48 hours", "Deep-blue skin color", "Bounding peripheral pulses", "Occasional association with Turner syndrome", "Autosomal recessive inheritance is usual"],
+      "answerKey": "D",
+      "answerText": "Occasional association with Turner syndrome",
+      "explanation": "HLHS may occur with chromosomal or genetic syndromes, including Turner syndrome. Early cyanosis can be subtle and peripheral pulses are typically weak as systemic output deteriorates.",
+      "tags": ["cardiology::HLHS", "genetics"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Heterotaxy",
+      "question": "Polysplenia, or left isomerism, is characterized by:",
+      "options": ["Right-sided stomach", "Decreased pulmonary blood flow", "Absent gallbladder", "Howell-Jolly bodies", "Severe cyanosis"],
+      "answerKey": "C",
+      "answerText": "Absent gallbladder",
+      "explanation": "The source identifies absent gallbladder with polysplenia and notes that the remaining listed findings are characteristic of asplenia or right isomerism.",
+      "tags": ["cardiology::heterotaxy", "polysplenia"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pentalogy of Cantrell",
+      "question": "Pentalogy of Cantrell consists of the following EXCEPT:",
+      "options": ["Ectopia cordis", "Midline supraumbilical abdominal defect", "Deficiency of the anterior diaphragm", "Defect of the upper sternum", "Intracardiac defect"],
+      "answerKey": "D",
+      "answerText": "Defect of the upper sternum",
+      "explanation": "The sternal component of Pentalogy of Cantrell is a defect of the lower sternum, not the upper sternum.",
+      "tags": ["cardiology::Pentalogy-of-Cantrell", "congenital-anomalies"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Pulmonary Hypertension",
+      "question": "The MOST common cause of pulmonary hypertension in pediatric patients is:",
+      "options": ["Idiopathic pulmonary arterial hypertension", "Pulmonary veno-occlusive disease", "Left-sided valvular heart disease", "Chronic obstructive pulmonary disease", "Interstitial lung disease"],
+      "answerKey": "A",
+      "answerText": "Idiopathic pulmonary arterial hypertension",
+      "explanation": "The source identifies idiopathic or familial pulmonary arterial hypertension as the largest pediatric category, followed by congenital heart disease-associated pulmonary hypertension.",
+      "tags": ["cardiology::pulmonary-hypertension", "epidemiology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Patent Ductus Arteriosus",
+      "question": "A PDA should be considered for closure in the following situations EXCEPT:",
+      "options": ["PDA with severe irreversible pulmonary hypertension", "Small hemodynamically insignificant PDA", "Small hemodynamically significant PDA", "Moderate-sized PDA", "Large PDA"],
+      "answerKey": "A",
+      "answerText": "PDA with severe irreversible pulmonary hypertension",
+      "explanation": "Closure is generally considered for clinically apparent PDAs unless severe irreversible pulmonary vascular disease has developed, in which case closure can be unsafe.",
+      "tags": ["cardiology::PDA", "pulmonary-hypertension"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Antiarrhythmic Therapy",
+      "question": "Phenytoin is used for treatment of:",
+      "options": ["Supraventricular tachycardia", "Atrial fibrillation", "Atrial flutter", "Ventricular tachycardia", "Digitalis intoxication"],
+      "answerKey": "E",
+      "answerText": "Digitalis intoxication",
+      "explanation": "Phenytoin has historically been used to treat ventricular arrhythmias associated with digoxin toxicity.",
+      "tags": ["cardiology::arrhythmia", "pharmacology::phenytoin"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Beta Blockers",
+      "question": "Side effects of propranolol may include:",
+      "options": ["Hypothyroidism", "Elevated triglycerides", "School performance problems", "Hepatic toxicity", "Pulmonary fibrosis"],
+      "answerKey": "C",
+      "answerText": "School performance problems",
+      "explanation": "Central nervous system effects of propranolol can interfere with concentration or school performance; several of the other listed toxicities are more characteristic of amiodarone.",
+      "tags": ["cardiology::beta-blockers", "pharmacology::propranolol"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Premature Ventricular Contractions",
+      "question": "The following criteria indicate further investigation of premature ventricular contractions and possible suppressive therapy EXCEPT:",
+      "options": ["Multiform PVCs", "PVCs disappear during exercise", "R-on-T phenomenon", "Extreme frequency of beats", "Presence of underlying heart disease"],
+      "answerKey": "B",
+      "answerText": "PVCs disappear during exercise",
+      "explanation": "Benign PVCs commonly suppress with the sinus tachycardia of exercise. Persistence or worsening during exercise is more concerning.",
+      "tags": ["cardiology::PVC", "arrhythmia"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Supraventricular Tachycardia",
+      "question": "In an urgent episode of SVT with severe heart failure already present, the initial management is:",
+      "options": ["Adenosine by rapid intravenous push", "Synchronized DC cardioversion, 0.5-2 J/kg", "Verapamil", "Digoxin", "Amiodarone"],
+      "answerKey": "B",
+      "answerText": "Synchronized DC cardioversion, 0.5-2 J/kg",
+      "explanation": "Hemodynamic compromise or severe heart failure makes synchronized electrical cardioversion the immediate treatment rather than delaying for pharmacologic conversion.",
+      "tags": ["cardiology::SVT", "emergency-management"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Ventricular Tachycardia",
+      "question": "Hemodynamically unstable patients with ventricular tachycardia should be immediately treated with:",
+      "options": ["Catheter ablation", "ICD implantation", "DC cardioversion", "Amiodarone", "Procainamide"],
+      "answerKey": "C",
+      "answerText": "DC cardioversion",
+      "explanation": "Unstable ventricular tachycardia requires immediate synchronized electrical cardioversion.",
+      "tags": ["cardiology::ventricular-tachycardia", "emergency-management"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Infective Endocarditis",
+      "question": "Antimicrobial pretreatment of a patient with infective endocarditis reduces the yield of blood cultures to approximately:",
+      "options": ["10%", "30%", "40%", "60%", "80%"],
+      "answerKey": "D",
+      "answerText": "60%",
+      "explanation": "Prior antimicrobial therapy substantially lowers culture yield; the source gives a remaining yield of roughly 50-60%.",
+      "tags": ["cardiology::endocarditis", "microbiology::blood-culture"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Infective Endocarditis",
+      "question": "The MOST common serious morbidity in children with documented infective endocarditis is:",
+      "options": ["Heart failure", "Pulmonary emboli", "Mycotic aneurysms", "Acquired ventricular septal defect", "Heart block"],
+      "answerKey": "A",
+      "answerText": "Heart failure",
+      "explanation": "Heart failure is the major complication, commonly resulting from destructive vegetations involving the aortic or mitral valves.",
+      "tags": ["cardiology::endocarditis", "cardiology::heart-failure"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Anthracycline Cardiotoxicity",
+      "question": "Dilated cardiomyopathy from anthracycline cardiotoxicity occurs in up to 30% of patients when the cumulative doxorubicin dose exceeds:",
+      "options": ["250 mg/m²", "350 mg/m²", "450 mg/m²", "550 mg/m²", "650 mg/m²"],
+      "answerKey": "D",
+      "answerText": "550 mg/m²",
+      "explanation": "The source identifies a marked cardiotoxicity risk when cumulative doxorubicin exposure exceeds 550 mg/m², with concomitant radiation further increasing risk.",
+      "tags": ["cardiology::cardiotoxicity", "oncology::doxorubicin"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Restrictive Cardiomyopathy",
+      "question": "Restrictive cardiomyopathy is characterized by all of the following EXCEPT:",
+      "options": ["Normal ventricular chamber dimensions", "Normal myocardial wall thickness", "Preserved systolic function", "Normal atrial chamber dimensions", "High ventricular diastolic pressure"],
+      "answerKey": "D",
+      "answerText": "Normal atrial chamber dimensions",
+      "explanation": "Poor ventricular compliance and high filling pressures produce marked atrial enlargement despite relatively normal ventricular dimensions and preserved systolic function.",
+      "tags": ["cardiology::restrictive-cardiomyopathy", "echocardiography"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Restrictive Cardiomyopathy",
+      "question": "Diastolic dysfunction with normal systolic function is a recognized feature of:",
+      "options": ["Dilated cardiomyopathy", "Hypertrophic cardiomyopathy", "Left ventricular noncompaction", "Restrictive cardiomyopathy", "Arrhythmogenic right ventricular cardiomyopathy"],
+      "answerKey": "D",
+      "answerText": "Restrictive cardiomyopathy",
+      "explanation": "Restrictive cardiomyopathy is fundamentally a disorder of ventricular filling and compliance, so diastolic dysfunction predominates while systolic function may remain normal.",
+      "tags": ["cardiology::restrictive-cardiomyopathy", "diastolic-dysfunction"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Myocarditis",
+      "question": "In Asia, which hepatitis virus appears to be a significant cause of viral myocarditis?",
+      "options": ["Hepatitis A virus", "Hepatitis B virus", "Hepatitis C virus", "Hepatitis D virus", "Hepatitis E virus"],
+      "answerKey": "C",
+      "answerText": "Hepatitis C virus",
+      "explanation": "The source lists enteroviruses and several other viruses as common causes of myocarditis and specifically notes hepatitis C virus as significant in Asia.",
+      "tags": ["cardiology::myocarditis", "infectious-disease::HCV"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Cardiac Tumors",
+      "question": "The MOST common pediatric cardiac tumors are:",
+      "options": ["Fibromas", "Rhabdomyomas", "Myxomas", "Hemangiomas", "Papillomas"],
+      "answerKey": "B",
+      "answerText": "Rhabdomyomas",
+      "explanation": "Rhabdomyomas are the commonest cardiac tumors in children and have a strong association with tuberous sclerosis.",
+      "tags": ["cardiology::cardiac-tumors", "genetics::tuberous-sclerosis"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Heart Failure Pharmacology",
+      "question": "Afterload reducers are not indicated in children with heart failure secondary to:",
+      "options": ["Cardiomyopathy", "Severe mitral insufficiency", "Aortic insufficiency", "Ventricular septal defect", "Aortic stenosis"],
+      "answerKey": "E",
+      "answerText": "Aortic stenosis",
+      "explanation": "ACE inhibitors and similar afterload-reducing drugs are generally avoided in fixed left ventricular outflow obstruction because lowering systemic pressure can compromise coronary and systemic perfusion.",
+      "tags": ["cardiology::heart-failure", "cardiology::aortic-stenosis"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::ACE Inhibitors",
+      "question": "Adverse reactions to ACE inhibitors include the following EXCEPT:",
+      "options": ["Hypotension", "Hypokalemia", "Maculopapular pruritic rash", "Renal toxicity", "Chronic cough"],
+      "answerKey": "B",
+      "answerText": "Hypokalemia",
+      "explanation": "ACE inhibitors can cause hyperkalemia, not hypokalemia, along with hypotension, renal dysfunction, cough and occasionally rash.",
+      "tags": ["cardiology::ACE-inhibitors", "pharmacology"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypertension",
+      "question": "According to the definition used in the source, hypertension in children is:",
+      "options": ["Average SBP and/or DBP at or above the 95th percentile for age and sex on at least 3 occasions", "Average SBP and/or DBP at or above the 95th percentile for age, sex and height on at least 2 occasions", "Average SBP and/or DBP at or above the 95th percentile for age, sex and height on at least 3 occasions", "Average SBP and/or DBP at or above the 90th percentile for age, sex and height on at least 3 occasions", "Average SBP and/or DBP at or above the 99th percentile for age, sex and height on at least 3 occasions"],
+      "answerKey": "C",
+      "answerText": "Average SBP and/or DBP at or above the 95th percentile for age, sex and height on at least 3 occasions",
+      "explanation": "The source uses the 2004 Fourth Report definition: average systolic and/or diastolic pressure at least the 95th percentile for age, sex and height on three or more occasions. This is a source-era definition and should be interpreted in that historical context.",
+      "tags": ["cardiology::hypertension", "source-era-guideline"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypertension",
+      "question": "Renal childhood diseases responsible for chronic hypertension include:",
+      "options": ["Hemolytic-uremic syndrome", "Acute tubular necrosis", "Congenital dysplastic kidney", "Pyelonephritis", "Renal trauma"],
+      "answerKey": "C",
+      "answerText": "Congenital dysplastic kidney",
+      "explanation": "Congenital renal dysplasia can produce persistent renal parenchymal disease and chronic hypertension, whereas the other listed disorders are characterized in the source as causing acute or intermittent hypertension.",
+      "tags": ["cardiology::hypertension", "nephrology::renal-dysplasia"]
+    },
+    {
+      "lesson": "Pediatrics::Cardiovascular System::Hypertension",
+      "question": "Measuring serum potassium is essential in a child with confirmed hypertension because hyperkalemia may be seen in:",
+      "options": ["Gordon syndrome", "Liddle syndrome", "Glucocorticoid-remediable aldosteronism", "Apparent mineralocorticoid excess", "Pheochromocytoma"],
+      "answerKey": "A",
+      "answerText": "Gordon syndrome",
+      "explanation": "Gordon syndrome causes hypertension with hyperkalemia. In contrast, Liddle syndrome, glucocorticoid-remediable aldosteronism and apparent mineralocorticoid excess typically produce hypokalemia.",
+      "tags": ["cardiology::hypertension", "nephrology::Gordon-syndrome"]
+    }
+  ]
+}

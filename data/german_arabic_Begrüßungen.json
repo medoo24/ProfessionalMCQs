@@ -1,0 +1,1232 @@
+{
+  "metadata": {
+    "source": "My Bank",
+    "total_questions": 68
+  },
+  "questions": [
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du triffst deinen Lehrer um 8 Uhr morgens. Was sagst du?\nتقابل أستاذك الساعة الثامنة صباحًا. ماذا تقول؟",
+      "options": [
+        "Guten Morgen. — صباح الخير.",
+        "Guten Abend. — مساء الخير.",
+        "Auf Wiedersehen. — إلى اللقاء.",
+        "Gute Nacht. — ليلة سعيدة."
+      ],
+      "answerKey": "A",
+      "answerText": "Guten Morgen. — صباح الخير.",
+      "explanation": "Guten Morgen ist am Morgen richtig. — «Guten Morgen» هي التحية المناسبة صباحًا. «Guten Abend» للمساء، و«Gute Nacht» عند تمني ليلة سعيدة، و«Auf Wiedersehen» للوداع.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::التحية",
+        "الصباح"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Es ist Abend. Du begrüßt einen Gast.\nإنه المساء وتستقبل ضيفًا.",
+      "options": [
+        "Guten Morgen. — صباح الخير.",
+        "Gute Nacht. — ليلة سعيدة.",
+        "Guten Abend. — مساء الخير.",
+        "Bis morgen. — إلى اللقاء غدًا."
+      ],
+      "answerKey": "C",
+      "answerText": "Guten Abend. — مساء الخير.",
+      "explanation": "«Guten Abend» تحية المساء. «Guten Morgen» للصباح، و«Bis morgen» للوداع إلى الغد، و«Gute Nacht» تقال عند انتهاء اليوم أو قبل النوم.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::التحية",
+        "المساء"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du beendest ein Telefongespräch. Welche Form passt am besten?\nتنهي مكالمة هاتفية. ما العبارة الأنسب؟",
+      "options": [
+        "Auf Wiedersehen. — إلى اللقاء.",
+        "Herzlich willkommen. — أهلًا وسهلًا.",
+        "Guten Morgen. — صباح الخير.",
+        "Auf Wiederhören! — إلى اللقاء على الهاتف!"
+      ],
+      "answerKey": "D",
+      "answerText": "Auf Wiederhören! — إلى اللقاء على الهاتف!",
+      "explanation": "«Auf Wiederhören» تستخدم عند إنهاء مكالمة هاتفية. «Auf Wiedersehen» للقاء المباشر، و«Herzlich willkommen» للترحيب، و«Guten Morgen» تحية صباحية.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::الوداع",
+        "الهاتف"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Dein Freund reist morgen ins Ausland. Was wünschst du ihm?\nصديقك سيسافر غدًا إلى الخارج. ماذا تقول له؟",
+      "options": [
+        "Glückliche Reise. — رحلة سعيدة.",
+        "Bitte sehr. — تفضل.",
+        "Keine Ursache. — لا شكر على واجب.",
+        "Gute Nacht. — ليلة سعيدة."
+      ],
+      "answerKey": "A",
+      "answerText": "Glückliche Reise. — رحلة سعيدة.",
+      "explanation": "«Glückliche Reise» تعني رحلة سعيدة وتناسب السفر. «Gute Nacht» لليل، و«Bitte sehr» للتفضل، و«Keine Ursache» رد على الشكر.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::التمنيات",
+        "السفر"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du wirst deinen Freund morgen wieder treffen. Beim Abschied sagst du:\nستقابل صديقك مرة أخرى غدًا. عند الوداع تقول:",
+      "options": [
+        "Auf Wiederhören. — إلى اللقاء على الهاتف.",
+        "Bis morgen. — إلى اللقاء غدًا.",
+        "Guten Tag. — نهارك سعيد.",
+        "Willkommen. — أهلًا وسهلًا."
+      ],
+      "answerKey": "B",
+      "answerText": "Bis morgen. — إلى اللقاء غدًا.",
+      "explanation": "«Bis morgen» تعني إلى اللقاء غدًا. «Guten Tag» تحية نهارية، و«Willkommen» للترحيب، و«Auf Wiederhören» للوداع عبر الهاتف.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::الوداع",
+        "الغد"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du weißt nicht genau, wann ihr euch wiederseht, aber wahrscheinlich bald. Was passt?\nلا تعرف متى ستتقابلان مرة أخرى، لكن من المحتمل قريبًا. ما الأنسب؟",
+      "options": [
+        "Bis morgen. — إلى اللقاء غدًا.",
+        "Gute Nacht. — ليلة سعيدة.",
+        "Bis bald. — إلى لقاء قريب.",
+        "Grüß Gott! — مرحبًا!"
+      ],
+      "answerKey": "C",
+      "answerText": "Bis bald. — إلى لقاء قريب.",
+      "explanation": "«Bis bald» تعني إلى لقاء قريب من دون تحديد يوم. «Bis morgen» تحدد الغد، و«Gute Nacht» لليل، و«Grüß Gott» تحية.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::الوداع",
+        "قريبًا"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du verabschiedest dich von einem Freund in einer ungezwungenen Situation. Welche Form passt?\nتودع صديقًا في موقف غير رسمي. أي عبارة تناسب؟",
+      "options": [
+        "Sehr erfreut. — تشرفت بمعرفتكم.",
+        "Tschüß! — إلى اللقاء!",
+        "Guten Morgen. — صباح الخير.",
+        "Willkommen. — أهلًا وسهلًا."
+      ],
+      "answerKey": "B",
+      "answerText": "Tschüß! — إلى اللقاء!",
+      "explanation": "«Tschüß» من عبارات الوداع غير الرسمية. «Sehr erfreut» عند التعارف، و«Guten Morgen» تحية صباحية، و«Willkommen» للترحيب.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::الوداع",
+        "غير رسمي"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Ein Gast kommt zum ersten Mal in dein Haus. Was sagst du?\nضيف يأتي إلى منزلك للمرة الأولى. ماذا تقول؟",
+      "options": [
+        "Bis bald. — إلى لقاء قريب.",
+        "Mach's gut! — أتمنى لك التوفيق!",
+        "Auf Wiedersehen. — إلى اللقاء.",
+        "Herzlich willkommen. — أهلًا وسهلًا."
+      ],
+      "answerKey": "D",
+      "answerText": "Herzlich willkommen. — أهلًا وسهلًا.",
+      "explanation": "«Herzlich willkommen» للترحيب الحار بالضيف. بقية العبارات تستخدم غالبًا عند الوداع أو التمني.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::الترحيب",
+        "الضيوف"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Dein Freund geht zu einer Feier und möchte Spaß haben. Du sagst:\nصديقك ذاهب إلى مناسبة ويريد قضاء وقت ممتع. تقول:",
+      "options": [
+        "Entschuldigen Sie! — المعذرة!",
+        "Viel Vergnügen! — أرجو لك وقتًا ممتعًا!",
+        "Grüßen Sie zu Hause! — بلغ تحياتي للأهل!",
+        "Gute Nacht! — ليلة سعيدة!"
+      ],
+      "answerKey": "B",
+      "answerText": "Viel Vergnügen! — أرجو لك وقتًا ممتعًا!",
+      "explanation": "«Viel Vergnügen» لتمني وقت ممتع. «Gute Nacht» لليل، و«Grüßen Sie zu Hause» لنقل التحيات للأهل، و«Entschuldigen Sie» للاعتذار.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::التمنيات",
+        "الترفيه"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Begrüßungen::التحية والوداع",
+      "question": "Du verabschiedest dich von einem Freund und möchtest ihm allgemein alles Gute wünschen.\nتودع صديقًا وتريد أن تتمنى له الخير عمومًا.",
+      "options": [
+        "Seid leise! — اصمتوا!",
+        "Warten Sie bitte. — انتظر من فضلك.",
+        "Alles Gute! — كل التوفيق!",
+        "Wirklich. — حقًا."
+      ],
+      "answerKey": "C",
+      "answerText": "Alles Gute! — كل التوفيق!",
+      "explanation": "«Alles Gute» تستخدم لتمني الخير والتوفيق بصورة عامة. بقية العبارات للانتظار أو التأكيد أو طلب الصمت.",
+      "tags": [
+        "Deutsch::Begrüßungen",
+        "العربية::التمنيات",
+        "التوفيق"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Grüße::نقل التحيات",
+      "question": "Du möchtest, dass dein Freund Hans deine Grüße übermittelt.\nتريد من صديقك أن ينقل تحياتك إلى هانز.",
+      "options": [
+        "Warten Sie Hans. — انتظر هانز.",
+        "Lassen Sie Hans allein. — دع هانز وحده.",
+        "Grüße Hans von mir. — بلغ هانز تحياتي.",
+        "Ich heiße Hans. — اسمي هانز."
+      ],
+      "answerKey": "C",
+      "answerText": "Grüße Hans von mir. — بلغ هانز تحياتي.",
+      "explanation": "«Grüße Hans von mir» تعني بلغ هانز تحياتي. الخيارات الأخرى تغير المعنى إلى التعريف بالنفس أو الانتظار أو ترك الشخص وحده.",
+      "tags": [
+        "Deutsch::Grüße",
+        "العربية::نقل التحيات",
+        "هانز"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Grüße::نقل التحيات",
+      "question": "Du sprichst höflich mit einem Mann und möchtest, dass er seiner Frau deine Grüße ausrichtet.\nتتحدث بأدب مع رجل وتريد منه أن يبلغ زوجته تحياتك.",
+      "options": [
+        "Grüße diese Frau von mir. — بلغ هذه السيدة تحياتي.",
+        "Grüßen Sie alle herzlich von mir. — بلغ الجميع تحياتي القلبية.",
+        "Grüßen Sie bitte Ihre Frau von mir. — من فضلك بلغ زوجتك تحياتي.",
+        "Beste Grüße an alle. — أطيب التحيات للجميع."
+      ],
+      "answerKey": "C",
+      "answerText": "Grüßen Sie bitte Ihre Frau von mir. — من فضلك بلغ زوجتك تحياتي.",
+      "explanation": "الخيار الصحيح يحدد الزوجة مباشرة. الخيارات الأخرى توجه التحية للجميع أو لسيدة غير محددة أو تعبر عن تحيات عامة.",
+      "tags": [
+        "Deutsch::Grüße",
+        "العربية::نقل التحيات",
+        "الزوجة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Grüße::نقل التحيات",
+      "question": "Du möchtest einer Familie Grüße übermitteln. Welche Form passt?\nتريد نقل التحيات إلى أهل شخص ما. أي عبارة تناسب؟",
+      "options": [
+        "Gute Nacht. — ليلة سعيدة.",
+        "Grüßen Sie zu Hause! — بلغ تحياتي للأهل!",
+        "Wie heißen Sie? — ما اسمكم؟",
+        "Bitte sehr. — تفضل."
+      ],
+      "answerKey": "B",
+      "answerText": "Grüßen Sie zu Hause! — بلغ تحياتي للأهل!",
+      "explanation": "«Grüßen Sie zu Hause» تستخدم لنقل التحيات إلى أهل الشخص. الخيارات الأخرى للسؤال عن الاسم أو تمني ليلة سعيدة أو التفضل.",
+      "tags": [
+        "Deutsch::Grüße",
+        "العربية::نقل التحيات",
+        "الأهل"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Du stellst dich zum ersten Mal vor. Welche Aussage passt?\nتقدم نفسك للمرة الأولى. ما العبارة المناسبة؟",
+      "options": [
+        "Grüßen Sie Omar. — بلغ عمر تحياتي.",
+        "Lassen Sie Omar allein. — دع عمر وحده.",
+        "Ich heiße Omar. — اسمي عمر.",
+        "Warten Sie Omar. — انتظر عمر."
+      ],
+      "answerKey": "C",
+      "answerText": "Ich heiße Omar. — اسمي عمر.",
+      "explanation": "«Ich heiße Omar» صيغة صحيحة للتعريف بالنفس. ويمكن كذلك استخدام «Mein Name ist Omar».",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "الاسم"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Du fragst eine fremde erwachsene Person höflich nach ihrem Namen.\nتسأل شخصًا بالغًا لا تعرفه عن اسمه بطريقة رسمية.",
+      "options": [
+        "Wie heißt du? — ما اسمك؟",
+        "Was wünschen Sie? — ماذا تريدون؟",
+        "Wie heißen Sie? — ما اسمكم؟",
+        "Glaubst du mir? — هل تصدقني؟"
+      ],
+      "answerKey": "C",
+      "answerText": "Wie heißen Sie? — ما اسمكم؟",
+      "explanation": "«Wie heißen Sie?» هي الصيغة الرسمية. «Wie heißt du?» غير رسمية، أما الخياران الآخران فيسألان عن الرغبة أو التصديق.",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "رسمي"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Du sprichst mit einem engen Freund. Welche Frage nach seinem Namen ist die informelle Form?\nتتحدث مع شخص بصيغة غير رسمية. ما صيغة السؤال عن الاسم؟",
+      "options": [
+        "Wie heißt du? — ما اسمك؟",
+        "Wie heißen Sie? — ما اسمكم؟",
+        "Was möchten Sie? — ماذا تريدون؟",
+        "Sind Sie Herr Müller? — هل أنت السيد مولر؟"
+      ],
+      "answerKey": "A",
+      "answerText": "Wie heißt du? — ما اسمك؟",
+      "explanation": "«Wie heißt du?» تستخدم مع المخاطب بصيغة غير رسمية. «Wie heißen Sie?» هي الصيغة الرسمية.",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "غير رسمي"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Du möchtest deine Frau einer anderen Person vorstellen. Welche Aussage passt?\nتريد تقديم زوجتك لشخص آخر.",
+      "options": [
+        "Lassen Sie meine Frau allein. — دع زوجتي وحدها.",
+        "Gestatten Sie, daß ich Ihnen meine Frau vorstelle. — اسمح لي أن أقدم لك زوجتي.",
+        "Ich möchte mit Ihrer Frau sprechen. — أود التحدث مع زوجتك.",
+        "Grüßen Sie bitte Ihre Frau von mir. — بلغ زوجتك تحياتي."
+      ],
+      "answerKey": "B",
+      "answerText": "Gestatten Sie, daß ich Ihnen meine Frau vorstelle. — اسمح لي أن أقدم لك زوجتي.",
+      "explanation": "الخيار الصحيح يستخدم للتقديم. الخيارات الأخرى لنقل التحيات أو طلب الحديث أو طلب ترك الزوجة وحدها.",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التقديم",
+        "الأسرة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Nach einer Vorstellung möchtest du ausdrücken, dass du dich über die Bekanntschaft freust.\nبعد أن يتم تقديمك لشخص، تريد التعبير عن سعادتك بالتعرف عليه.",
+      "options": [
+        "Passen Sie auf! — انتبه!",
+        "Keine Ursache. — لا شكر على واجب.",
+        "Sehr erfreut. — تشرفت بمعرفتكم.",
+        "Weiter, bitte. — تابع من فضلك."
+      ],
+      "answerKey": "C",
+      "answerText": "Sehr erfreut. — تشرفت بمعرفتكم.",
+      "explanation": "«Sehr erfreut» تعبر عن السرور بالتعارف. ويمكن كذلك قول «Es freut mich, Sie kennenzulernen».",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "المجاملة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Du bist nicht sicher, ob die Person vor dir Frau Müller ist.\nلست متأكدًا هل السيدة أمامك هي السيدة مولر.",
+      "options": [
+        "Grüßen Sie Frau Müller. — بلغ السيدة مولر تحياتي.",
+        "Lassen Sie Frau Müller allein. — دع السيدة مولر وحدها.",
+        "Entschuldigen Sie, sind Sie Frau Müller? — المعذرة، هل أنت السيدة مولر؟",
+        "Wie wünschen Sie Frau Müller? — ماذا ترغب السيدة مولر؟"
+      ],
+      "answerKey": "C",
+      "answerText": "Entschuldigen Sie, sind Sie Frau Müller? — المعذرة، هل أنت السيدة مولر؟",
+      "explanation": "الصيغة الصحيحة تبدأ بالاعتذار ثم السؤال بأدب عن هوية الشخص. الخيارات الأخرى لا تؤدي معنى التحقق من الهوية.",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "الهوية"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Vorstellung::التعارف والتقديم",
+      "question": "Jemand fragt dich: „Sind Sie Herr Ali?“ Du bist tatsächlich Herr Ali.\nيسألك شخص: «هل أنت السيد علي؟» وأنت بالفعل السيد علي.",
+      "options": [
+        "Nein, der bin ich nicht. — لا، لست أنا.",
+        "Warum nicht? — لم لا؟",
+        "Ja, der bin ich. — نعم، أنا هو.",
+        "Das macht nichts. — لا بأس."
+      ],
+      "answerKey": "C",
+      "answerText": "Ja, der bin ich. — نعم، أنا هو.",
+      "explanation": "«Ja, der bin ich» تؤكد أنك الشخص المقصود. «Nein, der bin ich nicht» تنفي ذلك.",
+      "tags": [
+        "Deutsch::Vorstellung",
+        "العربية::التعارف",
+        "تأكيد الهوية"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche und Dank::الرغبات والشكر",
+      "question": "Ein Kunde kommt zu dir und du möchtest höflich fragen, was er möchte.\nيأتي إليك عميل وتريد سؤاله بأدب عما يريد.",
+      "options": [
+        "Warum nicht? — لم لا؟",
+        "Was möchten Sie? — ماذا تريدون؟",
+        "Glaubst du mir? — هل تصدقني؟",
+        "Wie heißen Sie? — ما اسمكم؟"
+      ],
+      "answerKey": "B",
+      "answerText": "Was möchten Sie? — ماذا تريدون؟",
+      "explanation": "«Was möchten Sie?» سؤال مهذب عن رغبة الشخص. بقية الخيارات تتعلق بالاسم أو التصديق أو القبول.",
+      "tags": [
+        "Deutsch::Wünsche",
+        "العربية::الرغبات",
+        "الخدمة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche und Dank::الرغبات والشكر",
+      "question": "Du möchtest jemandem anbieten, ihm zu helfen.\nتريد عرض المساعدة على شخص.",
+      "options": [
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich bin in Eile. — أنا في عجلة.",
+        "Machen Sie das Licht aus. — أطفئ النور.",
+        "Was kann ich für Sie tun? — بماذا أستطيع خدمتكم؟"
+      ],
+      "answerKey": "D",
+      "answerText": "Was kann ich für Sie tun? — بماذا أستطيع خدمتكم؟",
+      "explanation": "«Was kann ich für Sie tun?» تستخدم لعرض المساعدة أو الخدمة على شخص آخر.",
+      "tags": [
+        "Deutsch::Wünsche",
+        "العربية::المساعدة",
+        "عرض الخدمة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche und Dank::الرغبات والشكر",
+      "question": "Dein Freund hat morgen eine wichtige Prüfung. Was sagst du?\nلدى صديقك امتحان مهم غدًا. ماذا تقول؟",
+      "options": [
+        "Machen Sie das Licht an. — أشعل النور.",
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich danke Dir. — أشكرك.",
+        "Ich wünsche Dir viel Glück. — أتمنى لك حظًا سعيدًا."
+      ],
+      "answerKey": "D",
+      "answerText": "Ich wünsche Dir viel Glück. — أتمنى لك حظًا سعيدًا.",
+      "explanation": "هذه العبارة تناسب تمني النجاح والحظ الجيد قبل امتحان أو حدث مهم.",
+      "tags": [
+        "Deutsch::Wünsche",
+        "العربية::التمنيات",
+        "الامتحان"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche und Dank::الرغبات والشكر",
+      "question": "Jemand gibt dir ein Geschenk. Welche Reaktion passt am besten?\nأعطاك شخص هدية. ما الرد الأنسب؟",
+      "options": [
+        "Passen Sie auf! — انتبه!",
+        "Nimm an oder laß es sein! — خذ أو اترك!",
+        "Das tut mir sehr leid. — أنا متأسف جدًا.",
+        "Vielen Dank für das Geschenk. — شكرًا جزيلًا على الهدية."
+      ],
+      "answerKey": "D",
+      "answerText": "Vielen Dank für das Geschenk. — شكرًا جزيلًا على الهدية.",
+      "explanation": "الخيار الصحيح شكر مباشر على الهدية. الخيارات الأخرى اعتذار أو تحذير أو صيغة قبول أو ترك.",
+      "tags": [
+        "Deutsch::Dank",
+        "العربية::الشكر",
+        "الهدية"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche und Dank::الرغبات والشكر",
+      "question": "Jemand hat sich besonders freundlich dir gegenüber verhalten.\nعاملك شخص بلطف شديد وتريد شكره على هذا اللطف.",
+      "options": [
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Ich danke Ihnen für Ihre Freundlichkeit. — أشكركم على لطفكم.",
+        "Ich danke Ihnen für Ihren Stift. — أشكركم على قلمكم.",
+        "Seid leise! — اصمتوا!"
+      ],
+      "answerKey": "B",
+      "answerText": "Ich danke Ihnen für Ihre Freundlichkeit. — أشكركم على لطفكم.",
+      "explanation": "العبارة الصحيحة تشكر الشخص تحديدًا على اللطف. بقية الخيارات تتعلق بالقلم أو رفض الحديث أو طلب الصمت.",
+      "tags": [
+        "Deutsch::Dank",
+        "العربية::الشكر",
+        "اللطف"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Höflichkeit::السؤال بأدب",
+      "question": "Du bist in einer fremden Stadt und suchst eine Apotheke. Wie fragst du höflich?\nأنت في مدينة غريبة وتبحث عن صيدلية. كيف تسأل بأدب؟",
+      "options": [
+        "Entschuldigen Sie, ist hier in der Nähe eine Apotheke? — المعذرة، هل توجد صيدلية بالقرب من هنا؟",
+        "Würden Sie die Apotheke zumachen? — هل تغلق الصيدلية من فضلك؟",
+        "Lassen Sie die Apotheke allein. — اترك الصيدلية وحدها.",
+        "Ist die Apotheke mit Ihnen zufrieden? — هل الصيدلية راضية عنكم؟"
+      ],
+      "answerKey": "A",
+      "answerText": "Entschuldigen Sie, ist hier in der Nähe eine Apotheke? — المعذرة، هل توجد صيدلية بالقرب من هنا؟",
+      "explanation": "هذه هي الصيغة المناسبة للسؤال بأدب عن مكان قريب. بقية الخيارات لا تعبر عن طلب الاتجاه أو الموقع.",
+      "tags": [
+        "Deutsch::Höflichkeit",
+        "العربية::السؤال",
+        "الصيدلية"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du möchtest jemanden höflich bitten, kurz zu warten.\nتريد أن تطلب من شخص أن ينتظر قليلًا.",
+      "options": [
+        "Warten Sie bitte. — انتظر من فضلك.",
+        "Machen Sie weiter. — تابع.",
+        "Gute Nacht. — ليلة سعيدة.",
+        "Seid leise. — اصمتوا."
+      ],
+      "answerKey": "A",
+      "answerText": "Warten Sie bitte. — انتظر من فضلك.",
+      "explanation": "«Warten Sie bitte» طلب مهذب بالانتظار. الخيارات الأخرى للمتابعة أو الصمت أو تمني ليلة سعيدة.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الانتظار"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Es ist kalt und das Fenster ist offen. Du möchtest höflich darum bitten, es zu schließen.\nالجو بارد والنافذة مفتوحة. تريد أن تطلب إغلاقها بأدب.",
+      "options": [
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Machen Sie das Licht an! — أشعل النور!",
+        "Treten Sie ein, bitte. — تفضل بالدخول.",
+        "Würden Sie bitte das Fenster zumachen? — هل تغلق النافذة من فضلك؟"
+      ],
+      "answerKey": "D",
+      "answerText": "Würden Sie bitte das Fenster zumachen? — هل تغلق النافذة من فضلك؟",
+      "explanation": "«zumachen» هنا تعني الإغلاق، والجملة كلها طلب مهذب. بقية الخيارات تتعلق بالنور أو الدخول أو طلب ترك الشخص وحده.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "النافذة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Beim Essen ist das Salz weit von dir entfernt.\nأثناء الطعام، الملح بعيد عنك وتريد أن يناولك إياه شخص آخر.",
+      "options": [
+        "Warten Sie das Salz. — انتظر الملح.",
+        "Reichen Sie mir bitte das Salz. — ناولني الملح من فضلك.",
+        "Machen Sie das Salz aus. — أطفئ الملح.",
+        "Grüßen Sie das Salz. — بلغ الملح تحياتي."
+      ],
+      "answerKey": "B",
+      "answerText": "Reichen Sie mir bitte das Salz. — ناولني الملح من فضلك.",
+      "explanation": "«Reichen Sie mir bitte das Salz» طلب صحيح لمناولة الملح. ويمكن أيضًا قول «Geben Sie mir bitte das Salz».",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الطعام"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du bestellst Tee.\nتطلب الشاي.",
+      "options": [
+        "Ich danke Tee. — أشكر الشاي.",
+        "Eine Tasse Tee, bitte. — كوب شاي من فضلك.",
+        "Würden Sie Tee warten? — هل تنتظر الشاي؟",
+        "Gute Nacht, Tee. — ليلة سعيدة يا شاي."
+      ],
+      "answerKey": "B",
+      "answerText": "Eine Tasse Tee, bitte. — كوب شاي من فضلك.",
+      "explanation": "«Eine Tasse Tee, bitte» طلب مباشر ومهذب لكوب من الشاي. بقية العبارات لا تؤدي معنى الطلب.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الشاي"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Jemand steht vor deiner Tür und du möchtest ihn hereinbitten.\nشخص يقف أمام بابك وتريد دعوته إلى الدخول.",
+      "options": [
+        "Treten Sie ein, bitte. — تفضل بالدخول.",
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Machen Sie das Licht aus. — أطفئ النور.",
+        "Bis morgen. — إلى اللقاء غدًا."
+      ],
+      "answerKey": "A",
+      "answerText": "Treten Sie ein, bitte. — تفضل بالدخول.",
+      "explanation": "«Treten Sie ein, bitte» دعوة مهذبة للدخول. الخيارات الأخرى لطلب العزلة أو إطفاء النور أو الوداع.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الدخول"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du verstehst nicht, wie eine Aufgabe gemacht wird. Welche Bitte passt?\nلا تعرف كيف تنفذ مهمة وتريد من شخص أن يوضح لك الطريقة.",
+      "options": [
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Grüßen Sie alle herzlich. — بلغ الجميع تحياتي القلبية.",
+        "Zeigen Sie mir bitte, wie ich das machen soll. — دلني من فضلك كيف أفعل ذلك.",
+        "Glaubst du mir? — هل تصدقني؟"
+      ],
+      "answerKey": "C",
+      "answerText": "Zeigen Sie mir bitte, wie ich das machen soll. — دلني من فضلك كيف أفعل ذلك.",
+      "explanation": "الجملة الصحيحة تطلب شرح الطريقة أو إظهار كيفية تنفيذ المهمة. بقية العبارات لا تطلب تعليم الخطوات.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "طلب الشرح"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du möchtest besonders höflich um Hilfe bitten.\nتريد طلب المساعدة بصيغة شديدة التهذيب.",
+      "options": [
+        "Seid leise! — اصمتوا!",
+        "Gib mir etwas Kleingeld. — أعطني بعض الفراطة.",
+        "Würden Sie so liebenswürdig sein und mir helfen? — هل تتفضل بمساعدتي؟",
+        "Machen Sie das Licht aus! — أطفئ النور!"
+      ],
+      "answerKey": "C",
+      "answerText": "Würden Sie so liebenswürdig sein und mir helfen? — هل تتفضل بمساعدتي؟",
+      "explanation": "هذه صيغة شديدة التهذيب لطلب المساعدة. الخيارات الأخرى أوامر أو طلبات مباشرة لا تحمل الدرجة نفسها من المجاملة.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "المساعدة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du bist sehr beschäftigt und möchtest nicht gestört werden.\nأنت مشغول جدًا وتريد أن تظل وحدك دون إزعاج.",
+      "options": [
+        "Viel Vergnügen. — وقتًا ممتعًا.",
+        "Herzlich willkommen. — أهلًا وسهلًا.",
+        "Treten Sie ein, bitte. — تفضل بالدخول.",
+        "Lassen Sie mich allein. — دعوني وحدي."
+      ],
+      "answerKey": "D",
+      "answerText": "Lassen Sie mich allein. — دعوني وحدي.",
+      "explanation": "«Lassen Sie mich allein» تطلب من الآخرين تركك وحدك. بقية الخيارات تدعو إلى الدخول أو ترحب أو تتمنى وقتًا ممتعًا.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الخصوصية"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Entschuldigung::الاعتذار",
+      "question": "Jemand möchte mit dir sprechen, aber du musst sofort gehen.\nيريد شخص التحدث معك لكن عليك المغادرة فورًا.",
+      "options": [
+        "Entschuldigen Sie, ich bin in Eile. — اعذرني، أنا في عجلة.",
+        "Ich bin mit Ihnen zufrieden. — أنا راضٍ عنكم.",
+        "Machen Sie weiter. — تابع.",
+        "Warum nicht? — لم لا؟"
+      ],
+      "answerKey": "A",
+      "answerText": "Entschuldigen Sie, ich bin in Eile. — اعذرني، أنا في عجلة.",
+      "explanation": "العبارة الصحيحة تعتذر وتوضح أنك في عجلة. الخيارات الأخرى تعبر عن الرضا أو القبول أو المتابعة.",
+      "tags": [
+        "Deutsch::Entschuldigung",
+        "العربية::الاعتذار",
+        "العجلة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Wünsche::الرغبة",
+      "question": "Du bist müde und möchtest nach Hause.\nأنت متعب وتريد التعبير بأدب عن رغبتك في الذهاب إلى المنزل.",
+      "options": [
+        "Lassen Sie das Haus allein. — اترك المنزل وحده.",
+        "Ich würde gerne nach Hause gehen. — أود الذهاب إلى المنزل.",
+        "Treten Sie nach Hause ein. — ادخل إلى المنزل.",
+        "Grüßen Sie zu Hause. — بلغ تحياتي للأهل."
+      ],
+      "answerKey": "B",
+      "answerText": "Ich würde gerne nach Hause gehen. — أود الذهاب إلى المنزل.",
+      "explanation": "«Ich würde gerne nach Hause gehen» تعبر بأدب عن الرغبة في الذهاب إلى البيت.",
+      "tags": [
+        "Deutsch::Wünsche",
+        "العربية::الرغبة",
+        "المنزل"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bitten::الطلبات والأوامر",
+      "question": "Du möchtest von einem Freund etwas Kleingeld haben und sprichst informell.\nتريد بعض الفراطة من صديق وتتحدث معه بصيغة غير رسمية.",
+      "options": [
+        "Gib mir etwas Kleingeld. — أعطني بعض الفراطة.",
+        "Wie Sie wünschen. — كما ترغبون.",
+        "Ich danke im Voraus. — أشكرك مقدمًا.",
+        "Geben Sie mir bitte das Salz. — ناولني الملح من فضلك."
+      ],
+      "answerKey": "A",
+      "answerText": "Gib mir etwas Kleingeld. — أعطني بعض الفراطة.",
+      "explanation": "«Gib mir etwas Kleingeld» طلب غير رسمي لشخص مخاطب بصيغة «du». الخيارات الأخرى تتعلق بالملح أو الشكر مقدمًا أو الاستجابة للرغبة.",
+      "tags": [
+        "Deutsch::Bitten",
+        "العربية::الطلبات",
+        "الفراطة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Aufforderungen::الأوامر",
+      "question": "Ein Mitarbeiter hört auf zu arbeiten, obwohl die Aufgabe noch nicht beendet ist. Was sagst du?\nتوقف موظف عن العمل رغم أن المهمة لم تنتهِ. ماذا تقول؟",
+      "options": [
+        "Setzen Sie Ihre Arbeit fort. — تابع عملك.",
+        "Lassen Sie die Arbeit allein. — اترك العمل وحده.",
+        "Auf Wiedersehen. — إلى اللقاء.",
+        "Gute Nacht. — ليلة سعيدة."
+      ],
+      "answerKey": "A",
+      "answerText": "Setzen Sie Ihre Arbeit fort. — تابع عملك.",
+      "explanation": "«Setzen Sie Ihre Arbeit fort» تعني واصل أو تابع عملك. بقية الخيارات لا تطلب استكمال المهمة.",
+      "tags": [
+        "Deutsch::Aufforderungen",
+        "العربية::الأوامر",
+        "العمل"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Warnung::التحذير",
+      "question": "Eine Person läuft auf eine Gefahr zu. Du willst sie warnen.\nشخص يتجه نحو خطر وتريد تحذيره بسرعة.",
+      "options": [
+        "Viel Vergnügen! — وقتًا ممتعًا!",
+        "Vorsicht! — احذر!",
+        "Dankeschön! — شكرًا!",
+        "Willkommen! — أهلًا وسهلًا!"
+      ],
+      "answerKey": "B",
+      "answerText": "Vorsicht! — احذر!",
+      "explanation": "«Vorsicht!» تستخدم للتحذير من خطر. ويمكن أيضًا استخدام «Passen Sie auf!».",
+      "tags": [
+        "Deutsch::Warnung",
+        "العربية::التحذير",
+        "الخطر"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Entschuldigung::الاعتذار",
+      "question": "Du hast jemanden lange warten lassen.\nجعلت شخصًا ينتظر مدة طويلة وتريد الاعتذار.",
+      "options": [
+        "Alles Gute. — كل التوفيق.",
+        "Entschuldigen Sie, daß ich Sie warten ließ! — اعذرني لأنني جعلتك تنتظر.",
+        "Weiter, bitte. — تابع من فضلك.",
+        "Es hat mich sehr gefreut. — أسعدني ذلك."
+      ],
+      "answerKey": "B",
+      "answerText": "Entschuldigen Sie, daß ich Sie warten ließ! — اعذرني لأنني جعلتك تنتظر.",
+      "explanation": "هذه العبارة تعتذر تحديدًا عن جعل شخص آخر ينتظر. الخيارات الأخرى لا تعبر عن الاعتذار لهذا السبب.",
+      "tags": [
+        "Deutsch::Entschuldigung",
+        "العربية::الاعتذار",
+        "الانتظار"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Aufforderungen::الأوامر",
+      "question": "Das Licht ist eingeschaltet, aber du möchtest schlafen.\nالنور مضاء وتريد النوم.",
+      "options": [
+        "Machen Sie das Licht aus! — أطفئ النور!",
+        "Weiter, bitte. — تابع من فضلك.",
+        "Machen Sie das Fenster an! — شغّل النافذة!",
+        "Machen Sie das Licht an! — أشعل النور!"
+      ],
+      "answerKey": "A",
+      "answerText": "Machen Sie das Licht aus! — أطفئ النور!",
+      "explanation": "«aus» مع الضوء تعني الإطفاء. أما «an» فتعني التشغيل أو الإضاءة.",
+      "tags": [
+        "Deutsch::Aufforderungen",
+        "العربية::الأوامر",
+        "النور"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Aufforderungen::الأوامر",
+      "question": "Das Zimmer ist dunkel. Du brauchst Licht.\nالغرفة مظلمة وتحتاج إلى الضوء.",
+      "options": [
+        "Machen Sie das Licht an! — أشعل النور!",
+        "Seid leise! — اصمتوا!",
+        "Machen Sie das Licht aus! — أطفئ النور!",
+        "Ausschließen! — أغلق!"
+      ],
+      "answerKey": "A",
+      "answerText": "Machen Sie das Licht an! — أشعل النور!",
+      "explanation": "«Machen Sie das Licht an» تعني تشغيل أو إضاءة النور. «aus» تعني الإطفاء.",
+      "tags": [
+        "Deutsch::Aufforderungen",
+        "العربية::الأوامر",
+        "النور"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Entschuldigung::الاعتذار والرد",
+      "question": "Du hast einen schweren Fehler gemacht und möchtest dein starkes Bedauern zeigen.\nارتكبت خطأ وتريد التعبير عن أسف شديد.",
+      "options": [
+        "Das macht nichts. — لا بأس.",
+        "Keine Ursache. — لا شكر على واجب.",
+        "Das tut mir sehr leid. — أنا متأسف جدًا.",
+        "Ausgezeichnet. — ممتاز."
+      ],
+      "answerKey": "C",
+      "answerText": "Das tut mir sehr leid. — أنا متأسف جدًا.",
+      "explanation": "«Das tut mir sehr leid» تعبر عن الأسف الشديد. «Das macht nichts» رد على الاعتذار، و«Keine Ursache» رد على الشكر، و«Ausgezeichnet» تعني ممتاز.",
+      "tags": [
+        "Deutsch::Entschuldigung",
+        "العربية::الاعتذار",
+        "الأسف"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Entschuldigung::الاعتذار والرد",
+      "question": "Jemand entschuldigt sich bei dir wegen eines kleinen Fehlers, aber die Sache stört dich nicht.\nيعتذر منك شخص عن خطأ بسيط، لكن الأمر لا يزعجك.",
+      "options": [
+        "Ich bin in Eile. — أنا في عجلة.",
+        "Das tut mir sehr leid. — أنا متأسف جدًا.",
+        "Passen Sie auf! — انتبه!",
+        "Das macht nichts. — لا بأس."
+      ],
+      "answerKey": "D",
+      "answerText": "Das macht nichts. — لا بأس.",
+      "explanation": "«Das macht nichts» أو «Das ist in Ordnung» تناسب قبول الاعتذار وطمأنة الشخص.",
+      "tags": [
+        "Deutsch::Entschuldigung",
+        "العربية::الرد",
+        "قبول الاعتذار"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Dank::الشكر والرد",
+      "question": "Jemand bedankt sich bei dir für eine kleine Hilfe.\nيشكرك شخص على مساعدة بسيطة.",
+      "options": [
+        "Glückliche Reise. — رحلة سعيدة.",
+        "Ich bitte Sie um Verzeihung. — أرجو المعذرة.",
+        "Keine Ursache. — لا شكر على واجب.",
+        "Vorsicht! — احذر!"
+      ],
+      "answerKey": "C",
+      "answerText": "Keine Ursache. — لا شكر على واجب.",
+      "explanation": "«Keine Ursache» رد مناسب على الشكر، ويمكن كذلك قول «Das ist nicht der Rede wert».",
+      "tags": [
+        "Deutsch::Dank",
+        "العربية::الرد على الشكر",
+        "المجاملة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Aufforderungen::الأوامر",
+      "question": "Du sagst zu einem Freund: „اجلس.“\nتريد قول «اجلس» لصديق بصيغة غير رسمية.",
+      "options": [
+        "Treten Sie ein! — ادخل!",
+        "Setz dich! — اجلس!",
+        "Seid leise! — اصمتوا!",
+        "Setzen Sie sich! — اجلسوا أو تفضل بالجلوس رسميًا!"
+      ],
+      "answerKey": "B",
+      "answerText": "Setz dich! — اجلس!",
+      "explanation": "«Setz dich!» للمفرد غير الرسمي. «Setzen Sie sich!» صيغة رسمية.",
+      "tags": [
+        "Deutsch::Aufforderungen",
+        "العربية::الأوامر",
+        "الجلوس"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Höflichkeit::الحديث بأدب",
+      "question": "Ein deutscher Gesprächspartner spricht zu schnell und du verstehst ihn kaum.\nيتحدث شخص ألماني بسرعة كبيرة ولا تستطيع فهمه جيدًا.",
+      "options": [
+        "Könnten Sie bitte etwas langsamer sprechen? — هل تتحدث ببطء أكثر من فضلك؟",
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Machen Sie das Licht aus! — أطفئ النور!",
+        "Hört auf zu lärmen! — توقفوا عن الضوضاء!"
+      ],
+      "answerKey": "A",
+      "answerText": "Könnten Sie bitte etwas langsamer sprechen? — هل تتحدث ببطء أكثر من فضلك؟",
+      "explanation": "هذه العبارة تطلب من المتحدث أن يبطئ كلامه بأدب. بقية الخيارات لا تتعلق بسرعة الكلام.",
+      "tags": [
+        "Deutsch::Höflichkeit",
+        "العربية::المحادثة",
+        "بطء الكلام"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "In einem Geschäft beschuldigt ein Kunde deine Firma eines Fehlers, aber du bist sicher, dass der Fehler nicht von euch stammt.\nيتهم عميل شركتك بخطأ، لكنك متأكد أن الخطأ لم يكن من جانبكم. ما العبارة الأنسب؟",
+      "options": [
+        "Wie Sie wünschen. — كما ترغبون.",
+        "Wir versichern Sie, daß das nicht unser Fehler war. — نؤكد لكم أن ذلك لم يكن خطأنا.",
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Das tut mir sehr leid. — أنا متأسف جدًا."
+      ],
+      "answerKey": "B",
+      "answerText": "Wir versichern Sie, daß das nicht unser Fehler war. — نؤكد لكم أن ذلك لم يكن خطأنا.",
+      "explanation": "الخيار الصحيح ينفي مسؤولية الجهة عن الخطأ مع صيغة تأكيد. بقية الخيارات اعتذار أو رفض للحديث أو موافقة على رغبة.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::التأكيد",
+        "الخطأ"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "Jemand bietet dir etwas an und sagt, dass du entweder akzeptieren oder ablehnen sollst.\nيقدم لك شخص شيئًا ويقول إن عليك أن تقبله أو تتركه.",
+      "options": [
+        "Bis morgen. — إلى اللقاء غدًا.",
+        "Bitte sehr. — تفضل.",
+        "Herzlich willkommen. — أهلًا وسهلًا.",
+        "Nimm an oder laß es sein! — خذ أو اترك!"
+      ],
+      "answerKey": "D",
+      "answerText": "Nimm an oder laß es sein! — خذ أو اترك!",
+      "explanation": "العبارة الصحيحة تعني القبول أو الترك. الخيارات الأخرى للتفضل أو الترحيب أو الوداع.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::القبول والرفض",
+        "الاختيار"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "„Glaubst du mir?“ Du glaubst der Person völlig.\n«هل تصدقني؟» أنت تصدق الشخص تمامًا. ما الرد المناسب؟",
+      "options": [
+        "Ja, natürlich. — نعم، بالطبع.",
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich bin in Eile. — أنا في عجلة.",
+        "Nein, unmöglich. — لا، مستحيل."
+      ],
+      "answerKey": "A",
+      "answerText": "Ja, natürlich. — نعم، بالطبع.",
+      "explanation": "«Ja, natürlich» تؤكد التصديق. ويمكن أيضًا استخدام «Ja, sicher»، أو «Bestimmt»، أو «Selbstverständlich».",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::التأكيد",
+        "الثقة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Aufforderungen::الأوامر",
+      "question": "Eine Gruppe von Kindern macht sehr viel Lärm.\nمجموعة من الأطفال تحدث ضوضاء شديدة. ماذا تقول؟",
+      "options": [
+        "Viel Vergnügen! — وقتًا ممتعًا!",
+        "Alles Gute! — كل التوفيق!",
+        "Herzlich willkommen! — أهلًا وسهلًا!",
+        "Hört auf zu lärmen! — توقفوا عن إحداث الضوضاء!"
+      ],
+      "answerKey": "D",
+      "answerText": "Hört auf zu lärmen! — توقفوا عن إحداث الضوضاء!",
+      "explanation": "«Hört auf zu lärmen» طلب من مجموعة بالتوقف عن الضوضاء. الخيارات الأخرى تمنيات أو ترحيب.",
+      "tags": [
+        "Deutsch::Aufforderungen",
+        "العربية::الأوامر",
+        "الضوضاء"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Gespräch::المحادثة",
+      "question": "Du verstehst eine Erklärung nicht und möchtest eine weitere Erklärung.\nلم تفهم شيئًا وتريد من الشخص توضيحه.",
+      "options": [
+        "Gute Nacht. — ليلة سعيدة.",
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Kannst du das erklären? — هل يمكنك توضيح ذلك؟"
+      ],
+      "answerKey": "D",
+      "answerText": "Kannst du das erklären? — هل يمكنك توضيح ذلك؟",
+      "explanation": "«Kannst du das erklären?» طلب مباشر للتوضيح. الخيارات الأخرى ترفض الحديث أو تطلب العزلة أو تتمنى ليلة سعيدة.",
+      "tags": [
+        "Deutsch::Gespräch",
+        "العربية::المحادثة",
+        "طلب التوضيح"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Gespräch::المحادثة",
+      "question": "Jemand fragt dich wiederholt nach einem persönlichen Thema, über das du nicht reden möchtest.\nيسألك شخص مرارًا عن موضوع شخصي ولا تريد الحديث عنه.",
+      "options": [
+        "Ich danke Ihnen herzlich. — أشكركم من القلب.",
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Es freut mich, Sie kennenzulernen. — تسعدني معرفتكم.",
+        "Was kann ich für Sie tun? — بماذا أستطيع خدمتكم؟"
+      ],
+      "answerKey": "B",
+      "answerText": "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+      "explanation": "العبارة الصحيحة ترفض الحديث عن الموضوع بصورة مباشرة. بقية الخيارات للتعارف أو عرض المساعدة أو الشكر.",
+      "tags": [
+        "Deutsch::Gespräch",
+        "العربية::المحادثة",
+        "رفض الحديث"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Gespräch::المحادثة",
+      "question": "Jemand raucht neben dir und du verträgst Rauch nicht.\nيدخن شخص بجوارك وأنت لا تحتمل التدخين.",
+      "options": [
+        "Das Rauchen ist ausgezeichnet. — التدخين ممتاز.",
+        "Ich möchte eine Zigarette. — أريد سيجارة.",
+        "Ich vertrage das Rauchen nicht. — لا أحتمل التدخين.",
+        "Viel Vergnügen! — وقتًا ممتعًا!"
+      ],
+      "answerKey": "C",
+      "answerText": "Ich vertrage das Rauchen nicht. — لا أحتمل التدخين.",
+      "explanation": "العبارة الصحيحة توضح عدم تحمل التدخين. الخيارات الأخرى تعبر عن رغبة أو تقييم مختلف تمامًا.",
+      "tags": [
+        "Deutsch::Gespräch",
+        "العربية::المحادثة",
+        "التدخين"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Entschuldigung::الاعتذار",
+      "question": "Du möchtest dich sehr höflich entschuldigen.\nتريد طلب المعذرة بصورة مهذبة.",
+      "options": [
+        "Ich danke Ihnen im Voraus. — أشكركم مقدمًا.",
+        "Wie Sie wünschen. — كما ترغبون.",
+        "Warum nicht? — لم لا؟",
+        "Ich bitte Sie um Verzeihung. — أرجو المعذرة."
+      ],
+      "answerKey": "D",
+      "answerText": "Ich bitte Sie um Verzeihung. — أرجو المعذرة.",
+      "explanation": "«Ich bitte Sie um Verzeihung» صيغة مهذبة لطلب الصفح أو المعذرة. بقية الخيارات للشكر أو الموافقة أو القبول.",
+      "tags": [
+        "Deutsch::Entschuldigung",
+        "العربية::الاعتذار",
+        "طلب الصفح"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Sprechen und Leihen::الحديث والاستعارة",
+      "question": "Du bist in einem Büro und möchtest mit Herrn Müller sprechen.\nأنت في مكتب وتريد التحدث مع السيد مولر.",
+      "options": [
+        "Ich würde gern mit Herrn Müller sprechen. — أود التحدث مع السيد مولر.",
+        "Ich heiße Herr Müller. — اسمي السيد مولر.",
+        "Lassen Sie Herrn Müller allein. — دع السيد مولر وحده.",
+        "Grüßen Sie Herrn Müller von mir. — بلغ السيد مولر تحياتي."
+      ],
+      "answerKey": "A",
+      "answerText": "Ich würde gern mit Herrn Müller sprechen. — أود التحدث مع السيد مولر.",
+      "explanation": "الخيار الصحيح يعبر عن الرغبة في الحديث مع شخص معين. بقية الخيارات لنقل التحية أو التعريف بالنفس أو طلب تركه وحده.",
+      "tags": [
+        "Deutsch::Sprechen",
+        "العربية::المحادثة",
+        "طلب الحديث"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Leihen::الاستعارة والإقراض",
+      "question": "Du brauchst dringend 300 Euro und möchtest höflich fragen, ob jemand dir das Geld leiht.\nتحتاج بصورة عاجلة إلى 300 يورو وتريد طلب اقتراضها بأدب.",
+      "options": [
+        "Würden Sie mir dreihundert Euro leihen? — هل تستطيعون إقراضي ثلاثمائة يورو؟",
+        "Ich danke Ihnen für dreihundert Euro. — أشكركم على ثلاثمائة يورو.",
+        "Sind Sie dreihundert Euro? — هل أنتم ثلاثمائة يورو؟",
+        "Geben Sie mir dreihundert Euro! — أعطني ثلاثمائة يورو!"
+      ],
+      "answerKey": "A",
+      "answerText": "Würden Sie mir dreihundert Euro leihen? — هل تستطيعون إقراضي ثلاثمائة يورو؟",
+      "explanation": "«leihen» هنا تتعلق بالإقراض، وصيغة «Würden Sie» تجعل الطلب أكثر تهذيبًا.",
+      "tags": [
+        "Deutsch::Leihen",
+        "العربية::الاستعارة",
+        "المال"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Unterbringen::الإقامة",
+      "question": "Deine Schwägerin braucht für einige Tage eine Unterkunft. Du fragst einen Bekannten höflich, ob sie bei ihm bleiben kann.\nشقيقة زوجك أو زوجتك تحتاج إلى مكان للإقامة عدة أيام، وتطلب من شخص أن يستضيفها.",
+      "options": [
+        "Lassen Sie meine Schwägerin wissen. — دع شقيقة زوجي أو زوجتي تعرف.",
+        "Grüßen Sie meine Schwägerin. — بلغ شقيقة زوجي أو زوجتي تحياتي.",
+        "Können Sie meine Schwägerin vorstellen? — هل تستطيعون تقديم شقيقة زوجي أو زوجتي؟",
+        "Können Sie meine Schwägerin für einige Tage unterbringen? — هل تستطيعون استضافة شقيقة زوجي أو زوجتي لبضعة أيام؟"
+      ],
+      "answerKey": "D",
+      "answerText": "Können Sie meine Schwägerin für einige Tage unterbringen? — هل تستطيعون استضافة شقيقة زوجي أو زوجتي لبضعة أيام؟",
+      "explanation": "«unterbringen» هنا تعني توفير مكان للإقامة. الخيارات الأخرى تتعلق بالتقديم أو التحية أو الإخبار.",
+      "tags": [
+        "Deutsch::Unterbringen",
+        "العربية::الإقامة",
+        "الاستضافة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "Jemand fragt: „Kannst du mir helfen?“ Du siehst keinen Grund abzulehnen.\nيسألك شخص: «هل تستطيع مساعدتي؟» ولا ترى سببًا للرفض.",
+      "options": [
+        "Warum nicht? — لم لا؟",
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich vertrage das nicht. — لا أحتمل ذلك.",
+        "Unmöglich. — مستحيل."
+      ],
+      "answerKey": "A",
+      "answerText": "Warum nicht? — لم لا؟",
+      "explanation": "«Warum nicht?» في هذا السياق تفيد القبول والاستعداد للمساعدة. بقية الخيارات تميل إلى الرفض.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::الموافقة",
+        "المساعدة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Mitteilung::الإبلاغ",
+      "question": "Du wartest auf Frau Anna, weißt aber nicht, wann sie kommt. Du möchtest, dass man dich informiert.\nتنتظر السيدة آنا ولا تعرف موعد وصولها، وتريد من الآخرين إخبارك عندما تصل.",
+      "options": [
+        "Lassen Sie mich bitte wissen, wann sie kommt. — من فضلك أخبرني متى ستأتي.",
+        "Lassen Sie Anna allein. — اترك آنا وحدها.",
+        "Ich möchte nicht über Anna sprechen. — لا أريد التحدث عن آنا.",
+        "Grüßen Sie Anna von mir. — بلغ آنا تحياتي."
+      ],
+      "answerKey": "A",
+      "answerText": "Lassen Sie mich bitte wissen, wann sie kommt. — من فضلك أخبرني متى ستأتي.",
+      "explanation": "الخيار الصحيح يطلب الإبلاغ بموعد وصولها. الخيارات الأخرى للتحية أو طلب تركها وحدها أو رفض الحديث عنها.",
+      "tags": [
+        "Deutsch::Mitteilung",
+        "العربية::الإبلاغ",
+        "الوصول"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Dank::الشكر",
+      "question": "Du bittest jemanden um einen Gefallen, den er erst später erledigen wird. Du möchtest schon jetzt danken.\nتطلب خدمة ستنفذ لاحقًا وتريد شكر الشخص منذ الآن.",
+      "options": [
+        "Seid leise. — اصمتوا.",
+        "Ich danke im Voraus. — أشكرك مقدمًا.",
+        "Das tut mir sehr leid. — أنا متأسف جدًا.",
+        "Keine Ursache. — لا شكر على واجب."
+      ],
+      "answerKey": "B",
+      "answerText": "Ich danke im Voraus. — أشكرك مقدمًا.",
+      "explanation": "«Ich danke im Voraus» تعني أشكرك مقدمًا وتناسب خدمة ستنفذ لاحقًا.",
+      "tags": [
+        "Deutsch::Dank",
+        "العربية::الشكر",
+        "مقدمًا"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Bewertung::التقييم والرضا",
+      "question": "Ein Mitarbeiter erledigt seine Aufgabe sehr gut und du möchtest deine Zufriedenheit ausdrücken.\nأدى موظف مهمته بصورة ممتازة وتريد التعبير عن رضاك عنه.",
+      "options": [
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Ich bitte Sie um Verzeihung. — أرجو المعذرة.",
+        "Das ist unmöglich. — هذا مستحيل.",
+        "Ausgezeichnet, ich bin mit Ihnen zufrieden. — ممتاز، أنا راضٍ عنكم."
+      ],
+      "answerKey": "D",
+      "answerText": "Ausgezeichnet, ich bin mit Ihnen zufrieden. — ممتاز، أنا راضٍ عنكم.",
+      "explanation": "العبارة الصحيحة تجمع بين التقييم الإيجابي والتعبير عن الرضا. بقية الخيارات تتعلق بالاستحالة أو الاعتذار أو رفض الحديث.",
+      "tags": [
+        "Deutsch::Bewertung",
+        "العربية::الرضا",
+        "العمل"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Möglichkeit::الإمكان والاستحالة",
+      "question": "Jemand schlägt eine Lösung vor. Nach deiner Einschätzung kann sie durchgeführt werden.\nيقترح شخص حلًا، وتعتقد أنه قابل للتنفيذ.",
+      "options": [
+        "Ich bin in Eile. — أنا في عجلة.",
+        "Nein, das ist unmöglich. — لا، هذا مستحيل.",
+        "Das tut mir sehr leid. — أنا متأسف جدًا.",
+        "Ich glaube, daß das möglich ist. — أظن أن ذلك ممكن."
+      ],
+      "answerKey": "D",
+      "answerText": "Ich glaube, daß das möglich ist. — أظن أن ذلك ممكن.",
+      "explanation": "الخيار الصحيح يعبر عن الاعتقاد بإمكان تنفيذ الحل. الخيار الثاني يعبر عن العكس تمامًا.",
+      "tags": [
+        "Deutsch::Möglichkeit",
+        "العربية::الإمكان",
+        "الحلول"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Möglichkeit::الإمكان والاستحالة",
+      "question": "Der vorgeschlagene Plan kann unter keinen Umständen durchgeführt werden.\nالخطة المقترحة لا يمكن تنفيذها مطلقًا.",
+      "options": [
+        "Wie Sie wünschen. — كما ترغبون.",
+        "Warum nicht? — لم لا؟",
+        "Nein, das ist unmöglich. — لا، هذا مستحيل.",
+        "Ausgezeichnet. — ممتاز."
+      ],
+      "answerKey": "C",
+      "answerText": "Nein, das ist unmöglich. — لا، هذا مستحيل.",
+      "explanation": "«Nein, das ist unmöglich» تعبر عن الاستحالة. ويمكن أيضًا استخدام «Das ist nicht möglich».",
+      "tags": [
+        "Deutsch::Möglichkeit",
+        "العربية::الاستحالة",
+        "الخطط"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Leihen::الاستعارة والإقراض",
+      "question": "Du brauchst nur für einen kurzen Moment den Stift deines Kollegen.\nتحتاج قلم زميلك للحظة قصيرة فقط.",
+      "options": [
+        "Würden Sie mir dreihundert Euro leihen? — هل تستطيعون إقراضي ثلاثمائة يورو؟",
+        "Machen Sie den Stift aus. — أطفئ القلم.",
+        "Geben Sie mir bitte das Salz. — ناولني الملح من فضلك.",
+        "Kann ich mir kurz Ihren Stift leihen? — هل أستطيع استعارة قلمكم للحظة؟"
+      ],
+      "answerKey": "D",
+      "answerText": "Kann ich mir kurz Ihren Stift leihen? — هل أستطيع استعارة قلمكم للحظة؟",
+      "explanation": "الخيار الصحيح يطلب استعارة القلم لفترة قصيرة. بقية الخيارات تتعلق بالمال أو الملح أو تركيب غير مناسب مع القلم.",
+      "tags": [
+        "Deutsch::Leihen",
+        "العربية::الاستعارة",
+        "القلم"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "Du fragst: „Ist er mit deiner Forderung einverstanden?“ Die Antwort ist positiv.\nتسأل: «هل هو موافق على طلبك؟» والإجابة نعم.",
+      "options": [
+        "Nein, das ist unmöglich. — لا، هذا مستحيل.",
+        "Ich weiß nicht, wann er kommt. — لا أعرف متى سيأتي.",
+        "Keine Ursache. — لا شكر على واجب.",
+        "Ja, er ist es. — نعم، هو موافق."
+      ],
+      "answerKey": "D",
+      "answerText": "Ja, er ist es. — نعم، هو موافق.",
+      "explanation": "«Ja, er ist es» تؤكد موافقته على الطلب. بقية الخيارات تنفي أو تتحدث عن موعد الوصول أو ترد على الشكر.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::الموافقة",
+        "الطلب"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "Eine vorgeschlagene Lösung ist für eine Person völlig passend.\nحل مقترح يناسب شخصًا تمامًا. أي تعبير يناسب؟",
+      "options": [
+        "Grüßen Sie ihn. — بلغوه تحياتي.",
+        "Das ist ihm unmöglich. — هذا مستحيل بالنسبة إليه.",
+        "Das paßt ihm. — هذا يناسبه.",
+        "Das tut ihm leid. — هو متأسف لذلك."
+      ],
+      "answerKey": "C",
+      "answerText": "Das paßt ihm. — هذا يناسبه.",
+      "explanation": "«Das paßt ihm» أو «Das ist ihm recht» تعني أن الأمر يناسبه أو يوافقه.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::الموافقة",
+        "الملاءمة"
+      ]
+    },
+    {
+      "lesson": "Deutsch::Zustimmung und Ablehnung::الموافقة والرفض",
+      "question": "Ein Kollege bittet dich um Unterstützung bei einer Aufgabe. Du möchtest ihm sagen, dass du seine Bitte nicht ablehnen willst. Welche Aussage drückt das am besten aus?\nيطلب منك زميل مساعدته في مهمة، وتريد إخباره بأنك لا تريد رفض طلبه. أي عبارة تعبّر عن ذلك بصورة أفضل؟",
+      "options": [
+        "Lassen Sie mich allein. — دعوني وحدي.",
+        "Ich will Ihnen das nicht abschlagen. — لا أريد أن أرفض طلبكم.",
+        "Ich möchte nicht darüber sprechen. — لا أريد التحدث عن ذلك.",
+        "Nein, das ist unmöglich. — لا، هذا مستحيل."
+      ],
+      "answerKey": "B",
+      "answerText": "Ich will Ihnen das nicht abschlagen. — لا أريد أن أرفض طلبكم.",
+      "explanation": "الخيار الصحيح يعبر عن عدم الرغبة في رفض الطلب. الخيار الثاني يرفض الحديث، والثالث يرفض بسبب الاستحالة، والرابع يطلب العزلة.",
+      "tags": [
+        "Deutsch::Zustimmung und Ablehnung",
+        "العربية::الموافقة",
+        "عدم الرفض"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2342 @@
+{
+  "metadata": {
+    "source": "My Bank",
+    "total_questions": 134
+  },
+  "questions": [
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Arthritis of rheumatic fever is characterized by:",
+      "options": [
+        "Joint deformities",
+        "Small joint affection",
+        "Migratory arthritis",
+        "None of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "Migratory arthritis",
+      "explanation": "Rheumatic arthritis classically presents as a migratory polyarthritis involving mainly the large joints.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "arthritis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic arthritis is treated by:",
+      "options": [
+        "Salicylates",
+        "Haloperidol",
+        "Corticosteroids",
+        "Phenobarbitone"
+      ],
+      "answerKey": "A",
+      "answerText": "Salicylates",
+      "explanation": "Rheumatic arthritis typically responds dramatically to anti-inflammatory treatment with salicylates.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "treatment"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic carditis is treated by:",
+      "options": [
+        "Corticosteroids",
+        "Phenobarbitone",
+        "Analgesics",
+        "Chloramphenicol"
+      ],
+      "answerKey": "A",
+      "answerText": "Corticosteroids",
+      "explanation": "Corticosteroids are used in significant rheumatic carditis to suppress the inflammatory process.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "carditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The daily dose of corticosteroids (prednisone) in rheumatic carditis is:",
+      "options": [
+        "10-20 mg/kg of body weight",
+        "20-40 mg/kg",
+        "5-10 mg/kg",
+        "2 mg/kg"
+      ],
+      "answerKey": "D",
+      "answerText": "2 mg/kg",
+      "explanation": "The supplied key gives prednisone at approximately 2 mg/kg/day for rheumatic carditis.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "pharmacology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic chorea is characterized by:",
+      "options": [
+        "Voluntary purposeful movements",
+        "Involuntary purposeless movements",
+        "Wing-beating convulsions",
+        "None of the above"
+      ],
+      "answerKey": "B",
+      "answerText": "Involuntary purposeless movements",
+      "explanation": "Sydenham chorea causes involuntary, irregular, purposeless movements that are often accompanied by hypotonia and emotional changes.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "chorea"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic chorea is treated by:",
+      "options": [
+        "Salicylates",
+        "Phenobarbitone",
+        "Digoxin",
+        "Lasix"
+      ],
+      "answerKey": "B",
+      "answerText": "Phenobarbitone",
+      "explanation": "According to the supplied key, phenobarbitone is used for symptomatic control of rheumatic chorea.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "chorea"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "One of the diagnostic skin lesions of active rheumatic fever is:",
+      "options": [
+        "Erythema nodosum",
+        "Erythema marginatum",
+        "Vesicular skin eruptions",
+        "Erythema multiforme"
+      ],
+      "answerKey": "B",
+      "answerText": "Erythema marginatum",
+      "explanation": "Erythema marginatum is one of the major Jones criteria for acute rheumatic fever.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever",
+        "jones-criteria"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Congenital Heart Disease",
+      "question": "One of the congenital cyanotic heart diseases is:",
+      "options": [
+        "ASD",
+        "Tetralogy of Fallot",
+        "PDA",
+        "VSD"
+      ],
+      "answerKey": "B",
+      "answerText": "Tetralogy of Fallot",
+      "explanation": "Tetralogy of Fallot is a classic cyanotic congenital heart disease associated with a right-to-left shunt.",
+      "tags": [
+        "pediatrics::cardiology",
+        "congenital-heart-disease",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "The most common clinical presentation of VSD is:",
+      "options": [
+        "Cyanosis",
+        "Repeated chest infections",
+        "Hemolysis",
+        "Squatting position"
+      ],
+      "answerKey": "B",
+      "answerText": "Repeated chest infections",
+      "explanation": "A significant VSD produces pulmonary overcirculation and may present with recurrent respiratory infections.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd",
+        "clinical-presentation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "Heart failure is treated by:",
+      "options": [
+        "Corticosteroids",
+        "Digoxin",
+        "Penicillin",
+        "Salicylates"
+      ],
+      "answerKey": "B",
+      "answerText": "Digoxin",
+      "explanation": "Digoxin has traditionally been used to improve cardiac contractility in selected pediatric patients with heart failure.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure",
+        "treatment"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All are true about rheumatic fever except:",
+      "options": [
+        "Recurrence is common",
+        "It is commonest between the ages of 5-15 years",
+        "It follows an upper respiratory tract infection by group A β-hemolytic streptococci",
+        "It is treated by corticosteroids even if arthritis is the only manifestation",
+        "Rheumatic arthritis does not result in permanent damage of the affected joint"
+      ],
+      "answerKey": "D",
+      "answerText": "It is treated by corticosteroids even if arthritis is the only manifestation",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All of the following may be signs of active carditis in a child with rheumatic heart disease except:",
+      "options": [
+        "Cardiomegaly",
+        "Gallop rhythm",
+        "Evidence of pericardial effusion",
+        "Appearance of a new murmur or change in the character of an already present murmur",
+        "Epistaxis"
+      ],
+      "answerKey": "E",
+      "answerText": "Epistaxis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "In rheumatic chorea, all are true except:",
+      "options": [
+        "Movements cease or decrease during sleep",
+        "It is a self-limited condition",
+        "It is associated with hypotonia",
+        "It is always accompanied by signs of active carditis, arthritis, and elevated ESR",
+        "It is accompanied by emotional changes in the patient"
+      ],
+      "answerKey": "D",
+      "answerText": "It is always accompanied by signs of active carditis, arthritis, and elevated ESR",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Recognized features of Tetralogy of Fallot include all except:",
+      "options": [
+        "Cyanosis",
+        "Pulmonary oligemia",
+        "Murmur of pulmonary stenosis",
+        "Murmur of VSD",
+        "Thrombotic complications"
+      ],
+      "answerKey": "D",
+      "answerText": "Murmur of VSD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which of the following statements is true in children?",
+      "options": [
+        "The first heart sound is normally split",
+        "The second heart sound is normally split",
+        "Gallop rhythm may be a normal finding",
+        "The first heart sound is due to closure of the semilunar valves",
+        "The second heart sound is due to closure of the atrioventricular valves"
+      ],
+      "answerKey": "B",
+      "answerText": "The second heart sound is normally split",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which of the following statements concerning the measurement of blood pressure in children is true?",
+      "options": [
+        "With cuff technique blood pressure is normally lower in the leg than in the arm",
+        "Blood pressure measurements cannot be obtained until the age of 3 years",
+        "A single BP reading is sufficient to diagnose hypertension",
+        "BP norms are the same for children and adults",
+        "Using a cuff that is too small will result in a falsely high reading, while a cuff that is too large will result in a falsely low reading"
+      ],
+      "answerKey": "E",
+      "answerText": "Using a cuff that is too small will result in a falsely high reading, while a cuff that is too large will result in a falsely low reading",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "In which of the following situations is further clinical evaluation indicated?",
+      "options": [
+        "A newborn with a heart rate of 130/min",
+        "A 2-year-old with a heart rate of 110/min",
+        "A newborn with a pulse rate of 90/min during sleep",
+        "A 2-month-old infant with a pulse rate of 130/min",
+        "A crying 2-month-old infant with a pulse rate of 260/min"
+      ],
+      "answerKey": "E",
+      "answerText": "A crying 2-month-old infant with a pulse rate of 260/min",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "VSD is commonly presented with:",
+      "options": [
+        "Signs of CHF",
+        "Small septal defect with trivial left-to-right shunt and no symptoms",
+        "Cyanosis",
+        "Chronic bronchitis"
+      ],
+      "answerKey": "B",
+      "answerText": "Small septal defect with trivial left-to-right shunt and no symptoms",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The type of penicillin used as prophylaxis against streptococcal throat infection in rheumatic fever is:",
+      "options": [
+        "Penicillin",
+        "Benzathine penicillin",
+        "Procaine penicillin",
+        "Ampicillin",
+        "Benzathine penicillin and procaine penicillin"
+      ],
+      "answerKey": "E",
+      "answerText": "Benzathine penicillin and procaine penicillin",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "Signs and symptoms of moderate VSD include all except:",
+      "options": [
+        "Tachypnea and dyspnea",
+        "Feeding difficulties",
+        "Slow growth",
+        "Higher risk for pulmonary infection",
+        "Central cyanosis"
+      ],
+      "answerKey": "E",
+      "answerText": "Central cyanosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "Which of the following statements about bacterial endocarditis is false?",
+      "options": [
+        "A congenital heart disease is a predisposing factor",
+        "Children usually present acutely with high fever",
+        "The spleen may be enlarged and tender",
+        "Clubbing of fingers develops after 5-6 weeks",
+        "Treatment requires 4-6 weeks of intravenous antibiotic therapy"
+      ],
+      "answerKey": "B",
+      "answerText": "Children usually present acutely with high fever",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Which of the following establishes a diagnosis of rheumatic fever?",
+      "options": [
+        "Carditis alone",
+        "Carditis and arthralgia",
+        "Polyarthritis, fever, and evidence of recent streptococcal infection",
+        "Carditis, polyarthritis, and evidence of recent streptococcal infection",
+        "Prolonged P-R interval, fever, and arthralgia"
+      ],
+      "answerKey": "D",
+      "answerText": "Carditis, polyarthritis, and evidence of recent streptococcal infection",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Investigations that aid in the diagnosis of rheumatic fever include:",
+      "options": [
+        "Elevated antistreptolysin O titer",
+        "Decreased serum sodium",
+        "Elevated serum cholesterol",
+        "Deficient level of IgM",
+        "All of the above"
+      ],
+      "answerKey": "A",
+      "answerText": "Elevated antistreptolysin O titer",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Among the signs of active rheumatic carditis is:",
+      "options": [
+        "Soft tender splenomegaly",
+        "Tachycardia out of proportion to fever",
+        "Splinter hemorrhages of the nails",
+        "Pale clubbing of the fingers",
+        "None of the above"
+      ],
+      "answerKey": "B",
+      "answerText": "Tachycardia out of proportion to fever",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "The following is necessary to diagnose congestive heart failure in children:",
+      "options": [
+        "Bradycardia",
+        "Tender hepatomegaly",
+        "Hypothermia",
+        "Polyuria"
+      ],
+      "answerKey": "B",
+      "answerText": "Tender hepatomegaly",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Aortic Regurgitation",
+      "question": "The murmur of aortic incompetence is:",
+      "options": [
+        "A soft ejection systolic murmur",
+        "A harsh pansystolic murmur",
+        "A soft early diastolic murmur",
+        "A harsh ejection systolic murmur",
+        "None of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "A soft early diastolic murmur",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "aortic-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Aortic Regurgitation",
+      "question": "The following help in the diagnosis of aortic incompetence:",
+      "options": [
+        "Collapsing water-hammer pulse",
+        "Femoral pistol shot",
+        "Wide pulse pressure",
+        "Corrigan's sign",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "aortic-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The organism responsible for the development of rheumatic fever is:",
+      "options": [
+        "Group B streptococcus",
+        "Pneumococci",
+        "Staphylococcus aureus",
+        "Group A β-hemolytic streptococcus",
+        "None of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "Group A β-hemolytic streptococcus",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "Infective endocarditis is suspected if there is:",
+      "options": [
+        "Splenomegaly",
+        "Fever and toxemia",
+        "Microscopic hematuria",
+        "Painful nodes at the fingertips",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "To prevent infective endocarditis in a child with rheumatic heart disease:",
+      "options": [
+        "Any surgical manipulations such as tooth extraction are to be avoided",
+        "Sport and exercise are forbidden",
+        "Surgical manipulations should be covered by broad-spectrum antibiotics",
+        "Preservatives and artificial colorings in food should be prevented",
+        "All of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "Surgical manipulations should be covered by broad-spectrum antibiotics",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Mitral Regurgitation",
+      "question": "The propagation of the murmur of mitral incompetence is as follows:",
+      "options": [
+        "All over the precordium",
+        "Along the left sternal border",
+        "Towards the apex",
+        "Towards the axilla",
+        "None of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "Towards the axilla",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "mitral-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "ESR is increased in the following cases except:",
+      "options": [
+        "Anemia",
+        "Congestive heart failure",
+        "Chronic infections",
+        "Neoplastic diseases",
+        "Inflammatory conditions"
+      ],
+      "answerKey": "B",
+      "answerText": "Congestive heart failure",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All of the following are associated with acute rheumatic fever except:",
+      "options": [
+        "Joint pain",
+        "Erythema nodosum",
+        "Fever",
+        "High ESR"
+      ],
+      "answerKey": "B",
+      "answerText": "Erythema nodosum",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Manifestations of rheumatic carditis include all of the following except:",
+      "options": [
+        "Tachycardia",
+        "Muffled heart sounds",
+        "Gallop rhythm",
+        "Pericardial rub",
+        "Accentuated second heart sound"
+      ],
+      "answerKey": "E",
+      "answerText": "Accentuated second heart sound",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "In VSD, all are true except:",
+      "options": [
+        "Pulmonary hypertension may occur",
+        "The murmur is soft ejection in character",
+        "There is a palpable systolic thrill",
+        "With pulmonary hypertension there is a palpable second heart sound"
+      ],
+      "answerKey": "B",
+      "answerText": "The murmur is soft ejection in character",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "The following are typical of Tetralogy of Fallot except:",
+      "options": [
+        "Pulmonary and aortic stenosis are combined with VSD",
+        "Finger clubbing and central cyanosis are present",
+        "The second heart sound is loud and single",
+        "The chest X-ray and ECG are typically abnormal",
+        "Right ventricular hypertrophy"
+      ],
+      "answerKey": "A",
+      "answerText": "Pulmonary and aortic stenosis are combined with VSD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Maldevelopment of the endocardial cushions may result in the following except:",
+      "options": [
+        "An atrial septal defect",
+        "A ventricular septal defect",
+        "Deformity of the mitral valve",
+        "Deformity of the tricuspid valve",
+        "Deformity of the aortic valve"
+      ],
+      "answerKey": "E",
+      "answerText": "Deformity of the aortic valve",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The following are major criteria of acute rheumatic fever except:",
+      "options": [
+        "Carditis",
+        "Arthralgia",
+        "Rheumatic chorea",
+        "Subcutaneous nodules",
+        "Erythema marginatum"
+      ],
+      "answerKey": "B",
+      "answerText": "Arthralgia",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "The most common congenital heart disease is:",
+      "options": [
+        "Tetralogy of Fallot",
+        "ASD",
+        "PDA",
+        "VSD",
+        "Transposition of the great arteries"
+      ],
+      "answerKey": "D",
+      "answerText": "VSD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Regarding arthritis of rheumatic fever, all are true except:",
+      "options": [
+        "Dramatic response to salicylate",
+        "Fleeting in nature",
+        "Affecting big joints",
+        "No residual effect",
+        "Normal ESR"
+      ],
+      "answerKey": "E",
+      "answerText": "Normal ESR",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Iridocyclitis is most likely associated with:",
+      "options": [
+        "Juvenile rheumatoid arthritis",
+        "Slipped femoral epiphysis",
+        "Rheumatic fever",
+        "Henoch-Schönlein purpura"
+      ],
+      "answerKey": "A",
+      "answerText": "Juvenile rheumatoid arthritis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Among the signs of rheumatic chorea are:",
+      "options": [
+        "Involuntary movements",
+        "Hypotonia",
+        "Psychological changes",
+        "Gait disturbance",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The arthritis of rheumatic fever is characterized by:",
+      "options": [
+        "A fleeting character",
+        "Acute onset",
+        "Dramatic response to salicylates",
+        "May be accompanied by active carditis",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The most reliable index of persistent rheumatic activity following the course of acute rheumatic fever is the:",
+      "options": [
+        "Antistreptolysin O titer",
+        "Temperature response",
+        "Erythrocyte sedimentation rate",
+        "Leukocytic count",
+        "Urine albumin"
+      ],
+      "answerKey": "C",
+      "answerText": "Erythrocyte sedimentation rate",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Aortic Regurgitation",
+      "question": "Regarding aortic incompetence, all are true except:",
+      "options": [
+        "Collapsing pulse is felt on the brachial artery",
+        "Pistol shot is heard on the femoral artery",
+        "Systolic murmur is heard in the second aortic area",
+        "May be complicated by subacute bacterial endocarditis"
+      ],
+      "answerKey": "C",
+      "answerText": "Systolic murmur is heard in the second aortic area",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "aortic-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Tetralogy of Fallot is composed of all the following except:",
+      "options": [
+        "ASD",
+        "Large VSD",
+        "Pulmonary stenosis",
+        "Right ventricular hypertrophy",
+        "Overriding of the aorta"
+      ],
+      "answerKey": "A",
+      "answerText": "ASD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "All the statements about VSD are true except:",
+      "options": [
+        "It causes a palpable thrill and systolic murmur along the lower left sternal border",
+        "It leads to repeated chest infections",
+        "It may be a cause of pulmonary hypertension",
+        "It is one of the common defects causing cyanosis at birth"
+      ],
+      "answerKey": "D",
+      "answerText": "It is one of the common defects causing cyanosis at birth",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "In an infant, the most important non-cardiac manifestation of digitalis toxicity is:",
+      "options": [
+        "Fever",
+        "Dizziness",
+        "Vomiting",
+        "Visual disturbance",
+        "Urticaria"
+      ],
+      "answerKey": "C",
+      "answerText": "Vomiting",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Mitral Regurgitation",
+      "question": "In mitral incompetence, all are true except:",
+      "options": [
+        "Palpitations can occur early",
+        "There is left ventricular dilatation",
+        "The second heart sound is soft and muffled",
+        "A pansystolic murmur is present at the apex and radiates to the axilla"
+      ],
+      "answerKey": "C",
+      "answerText": "The second heart sound is soft and muffled",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "mitral-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which of the following is not a feature of Sydenham's chorea?",
+      "options": [
+        "A raised erythrocyte sedimentation rate",
+        "Irregular semi-purposeful movements",
+        "More common in females",
+        "It is exaggerated by emotions"
+      ],
+      "answerKey": "A",
+      "answerText": "A raised erythrocyte sedimentation rate",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "The most common congenital heart lesion in Down syndrome is:",
+      "options": [
+        "Common atrioventricular canal",
+        "ASD",
+        "VSD",
+        "Tetralogy of Fallot"
+      ],
+      "answerKey": "A",
+      "answerText": "Common atrioventricular canal",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "In Tetralogy of Fallot, all are true except:",
+      "options": [
+        "Cyanosis is present since birth",
+        "Squatting position relieves cyanotic spells",
+        "Growth is usually affected",
+        "Clubbing of fingers is due to tissue anoxia"
+      ],
+      "answerKey": "A",
+      "answerText": "Cyanosis is present since birth",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A continuous murmur is often found in:",
+      "options": [
+        "Pulmonary arteriovenous fistula",
+        "Coarctation of the aorta",
+        "Stenosis of the main trunk of the pulmonary artery",
+        "Rupture of the sinus of Valsalva",
+        "PDA"
+      ],
+      "answerKey": "E",
+      "answerText": "PDA",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "One of the following infectious diseases results in fever associated with bradycardia:",
+      "options": [
+        "Bronchopneumonia",
+        "Acute follicular tonsillitis",
+        "Typhoid fever",
+        "Acute bronchitis",
+        "Pharyngitis"
+      ],
+      "answerKey": "C",
+      "answerText": "Typhoid fever",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Mitral Stenosis",
+      "question": "The murmur of mitral stenosis is:",
+      "options": [
+        "A mild diastolic murmur",
+        "Propagated towards the axilla",
+        "Accompanied by a systolic thrill",
+        "All of the above",
+        "None of the above"
+      ],
+      "answerKey": "A",
+      "answerText": "A mild diastolic murmur",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "mitral-stenosis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "In heart failure in infancy, all are true except:",
+      "options": [
+        "It presents with poor feeding",
+        "Forehead sweating is common",
+        "It is most commonly due to a large right-to-left shunt",
+        "It is delayed while pulmonary vascular resistance remains high",
+        "It may improve spontaneously because of a secondary increase in pulmonary vascular resistance"
+      ],
+      "answerKey": "C",
+      "answerText": "It is most commonly due to a large right-to-left shunt",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Cyanotic congenital heart diseases include all of the following except:",
+      "options": [
+        "Tricuspid atresia",
+        "Truncus arteriosus",
+        "Aortic stenosis",
+        "Transposition of the great arteries",
+        "Tetralogy of Fallot"
+      ],
+      "answerKey": "C",
+      "answerText": "Aortic stenosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Intense cyanosis visible soon after birth is suggestive of:",
+      "options": [
+        "PDA",
+        "VSD",
+        "ASD",
+        "Transposition of the great arteries"
+      ],
+      "answerKey": "D",
+      "answerText": "Transposition of the great arteries",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Congenital cyanotic heart diseases include all of the following except:",
+      "options": [
+        "Tetralogy of Fallot",
+        "Single ventricle",
+        "Mitral valve prolapse",
+        "Transposition of the great arteries"
+      ],
+      "answerKey": "C",
+      "answerText": "Mitral valve prolapse",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "The following are true for erythema marginatum except:",
+      "options": [
+        "Geographic in pattern",
+        "Evanescent",
+        "Mainly truncal",
+        "Indicates severe active carditis",
+        "Itchy"
+      ],
+      "answerKey": "E",
+      "answerText": "Itchy",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "The following complication is rare in Tetralogy of Fallot:",
+      "options": [
+        "Cerebral thrombosis",
+        "Cyanotic spell",
+        "Brain abscess",
+        "Heart failure"
+      ],
+      "answerKey": "D",
+      "answerText": "Heart failure",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All of the following are considered major Jones criteria of rheumatic fever except:",
+      "options": [
+        "Chorea",
+        "Subcutaneous nodules",
+        "Increased PR interval on ECG",
+        "Polyarthritis"
+      ],
+      "answerKey": "C",
+      "answerText": "Increased PR interval on ECG",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "In congestive heart failure, all are true except:",
+      "options": [
+        "It may manifest by respiratory distress",
+        "It may be caused by cardiac arrhythmia",
+        "Treatment includes afterload-reducing agents",
+        "Heart size never changes",
+        "Electrolyte monitoring is essential"
+      ],
+      "answerKey": "D",
+      "answerText": "Heart size never changes",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "In Tetralogy of Fallot, which statement is true?",
+      "options": [
+        "Cyanosis is usually present at birth",
+        "Hypercyanotic attacks may be treated with beta blockers",
+        "The degree of cyanosis is determined by the degree of overriding of the aorta",
+        "The heart has a characteristic snowman appearance on chest X-ray",
+        "The VSD is usually of muscular type"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypercyanotic attacks may be treated with beta blockers",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "Treatment of infective endocarditis includes the following except:",
+      "options": [
+        "IV antibiotics",
+        "Antipyretics",
+        "Immunoglobulins",
+        "Steroids"
+      ],
+      "answerKey": "D",
+      "answerText": "Steroids",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "One of the following is characterized by permanent central cyanosis since birth:",
+      "options": [
+        "Atrial septal defect",
+        "Patent ductus arteriosus",
+        "Tetralogy of Fallot",
+        "Coarctation of the aorta",
+        "Transposition of the great arteries"
+      ],
+      "answerKey": "E",
+      "answerText": "Transposition of the great arteries",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Wide fixed splitting of the second heart sound characterizes:",
+      "options": [
+        "PDA",
+        "ASD",
+        "VSD",
+        "Tetralogy of Fallot",
+        "TGA"
+      ],
+      "answerKey": "B",
+      "answerText": "ASD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "The following characterize muscular VSD except:",
+      "options": [
+        "The murmur is pansystolic",
+        "There is a high incidence of spontaneous closure",
+        "Infective endocarditis commonly occurs on the right ventricular free wall",
+        "The murmur is soft",
+        "The patient has potential cyanosis"
+      ],
+      "answerKey": "D",
+      "answerText": "The murmur is soft",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Pericardial effusion can be diagnosed by all of the following except:",
+      "options": [
+        "Muslim prayer position",
+        "Pulsus paradoxus",
+        "Accentuated heart sounds",
+        "Cardiomegaly with stenciled border on X-ray",
+        "Dullness outside the cardiac apex by percussion"
+      ],
+      "answerKey": "C",
+      "answerText": "Accentuated heart sounds",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "In subacute bacterial endocarditis:",
+      "options": [
+        "The commonest cause is Staphylococcus aureus",
+        "Finger clubbing occurs in the first week",
+        "There is no microscopic hematuria",
+        "Long-acting penicillin is indicated to prevent SBE",
+        "Children with congenital heart disease are usually susceptible"
+      ],
+      "answerKey": "E",
+      "answerText": "Children with congenital heart disease are usually susceptible",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Complications of Tetralogy of Fallot include:",
+      "options": [
+        "Cerebral thrombosis",
+        "Polycythemia",
+        "Brain abscess",
+        "All of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "In Tetralogy of Fallot, all are true except:",
+      "options": [
+        "It presents with central cyanosis at birth",
+        "Palpation reveals right ventricular pulsations",
+        "Auscultation reveals a single S2",
+        "Chest X-ray reveals lung oligemia",
+        "Cyanotic spells are common"
+      ],
+      "answerKey": "A",
+      "answerText": "It presents with central cyanosis at birth",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All of the following investigations help to diagnose rheumatic conditions except:",
+      "options": [
+        "ECG",
+        "Echocardiogram",
+        "Cardiac catheterization",
+        "ESR",
+        "ASO titer"
+      ],
+      "answerKey": "C",
+      "answerText": "Cardiac catheterization",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The arthritis of rheumatic fever is characterized by:",
+      "options": [
+        "Migratory character",
+        "Affection of big joints",
+        "Dramatic response to salicylate",
+        "High ESR",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Aortic Regurgitation",
+      "question": "The following helps in the diagnosis of aortic incompetence except:",
+      "options": [
+        "Water-hammer pulse",
+        "Femoral pistol shot",
+        "Systolic thrill over the base of the heart radiating to the neck",
+        "Wide pulse pressure",
+        "Corrigan sign"
+      ],
+      "answerKey": "C",
+      "answerText": "Systolic thrill over the base of the heart radiating to the neck",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "aortic-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Tetralogy of Fallot is associated with the following except:",
+      "options": [
+        "Membranous VSD",
+        "Left-to-right shunt",
+        "Right-sided aortic arch",
+        "Pulmonary obstruction",
+        "Right-to-left shunt"
+      ],
+      "answerKey": "B",
+      "answerText": "Left-to-right shunt",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "Manifestations of left ventricular failure are all of the following except:",
+      "options": [
+        "Bilateral fine basal crepitations",
+        "Peripheral edema",
+        "Rapid small-volume pulse",
+        "Orthopnea",
+        "Paroxysmal nocturnal dyspnea"
+      ],
+      "answerKey": "B",
+      "answerText": "Peripheral edema",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "Heart failure is rarely seen in:",
+      "options": [
+        "Cor pulmonale",
+        "Viral myocarditis",
+        "Rheumatic heart disease",
+        "Tetralogy of Fallot"
+      ],
+      "answerKey": "D",
+      "answerText": "Tetralogy of Fallot",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Modified Jones criteria for diagnosing rheumatic fever include all of the following except:",
+      "options": [
+        "Rheumatic chorea",
+        "Erythema nodosum",
+        "Arthritis",
+        "Carditis"
+      ],
+      "answerKey": "B",
+      "answerText": "Erythema nodosum",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "All of the following are associated with Tetralogy of Fallot except:",
+      "options": [
+        "Pulmonary stenosis",
+        "Overriding of the aorta",
+        "Left ventricular enlargement",
+        "Large membranous ventricular septal defect",
+        "Coeur en sabot shape on X-ray"
+      ],
+      "answerKey": "C",
+      "answerText": "Left ventricular enlargement",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "All are true for hypertension in childhood except:",
+      "options": [
+        "It is usually essential",
+        "It is commonly associated with coarctation of the aorta",
+        "It usually requires treatment",
+        "It may be secondary to renal disease"
+      ],
+      "answerKey": "A",
+      "answerText": "It is usually essential",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Criteria of rheumatic carditis include all of the following except:",
+      "options": [
+        "Muffling of heart sounds",
+        "Tachycardia out of proportion to fever",
+        "Prolonged P-R interval",
+        "Carey Coombs murmur",
+        "Duroziez murmur"
+      ],
+      "answerKey": "E",
+      "answerText": "Duroziez murmur",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "An important sign of right ventricular failure is:",
+      "options": [
+        "Paroxysmal nocturnal dyspnea",
+        "Tender hepatomegaly",
+        "Cough with expectoration of frothy blood-tinged sputum",
+        "Basal crepitations on the lungs",
+        "All of the above"
+      ],
+      "answerKey": "B",
+      "answerText": "Tender hepatomegaly",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Acrocyanosis occurs in:",
+      "options": [
+        "Coarctation of the aorta",
+        "Patent ductus arteriosus",
+        "Ventricular septal defect",
+        "All of the above",
+        "None of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Pulmonary plethora on a chest X-ray is seen in:",
+      "options": [
+        "Tetralogy of Fallot",
+        "ASD",
+        "Tricuspid atresia",
+        "All of the above",
+        "None of the above"
+      ],
+      "answerKey": "B",
+      "answerText": "ASD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic myocarditis is characterized by the following except:",
+      "options": [
+        "Tachycardia out of proportion to fever",
+        "Depressed S-T segment",
+        "Prolonged P-R interval",
+        "Muffled heart sound"
+      ],
+      "answerKey": "B",
+      "answerText": "Depressed S-T segment",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "A false statement about VSD is:",
+      "options": [
+        "A systolic thrill is usually present over the left parasternal area",
+        "The murmur is a harsh pansystolic one",
+        "Small VSD of the muscular type usually closes spontaneously",
+        "Prophylaxis with long-acting penicillin every month is indicated",
+        "None of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "Prophylaxis with long-acting penicillin every month is indicated",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Cyanotic spells in Tetralogy of Fallot occur due to:",
+      "options": [
+        "Infundibular spasm of the pulmonary artery",
+        "Aortic valve obstruction",
+        "Polycythemia",
+        "Reversal of shunt"
+      ],
+      "answerKey": "A",
+      "answerText": "Infundibular spasm of the pulmonary artery",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Aortic Regurgitation",
+      "question": "Hill's sign occurs in:",
+      "options": [
+        "Aortic incompetence",
+        "Aortic stenosis",
+        "Mitral stenosis",
+        "All of the above"
+      ],
+      "answerKey": "A",
+      "answerText": "Aortic incompetence",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "aortic-regurgitation"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "All are features of Tetralogy of Fallot except:",
+      "options": [
+        "Cyanosis is central and peripheral",
+        "Pulmonary stenosis",
+        "Right ventricular hypertrophy",
+        "Cardiomegaly"
+      ],
+      "answerKey": "D",
+      "answerText": "Cardiomegaly",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "The common presenting feature of heart failure in infants is:",
+      "options": [
+        "Poor feeding and failure to thrive",
+        "Edema of the lower limbs",
+        "Ascites",
+        "Orthopnea"
+      ],
+      "answerKey": "A",
+      "answerText": "Poor feeding and failure to thrive",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "All are true about rheumatic chorea except:",
+      "options": [
+        "Temporal lobe affection",
+        "Occurs mainly in females",
+        "Acute-phase reactants are usually normal",
+        "Sudden jerky movements affect all limbs"
+      ],
+      "answerKey": "A",
+      "answerText": "Temporal lobe affection",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "Splinter hemorrhages in infective endocarditis affect:",
+      "options": [
+        "Cornea",
+        "Skin",
+        "Nails",
+        "All of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "Nails",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The diagnostic ASO titer indicative of recent streptococcal infection in children is:",
+      "options": [
+        "200 Todd units",
+        "333 Todd units",
+        "250 Todd units",
+        "400 Todd units"
+      ],
+      "answerKey": "B",
+      "answerText": "333 Todd units",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Carey Coombs murmur is:",
+      "options": [
+        "An apical soft ejection systolic murmur",
+        "An apical pansystolic soft murmur",
+        "A parasternal rumbling murmur",
+        "An apical transient mid-diastolic soft rumbling murmur"
+      ],
+      "answerKey": "D",
+      "answerText": "An apical transient mid-diastolic soft rumbling murmur",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "High-output cardiac failure is not caused by:",
+      "options": [
+        "Anemia",
+        "Thyrotoxicosis",
+        "Coarctation of the aorta",
+        "Large arteriovenous fistula",
+        "All of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "Coarctation of the aorta",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "Heart failure in infancy and childhood can be due to:",
+      "options": [
+        "Hypertension",
+        "Tachyarrhythmia",
+        "Bradyarrhythmia",
+        "Fluid overload",
+        "All of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "Fluid overload",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "Infective endocarditis is rare with:",
+      "options": [
+        "VSD",
+        "PDA",
+        "ASD",
+        "None of the above"
+      ],
+      "answerKey": "C",
+      "answerText": "ASD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Infective Endocarditis",
+      "question": "The following is true about embolic manifestations in infective endocarditis except:",
+      "options": [
+        "Right-sided emboli go to the brain",
+        "Right-sided emboli are common in addicts",
+        "Renal emboli lead to microscopic hematuria",
+        "Myocardial abscess can occur"
+      ],
+      "answerKey": "A",
+      "answerText": "Right-sided emboli go to the brain",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "infective-endocarditis"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "For primary prevention against rheumatic fever, the following can be given except:",
+      "options": [
+        "Ten days of penicillin",
+        "A single IM injection of long-acting penicillin",
+        "Ampicillin for ten days",
+        "Sulphonamides for seven days"
+      ],
+      "answerKey": "D",
+      "answerText": "Sulphonamides for seven days",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A congenital heart disease that presents with easy fatigability, dyspnea, syncopal attacks, and a weak pulse is suggestive of:",
+      "options": [
+        "Congenital aortic stenosis",
+        "PDA",
+        "ASD",
+        "Congenital aortic incompetence"
+      ],
+      "answerKey": "A",
+      "answerText": "Congenital aortic stenosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A neonate with patent ductus arteriosus has all the following except:",
+      "options": [
+        "Recurrent chest infection",
+        "Dyspnea on exertion",
+        "Eisenmenger's complex",
+        "Machinery murmur on auscultation"
+      ],
+      "answerKey": "C",
+      "answerText": "Eisenmenger's complex",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "A child with a large VSD has all of the following except:",
+      "options": [
+        "Normal weight and height",
+        "Dyspnea",
+        "Recurrent chest infection",
+        "Heart failure may complicate the condition"
+      ],
+      "answerKey": "A",
+      "answerText": "Normal weight and height",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which cardiac lesion is characteristically associated with a systolic murmur at the upper left sternal border?",
+      "options": [
+        "PDA",
+        "ASD",
+        "Aortic stenosis",
+        "Mitral stenosis"
+      ],
+      "answerKey": "B",
+      "answerText": "ASD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which cardiac lesion is characteristically associated with a systolic and diastolic murmur at the left second intercostal space?",
+      "options": [
+        "PDA",
+        "ASD",
+        "Aortic stenosis",
+        "Mitral stenosis"
+      ],
+      "answerKey": "A",
+      "answerText": "PDA",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which cardiac lesion is characteristically associated with a systolic murmur radiating to the base of the neck?",
+      "options": [
+        "PDA",
+        "ASD",
+        "Aortic stenosis",
+        "Mitral stenosis"
+      ],
+      "answerKey": "C",
+      "answerText": "Aortic stenosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Which cardiac lesion is characteristically associated with a mid-diastolic rumbling murmur at the apex?",
+      "options": [
+        "PDA",
+        "ASD",
+        "Aortic stenosis",
+        "Mitral stenosis"
+      ],
+      "answerKey": "D",
+      "answerText": "Mitral stenosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "When prophylactic antibiotic therapy is used for tooth extraction in a patient with a ventricular septal defect:",
+      "options": [
+        "Therapy is started 24 hours prior to the procedure",
+        "A throat swab should be taken prior to the procedure",
+        "A second-generation cephalosporin such as cefuroxime is the therapy of choice",
+        "Therapy is given for one week following the extraction",
+        "Erythromycin is the drug of choice for those allergic to penicillin"
+      ],
+      "answerKey": "E",
+      "answerText": "Erythromycin is the drug of choice for those allergic to penicillin",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "In addition to irritability, sweating, and difficulty in breathing with feeding, the symptom most indicative of congestive heart failure in a 3-week-old infant is:",
+      "options": [
+        "Ascites",
+        "Cough",
+        "Cyanosis",
+        "Diminished feeding volume",
+        "Pretibial edema"
+      ],
+      "answerKey": "D",
+      "answerText": "Diminished feeding volume",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Heart Failure",
+      "question": "Common signs of heart failure in children include all of the following except:",
+      "options": [
+        "Decreased exercise tolerance",
+        "Fatigue",
+        "Failure to thrive",
+        "Frequent URTIs",
+        "Peripheral edema"
+      ],
+      "answerKey": "E",
+      "answerText": "Peripheral edema",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "heart-failure"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Of the following defects, which is not associated with Tetralogy of Fallot?",
+      "options": [
+        "Pulmonary stenosis",
+        "Overriding dextroposed aorta",
+        "Atrial septal defect",
+        "Ventricular septal defect",
+        "Right ventricular hypertrophy"
+      ],
+      "answerKey": "C",
+      "answerText": "Atrial septal defect",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "In the diagnosis of rheumatic fever, which of the following may be helpful?",
+      "options": [
+        "A generalized maculopapular rash",
+        "ASO titer of less than 1:200",
+        "Polyarthritis",
+        "Staphylococcus aureus grown on throat culture",
+        "Splinter hemorrhages"
+      ],
+      "answerKey": "C",
+      "answerText": "Polyarthritis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "In rheumatic fever, all are true except:",
+      "options": [
+        "High ASO and arthralgia are diagnostic",
+        "ESR and ASO may be normal in rheumatic chorea",
+        "Mitral stenosis may develop 5 years after an acute attack of rheumatic carditis",
+        "Heart failure in a child with rheumatic heart disease usually indicates active carditis",
+        "Carditis is a major criterion"
+      ],
+      "answerKey": "A",
+      "answerText": "High ASO and arthralgia are diagnostic",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Collapsing pulse (water-hammer pulse) is a sign of the following except:",
+      "options": [
+        "Tricuspid regurgitation",
+        "Large PDA",
+        "Anemia",
+        "Hyperthyroidism",
+        "Aortic regurgitation"
+      ],
+      "answerKey": "A",
+      "answerText": "Tricuspid regurgitation",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A loud pulmonary component of the second heart sound at the second left intercostal space indicates:",
+      "options": [
+        "Pulmonary hypertension",
+        "Pulmonary stenosis",
+        "Dextroposed aorta",
+        "Mitral insufficiency",
+        "VSD"
+      ],
+      "answerKey": "A",
+      "answerText": "Pulmonary hypertension",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A relatively high blood pressure in the arms and legs is the pathognomonic feature of:",
+      "options": [
+        "Large PDA",
+        "Large ASD",
+        "Pulmonary atresia",
+        "Coarctation of the aorta",
+        "Single ventricle"
+      ],
+      "answerKey": "D",
+      "answerText": "Coarctation of the aorta",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "In Tetralogy of Fallot, all are true except:",
+      "options": [
+        "It presents with central cyanosis at birth",
+        "Palpation reveals right ventricular pulsation",
+        "Auscultation reveals a single S2",
+        "Chest X-ray reveals lung oligemia",
+        "Cyanotic spells are common"
+      ],
+      "answerKey": "A",
+      "answerText": "It presents with central cyanosis at birth",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "An uncomplicated ventricular septal defect in a 5-year-old boy may be associated with one of the following:",
+      "options": [
+        "A collapsing pulse",
+        "Wide and fixed splitting of the second heart sound",
+        "Clubbing of the fingers",
+        "A pansystolic murmur of grade 4/6 in intensity",
+        "Splenomegaly"
+      ],
+      "answerKey": "D",
+      "answerText": "A pansystolic murmur of grade 4/6 in intensity",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Persistent cyanosis in the newborn may be caused by which of the following?",
+      "options": [
+        "Transposition of the great arteries",
+        "VSD",
+        "Hyperbilirubinemia",
+        "Coarctation of the aorta",
+        "Eisenmenger syndrome"
+      ],
+      "answerKey": "A",
+      "answerText": "Transposition of the great arteries",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "A 2-week-old newborn is brought because his lips have turned blue. He was born at 38 weeks' gestation weighing 2466 g and currently weighs 2778 g. His temperature is 37.1°C, pulse is 170/min, respiratory rate is 44/min, and blood pressure is 75/45 mmHg. A grade 3 harsh ejection systolic murmur is heard at the left upper sternal border. Chest X-ray shows a small coeur en sabot-shaped heart and decreased pulmonary vascular markings. Which of the following is the most likely diagnosis?",
+      "options": [
+        "Anomalous coronary vessels",
+        "Atrial septal defect",
+        "Endocardial fibroelastosis",
+        "Tetralogy of Fallot",
+        "Total anomalous pulmonary venous return"
+      ],
+      "answerKey": "D",
+      "answerText": "Tetralogy of Fallot",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Dilated cardiomyopathy may be caused by the following except:",
+      "options": [
+        "Idiopathic",
+        "Familial/genetic",
+        "Viral and/or immune",
+        "Alcoholic/toxic",
+        "Amyloidosis"
+      ],
+      "answerKey": "E",
+      "answerText": "Amyloidosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Major manifestations of acute rheumatic fever include the following except:",
+      "options": [
+        "Carditis",
+        "Polyarthritis",
+        "Chorea",
+        "Erythema nodosum",
+        "Subcutaneous nodules"
+      ],
+      "answerKey": "D",
+      "answerText": "Erythema nodosum",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "Acyanotic congenital heart diseases include all of the following except:",
+      "options": [
+        "Coarctation of the aorta",
+        "Congenital mitral regurgitation",
+        "Transposition of the great vessels",
+        "Pulmonary stenosis",
+        "Aortic stenosis"
+      ],
+      "answerKey": "C",
+      "answerText": "Transposition of the great vessels",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Atrial Septal Defect",
+      "question": "Clinical manifestations of ASD include:",
+      "options": [
+        "Growth failure",
+        "Heart failure",
+        "Recurrent chest infection",
+        "Potential cyanosis",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "asd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "The most common congenital heart disease is:",
+      "options": [
+        "ASD",
+        "VSD",
+        "PDA",
+        "Pulmonary stenosis",
+        "Aortic stenosis"
+      ],
+      "answerKey": "B",
+      "answerText": "VSD",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Ventricular Septal Defect",
+      "question": "The characteristic small VSD murmur is:",
+      "options": [
+        "Pansystolic murmur at the third and fourth left sternal edge",
+        "Systolic flow murmur over the pulmonary area",
+        "Machinery murmur beneath the left clavicle",
+        "Mid-diastolic rumbling murmur over the tricuspid area",
+        "None of the above"
+      ],
+      "answerKey": "A",
+      "answerText": "Pansystolic murmur at the third and fourth left sternal edge",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "vsd"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Tetralogy of Fallot is characterized by all of the following except:",
+      "options": [
+        "Right ventricular outflow obstruction",
+        "Right ventricular hypertrophy",
+        "VSD",
+        "Aortic stenosis",
+        "Aortic root overriding the VSD"
+      ],
+      "answerKey": "D",
+      "answerText": "Aortic stenosis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Tetralogy of Fallot",
+      "question": "Tetralogy of Fallot could be complicated by:",
+      "options": [
+        "Polycythemia",
+        "Thrombocytopenia",
+        "Infective endocarditis",
+        "Pulmonary tuberculosis",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "tetralogy-of-fallot"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Minor manifestations for the diagnosis of rheumatic fever include all of the following except:",
+      "options": [
+        "Fever",
+        "Arthralgia",
+        "Prolonged PR interval",
+        "Carditis",
+        "High ESR"
+      ],
+      "answerKey": "D",
+      "answerText": "Carditis",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Major manifestations for the diagnosis of rheumatic fever include all of the following except:",
+      "options": [
+        "Polyarthritis",
+        "Erythema marginatum",
+        "Carditis",
+        "Chorea",
+        "Recent scarlet fever"
+      ],
+      "answerKey": "E",
+      "answerText": "Recent scarlet fever",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "Rheumatic carditis is:",
+      "options": [
+        "Pancarditis",
+        "One of the major manifestations of rheumatic fever",
+        "One of the causes of congestive heart failure",
+        "The most serious manifestation of rheumatic fever",
+        "All of the above"
+      ],
+      "answerKey": "E",
+      "answerText": "All of the above",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::General",
+      "question": "One of the congenital cyanotic heart diseases is:",
+      "options": [
+        "ASD",
+        "PDA",
+        "VSD",
+        "Pulmonary stenosis",
+        "Tetralogy of Fallot"
+      ],
+      "answerKey": "E",
+      "answerText": "Tetralogy of Fallot",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Rheumatic Fever",
+      "question": "The organism responsible for the development of rheumatic fever is:",
+      "options": [
+        "Group B streptococcus",
+        "Pneumococci",
+        "Staphylococcus aureus",
+        "Group A β-hemolytic streptococcus",
+        "None of the above"
+      ],
+      "answerKey": "D",
+      "answerText": "Group A β-hemolytic streptococcus",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "rheumatic-fever"
+      ]
+    },
+    {
+      "lesson": "Pediatrics::Cardiology::Mitral Regurgitation",
+      "question": "Mitral insufficiency is characterized by all of the following except:",
+      "options": [
+        "Apical pansystolic murmur",
+        "Weak second heart sound",
+        "Cardiac apex may be shifted down and out",
+        "Mostly due to rheumatic carditis"
+      ],
+      "answerKey": "B",
+      "answerText": "Weak second heart sound",
+      "explanation": "Answer preserved exactly from the supplied marked key.",
+      "tags": [
+        "pediatrics::cardiology",
+        "mitral-regurgitation"
+      ]
+    }
+  ]
+}

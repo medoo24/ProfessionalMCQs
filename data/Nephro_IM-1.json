@@ -1,0 +1,1691 @@
+{
+  "metadata": {
+    "source": "b_ Nephro-Final",
+    "total_questions": 10
+  },
+  "questions": [
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy",
+      "question": "Which of the following is true regarding the epidemiological prevalence of IgA Nephropathy (Berger's disease)?",
+      "options": [
+        "It is a rare form of glomerulonephritis, accounting for less than 1% of cases worldwide.",
+        "It is probably the most common type of glomerulonephritis worldwide.",
+        "It occurs almost exclusively in elderly patients with long-standing diabetes mellitus.",
+        "It is an autosomal dominant genetic disorder primarily found in European populations."
+      ],
+      "answerKey": "B",
+      "answerText": "It is probably the most common type of glomerulonephritis worldwide.",
+      "explanation": "The sources state that IgA nephropathy (Berger's disease) is the most common type of glomerulonephritis and probably the most common type of glomerulonephritis worldwide [1-3].",
+      "tags": ["iga_nephropathy", "epidemiology", "glomerulonephritis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Pathology",
+      "question": "In patients with IgA Nephropathy, where are the diagnostic immunoglobulin deposits predominantly located within the glomerulus on immunofluorescence microscopy?",
+      "options": [
+        "Uniformly along the outer surface of the glomerular basement membrane (subepithelial)",
+        "Within the capillary lumens as giant thrombi",
+        "Prominently in the mesangial regions (mesangium)",
+        "Exclusively along the tubular basement membrane"
+      ],
+      "answerKey": "C",
+      "answerText": "Prominently in the mesangial regions (mesangium)",
+      "explanation": "According to the sources, IgA nephropathy is characterized by the presence of prominent IgA deposits in the mesangial regions (mesangium), detected by immunofluorescence microscopy [2, 4, 5].",
+      "tags": ["iga_nephropathy", "pathology", "mesangium", "immunofluorescence"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Presentation",
+      "question": "A 19-year-old male presents with recurrent episodes of gross (visible) hematuria. He notes that the red/brown urine typically occurs during or within 1 to 2 days of an upper respiratory tract infection. What is the classic term for this clinical timing, and which disease does it classically suggest?",
+      "options": [
+        "Post-infectious latency; suggests Acute Post-Streptococcal Glomerulonephritis (PSGN)",
+        "Synpharyngitic hematuria; suggests IgA Nephropathy (Berger's disease)",
+        "Intermittent nephrotic-range proteinuria; suggests Minimal Change Disease",
+        "Continuous microscopic hematuria; suggests Alport syndrome"
+      ],
+      "answerKey": "B",
+      "answerText": "Synpharyngitic hematuria; suggests IgA Nephropathy (Berger's disease)",
+      "explanation": "IgA nephropathy commonly presents as recurrent visible hematuria occurring during or within days of an upper-respiratory/GI infection, which is referred to as 'synpharyngitic' hematuria [4, 6-9]. This stands in contrast to PSGN, which occurs after a distinct latent interval [7].",
+      "tags": ["iga_nephropathy", "synpharyngitic_hematuria", "clinical_presentation"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Diagnostics",
+      "question": "Which of the following describes the typical serum complement profile in a patient with uncomplicated IgA Nephropathy?",
+      "options": [
+        "Significantly decreased C3 and normal C4",
+        "Significantly decreased C4 and normal C3",
+        "Both serum C3 and C4 are typically normal",
+        "Persistently decreased levels of both C3 and C4"
+      ],
+      "answerKey": "C",
+      "answerText": "Both serum C3 and C4 are typically normal",
+      "explanation": "The sources state that in IgA nephropathy, serum complement is usually normal [10]. Persistent low complement (hypocomplementemia) is atypical and suggests another or additional process, such as lupus nephritis, membranoproliferative GN, or post-infectious GN [10-12].",
+      "tags": ["iga_nephropathy", "complement", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Systemic Spectrum",
+      "question": "Based on the pathophysiology and disease spectrum described in the sources, what is the relationship between IgA Nephropathy (Berger's disease) and Henoch-Schönlein Purpura (HSP)?",
+      "options": [
+        "They are completely unrelated disorders with entirely different genetic and histologic profiles.",
+        "Henoch-Schönlein purpura represents a form of IgA nephropathy typically affecting children, characterized by systemic features like a purpuric rash on the buttocks/lower legs, abdominal pain, and arthralgias.",
+        "Berger's disease is an infectious complication of Henoch-Schönlein purpura, caused by a secondary staphylococcal infection.",
+        "Berger's disease affects only the lungs, whereas Henoch-Schönlein purpura is strictly limited to the kidneys."
+      ],
+      "answerKey": "B",
+      "answerText": "Henoch-Schönlein purpura represents a form of IgA nephropathy typically affecting children, characterized by systemic features like a purpuric rash on the buttocks/lower legs, abdominal pain, and arthralgias.",
+      "explanation": "The sources note that IgA nephropathy and Henoch-Schönlein purpura (HSP) represent spectra of the same disease [13]. Henoch-Schönlein purpura typically affects children and is characterized by systemic involvement including a rash of small bruises (purpuric skin lesions) affecting the buttocks and lower legs, abdominal pain, and arthralgias [1, 13].",
+      "tags": ["iga_nephropathy", "henoch_schonlein_purpura", "iga_vasculitis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Etiology",
+      "question": "While most cases of IgA Nephropathy are primary (idiopathic), IgA deposits in the renal mesangium can also occur secondarily. Which of the following secondary causes is classically associated with IgA Nephropathy in the sources?",
+      "options": [
+        "Multiple myeloma and monoclonal light-chain deposition disease",
+        "Chronic liver disease and intestinal/inflammatory bowel diseases",
+        "Autosomal dominant polycystic kidney disease (ADPKD)",
+        "High-dose corticosteroid therapy and acute interstitial nephritis"
+      ],
+      "answerKey": "B",
+      "answerText": "Chronic liver disease and intestinal/inflammatory bowel diseases",
+      "explanation": "According to the sources, secondary IgA nephropathy occurs in patients with chronic liver disease, inflammatory bowel disease, autoimmune disease, HIV, and intestinal diseases [2, 4].",
+      "tags": ["secondary_iga_nephropathy", "liver_disease", "etiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Management",
+      "question": "According to the KDIGO 2025 treatment framework described in the sources, which threshold of proteinuria is an important consideration for a kidney biopsy in adults when IgA Nephropathy is suspected and the biopsy is safe?",
+      "options": [
+        "Proteinuria ≥ 3.5 g/day",
+        "Proteinuria ≥ 0.5 g/day (or equivalent PCR)",
+        "Proteinuria ≥ 10 g/day",
+        "Any microscopic hematuria, regardless of protein excretion"
+      ],
+      "answerKey": "B",
+      "answerText": "Proteinuria ≥ 0.5 g/day (or equivalent PCR)",
+      "explanation": "The KDIGO 2025 treatment framework highlighted in the sources suggests considering a kidney biopsy in adults with proteinuria ≥ 0.5 g/day when IgA nephropathy is possible and biopsy is safe, as this level of proteinuria signals a risk of progressive chronic kidney disease [10].",
+      "tags": ["iga_nephropathy", "biopsy", "kdigo_guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Pathology",
+      "question": "The histopathological prognosis of IgA Nephropathy is assessed using the Oxford MEST-C scoring system. Which of the following lists the five parameters represented by the 'MEST-C' acronym in the sources?",
+      "options": [
+        "Minimal change, Endothelial proliferation, Segmental sclerosis, Tubular atrophy, and Crescentic progression",
+        "Mesangial hypercellularity, Endocapillary hypercellularity, Segmental sclerosis, Tubular atrophy/interstitial fibrosis, and Crescents",
+        "Membranous thickening, Epithelial crescents, Subendothelial deposits, Tubulointerstitial nephritis, and Collagen splitting",
+        "Mesangial expansion, Extracapillary proliferation, Subepithelial humps, Tram-track duplication, and Capillary loop necrosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Mesangial hypercellularity, Endocapillary hypercellularity, Segmental sclerosis, Tubular atrophy/interstitial fibrosis, and Crescents",
+      "explanation": "The sources state that the Oxford MEST-C score is used to evaluate the pathologic progression of IgA nephropathy based on mesangial hypercellularity (M), endocapillary hypercellularity (E), segmental sclerosis (S), tubular atrophy/interstitial fibrosis (T), and crescents (C) [4].",
+      "tags": ["iga_nephropathy", "mest_c", "pathology"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Management",
+      "question": "Which of the following represents a correct clinical guideline correction regarding the treatment of IgA Nephropathy in contemporary practice, as highlighted in the sources?",
+      "options": [
+        "Daily high-dose systemic omega-3 fatty acid therapy and routine tonsillectomy should be administered to all non-Japanese patients.",
+        "Long-term antibiotics and routine tonsillectomy are established first-line therapies for all global IgA Nephropathy patients.",
+        "Long-term antibiotics, routine tonsillectomy in non-Japanese patients, and routine omega-3 therapy are not standard treatment, and systemic steroids require careful, individualized selection.",
+        "Universal initiation of bilateral nephrectomy followed by immediate peritoneal dialysis is the preferred first-line pathway."
+      ],
+      "answerKey": "C",
+      "answerText": "Long-term antibiotics, routine tonsillectomy in non-Japanese patients, and routine omega-3 therapy are not standard treatment, and systemic steroids require careful, individualized selection.",
+      "explanation": "The sources clarify under 'Corrections to the source' that long-term antibiotics and routine omega-3 therapy are not standard IgAN treatments, tonsillectomy is not recommended as IgAN treatment in non-Japanese patients, and systemic glucocorticoids require careful selection due to potential infection and metabolic toxicity [14].",
+      "tags": ["iga_nephropathy", "management", "guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::IgA Nephropathy::Diagnostics",
+      "question": "A clinician is evaluating a patient with hematuria and suspects IgA Nephropathy. According to the high-yield diagnostic summaries in the sources, which of the following represents the best clinical clue that the hematuria is glomerular in origin?",
+      "options": [
+        "Painful voiding accompanied by a high-grade fever and passing of gross blood clots",
+        "Urine microscopy showing dysmorphic red blood cells (RBCs), acanthocytes, and especially RBC casts, often with proteinuria",
+        "A positive urine culture for Proteus mirabilis with alkaline urine pH",
+        "Elevated serum alkaline phosphatase and a symmetrically enlarged, elastic prostate on digital rectal examination"
+      ],
+      "answerKey": "B",
+      "answerText": "Urine microscopy showing dysmorphic red blood cells (RBCs), acanthocytes, and especially RBC casts, often with proteinuria",
+      "explanation": "The high-yield summaries in the sources state that the best clue that hematuria is glomerular is the presence of dysmorphic RBCs, acanthocytes, and especially red blood cell (RBC) casts, often with proteinuria [15].",
+      "tags": ["iga_nephropathy", "hematuria", "urinalysis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Pathology",
+      "question": "What is the precise definition of the terms 'focal' and 'segmental' in Focal Segmental Glomerulosclerosis (FSGS)?",
+      "options": [
+        "Focal means all glomeruli are affected; segmental means the entire glomerulus is sclerosed.",
+        "Focal means only some glomeruli are affected; segmental means only part of an affected glomerulus is sclerosed.",
+        "Focal means the sclerosis is confined to the medulla; segmental means it affects only the cortical glomeruli.",
+        "Focal means it is caused by local immune complexes; segmental means it presents with transient hematuria."
+      ],
+      "answerKey": "B",
+      "answerText": "Focal means only some glomeruli are affected; segmental means only part of an affected glomerulus is sclerosed.",
+      "explanation": "According to the sources, FSGS is a histologic pattern, not a single disease. In this pattern, 'focal' means only some glomeruli are affected, and 'segmental' means only part of an affected glomerulus is sclerosed [1].",
+      "tags": ["fsgs", "pathology", "definition"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Management",
+      "question": "For which clinical category of FSGS is high-dose glucocorticoid therapy recommended as the first-line treatment, and what is the key prerequisite?",
+      "options": [
+        "Secondary/adaptive FSGS; indicated for patients with subnephrotic proteinuria.",
+        "Genetic FSGS; indicated for children with syndromic features.",
+        "Primary FSGS; indicated only in patients presenting with a clinicopathologic picture of primary FSGS and true nephrotic syndrome.",
+        "Undetermined-cause FSGS; indicated for any patient with isolated segmental sclerosis on biopsy."
+      ],
+      "answerKey": "C",
+      "answerText": "Primary FSGS; indicated only in patients presenting with a clinicopathologic picture of primary FSGS and true nephrotic syndrome.",
+      "explanation": "The sources note that primary FSGS is treated with high-dose glucocorticoids as first-line therapy [1]. Crucially, immunosuppression should only be used for a clinicopathologic picture of primary FSGS with a nephrotic phenotype; giving routine immunosuppression to secondary, genetic, or undetermined-cause FSGS without a primary nephrotic phenotype is a major clinical safety error [1-3].",
+      "tags": ["fsgs", "management", "steroids", "kdigo_guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Pathology",
+      "question": "Under immunofluorescence (IF) microscopy, what is the classic finding within the sclerosed segments of a biopsy from a patient with FSGS?",
+      "options": [
+        "Diffuse, linear IgG deposition along the glomerular basement membrane.",
+        "Granular IgG and C3 capillary loop deposition in all glomeruli.",
+        "Nonspecific IgM and C3 trapping in the sclerotic segments.",
+        "Bright, mesangial-dominant IgA and C3 deposition."
+      ],
+      "answerKey": "C",
+      "answerText": "Nonspecific IgM and C3 trapping in the sclerotic segments.",
+      "explanation": "In FSGS, immunofluorescence microscopy typically demonstrates nonspecific trapping of IgM and C3 within the sclerotic, hyalinized segments of the affected glomeruli [2]. Linear IgG is characteristic of anti-GBM disease [4, 5], granular IgG/C3 capillary loop deposition describes membranous nephropathy [6, 7], and mesangial IgA characterizes IgA nephropathy [6-9].",
+      "tags": ["fsgs", "pathology", "immunofluorescence"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Pathology",
+      "question": "How does the extent of podocyte foot-process effacement on Electron Microscopy (EM) classically differ between primary and secondary/adaptive forms of FSGS?",
+      "options": [
+        "Primary FSGS shows no foot-process effacement, while secondary FSGS shows diffuse effacement.",
+        "Primary FSGS is characterized by diffuse foot-process effacement, whereas secondary forms typically show patchier effacement.",
+        "Primary FSGS exhibits subendothelial immune deposits, while secondary FSGS features subepithelial spikes.",
+        "Both forms show completely normal podocytes on electron microscopy."
+      ],
+      "answerKey": "B",
+      "answerText": "Primary FSGS is characterized by diffuse foot-process effacement, whereas secondary forms typically show patchier effacement.",
+      "explanation": "On electron microscopy (EM), primary FSGS is associated with diffuse podocyte foot-process effacement. In contrast, secondary/adaptive forms of FSGS typically demonstrate patchier, less uniform foot-process effacement [2].",
+      "tags": ["fsgs", "pathology", "electron_microscopy"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Etiology",
+      "question": "According to the secondary causes and university past examinations in the sources, which illicit drug is classically and commonly associated with the development of secondary FSGS?",
+      "options": [
+        "Cocaine",
+        "Heroin",
+        "Amphetamines",
+        "Cannabis"
+      ],
+      "answerKey": "B",
+      "answerText": "Heroin",
+      "explanation": "Multiple past exam questions and renal summaries in the sources identify heroin (heroin abuse) as a classic and common cause of secondary FSGS (historically referred to as heroin-associated nephropathy) [10-13].",
+      "tags": ["fsgs", "secondary_causes", "toxicology", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Etiology",
+      "question": "Which viral infection is strongly associated with the severe 'collapsing glomerulopathy' morphologic variant of FSGS?",
+      "options": [
+        "Hepatitis B Virus (HBV)",
+        "Hepatitis C Virus (HCV)",
+        "Human Immunodeficiency Virus (HIV)",
+        "Epstein-Barr Virus (EBV)"
+      ],
+      "answerKey": "C",
+      "answerText": "Human Immunodeficiency Virus (HIV)",
+      "explanation": "The collapsing variant of FSGS, characterized by the collapse and sclerosis of the entire glomerular tuft, is highly associated with HIV infection (HIV-associated nephropathy or HIVAN) [13-15].",
+      "tags": ["fsgs", "collapsing_glomerulopathy", "hiv", "secondary_causes"]
+    },
+    {
+      "lesson": "Pediatric Nephrology::Nephrotic Syndrome::FSGS",
+      "question": "What percentage of childhood idiopathic nephrotic syndrome is represented by focal sclerosis (FSGS), and how does it typically present under light microscopy (LM) in pediatric biopsies?",
+      "options": [
+        "85% of cases; all glomeruli appear completely normal under LM.",
+        "10% of cases; some glomeruli appear normal while others appear sclerosed and fibrosed under LM.",
+        "5% of cases; characterized by diffuse mesangial cell and matrix proliferation.",
+        "50% of cases; characterized by extensive crescent formation in over 80% of glomeruli."
+      ],
+      "answerKey": "B",
+      "answerText": "10% of cases; some glomeruli appear normal while others appear sclerosed and fibrosed under LM.",
+      "explanation": "In children, idiopathic nephrotic syndrome is caused by Minimal Change Disease in 85% of cases, focal sclerosis (FSGS) in 10%, and mesangial proliferation in 5% [16-19]. On pediatric biopsy, focal sclerosis is characterized under light microscopy by some glomeruli appearing normal, while other glomeruli show segmental sclerosis and fibrosis [20-23].",
+      "tags": ["pediatric_nephrology", "fsgs", "pathology", "epidemiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Pathophysiology",
+      "question": "How does a reduction in functioning nephron mass (e.g., from chronic reflux nephropathy or unilateral renal agenesis) lead to the development of secondary/adaptive FSGS?",
+      "options": [
+        "It triggers autoimmune anti-podocyte antibody production.",
+        "Remaining nephrons undergo adaptive hyperfiltration and increased single-nephron intraglomerular pressure, leading to hemodynamic barrier injury and sclerosis.",
+        "It causes systemic severe hypokalemia that directly toxicifies the podocyte cell body.",
+        "It blocks the alternative complement pathway, resulting in C3 deposition within the capillaries."
+      ],
+      "answerKey": "B",
+      "answerText": "Remaining nephrons undergo adaptive hyperfiltration and increased single-nephron intraglomerular pressure, leading to hemodynamic barrier injury and sclerosis.",
+      "explanation": "When nephron mass is reduced (such as from chronic reflux nephropathy or surgical ablation), surviving nephrons undergo adaptive hyperfiltration and increased intraglomerular pressure (intraglomerular hypertension). This chronic hemodynamic stress leads to progressive barrier injury (podocyte dysfunction), proteinuria, and secondary/adaptive focal segmental glomerulosclerosis [24-26].",
+      "tags": ["fsgs", "pathophysiology", "reflux_nephropathy", "adaptive_fsgs"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Diagnostics",
+      "question": "Regarding serum complement C3 levels, how does FSGS classically differ from other major glomerular diseases like Membranoproliferative Glomerulonephritis (MPGN), Lupus Nephritis, and Post-Streptococcal Glomerulonephritis (PSGN)?",
+      "options": [
+        "C3 is severely decreased in FSGS, but normal in MPGN, Lupus, and PSGN.",
+        "C3 is characteristically normal in FSGS, whereas it is characteristically low in MPGN, Lupus, and PSGN.",
+        "FSGS is defined by isolated elevations in C4 with low C3.",
+        "All of these diseases present with normal serum complement C3 levels."
+      ],
+      "answerKey": "B",
+      "answerText": "C3 is characteristically normal in FSGS, whereas it is characteristically low in MPGN, Lupus, and PSGN.",
+      "explanation": "According to the sources, serum complement C3 is characteristically normal in focal glomerulosclerosis (FSGS). In contrast, C3 is typically low (consumed) in membranoproliferative glomerulonephritis, systemic lupus erythematosus (lupus nephritis), and post-streptococcal glomerulonephritis [12].",
+      "tags": ["fsgs", "diagnostics", "complement", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::FSGS::Prognosis",
+      "question": "Which of the following is clinically recognized as the strongest favorable prognostic sign in patients diagnosed with Focal Segmental Glomerulosclerosis (FSGS)?",
+      "options": [
+        "A rapid rise in serum complement C3 levels.",
+        "The presence of extensive IgM deposition in the sclerotic segments.",
+        "Complete or partial remission of proteinuria.",
+        "High-grade microscopic hematuria on serial urinalysis."
+      ],
+      "answerKey": "C",
+      "answerText": "Complete or partial remission of proteinuria.",
+      "explanation": "The sources state that the remission of proteinuria (whether complete or partial) is the strongest favorable prognostic sign in FSGS. Conversely, persistent nephrotic-range proteinuria carries a very high risk of progressive chronic kidney disease (CKD) and progression to kidney failure [2, 27].",
+      "tags": ["fsgs", "prognosis", "proteinuria"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "According to the past medical board exams and kidney review sheets in the sources, what is the most common histological cause of nephrotic syndrome in adults?",
+      "options": [
+        "Minimal Change Disease (MCD)",
+        "Focal Segmental Glomerulosclerosis (FSGS)",
+        "Membranous Nephropathy (MN)",
+        "Membranoproliferative Glomerulonephritis (MPGN)"
+      ],
+      "answerKey": "C",
+      "answerText": "Membranous Nephropathy (MN)",
+      "explanation": "Multiple past exam questions and clinical summaries in the sources identify Membranous Nephropathy as the most common histological variety of nephrotic syndrome in adults [1, 2]. In contrast, Minimal Change Disease is the most common cause in children [3-5].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "epidemiology", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "About two-thirds of primary Membranous Nephropathy cases are driven by which specific auto-antibody target?",
+      "options": [
+        "Anti-glomerular basement membrane (anti-GBM) antibodies",
+        "Auto-antibodies to the phospholipase A2 receptor (anti-PLA2R)",
+        "C3 nephritic factor autoantibody",
+        "Anti-neutrophil cytoplasmic antibodies (ANCA)"
+      ],
+      "answerKey": "B",
+      "answerText": "Auto-antibodies to the phospholipase A2 receptor (anti-PLA2R)",
+      "explanation": "The sources state that approximately two-thirds of membranous nephropathy cases are associated with pathogenic circulating auto-antibodies directed against the phospholipase A2 receptor (anti-PLA2R) [6]. Positive anti-PLA2R serology is highly specific for primary (idiopathic) MN [7, 8].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "pathophysiology", "immunology"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "In an adult patient presenting with classic nephrotic syndrome who is found to have positive anti-PLA2R serology, what does current clinical guidance suggest regarding the necessity of a diagnostic kidney biopsy?",
+      "options": [
+        "A kidney biopsy is absolutely mandatory in every single patient before initiating any supportive or specific therapy.",
+        "A kidney biopsy may not be essential for diagnosis, but should be considered if kidney function is reduced, serology/pathology is discordant, or another concurrent disease is possible.",
+        "A kidney biopsy is strictly contraindicated because these patients have a high risk of catastrophic retroperitoneal hemorrhage.",
+        "Renal biopsy has been completely replaced by genetic sequencing for familial type IV collagen genes."
+      ],
+      "answerKey": "B",
+      "answerText": "A kidney biopsy may not be essential for diagnosis, but should be considered if kidney function is reduced, serology/pathology is discordant, or another concurrent disease is possible.",
+      "explanation": "Under the risk-based KDIGO management framework in the sources, for patients presenting with nephrotic syndrome and a positive anti-PLA2R test, a kidney biopsy may not be essential for establishing the diagnosis. However, clinicians should still consider a biopsy if the glomerular filtration rate (eGFR) is reduced, serological/pathological findings are discordant, or if there is concern for a secondary/atypical cause [7].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "kdigo_guidelines", "biopsy"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "When examining a renal biopsy specimen of a patient with suspected Membranous Nephropathy, which characteristic finding is classically observed on silver methenamine stain?",
+      "options": [
+        "Diffuse, uniform thinning of the glomerular basement membrane with no deposits",
+        "Prominent endocapillary proliferation and a 'tram-track' split basement membrane",
+        "The presence of glomerular basement membrane (GBM) 'spikes' on silver stain",
+        "Extensive focal crescent formation in more than 50% of the visualized glomeruli"
+      ],
+      "answerKey": "C",
+      "answerText": "The presence of glomerular basement membrane (GBM) 'spikes' on silver stain",
+      "explanation": "The characteristic histopathological finding of Membranous Nephropathy on silver methenamine stain is the presence of 'spikes' along the glomerular basement membrane, which represent basement membrane projections trying to surround the subepithelial immune deposits [9, 10].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "pathology", "silver_stain"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "Which of the following options correctly describes the classic immunofluorescence (IF) and electron microscopy (EM) profile of Membranous Nephropathy?",
+      "options": [
+        "Linear IgG staining on IF; subendothelial dense deposits on EM",
+        "Diffuse granular capillary-loop IgG staining on IF; subepithelial electron-dense deposits on EM",
+        "Mesangial-dominant IgA and C3 staining on IF; mesangial electron-dense deposits on EM",
+        "Completely negative IF; diffuse podocyte foot-process effacement with no deposits on EM"
+      ],
+      "answerKey": "B",
+      "answerText": "Diffuse granular capillary-loop IgG staining on IF; subepithelial electron-dense deposits on EM",
+      "explanation": "Membranous nephropathy is defined pathologically by subepithelial immune deposits (electron-dense deposits located between the outer aspect of the GBM and the podocytes) on electron microscopy [11-13], which correspond to granular, diffuse capillary-loop IgG staining on immunofluorescence microscopy [10, 11].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "pathology", "electron_microscopy"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "A patient with active Membranous Nephropathy and severe hypoalbuminemia is being evaluated. According to the sources, this patient is at an exceptionally high risk for which of the following complications?",
+      "options": [
+        "Nephrocalcinosis",
+        "Renal vein thrombosis (RVT) and thromboembolism",
+        "Bilateral staghorn struvite calculi",
+        "Hereditary deafness and lens dislocation"
+      ],
+      "answerKey": "B",
+      "answerText": "Renal vein thrombosis (RVT) and thromboembolism",
+      "explanation": "The sources explicitly highlight that Membranous Nephropathy carries a high risk of thromboembolic complications (such as renal vein thrombosis, deep vein thrombosis, and pulmonary embolism), particularly in patients with marked hypoalbuminemia [14-17]. Serum albumin is a key marker for evaluating susceptibility to thromboembolism in active nephrotic syndrome [9, 18].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "thrombosis", "complications"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "According to the contemporary practice corrections highlighted in the sources, what is the recommended approach to treating progressive primary Membranous Nephropathy?",
+      "options": [
+        "Universal administration of high-dose corticosteroid monotherapy for all patients",
+        "Routine use of the legacy, fixed 'steroid-chlorambucil alternating month' regimen",
+        "Avoidance of glucocorticoid monotherapy, with treatment selection based on risk of progression, utilizing rituximab, cyclophosphamide-based, or calcineurin inhibitor (CNI)-based regimens",
+        "Continuous prophylactic anticoagulation for all patients, regardless of serum albumin levels or bleeding risk"
+      ],
+      "answerKey": "C",
+      "answerText": "Avoidance of glucocorticoid monotherapy, with treatment selection based on risk of progression, utilizing rituximab, cyclophosphamide-based, or calcineurin inhibitor (CNI)-based regimens",
+      "explanation": "The sources explicitly correct legacy practices for treating primary MN: glucocorticoid monotherapy is not standard and should be avoided [19]. Additionally, the old 'steroid-chlorambucil alternating month' approach is no longer applied routinely [19]. Modern treatment is risk-stratified and utilizes combinations of rituximab, cyclophosphamide-based, or CNI-based regimens [7, 19]. Anticoagulation is not universal but is individualized based on albumin levels, thrombotic risk, and bleeding risk [14].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "management", "guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "Which of the following describes the classic, long-term clinical prognosis for patients diagnosed with Membranous Nephropathy according to the 'rule of thirds' described in the sources?",
+      "options": [
+        "One-third remit spontaneously, one-third remain stable with active disease, and one-third progress to End-Stage Renal Disease (ESRD).",
+        "One-third develop Alport syndrome, one-third develop thin basement membrane disease, and one-third remain stable.",
+        "Over 95% of patients achieve complete remission with standard oral prednisone within 4 weeks.",
+        "One-third develop pulmonary hemorrhage (Goodpasture disease), one-third develop diabetes, and one-third achieve remission."
+      ],
+      "answerKey": "A",
+      "answerText": "One-third remit spontaneously, one-third remain stable with active disease, and one-third progress to End-Stage Renal Disease (ESRD).",
+      "explanation": "The sources state that the prognosis of Membranous Nephropathy classically follows the 'rule of thirds': approximately one-third of patients experience spontaneous remission, one-third persist with stable disease/proteinuria indefinitely, and one-third progress to end-stage renal disease (ESRD/kidney failure) [10].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "prognosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "While most cases of Membranous Nephropathy are primary (idiopathic), secondary MN can be caused by various systemic processes. Which of the following groups of factors are recognized secondary associations of Membranous Nephropathy in the sources?",
+      "options": [
+        "Heroin abuse, HIV infection, and massive obesity",
+        "Cancers of the lung/bowel, infections such as HBV and malaria, drugs (penicillamine), and connective tissue diseases like SLE",
+        "Autosomal dominant polycystic kidney disease, Alport syndrome, and Cystinosis",
+        "Outdated tetracycline use, heavy metals (lead), and Type 2 renal tubular acidosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Cancers of the lung/bowel, infections such as HBV and malaria, drugs (penicillamine), and connective tissue diseases like SLE",
+      "explanation": "The sources list several key secondary causes of Membranous Nephropathy: malignancies (such as lung and bowel cancers), chronic infections (HBV and malaria), medications (penicillamine), and systemic autoimmune conditions (such as systemic lupus erythematosus/SLE) [6]. HIV and heroin abuse are instead classic secondary causes of FSGS [20].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "secondary_causes", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Membranous Nephropathy",
+      "question": "A pediatric patient with a history of a cerebral shunt presents with persistent proteinuria and is diagnosed with shunt nephritis. According to the sources, what glomerular lesion is most frequently produced by this condition?",
+      "options": [
+        "Minimal Change Disease (MCD)",
+        "Focal Segmental Glomerulosclerosis (FSGS)",
+        "Membranous Glomerulonephritis (MGN/MN)",
+        "Dense Deposit Disease (DDD)"
+      ],
+      "answerKey": "C",
+      "answerText": "Membranous Glomerulonephritis (MGN/MN)",
+      "explanation": "The sources highlight that patients with cerebral shunts are at risk of developing shunt nephritis, which frequently produces Membranous Glomerulonephritis (MGN) [6].",
+      "tags": ["internal_medicine", "membranous_nephropathy", "shunt_nephritis", "pediatrics"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "What is the classic histopathological criteria required to diagnose Rapidly Progressive Glomerulonephritis (RPGN) under light microscopy?",
+      "options": [
+        "Diffuse subepithelial electron-dense deposits ('humps') in over 90% of glomeruli",
+        "Glomerular crescent formation seen in at least 50% to 75% of the visualized glomeruli",
+        "Diffuse and uniform thinning of the glomerular basement membrane",
+        "Mesangial matrix expansion with classic nodular glomerulosclerosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Glomerular crescent formation seen in at least 50% to 75% of the visualized glomeruli",
+      "explanation": "According to the sources, RPGN (also known as crescentic GN) is clinically defined as a syndrome of rapid loss of renal function (usually >50% GFR decline) with glomerular crescent formation seen in at least 50% to 75% of glomeruli on biopsy. If untreated, it rapidly progresses to acute renal failure.",
+      "tags": ["internal_medicine", "rpgn", "pathology", "crescents"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "Which of the following describes the cellular and mechanical events that lead to the formation of glomerular crescents in Bowman's space?",
+      "options": [
+        "Diffuse podocyte foot-process effacement and vacuolization due to T-cell lymphokines",
+        "Proliferation of the visceral epithelial cells (podocytes) triggered by chronic hemodynamic hyperfiltration",
+        "Severe capillary wall injury allowing fibrin and inflammatory mediators to escape into Bowman's space, driving parietal epithelial cell proliferation and leukocyte (monocyte/macrophage) accumulation",
+        "Subendothelial deposition of circulating IgM and complement leading to capillary loop duplication"
+      ],
+      "answerKey": "C",
+      "answerText": "Severe capillary wall injury allowing fibrin and inflammatory mediators to escape into Bowman's space, driving parietal epithelial cell proliferation and leukocyte (monocyte/macrophage) accumulation",
+      "explanation": "The sources state that crescents form when severe capillary injury allows fibrin and inflammatory mediators into Bowman's space. This process drives the proliferation of parietal epithelial cells lining Bowman's capsule and the infiltration/accumulation of monocytes and macrophages.",
+      "tags": ["internal_medicine", "rpgn", "pathology", "crescents"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "Rapidly Progressive Glomerulonephritis is practically classified into three groups based on immunofluorescence (IF) patterns. Which of the following groups is correctly paired with its characteristic IF pattern?",
+      "options": [
+        "Type I is characterized by a granular staining pattern; Type III is characterized by a linear staining pattern.",
+        "Type I is characterized by a linear staining pattern (Linear IgG); Type III is characterized by a pauci-immune pattern (minimal or no deposits).",
+        "Type II is characterized by a pauci-immune pattern; Type III is characterized by a linear staining pattern.",
+        "All three types exhibit identical diffuse mesangial-dominant IgA staining."
+      ],
+      "answerKey": "B",
+      "answerText": "Type I is characterized by a linear staining pattern (Linear IgG); Type III is characterized by a pauci-immune pattern (minimal or no deposits).",
+      "explanation": "Based on the immunologic findings: Type I (Anti-GBM) is characterized by a linear pattern of IgG along the GBM. Type II (Immune complex-mediated) displays granular immune complex staining. Type III (Pauci-immune) is defined by a lack of anti-GBM antibodies or immune complex deposition on IF or EM.",
+      "tags": ["internal_medicine", "rpgn", "classification", "immunofluorescence"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "Which of the following statements regarding Type III (Pauci-immune) RPGN is correct?",
+      "options": [
+        "It is highly associated with anti-GBM antibodies that cross-react with pulmonary alveoli.",
+        "It is caused by underlying systemic lupus erythematosus (SLE) or Henoch-Schönlein purpura.",
+        "Most patients with this type of RPGN have circulating antineutrophil cytoplasmic antibodies (ANCA).",
+        "It is a benign, self-limiting childhood disorder that requires no active immunosuppression."
+      ],
+      "answerKey": "C",
+      "answerText": "Most patients with this type of RPGN have circulating antineutrophil cytoplasmic antibodies (ANCA).",
+      "explanation": "Type III RPGN is also called the pauci-immune type due to the lack of anti-GBM antibodies or immune complexes. Most patients with this type have circulating antineutrophil cytoplasmic antibodies (ANCA), which play a key role in ANCA-associated small-vessel vasculitides like Granulomatosis with polyangiitis (formerly Wegener's) or Microscopic polyangiitis.",
+      "tags": ["internal_medicine", "rpgn", "pauci_immune", "anca"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "Based on the diagnostic and staging tables of the university past exams, which of the following kidney diseases is NOT a recognized cause of Rapidly Progressive Glomerulonephritis (RPGN)?",
+      "options": [
+        "Goodpasture syndrome",
+        "Lupus nephritis",
+        "Minimal change disease",
+        "Granulomatosis with polyangiitis (Wegener's)"
+      ],
+      "answerKey": "C",
+      "answerText": "Minimal change disease",
+      "explanation": "This replicates multiple high-yield past exam questions. Minimal change disease (MCD) causes nephrotic syndrome with normal-appearing light microscopy and does not cause crescentic glomerulonephritis or acute renal shutdown. In contrast, Goodpasture's, Lupus nephritis, Wegener's, and post-streptococcal GN are well-known causes of RPGN.",
+      "tags": ["internal_medicine", "rpgn", "etiology", "exams", "minimal_change_disease"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "Which of the following is a high-yield 'false option' from the past board exams regarding the characteristics of Rapidly Progressive Glomerulonephritis (RPGN)?",
+      "options": [
+        "Crescents are present in the renal biopsy.",
+        "It is usually associated with acute renal shutdown.",
+        "Active urinary sediment is usually present.",
+        "Heavy (nephrotic-range) proteinuria must always be present to establish a diagnosis."
+      ],
+      "answerKey": "D",
+      "answerText": "Heavy (nephrotic-range) proteinuria must always be present to establish a diagnosis.",
+      "explanation": "According to the past exams (specifically Question 27 in Binder2 and the Nephro-Urology exam section), the statement 'Heavy proteinuria must be present' is NOT true in RPGN. While some degree of proteinuria is typical (often subnephrotic), heavy nephrotic-range proteinuria is not a mandatory diagnostic criterion for RPGN, which typically presents with an active nephritic profile.",
+      "tags": ["internal_medicine", "rpgn", "diagnostics", "proteinuria", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "In Type I RPGN (Goodpasture syndrome), what is the specific molecular target of the pathogenic circulating autoantibodies?",
+      "options": [
+        "The nephrin protein located within the slit diaphragm of the podocytes",
+        "A peptide within the noncollagenous portion (NC1 domain) of the alpha-3 chain of type IV collagen",
+        "The phospholipase A2 receptor (PLA2R) expressed on the podocyte cell surface",
+        "The C3 convertase enzyme of the alternative complement pathway"
+      ],
+      "answerKey": "B",
+      "answerText": "A peptide within the noncollagenous portion (NC1 domain) of the alpha-3 chain of type IV collagen",
+      "explanation": "The sources specify that Type I RPGN / Goodpasture syndrome is characterized by autoantibodies directed against the glomerular basement membrane. The specific Goodpasture antigen is a peptide within the noncollagenous portion of the alpha-3 chain of type IV collagen.",
+      "tags": ["internal_medicine", "rpgn", "pathophysiology", "anti_gbm", "collagen"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "A patient with suspected RPGN and active small-vessel vasculitis presents with a rapidly rising serum creatinine. According to modern KDIGO and expert guidelines in the sources, what is the correct clinical directive regarding the initiation of therapy?",
+      "options": [
+        "Immunosuppression must be strictly withheld until a full 12-core tissue biopsy is completely processed and reported by pathology.",
+        "Initiate emergency hemodialysis and defer all immunosuppressive therapy until the eGFR stabilizes spontaneously.",
+        "Compatible rapidly deteriorating disease should be treated with immunosuppressive induction therapy immediately without waiting for a biopsy report.",
+        "High-dose loop diuretics and oral penicillin are the only indicated first-line induction agents."
+      ],
+      "answerKey": "C",
+      "answerText": "Compatible rapidly deteriorating disease should be treated with immunosuppressive induction therapy immediately without waiting for a biopsy report.",
+      "explanation": "Under the current KDIGO and expert guidelines, rapidly progressive disease is a nephrologic emergency. Compatible, rapidly deteriorating disease (such as suspected anti-GBM or ANCA vasculitis) should be treated with emergency disease-specific therapy immediately without waiting for a biopsy report or waiting for all confirmatory results, as delay can cause irreversible nephron loss.",
+      "tags": ["internal_medicine", "rpgn", "management", "urgency", "kdigo_guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "What is the recommended first-line treatment pathway to remove circulating pathogenic autoantibodies in patients presenting with Type I (Anti-GBM) RPGN?",
+      "options": [
+        "Continuous venovenous hemofiltration (CVVH) with low-dose heparin",
+        "Urgent plasma exchange (plasmapheresis) combined with glucocorticoids and cyclophosphamide",
+        "Intravesical instillation of Bacillus Calmette-Guérin (BCG) and high-dose oral steroids",
+        "Aggressive urine alkalinization to maintain urine pH above 7.5"
+      ],
+      "answerKey": "B",
+      "answerText": "Urgent plasma exchange (plasmapheresis) combined with glucocorticoids and cyclophosphamide",
+      "explanation": "The sources state that the standard emergency management for anti-GBM disease includes plasma exchange (plasmapheresis) to physically remove the circulating pathogenic antibodies, together with systemic glucocorticoids and cyclophosphamide to suppress further antibody production.",
+      "tags": ["internal_medicine", "rpgn", "anti_gbm", "plasmapheresis", "management"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Rapidly Progressive Glomerulonephritis",
+      "question": "A patient with suspected pulmonary-renal syndrome secondary to RPGN does not exhibit hemoptysis. How should the clinical team interpret this finding according to the sources?",
+      "options": [
+        "The absence of hemoptysis completely excludes diffuse alveolar hemorrhage.",
+        "Hemoptysis is always the earliest and most sensitive sign of lung involvement.",
+        "Alveolar hemorrhage can be completely occult; a falling hemoglobin, new bilateral pulmonary opacities, and hypoxemia must trigger urgent investigation even without hemoptysis.",
+        "Pulmonary symptoms in RPGN are always due to acute bacterial pneumonia, which is treated with IV ampicillin."
+      ],
+      "answerKey": "C",
+      "answerText": "Alveolar hemorrhage can be completely occult; a falling hemoglobin, new bilateral pulmonary opacities, and hypoxemia must trigger urgent investigation even without hemoptysis.",
+      "explanation": "The sources note as a crucial safety pearl that pulmonary hemorrhage can be occult. The absolute absence of hemoptysis does not exclude diffuse alveolar hemorrhage. A falling hemoglobin, new bilateral opacities, and hypoxemia in the setting of RPGN should immediately raise suspicion and trigger investigation.",
+      "tags": ["internal_medicine", "rpgn", "pulmonary_renal", "alveolar_hemorrhage", "safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Lupus Nephritis",
+      "question": "A renal biopsy is performed on a patient with systemic lupus erythematosus (SLE) and chronic kidney disease. The pathology report indicates Class VI Lupus Nephritis. According to the ISN/RPS classification, which of the following findings defines this class, and what is the primary clinical management strategy?",
+      "options": [
+        "Active necrotizing crescentic glomerulonephritis involving ≥50% of glomeruli; requires immediate high-dose intravenous pulse cyclophosphamide",
+        "Subepithelial immune deposits with a membranous pattern; managed primarily based on the severity of proteinuria",
+        "Advanced sclerosing glomerulonephritis with ≥90% globally sclerosed glomeruli without residual activity; management should emphasize chronic kidney disease (CKD) care and kidney-replacement therapy planning rather than intensive immunosuppression",
+        "Minimal mesangial glomerulonephritis with normal light microscopy but mesangial deposits on immunofluorescence; managed with aggressive multi-agent chemotherapy"
+      ],
+      "answerKey": "C",
+      "answerText": "Advanced sclerosing glomerulonephritis with ≥90% globally sclerosed glomeruli without residual activity; management should emphasize chronic kidney disease (CKD) care and kidney-replacement therapy planning rather than intensive immunosuppression",
+      "explanation": "Under the ISN/RPS classification system detailed in the sources, Class VI represents advanced sclerosing lupus nephritis, defined by ≥90% globally sclerosed glomeruli without residual active inflammation [1, 2]. Because the damage is advanced and irreversible, the clinical focus must shift away from intensive immunosuppression (which would cause unnecessary toxicity) and toward supportive chronic kidney disease (CKD) care and planning for kidney-replacement therapy [2].",
+      "tags": ["lupus_nephritis", "pathology", "classification", "management"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Lupus Nephritis",
+      "question": "In active proliferative lupus nephritis (Class III or IV), electron microscopy (EM) classically reveals which of the following ultrastructural findings within the glomerular capillary loops?",
+      "options": [
+        "Subepithelial dense deposits ('humps') with tram-track basement membrane duplication",
+        "Subendothelial dense deposits",
+        "Diffuse and uniform thinning of the lamina densa with a basket-weave appearance",
+        "Isolated mesangial deposits with completely normal podocyte architecture"
+      ],
+      "answerKey": "B",
+      "answerText": "Subendothelial dense deposits",
+      "explanation": "According to the urology and nephrology past exams, subendothelial dense deposits are a classic and pathognomonic finding on electron microscopy (EM) in systemic lupus erythematosus (SLE/lupus nephritis) [3]. In contrast, subepithelial 'humps' are classic for post-streptococcal/infection-related GN [4, 5], and Alport syndrome features glomerular basement membrane thinning with a split/laminated basket-weave appearance [6].",
+      "tags": ["lupus_nephritis", "pathology", "electron_microscopy", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Lupus Nephritis",
+      "question": "A 26-year-old female with systemic lupus erythematosus (SLE) presents with new-onset edema, hypertension, and active urine sediment. Which of the following serum complement patterns is classically expected in active, immune-complex-mediated Lupus Nephritis?",
+      "options": [
+        "Normal C3 and decreased C4",
+        "Decreased C3 and normal C4",
+        "Both C3 and C4 are typically elevated",
+        "Low C3 and low C4"
+      ],
+      "answerKey": "D",
+      "answerText": "Low C3 and low C4",
+      "explanation": "Active lupus nephritis is an immune-complex-mediated glomerulonephritis where circulating or in-situ complexes activate the classical complement pathway [7, 8]. This results in the depletion/consumption of both C3 and C4 complement factors, presenting as a low C3 and low C4 pattern [8]. This differs from post-streptococcal GN (PSGN) where C3 is consumed but C4 is relatively normal [8].",
+      "tags": ["lupus_nephritis", "diagnostics", "complement", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "According to the clinical terminology and classification guidelines outlined in the sources, how is the term 'Goodpasture syndrome' best defined and distinguished from anti-GBM disease?",
+      "options": [
+        "It is defined as isolated, tissue-limited anti-GBM glomerulonephritis with no extrarenal manifestations.",
+        "It should be reserved specifically for anti-GBM antibody-induced disease when it is accompanied by pulmonary hemorrhage (producing a pulmonary-renal phenotype).",
+        "It refers exclusively to ANCA-associated vasculitis with concurrent asthma and eosinophilia.",
+        "It is defined as a granular immune-complex-mediated crescentic glomerulonephritis secondary to chronic liver disease."
+      ],
+      "answerKey": "B",
+      "answerText": "It should be reserved specifically for anti-GBM antibody-induced disease when it is accompanied by pulmonary hemorrhage (producing a pulmonary-renal phenotype).",
+      "explanation": "The sources specify that 'Goodpasture syndrome' is a term best reserved for anti-GBM antibody-induced disease with pulmonary hemorrhage [9]. Anti-GBM disease can present as renal-limited glomerulonephritis [9, 10], but when it cross-reacts with the pulmonary alveolar basement membrane to cause hemorrhage alongside kidney failure, it constitutes Goodpasture syndrome [9, 11].",
+      "tags": ["goodpasture_syndrome", "terminology", "definition"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "In Type I RPGN (Goodpasture syndrome), the circulating pathogenic autoantibodies are directed against a highly specific molecular target. What is this target according to the sources?",
+      "options": [
+        "The C3 convertase enzyme of the alternative complement pathway",
+        "The non-collagenous domain (NC1) of the alpha-3 chain of type IV collagen",
+        "The phospholipase A2 receptor (PLA2R) on the surface of the podocytes",
+        "The lysosomal cystine transporter (cystinosin) in the proximal tubule"
+      ],
+      "answerKey": "B",
+      "answerText": "The non-collagenous domain (NC1) of the alpha-3 chain of type IV collagen",
+      "explanation": "Anti-GBM disease and Goodpasture syndrome are driven by pathogenic autoantibodies that target the non-collagenous domain (NC1) of the alpha-3 chain of type IV collagen [12-14]. This collagen subtype is a key structural component of both the glomerular and pulmonary alveolar basement membranes, explaining the classic pulmonary-renal clinical manifestations of the disease [11, 12].",
+      "tags": ["goodpasture_syndrome", "pathophysiology", "autoantibodies", "collagen"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "A 30-year-old male with rapidly progressive glomerulonephritis (RPGN) and alveolar hemorrhage is suspected of having Goodpasture's disease. According to the nephrology board exam questions, which of the following is true regarding serum complement levels in Goodpasture's disease?",
+      "options": [
+        "Serum C3 is profoundly consumed, while C4 remains completely normal.",
+        "Both C3 and C4 are severely low due to classical pathway consumption.",
+        "Serum complement levels are typically normal (low complement is false).",
+        "A high serum C3 level is mandatory to establish a clinical diagnosis."
+      ],
+      "answerKey": "C",
+      "answerText": "Serum complement levels are typically normal (low complement is false).",
+      "explanation": "This question directly tests a high-yield exam point from the sources: in Goodpasture's disease, a low serum complement level is false (complements are typically normal) [3, 15]. This helps clinically distinguish anti-GBM disease from other immune-complex-mediated causes of pulmonary-renal or nephritic syndromes (such as systemic lupus erythematosus or endocarditis-associated GN), which present with low complement levels [8, 10].",
+      "tags": ["goodpasture_syndrome", "diagnostics", "complement", "differential_diagnosis", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "Which of the following immunofluorescence (IF) staining patterns is pathognomonic for Type I Rapidly Progressive Glomerulonephritis (anti-GBM / Goodpasture syndrome)?",
+      "options": [
+        "Granular, 'lumpy-bumpy' deposits of IgG and C3 in the mesangium and capillary loops",
+        "Strong, diffuse linear IgG staining along the glomerular basement membrane (GBM)",
+        "Pauci-immune staining with minimal or no immunoglobulin deposits",
+        "Mesangial-dominant IgA and C3 deposition"
+      ],
+      "answerKey": "B",
+      "answerText": "Strong, diffuse linear IgG staining along the glomerular basement membrane (GBM)",
+      "explanation": "Goodpasture syndrome (Type I RPGN) is characterized on immunofluorescence (IF) microscopy by a classic linear IgG staining pattern along the glomerular basement membrane [4, 9, 11, 16]. This linear pattern reflects the continuous, uniform binding of autoantibodies directly to the intrinsic alpha-3 chain of type IV collagen along the entire length of the basement membrane [11, 13].",
+      "tags": ["goodpasture_syndrome", "diagnostics", "immunofluorescence", "pathology"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "A patient presents with rapidly deteriorating kidney function, hypoxemia, and active urine sediment with RBC casts. Anti-GBM disease is strongly suspected. What is the correct immediate clinical management directive?",
+      "options": [
+        "Delay all treatment until a kidney biopsy is completely processed, reported, and reviewed by a multidisciplinary board.",
+        "Start treatment without delay (plasmapheresis to remove circulating antibodies, together with glucocorticoids and cyclophosphamide) when the disease is strongly suspected; do not wait for all confirmatory results.",
+        "Initiate immediate bilateral nephrectomy and lifelong hemodialysis as the only safe initial therapeutic path.",
+        "Prescribe high-dose oral penicillin G and continuous bed rest, as immunosuppression is strictly contraindicated."
+      ],
+      "answerKey": "B",
+      "answerText": "Start treatment without delay (plasmapheresis to remove circulating antibodies, together with glucocorticoids and cyclophosphamide) when the disease is strongly suspected; do not wait for all confirmatory results.",
+      "explanation": "Anti-GBM disease and severe ANCA-associated vasculitis represent the most urgent pulmonary-renal diagnoses in nephrology [17]. Because delay can convert reversible inflammation into irreversible renal fibrosis (and lead to fatal alveolar hemorrhage), the sources state that treatment must be initiated immediately without delay when anti-GBM disease is strongly suspected [9]. Life-saving therapy (plasmapheresis, glucocorticoids, and cyclophosphamide) should not wait for all confirmatory results or biopsy reports [9, 17, 18].",
+      "tags": ["goodpasture_syndrome", "management", "emergencies", "plasmapheresis"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Goodpasture Syndrome",
+      "question": "A patient with suspected RPGN and a pulmonary-renal syndrome does not exhibit hemoptysis. How should the clinical team interpret this finding?",
+      "options": [
+        "The absence of hemoptysis completely excludes diffuse alveolar hemorrhage.",
+        "Alveolar hemorrhage can be completely occult; a falling hemoglobin, new bilateral pulmonary infiltrates, and hypoxemia must trigger urgent investigation even in the absence of hemoptysis.",
+        "It indicates that any pulmonary symptoms are strictly due to a typical community-acquired bacterial pneumonia.",
+        "The patient can be safely managed in an outpatient clinic with oral antibiotics."
+      ],
+      "answerKey": "B",
+      "answerText": "Alveolar hemorrhage can be completely occult; a falling hemoglobin, new bilateral pulmonary infiltrates, and hypoxemia must trigger urgent investigation even in the absence of hemoptysis.",
+      "explanation": "A crucial clinical safety pearl in the sources emphasizes that diffuse alveolar hemorrhage can be completely occult, and the absence of hemoptysis does not exclude it [9, 19]. Therefore, if a patient with active glomerulonephritis displays dyspnea, hypoxemia, a falling hemoglobin, or new bilateral infiltrates, the clinical team must investigate for pulmonary hemorrhage immediately, regardless of whether hemoptysis is present [9, 19].",
+      "tags": ["goodpasture_syndrome", "complications", "pulmonary_renal", "clinical_safety"]
+    },
+    {
+      "lesson": "Internal Medicine::Glomerular Diseases::Lupus Nephritis",
+      "question": "Active proliferative lupus nephritis (Class III or IV) classically presents with a mixed nephritic-nephrotic clinical picture. Which of the following groups of findings characterizes this mixed presentation?",
+      "options": [
+        "Bland urine sediment with normal blood pressure, massive lipiduria, and no reduction in GFR",
+        "Isolated microscopic hematuria, severe hyperkalemia, and normal protein excretion",
+        "Active urine sediment (dysmorphic RBCs and RBC casts) accompanied by hypertension, reduced GFR, and nephrotic-range proteinuria",
+        "Generalized pruritus, normal-anion-gap metabolic acidosis, and bilateral staghorn calculi"
+      ],
+      "answerKey": "C",
+      "answerText": "Active urine sediment (dysmorphic RBCs and RBC casts) accompanied by hypertension, reduced GFR, and nephrotic-range proteinuria",
+      "explanation": "While textbook definitions often separate nephritic and nephrotic syndromes, the sources emphasize that mixed nephritic-nephrotic presentations are common and indicate severe inflammatory glomerular injury [20, 21]. A mixed presentation combines an active urine sediment (dysmorphic RBCs, acanthocytes, and RBC casts), hypertension, and renal impairment (nephritic components) with heavy nephrotic-range proteinuria (nephrotic component) [20-22]. Active Class III or IV lupus nephritis is a classic cause of this severe mixed phenotype [21-23].",
+      "tags": ["lupus_nephritis", "clinical_presentation", "nephritic_syndrome", "nephrotic_syndrome"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Nephrotic_Syndrome",
+      "question": "Which of the following clinical distinctions is correct regarding the relationship between heavy proteinuria and the clinical diagnosis of Nephrotic Syndrome in adults?",
+      "options": [
+        "Heavy proteinuria is always synonymous with nephrotic syndrome, regardless of serum albumin levels.",
+        "Nephrotic syndrome requires both heavy proteinuria and the systemic consequences of substantial albumin loss, specifically hypoalbuminemia and edema.",
+        "Nephrotic syndrome in adults is defined solely by a urinary protein-creatinine ratio (uPCR) >= 0.5 g/g.",
+        "Edema must be completely absent in order to establish a diagnosis of adult nephrotic syndrome."
+      ],
+      "answerKey": "B",
+      "answerText": "Nephrotic syndrome requires both heavy proteinuria and the systemic consequences of substantial albumin loss, specifically hypoalbuminemia and edema.",
+      "explanation": "The sources emphasize that heavy proteinuria is not synonymous with nephrotic syndrome [1]. The clinical syndrome requires the systemic consequences of substantial albumin loss, especially hypoalbuminemia and edema [1-3].",
+      "tags": ["nephrology", "nephrotic_syndrome", "definition"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Nephrotic_Syndrome::Etiology",
+      "question": "Which of the following histopathological lesions represents the most common primary cause of nephrotic syndrome in adults?",
+      "options": [
+        "Minimal Change Disease",
+        "Focal Segmental Glomerulosclerosis (FSGS)",
+        "Membranous Nephropathy",
+        "Membranoproliferative Glomerulonephritis (MPGN)"
+      ],
+      "answerKey": "C",
+      "answerText": "Membranous Nephropathy",
+      "explanation": "According to the past medical board exams and kidney review sheets in the sources, Membranous Nephropathy is the most common histological variety of nephrotic syndrome in adults [4-7], whereas Minimal Change Disease is the most common cause in children [8-12].",
+      "tags": ["nephrology", "nephrotic_syndrome", "membranous_nephropathy"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Nephrotic_Syndrome::Complications",
+      "question": "An adult patient with active nephrotic syndrome is at a significantly elevated risk for thromboembolic events, such as renal vein thrombosis. According to the sources, what is the best clinical marker for assessing a patient's susceptibility to this complication?",
+      "options": [
+        "Degree of systemic hypertension",
+        "Serum creatinine level",
+        "Serum albumin level",
+        "Severity of lower extremity edema"
+      ],
+      "answerKey": "C",
+      "answerText": "Serum albumin level",
+      "explanation": "The sources state that the best marker for susceptibility to thromboembolism in a patient with active nephrotic syndrome is the serum albumin level [13-17]. Thromboembolic complications, such as renal vein thrombosis, are highly associated with severe hypoalbuminemia [17-21].",
+      "tags": ["nephrology", "nephrotic_syndrome", "thromboembolism", "renal_vein_thrombosis"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Membranous_Nephropathy::Pathology",
+      "question": "Which of the following histopathological findings is classically diagnostic of Membranous Nephropathy under light microscopy using a silver methenamine stain?",
+      "options": [
+        "A 'tram-track' duplication of the glomerular basement membrane due to mesangial expansion",
+        "The presence of 'spikes' in the glomerular basement membrane (GBM)",
+        "Diffuse sclerosis of segments of some but not all glomeruli",
+        "Normal-appearing glomeruli with complete fusion of podocyte foot processes on electron microscopy"
+      ],
+      "answerKey": "B",
+      "answerText": "The presence of 'spikes' in the glomerular basement membrane (GBM)",
+      "explanation": "The characteristic histopathological finding of Membranous Nephropathy on silver methenamine stain is the presence of 'spikes' along the GBM, which represent projections trying to surround subepithelial immune deposits [6, 15, 22]. A 'tram-track' appearance with mesangial expansion instead describes Membranoproliferative Glomerulonephritis (MPGN) [23-25].",
+      "tags": ["nephrology", "membranous_nephropathy", "pathology", "silver_stain"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::Nephritic_Syndrome",
+      "question": "Based on the clinical presentations and diagnostic MCQ exams in the sources, Nephritic Syndrome is characteristically NOT associated with which of the following?",
+      "options": [
+        "Oliguria and renal impairment",
+        "Massive (nephrotic-range) proteinuria as a defining feature",
+        "Systemic hypertension",
+        "Microscopic or gross hematuria with RBC casts"
+      ],
+      "answerKey": "B",
+      "answerText": "Massive (nephrotic-range) proteinuria as a defining feature",
+      "explanation": "According to several past exam questions, nephritic syndrome is characterized by hematuria, RBC casts, oliguria, hypertension, and renal impairment, but is NOT defined by massive (or heavy) proteinuria [26-33]. Proteinuria in nephritic-predominant syndrome is typically subnephrotic (<3.5 g/day), though overlap (mixed nephritic-nephrotic) can occur in severe cases [34, 35].",
+      "tags": ["nephrology", "nephritic_syndrome", "clinical_presentation"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::IgA_Nephropathy::Presentation",
+      "question": "A 22-year-old male presents with recurrent episodes of gross hematuria. He reports that the dark urine typically starts within 24 to 48 hours of developing a sore throat. This classic clinical presentation, known as synpharyngitic hematuria, is most indicative of which condition?",
+      "options": [
+        "Post-Streptococcal Glomerulonephritis (PSGN)",
+        "Alport Syndrome",
+        "IgA Nephropathy (Berger's Disease)",
+        "Membranous Nephropathy"
+      ],
+      "answerKey": "C",
+      "answerText": "IgA Nephropathy (Berger's Disease)",
+      "explanation": "IgA nephropathy commonly presents as synpharyngitic hematuria, where episodes of visible or microscopic hematuria occur during or within days (24-48 hours) of an upper respiratory tract mucosal infection [13, 36-41]. This stands in contrast to PSGN, which occurs after a distinct latent period of 1 to 2 weeks following a streptococcal infection [42-46].",
+      "tags": ["nephrology", "iga_nephropathy", "synpharyngitic_hematuria"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::PSGN::Diagnostics",
+      "question": "Which of the following complement profiles is characteristically expected during the acute phase of Post-Streptococcal Glomerulonephritis (PSGN)?",
+      "options": [
+        "Both complement C3 and complement C4 are significantly consumed",
+        "Both complement C3 and complement C4 are elevated above the normal range",
+        "Complement C3 is consumed/decreased, while complement C4 remains normal",
+        "Complement C4 is consumed, while complement C3 remains normal"
+      ],
+      "answerKey": "C",
+      "answerText": "Complement C3 is consumed/decreased, while complement C4 remains normal",
+      "explanation": "In post-streptococcal glomerulonephritis, the serum complement C3 level is characteristically consumed (decreased), whereas complement C4 remains normal [28, 33, 47-52].",
+      "tags": ["nephrology", "psgn", "complement", "diagnostics"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::IgA_Nephropathy::Pathology",
+      "question": "In patients diagnosed with IgA Nephropathy (Berger's disease), immunofluorescence microscopy of the kidney biopsy classically demonstrates prominent IgA deposits located in which part of the glomerulus?",
+      "options": [
+        "Along the subepithelial side of the glomerular basement membrane",
+        "Within the capillary loops",
+        "Within the mesangium (mesangial region)",
+        "Along the tubular basement membrane"
+      ],
+      "answerKey": "C",
+      "answerText": "Within the mesangium (mesangial region)",
+      "explanation": "The sources state that IgA nephropathy is characterized by the prominent deposition of IgA and complement in the mesangial regions (mesangium) of the glomerulus [21, 53, 54].",
+      "tags": ["nephrology", "iga_nephropathy", "pathology", "mesangium"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::FSGS::Diagnostics",
+      "question": "A 35-year-old adult presents with nephrotic syndrome and undergoes serological evaluation. In which of the following glomerular diseases is the serum complement C3 level characteristically NORMAL (not consumed)?",
+      "options": [
+        "Membranoproliferative Glomerulonephritis (MPGN)",
+        "Systemic Lupus Erythematosus (Lupus Nephritis)",
+        "Focal Segmental Glomerulosclerosis (FSGS)",
+        "Post-Streptococcal Glomerulonephritis (PSGN)"
+      ],
+      "answerKey": "C",
+      "answerText": "Focal Segmental Glomerulosclerosis (FSGS)",
+      "explanation": "The sources explicitly highlight that serum complement C3 is characteristically low/consumed in Membranoproliferative GN, SLE, and Post-streptococcal GN, but is NOT consumed (remains normal) in Focal Glomerulosclerosis (FSGS) [5, 55].",
+      "tags": ["nephrology", "fsgs", "complement", "diagnostics"]
+    },
+    {
+      "lesson": "Internal_Medicine::Nephrology::PSGN::Presentation",
+      "question": "How does the clinical onset of Post-Streptococcal Glomerulonephritis (PSGN) in adults classically differ from its presentation in children?",
+      "options": [
+        "Adults always present with pure nephrotic syndrome and no hematuria.",
+        "In adults, the onset is more likely to be atypical, presenting with sudden appearance of hypertension or edema, frequently with elevation of BUN, and is less benign.",
+        "Adults never develop edema or hypertension, presenting only with sterile pyuria.",
+        "Children always progress to end-stage renal disease within 2 weeks, whereas adults recover completely in 100% of cases."
+      ],
+      "answerKey": "B",
+      "answerText": "In adults, the onset is more likely to be atypical, presenting with sudden appearance of hypertension or edema, frequently with elevation of BUN, and is less benign.",
+      "explanation": "While PSGN is classic and highly benign in children (over 95% recovery rate) [2, 56], the clinical onset in adults is more likely to be atypical, often presenting with the sudden appearance of hypertension or edema and elevation of BUN. Furthermore, the disease is less benign in the adult population [57, 58].",
+      "tags": ["nephrology", "psgn", "adult_onset", "prognosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AKI Framework",
+      "question": "Which of the following statements regarding the three etiologic categories of Acute Kidney Injury (AKI) is true according to the sources?",
+      "options": [
+        "Pre-renal failure is defined as structural parenchymal damage caused by chronic microvascular ischemia.",
+        "Pre-renal failure can result from any cause leading to a sudden decrease in renal blood flow, and if left untreated, it may progress to acute tubular necrosis (ATN).",
+        "Benign Prostatic Hyperplasia (BPH) is an intrinsic renal parenchymal disorder that never leads to acute renal failure.",
+        "Post-renal AKI can be reliably confirmed or excluded by a kidney biopsy rather than non-invasive imaging."
+      ],
+      "answerKey": "B",
+      "answerText": "Pre-renal failure can result from any cause leading to a sudden decrease in renal blood flow, and if left untreated, it may progress to acute tubular necrosis (ATN).",
+      "explanation": "According to the urological self-assessments and clinical guidelines, pre-renal failure results from any cause leading to a sudden decrease in renal blood flow [1]. If the hypoperfusion is severe or prolonged, it can cause structural damage, leading to acute tubular necrosis (ATN) and intrinsic renal failure [1, 2]. BPH is a classic cause of post-renal (obstructive) AKI [1], and post-renal etiology is typically confirmed or excluded by non-invasive ultrasound, not biopsy [3, 4].",
+      "tags": ["aki", "prerenal", "atn", "classification"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Pre-renal AKI",
+      "question": "According to the etiologic classification in the pediatric and adult nephrology files, which of the following correctly categorizes the pre-renal causes of Acute Kidney Injury (AKI)?",
+      "options": [
+        "True hypovolemia includes Congestive Heart Failure (CHF); Ineffective blood volume includes gastrointestinal (GIT) losses and burns.",
+        "True hypovolemia includes gastrointestinal (GIT) losses, hemorrhage, third-space losses (sepsis), and dehydration; Ineffective blood volume includes Congestive Heart Failure (CHF) and vasodilator drugs.",
+        "True hypovolemia includes acute post-streptococcal glomerulonephritis (PSGN); Ineffective blood volume includes acute interstitial nephritis (AIN).",
+        "Both true hypovolemia and ineffective blood volume are categorized as intrinsic renal parenchymal diseases."
+      ],
+      "answerKey": "B",
+      "answerText": "True hypovolemia includes gastrointestinal (GIT) losses, hemorrhage, third-space losses (sepsis), and dehydration; Ineffective blood volume includes Congestive Heart Failure (CHF) and vasodilator drugs.",
+      "explanation": "The clinical files divide pre-renal AKI into: (1) True hypovolemia, caused by active volume loss (GIT losses, burns, hemorrhage, third-space losses in sepsis, and dehydration); and (2) Ineffective blood volume, where systemic perfusion is compromised despite normal or increased total body water (Congestive Heart Failure, vasodilator drugs, post-cardiopulmonary bypass, and sepsis) [3, 5].",
+      "tags": ["aki", "prerenal", "etiology", "hypovolemia"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AKI Diagnostics",
+      "question": "Urinary indices are highly useful in differentiating pre-renal AKI from intrinsic renal AKI (Acute Tubular Necrosis). Which of the following index values is characteristic of pre-renal AKI according to the sources?",
+      "options": [
+        "Fractional Excretion of Sodium (FENa) > 2% and Renal Failure Index (RFI) > 1%",
+        "Urine specific gravity < 1.012 and Urine/plasma creatinine ratio < 20",
+        "Fractional Excretion of Sodium (FENa) < 1% and Renal Failure Index (RFI) < 1%",
+        "Urine Sodium (UNa) > 40 mEq/L and Plasma BUN to creatinine ratio < 10"
+      ],
+      "answerKey": "C",
+      "answerText": "Fractional Excretion of Sodium (FENa) < 1% and Renal Failure Index (RFI) < 1%",
+      "explanation": "According to the diagnostic urine indices, pre-renal AKI is characterized by a high capacity of the kidney to conserve sodium and water, resulting in a FENa < 1%, a Renal Failure Index < 1%, urine sodium < 20 mEq/L, and a high urine specific gravity (>1.020) [6]. Intrinsic ATN, by contrast, displays a FENa > 2% (or > 1%), RFI > 1%, urine sodium > 40 mEq/L, and a low urine specific gravity (<1.012) [6, 7].",
+      "tags": ["aki", "diagnostics", "fena", "renal_failure_index"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Urine Microscopy",
+      "question": "A patient is evaluated for new-onset oliguric acute kidney injury. Which of the following microscopy findings is correctly matched with its corresponding clinical framework?",
+      "options": [
+        "Muddy-brown granular casts with renal tubular epithelial cells — supports a post-renal obstructive uropathy framework.",
+        "Red blood cell (RBC) casts — classically points to an acute interstitial nephritis (AIN) framework.",
+        "Muddy-brown granular casts — strongly supports an intrinsic acute tubular injury/necrosis (ATN) framework.",
+        "White blood cell (WBC) casts — pathognomonic for a pre-renal hypovolemic framework."
+      ],
+      "answerKey": "C",
+      "answerText": "Muddy-brown granular casts — strongly supports an intrinsic acute tubular injury/necrosis (ATN) framework.",
+      "explanation": "Abundant muddy-brown granular casts and renal tubular epithelial cells are classic findings that strongly support an intrinsic renal framework of acute tubular injury/necrosis (ATN) [2, 8, 9]. RBC casts suggest glomerulonephritis [8], and WBC casts suggest pyelonephritis or AIN [8]. Pre-renal states typically present with a benign urine sediment featuring only hyaline casts [8, 10].",
+      "tags": ["urine_microscopy", "casts", "atn", "intrinsic_aki"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Post-renal AKI",
+      "question": "A urologist is called to evaluate a patient with suspected post-renal acute kidney injury. According to the diagnostic and management guidelines in the sources, which of the following is true?",
+      "options": [
+        "Post-renal obstruction can be reliably excluded or confirmed first-line using a renal biopsy.",
+        "Anuria (complete absence of urine) in AKI should prompt the immediate, urgent exclusion of post-renal urinary tract obstruction or vascular catastrophe.",
+        "Obstructive uropathy can only cause chronic kidney disease and never presents as acute kidney injury.",
+        "Unilateral ureteric obstruction in a patient with two normal kidneys classically causes severe acute renal failure and uremia."
+      ],
+      "answerKey": "B",
+      "answerText": "Anuria (complete absence of urine) in AKI should prompt the immediate, urgent exclusion of post-renal urinary tract obstruction or vascular catastrophe.",
+      "explanation": "The sources state that anuria in AKI is an emergency that demands the urgent exclusion of complete obstruction, vascular catastrophe, and severe intrinsic injury [9]. Post-renal AKI is easily confirmed or excluded using non-invasive renal ultrasonography (which reveals hydronephrosis), not biopsy [3, 4]. Unilateral obstruction typically does not cause acute uremia or renal failure if the contralateral kidney is healthy and functioning [11].",
+      "tags": ["aki", "postrenal", "ultrasound", "anuria"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AKI Management",
+      "question": "A clinician utilizes a diagnostic 'fluid challenge' test to help differentiate between pre-renal and intrinsic renal (ATN) acute kidney injury in a pediatric patient. According to the clinical guidelines in the sources, how should this test be performed and interpreted?",
+      "options": [
+        "Administer 100 ml/kg of hypotonic saline over 6 hours; if urine output increases, it indicates ATN.",
+        "Give isotonic saline 15-20 ml/kg IV over 30 minutes (with or without Lasix); if urine flow increases, it indicates pre-renal etiology, whereas no response indicates ATN.",
+        "Give high-dose oral corticosteroids; if urine specific gravity decreases below 1.010, it indicates pre-renal injury.",
+        "Give a continuous infusion of potassium chloride; if creatinine clearance doubles, it confirms post-renal obstruction."
+      ],
+      "answerKey": "B",
+      "answerText": "Give isotonic saline 15-20 ml/kg IV over 30 minutes (with or without Lasix); if urine flow increases, it indicates pre-renal etiology, whereas no response indicates ATN.",
+      "explanation": "According to the 'Fluid Challenge' protocol in the pediatric nephrology sources, the clinician should administer isotonic saline 15-20 ml/kg IV over 30 minutes (with or without Lasix, which can be repeated once if necessary). If urine flow increases, it indicates a pre-renal etiology; if there is no response, it indicates acute tubular necrosis (ATN) [4, 12, 13].",
+      "tags": ["aki", "fluid_challenge", "management", "atn"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Intrinsic AKI",
+      "question": "Which of the following lists of etiologies represents classic triggers for the development of intrinsic acute tubular injury/necrosis (ATN) as outlined in the sources?",
+      "options": [
+        "Renal pelvis tumor, posterior urethral valves, and bilateral ureterovesical junction obstruction",
+        "Ischemia (prolonged hypoperfusion), nephrotoxic drugs, and endogenous or exogenous toxins",
+        "Hepatorenal syndrome, congestive heart failure, and acute gastrointestinal blood loss",
+        "Minimal change disease, Alport syndrome, and thin basement membrane disease"
+      ],
+      "answerKey": "B",
+      "answerText": "Ischemia (prolonged hypoperfusion), nephrotoxic drugs, and endogenous or exogenous toxins",
+      "explanation": "The sources state that intrinsic tubular injury (ATN) is primarily driven by prolonged ischemia, endogenous or exogenous toxins, or nephrotoxic drugs [3, 5, 14]. Renal tumors, PUV, and UVJ obstruction are post-renal (obstructive) causes [15]. Heart failure and GIT bleeding are pre-renal causes [5], and MCD, Alport syndrome, and thin basement membrane disease are primary or hereditary glomerular diseases [16].",
+      "tags": ["atn", "pathophysiology", "ischemia", "toxins"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Post-renal AKI",
+      "question": "A patient with advanced prostatic hyperplasia presents with acute post-renal renal failure. What is the standard initial management to relieve urethral or bladder neck obstruction?",
+      "options": [
+        "Immediate high-dose intravenous pulse cyclophosphamide therapy",
+        "Immediate transurethral or suprapubic placement of a urinary bladder catheter",
+        "Urgent retrograde pyelography and placement of bilateral ureteric double-J (DJ) stents",
+        "Immediate bilateral radical nephrectomies to avoid post-obstructive diuresis"
+      ],
+      "answerKey": "B",
+      "answerText": "Immediate transurethral or suprapubic placement of a urinary bladder catheter",
+      "explanation": "According to the sources, obstruction of the urethra or bladder neck is usually managed initially by transurethral or suprapubic placement of a bladder catheter, providing rapid temporary relief while the obstructing lesion is identified and treated definitively [17]. Double-J stenting or percutaneous nephrostomy is typically reserved for ureteric/upper-tract obstructions [17, 18].",
+      "tags": ["postrenal", "management", "catheterization", "obstruction"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diagnostic Ratios",
+      "question": "A clinical biochemistry panel is performed on a patient in acute renal failure. Which of the following blood-to-urine diagnostic findings is highly suggestive of a pre-renal AKI framework rather than ATN?",
+      "options": [
+        "A plasma BUN to creatinine ratio > 20:1",
+        "A plasma BUN to creatinine ratio of 10-15:1",
+        "A fractional excretion of sodium (FENa) > 2%",
+        "A urine specific gravity < 1.010"
+      ],
+      "answerKey": "A",
+      "answerText": "A plasma BUN to creatinine ratio > 20:1",
+      "explanation": "According to the clinical nephrology notes, a plasma BUN to creatinine ratio > 20:1 is highly suggestive of pre-renal disease [6, 19]. This is due to the increase in the passive reabsorption of urea that follows the enhanced proximal transport of sodium and water in hypoperfused, salt-reclaiming states [6]. In ATN, where tubule function is damaged and cannot reabsorb urea actively, the ratio is typically normal at 10-15:1 [6].",
+      "tags": ["aki", "diagnostics", "bun_creatinine_ratio", "prerenal"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Cardiorenal and Hepatorenal Syndromes",
+      "question": "In clinical practice, the categories of AKI can overlap. Based on the sources, how are Cardiorenal and Hepatorenal syndromes framed within these diagnostic categories?",
+      "options": [
+        "Both represent primary post-renal obstructive uropathies caused by anatomical anomalies.",
+        "Cardiorenal syndrome (Type 1 or 2) and Hepatorenal syndrome (occurring in chronic liver disease) represent severe pre-renal AKI states characterized by ineffective circulating blood volume and perfusion failure.",
+        "Both are classified as genetic, primary glomerular diseases that consume C3 and C4 complement factors.",
+        "They are treated with immediate bilateral ureteric stenting to bypass intra-renal edema."
+      ],
+      "answerKey": "B",
+      "answerText": "Cardiorenal syndrome (Type 1 or 2) and Hepatorenal syndrome (occurring in chronic liver disease) represent severe pre-renal AKI states characterized by ineffective circulating blood volume and perfusion failure.",
+      "explanation": "In Cardiorenal syndrome (where heart failure drives progressive renal dysfunction) [20, 21] and Hepatorenal syndrome (where chronic liver disease and ascites drive renal failure) [12], the kidneys suffer from perfusion failure [1]. Thus, they are characterized by ineffective circulating blood volume and fall under the pre-renal AKI framework [5, 12].",
+      "tags": ["aki", "prerenal", "cardiorenal_syndrome", "hepatorenal_syndrome"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Definition",
+      "question": "According to the KDIGO guidelines, which of the following is a mandatory criterion to establish a clinical diagnosis of Chronic Kidney Disease (CKD)?",
+      "options": [
+        "An eGFR <60 mL/min/1.73 m² on a single routine blood panel",
+        "Evidence of kidney structure or function abnormalities persisting for at least 3 months",
+        "The presence of severe, symptomatic uremic complications",
+        "A history of biopsy-proven active proliferative glomerulonephritis"
+      ],
+      "answerKey": "B",
+      "answerText": "Evidence of kidney structure or function abnormalities persisting for at least 3 months",
+      "explanation": "CKD is defined by the presence of structural or functional abnormalities of the kidney, or an eGFR <60 mL/min/1.73 m², persisting for at least 3 months [1-5]. A single low eGFR is insufficient as it may represent acute kidney injury or temporary dehydration, requiring timely reassessment before establishing chronicity [1, 6].",
+      "tags": ["nephrology", "ckd", "definition", "chronicity"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Staging",
+      "question": "Regarding Stage I Chronic Kidney Disease (CKD), which of the following statements is true based on clinical exam guidelines?",
+      "options": [
+        "The patient's GFR must be severely decreased (<30 mL/min/1.73 m²).",
+        "The patient always presents with severe uremic symptoms and complications.",
+        "The GFR is normal or increased (≥90 mL/min/1.73 m²), but there is other evidence of kidney damage.",
+        "A diagnosis of Stage I CKD can be established with a single abnormal urine dipstick."
+      ],
+      "answerKey": "C",
+      "answerText": "The GFR is normal or increased (≥90 mL/min/1.73 m²), but there is other evidence of kidney damage.",
+      "explanation": "Under the CKD staging framework, Stage I CKD corresponds to a normal or increased GFR (≥90 mL/min/1.73 m²) [1, 7-11]. However, to diagnose CKD at this stage, the patient must have another persistent marker of kidney damage (such as moderately/severely increased albuminuria, abnormal imaging, or histologic abnormalities on biopsy) for at least 3 months [1, 3, 7, 8, 12].",
+      "tags": ["nephrology", "ckd", "staging", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Staging",
+      "question": "A 54-year-old female with long-standing hypertension has a stable eGFR of 38 mL/min/1.73 m² and a urine albumin-to-creatinine ratio (uACR) of 150 mg/g on serial morning samples. How should her CKD be staged using the KDIGO CGA classification?",
+      "options": [
+        "G3a, Category A1",
+        "G3b, Category A2",
+        "G4, Category A2",
+        "G3b, Category A3"
+      ],
+      "answerKey": "B",
+      "answerText": "G3b, Category A2",
+      "explanation": "Under the KDIGO CGA staging system, an eGFR of 30–44 mL/min/1.73 m² is classified as GFR category G3b (moderately to severely decreased) [1, 7, 13]. A uACR of 30–300 mg/g is classified as albuminuria category A2 (moderately increased) [8, 14, 15].",
+      "tags": ["nephrology", "ckd", "cga_classification", "staging"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Risk Prediction",
+      "question": "For patients with CKD stages G3 to G5, the Kidney Failure Risk Equation (KFRE) is recommended to estimate the 2-year and 5-year risk of progression to kidney failure. Which four variables are utilized in the commonly used four-variable KFRE?",
+      "options": [
+        "Age, Sex, eGFR, and Urine Albumin-to-Creatinine Ratio (uACR)",
+        "Age, Hypertension status, Serum Creatinine, and 24-hour urine total protein",
+        "Diabetes duration, Systolic BP, eGFR, and serum Potassium",
+        "Age, Sex, serum Urea, and history of cardiovascular disease"
+      ],
+      "answerKey": "A",
+      "answerText": "Age, Sex, eGFR, and Urine Albumin-to-Creatinine Ratio (uACR)",
+      "explanation": "The four-variable Kidney Failure Risk Equation (KFRE) is an externally validated tool used in CKD stages G3-G5 to estimate progression risk [16, 17]. It utilizes four simple clinical variables: age, sex, GFR (eGFR), and albuminuria (urine ACR) [16].",
+      "tags": ["nephrology", "ckd", "risk_prediction", "kfre"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Pathophysiology",
+      "question": "Which of the following describes the pathophysiology of secondary progression and nephron loss in chronic kidney disease following a reduction in functioning nephron mass?",
+      "options": [
+        "Severe hyperkalemia causing direct toxic injury to the proximal tubular epithelial cells",
+        "Adaptive hyperfiltration and intra-glomerular hypertension in surviving nephrons, leading to hemodynamic barrier injury, proteinuria, and focal segmental glomerulosclerosis (FSGS)",
+        "Uremic toxin accumulation directly blocking the alternative complement pathway within Bowman's space",
+        "Primary autoimmune production of anti-podocyte antibodies driven by chronic metabolic acidosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Adaptive hyperfiltration and intra-glomerular hypertension in surviving nephrons, leading to hemodynamic barrier injury, proteinuria, and focal segmental glomerulosclerosis (FSGS)",
+      "explanation": "When nephron mass is reduced, the remaining surviving nephrons undergo adaptive hyperfiltration and increased single-nephron GFR to compensate [18-20]. This hemodynamic adaptation causes intra-glomerular hypertension, leading to podocyte barrier injury, persistent proteinuria, and progressive sclerosis (secondary or adaptive FSGS), which eventually drives chronic, irreversible GFR loss [18-22].",
+      "tags": ["nephrology", "ckd", "pathophysiology", "hyperfiltration", "fsgs"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Anemia",
+      "question": "Anemia is a common metabolic complication of progressive CKD. Which of the following correctly describes the classic morphological type of anemia in these patients and its primary etiology?",
+      "options": [
+        "Microcytic, hypochromic anemia; caused by direct renal folate wasting",
+        "Macrocytic, megaloblastic anemia; caused by impaired intestinal absorption of Vitamin B12",
+        "Normochromic, normocytic anemia; caused by decreased production of erythropoietin (EPO) by the kidneys",
+        "Hemolytic anemia; caused by autoimmune destruction of red blood cells in the splenic vasculature"
+      ],
+      "answerKey": "C",
+      "answerText": "Normochromic, normocytic anemia; caused by decreased production of erythropoietin (EPO) by the kidneys",
+      "explanation": "Anemia associated with Chronic Kidney Disease is classically normochromic and normocytic [23, 24]. It primarily results from progressive functional impairment of the kidney, leading to a deficiency in the endocrine production of erythropoietin (EPO), which is required to stimulate bone marrow erythropoiesis [5, 22, 24].",
+      "tags": ["nephrology", "ckd", "anemia", "complications"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Bone & Mineral",
+      "question": "Chronic Kidney Disease-Mineral and Bone Disorder (CKD-MBD) is driven by complex endocrine and metabolic disturbances. Which of the following biochemical profiles is classically expected as CKD-MBD develops?",
+      "options": [
+        "Hypercalcemia, hypophosphatemia, and normal parathyroid hormone (PTH) levels",
+        "Hypocalcemia, hyperphosphatemia, decreased active Vitamin D (1,25-dihydroxyvitamin D), and elevated PTH levels",
+        "Hypocalcemia, hypophosphatemia, elevated active Vitamin D, and low PTH levels",
+        "Normal serum calcium, low serum phosphorus, and low alkaline phosphatase"
+      ],
+      "answerKey": "B",
+      "answerText": "Hypocalcemia, hyperphosphatemia, decreased active Vitamin D (1,25-dihydroxyvitamin D), and elevated PTH levels",
+      "explanation": "As GFR declines, phosphate excretion drops, causing hyperphosphatemia [23, 25]. In addition, the kidney's ability to produce active Vitamin D (1,25-dihydroxyvitamin D) is impaired [5, 22]. The combination of low active Vitamin D (causing reduced intestinal calcium absorption), hyperphosphatemia, and hypoalbuminemia results in hypocalcemia [23-25]. These changes stimulate parathyroid gland hyperplasia, presenting as elevated PTH levels (secondary hyperparathyroidism) [26-29].",
+      "tags": ["nephrology", "ckd", "ckd_mbd", "complications", "bone_mineral"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Electrolytes",
+      "question": "While potassium balance is typically maintained until advanced stages of kidney failure, hyperkalemia can occur earlier in the presence of specific risk factors. Which of the following clinical factors is associated with an increased risk of early hyperkalemia in CKD?",
+      "options": [
+        "Persistent high-volume diarrhea and severe metabolic alkalosis",
+        "Diabetes mellitus, systemic acidosis, low distal sodium delivery, or therapy with RAS-blocking drugs",
+        "Aggressive diuretic therapy with high-dose loop diuretics like furosemide",
+        "High dietary sodium intake and chronic volume depletion"
+      ],
+      "answerKey": "B",
+      "answerText": "Diabetes mellitus, systemic acidosis, low distal sodium delivery, or therapy with RAS-blocking drugs",
+      "explanation": "In CKD, hyperkalemia can occur earlier than G5 under certain conditions [3, 30]: diabetes mellitus (associated with hyporeninemic hypoaldosteronism or Type 4 RTA) [30, 31], metabolic acidosis (which shifts potassium out of cells) [30], low distal tubular sodium delivery, and the use of medications that block the RAAS (like ACE inhibitors, ARBs, or mineralocorticoid receptor antagonists) [3, 30, 31].",
+      "tags": ["nephrology", "ckd", "hyperkalemia", "electrolytes"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::CKD::Acid-Base",
+      "question": "A patient with suspected renal base-handling dysfunction is evaluated for a normal-anion-gap (hyperchloremic) metabolic acidosis. If the acidosis is renal in origin (such as renal tubular acidosis or early renal failure), how is the Urine Anion Gap (UAG) affected, and why?",
+      "options": [
+        "The UAG becomes negative because the kidney is able to massively increase ammonium excretion.",
+        "The UAG remains positive (+) because the kidney is unable to appropriately increase ammonium (NH4+) excretion.",
+        "The UAG decreases below -50 mEq/L due to passive chloride trapping in the proximal tubule.",
+        "The UAG has no diagnostic value in metabolic acidosis and should be replaced by arterial blood gas values alone."
+      ],
+      "answerKey": "B",
+      "answerText": "The UAG remains positive (+) because the kidney is unable to appropriately increase ammonium (NH4+) excretion.",
+      "explanation": "The urine anion gap (UAG = Na+ + K+ - Cl-) is used as a surrogate marker of urinary ammonium (NH4+) excretion [32, 33]. In extrarenal acidosis (e.g., diarrhea), the healthy kidney responds by increasing NH4+ and Cl- excretion, making the UAG negative [32, 33]. However, if the acidosis is renal in origin (RTA or early renal failure), the kidney is unable to increase NH4+ excretion, so the UAG will not change and remains positive (+) [33].",
+      "tags": ["nephrology", "acid_base", "uag", "rta"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::DKD::Clinical Evaluation",
+      "question": "Regarding the screening guidelines and trajectory of Diabetic Kidney Disease (DKD) as outlined in the sources, which of the following is correct?",
+      "options": [
+        "Screening in patients with Type 1 diabetes should commence at the time of initial diagnosis and be repeated monthly.",
+        "Screening in patients with Type 2 diabetes should commence at the time of diagnosis and be repeated at least annually using a spot urine ACR and eGFR.",
+        "The absence of albuminuria (A1 category) completely excludes the presence of diabetic chronic kidney disease.",
+        "All patients with diabetes are guaranteed to progress linearly from Mogensen stage 1 to stage 5 within 10 years of onset."
+      ],
+      "answerKey": "B",
+      "answerText": "Screening in patients with Type 2 diabetes should commence at the time of diagnosis and be repeated at least annually using a spot urine ACR and eGFR.",
+      "explanation": "Because the onset of Type 2 diabetes is often insidious and can be occult for years, screening for CKD should commence at the time of diagnosis and be repeated at least annually [34, 35]. For Type 1 diabetes, screening starts 5 years after diagnosis [34, 35]. Notably, the absence of albuminuria does not exclude diabetic CKD (nonalbuminuric DKD is common) [2, 36], and Mogensen stages are legacy/non-linear natural history frameworks [15, 36, 37].",
+      "tags": ["nephrology", "dkd", "screening", "diabetes"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Clinical Presentation",
+      "question": "A 48-year-old patient develops acute kidney injury 2 weeks after starting a proton-pump inhibitor. The clinician suspects acute interstitial nephritis (AIN). Which of the following statements is correct regarding the classic hypersensitivity triad (fever, rash, and eosinophilia) in drug-induced AIN?",
+      "options": [
+        "The classic triad is present in approximately 70% of biopsy-proven drug-induced AIN cases and is required to establish a clinical diagnosis.",
+        "The full triad is uncommon, occurring in only a small minority of patients, and its absence should not exclude the diagnosis of AIN.",
+        "The triad is only seen in antibiotic-induced AIN and never occurs with PPIs or NSAIDs.",
+        "If eosinophilia is absent from the CBC, the diagnosis of AIN is completely ruled out."
+      ],
+      "answerKey": "B",
+      "answerText": "The full triad is uncommon, occurring in only a small minority of patients, and its absence should not exclude the diagnosis of AIN.",
+      "explanation": "According to the sources, the full fever-rash-eosinophilia triad is actually uncommon and occurs in only a small minority of patients with AIN [1, 2]. Most patients present with nonspecific AKI, and a normal eosinophil count does not exclude AIN [1, 2]. Expecting the classic triad to be present before diagnosing AIN is a common clinical misconception [1, 2].",
+      "tags": ["nephrology", "ain", "clinical_presentation", "diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Diagnostics",
+      "question": "A clinician is considering ordering urine eosinophils for a patient with unexplained acute kidney injury to confirm a suspected diagnosis of acute allergic interstitial nephritis. Based on contemporary clinical evidence in the sources, what is the diagnostic value of urine eosinophils in AIN?",
+      "options": [
+        "It is highly sensitive and specific (95%), serving as a reliable non-invasive diagnostic test.",
+        "It has poor sensitivity and specificity and cannot reliably distinguish AIN from acute tubular injury (ATN), infection, or other inflammatory disorders.",
+        "A positive test is diagnostic of AIN, whereas a negative test is diagnostic of post-renal obstruction.",
+        "It has been replaced by serum IgE levels as the absolute first-line diagnostic test for AIN."
+      ],
+      "answerKey": "B",
+      "answerText": "It has poor sensitivity and specificity and cannot reliably distinguish AIN from acute tubular injury (ATN), infection, or other inflammatory disorders.",
+      "explanation": "The sources emphasize that urine eosinophils have low sensitivity and specificity and do not reliably confirm or exclude AIN [3]. They cannot reliably distinguish AIN from ATN, infection, or other inflammatory renal conditions [1]. A kidney biopsy remains the reference standard when the diagnosis is uncertain [3, 4].",
+      "tags": ["nephrology", "ain", "diagnostics", "urine_eosinophils"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Etiology",
+      "question": "Medications represent the most common cause of acute interstitial nephritis. Which of the following groups of drugs contains an increasingly important oncology-related cause of AIN, alongside other common triggers like beta-lactams and PPIs?",
+      "options": [
+        "Loop diuretics, systemic corticosteroids, and calcineurin inhibitors",
+        "Beta-lactam antibiotics, proton-pump inhibitors (PPIs), NSAIDs, and immune checkpoint inhibitors",
+        "Loop diuretics, H2-receptor antagonists, and thiazides",
+        "Sulfonamides, aminoglycosides, and systemic azoles"
+      ],
+      "answerKey": "B",
+      "answerText": "Beta-lactam antibiotics, proton-pump inhibitors (PPIs), NSAIDs, and immune checkpoint inhibitors",
+      "explanation": "The sources state that beta-lactams, sulfonamides, proton-pump inhibitors, antibiotics, NSAIDs, and diuretics are common drug causes [5]. Crucially, immune checkpoint inhibitors are highlighted as an increasingly important cause of drug-induced AIN [5, 6].",
+      "tags": ["nephrology", "ain", "etiology", "pharmacology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Diagnostics",
+      "question": "Which of the following urine microscopy findings is classically expected in a patient with uncomplicated acute interstitial nephritis (AIN) rather than glomerulonephritis or acute tubular injury (ATN)?",
+      "options": [
+        "Abundant muddy-brown granular casts and renal tubular epithelial cells",
+        "Sterile pyuria, white blood cell (WBC) casts, and microscopic hematuria with usually subnephrotic proteinuria",
+        "Red blood cell (RBC) casts, dysmorphic erythrocytes, and massive nephrotic-range proteinuria",
+        "Oval fat bodies, fatty casts, and lipiduria with no cellular elements"
+      ],
+      "answerKey": "B",
+      "answerText": "Sterile pyuria, white blood cell (WBC) casts, and microscopic hematuria with usually subnephrotic proteinuria",
+      "explanation": "The typical urine findings in AIN are sterile pyuria, white blood cell (WBC) casts, microscopic hematuria, and usually low-grade/subnephrotic proteinuria [1, 5, 7]. Muddy-brown granular casts suggest ATN [8, 9], while RBC casts suggest glomerulonephritis [8, 9].",
+      "tags": ["nephrology", "ain", "urinalysis", "microscopy"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Etiology",
+      "question": "A patient develops severe nephrotic-range proteinuria (>3.5 g/day) and acute kidney injury shortly after starting a medication. Kidney biopsy reveals features of both Minimal Change Disease (MCD) and Acute Interstitial Nephritis (AIN). Which of the following medication classes is classically associated with this dual presentation?",
+      "options": [
+        "Proton-pump inhibitors (PPIs)",
+        "Non-steroidal anti-inflammatory drugs (NSAIDs)",
+        "Beta-lactam antibiotics",
+        "Loop diuretics"
+      ],
+      "answerKey": "B",
+      "answerText": "Non-steroidal anti-inflammatory drugs (NSAIDs)",
+      "explanation": "The sources specify under the drugs section that NSAID-induced renal injury classically presents with Minimal Change Disease coexisting with Acute Interstitial Nephritis (MCD +/- AIN), which manifests as heavy nephrotic-range proteinuria alongside AKI [1, 6]. Other drug-induced AIN cases typically feature subnephrotic proteinuria [7].",
+      "tags": ["nephrology", "ain", "nsaids", "nephrotic_syndrome"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Pathology",
+      "question": "A kidney biopsy is performed to confirm AIN in a patient whose kidney function has not recovered despite stopping the offending agent. What are the fundamental histopathological findings characteristic of AIN on biopsy, and what finding predicts incomplete recovery?",
+      "options": [
+        "Mesangial hypercellularity with subendothelial IgG deposits; presence of crescents predicts failure to recover.",
+        "Tubulitis, interstitial edema, and inflammatory cell infiltration; interstitial fibrosis predicts incomplete recovery.",
+        "Widespread, severe coagulative tubular cell necrosis; presence of hyaline casts predicts incomplete recovery.",
+        "Splitting of the glomerular basement membrane with a basket-weave pattern; podocyte effacement predicts failure to recover."
+      ],
+      "answerKey": "B",
+      "answerText": "Tubulitis, interstitial edema, and inflammatory cell infiltration; interstitial fibrosis predicts incomplete recovery.",
+      "explanation": "The fundamental histopathological findings in AIN are interstitial inflammation, tubulitis, and interstitial edema [2, 4]. While eosinophils may be present, they are not required [2]. Crucially, the presence of interstitial fibrosis predicts incomplete renal recovery [2].",
+      "tags": ["nephrology", "ain", "pathology", "biopsy"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::AIN::Management",
+      "question": "When managing a patient with strongly suspected drug-induced AIN, what represents the first and most critical management action, and how should systemic corticosteroid therapy be applied?",
+      "options": [
+        "Initiate immediate high-dose intravenous pulse methylprednisolone, then discontinue the drug if the biopsy confirms AIN.",
+        "Stop the suspected offending drug immediately; corticosteroid therapy is not automatic and should be selectively individualized for persistent dysfunction after drug withdrawal.",
+        "Keep the patient on the medication and administer prednisolone 50 mg/day for 2-4 weeks as a standard blanket rule for all patients.",
+        "Perform an immediate bilateral nephrectomy to prevent progressive systemic hypersensitivity."
+      ],
+      "answerKey": "B",
+      "answerText": "Stop the suspected offending drug immediately; corticosteroid therapy is not automatic and should be selectively individualized for persistent dysfunction after drug withdrawal.",
+      "explanation": "The most important first step in drug-induced AIN is the immediate withdrawal of the offending drug [3, 4]. The use of corticosteroids remains selective and is not automatic [3]. The old standard of administering prednisolone 50 mg daily as a blanket rule is unsafe; instead, steroid decisions must be carefully individualized, taking into account biopsy findings, the duration of AKI, fibrosis, and individual patient risk factors (like infection, diabetes, and frailty) [2, 10, 11].",
+      "tags": ["nephrology", "ain", "management", "steroids"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic TIN::Clinical Presentation",
+      "question": "Chronic tubulointerstitial nephritis (Chronic TIN) develops slowly over months to years. Before advanced kidney failure and declining GFR develop, how does chronic TIN classically present clinically?",
+      "options": [
+        "With sudden-onset anasarca, gross hematuria, and severe hypertension",
+        "With polyuria, nocturia, low-grade tubular proteinuria, and electrolyte or acid-base defects",
+        "With severe oliguria, high-grade fever, and a widespread maculopapular rash",
+        "With massive hematuria and passing of branched coral-like staghorn calculi"
+      ],
+      "answerKey": "B",
+      "answerText": "With polyuria, nocturia, low-grade tubular proteinuria, and electrolyte or acid-base defects",
+      "explanation": "The sources state that chronic TIN often presents insidiously with polyuria, nocturia (due to impaired urinary concentrating ability of the damaged medulla/tubules), low-grade tubular proteinuria, and specific tubular electrolyte or acid-base defects (such as renal tubular acidosis) before advanced CKD develops [3].",
+      "tags": ["nephrology", "chronic_tin", "presentation", "LUTS"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic TIN::Etiology",
+      "question": "Chronic tubulointerstitial nephritis can be caused by exposure to various exogenous agents. Which of the following groups contains three drugs/toxins recognized in the sources as classic causes of chronic TIN?",
+      "options": [
+        "Penicillin, proton-pump inhibitors, and immune checkpoint inhibitors",
+        "Lithium, calcineurin inhibitors (CNIs), and chronic analgesic exposure",
+        "Loop diuretics, systemic corticosteroids, and high-dose vitamin D",
+        "Recombinant erythropoietin, oral bicarbonate, and oral sodium polystyrene sulfonate"
+      ],
+      "answerKey": "B",
+      "answerText": "Lithium, calcineurin inhibitors (CNIs), and chronic analgesic exposure",
+      "explanation": "Lithium, calcineurin inhibitors, chronic analgesic exposure (which can lead to analgesic nephropathy/papillary necrosis), lead, cadmium, and aristolochic acid are classic drugs/toxins that cause chronic tubulointerstitial nephritis [11]. In contrast, penicillins, PPIs, and checkpoint inhibitors are classic causes of acute interstitial nephritis (AIN) [5].",
+      "tags": ["nephrology", "chronic_tin", "etiology", "pharmacology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Chronic Pyelonephritis::Terminology",
+      "question": "According to the modern renal terminology corrections in the sources, what is chronic pyelonephritis, and how does it relate to chronic tubulointerstitial nephritis?",
+      "options": [
+        "Chronic pyelonephritis is a continuous bacterial infection of the kidney, whereas chronic TIN is a genetic glomerular disorder.",
+        "Chronic pyelonephritis is a legacy clinicopathologic term for asymmetric renal scarring and calyceal deformity associated with reflux or obstruction, representing a specific subtype of the broader pathologic category of chronic tubulointerstitial nephritis.",
+        "They are completely synonymous terms that both prove active, ongoing bacterial infection of the renal parenchyma.",
+        "Chronic pyelonephritis represents symmetric small kidneys with diffuse vascular changes, whereas chronic TIN always presents with normal-sized kidneys."
+      ],
+      "answerKey": "B",
+      "answerText": "Chronic pyelonephritis is a legacy clinicopathologic term for asymmetric renal scarring and calyceal deformity associated with reflux or obstruction, representing a specific subtype of the broader pathologic category of chronic tubulointerstitial nephritis.",
+      "explanation": "The sources correct the legacy understanding: chronic pyelonephritis is primarily a pattern of chronic tubulointerstitial scarring associated with reflux, obstruction, or stones, rather than continuous active bacterial infection [12, 13]. Modern terminology prefers terms like reflux nephropathy or obstructive nephropathy, which fall under the broader pathologic umbrella of chronic tubulointerstitial nephritis [12, 14, 15]. A scarred kidney is not necessarily continuously infected [13].",
+      "tags": ["nephrology", "chronic_pyelonephritis", "terminology", "chronic_tin"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Pathophysiology",
+      "question": "Which of the following correctly pairs the specific type of Renal Tubular Acidosis (RTA) with its primary underlying transport defect?",
+      "options": [
+        "Type 1 (distal) RTA: Reduced proximal bicarbonate reabsorption.",
+        "Type 2 (proximal) RTA: Failure of distal hydrogen secretion or maintenance of the urinary pH gradient.",
+        "Type 4 (hyperkalemic) RTA: Impaired proximal tubule reabsorption of calcium.",
+        "Type 1 (distal) RTA: Failure of distal hydrogen secretion or maintenance of the urinary pH gradient; Type 2 (proximal) RTA: Reduced proximal bicarbonate reabsorption."
+      ],
+      "answerKey": "D",
+      "answerText": "Type 1 (distal) RTA: Failure of distal hydrogen secretion or maintenance of the urinary pH gradient; Type 2 (proximal) RTA: Reduced proximal bicarbonate reabsorption.",
+      "explanation": "According to the sources, Type 1 distal RTA's primary defect is the failure of distal hydrogen secretion or maintenance of the urinary pH gradient. Type 2 proximal RTA is characterized by reduced proximal bicarbonate reabsorption, which can occur as an isolated defect or as part of Fanconi syndrome. Type 4 RTA is defined by a reduced aldosterone effect and impaired ammonium generation/excretion [1].",
+      "tags": ["internal_medicine", "nephrology", "rta", "pathophysiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Electrolytes",
+      "question": "A 45-year-old male is being evaluated for normal-anion-gap hyperchloremic metabolic acidosis. Which of the following serum potassium patterns classically distinguishes the different types of Renal Tubular Acidosis (RTA)?",
+      "options": [
+        "Potassium is elevated in Type 1 RTA, and decreased in Type 2 and Type 4 RTA.",
+        "Potassium is decreased or normal in Type 1 and Type 2 RTA, but elevated in Type 4 RTA.",
+        "Potassium is elevated in all three types of RTA.",
+        "Potassium is normal in Type 1 and Type 4 RTA, but severely elevated in Type 2 RTA."
+      ],
+      "answerKey": "B",
+      "answerText": "Potassium is decreased or normal in Type 1 and Type 2 RTA, but elevated in Type 4 RTA.",
+      "explanation": "The sources state that in both Type 1 (distal) and Type 2 (proximal) RTA, serum potassium is usually low (hypokalemia). In contrast, Type 4 RTA is characterized by hyperkalemia (high serum potassium) due to a reduced aldosterone effect [1, 2].",
+      "tags": ["internal_medicine", "nephrology", "rta", "electrolytes", "potassium"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Urine Acidification",
+      "question": "Which of the following statements is true regarding urine pH during systemic acidosis in patients with different types of Renal Tubular Acidosis (RTA)?",
+      "options": [
+        "All RTA types are defined by a urine pH that remains strictly above 5.3 during systemic acidosis.",
+        "Type 1 RTA exhibits inappropriately alkaline urine (pH > 5.5) during systemic acidosis; whereas in Type 2 RTA, urine pH can drop below 5.5 after plasma bicarbonate falls below its reduced threshold.",
+        "Type 4 RTA always presents with a urine pH above 7.0 due to urease-producing bacteria.",
+        "Urine pH is completely normal and can be used to rule out renal base loss without systemic acid-base correlation."
+      ],
+      "answerKey": "B",
+      "answerText": "Type 1 RTA exhibits inappropriately alkaline urine (pH > 5.5) during systemic acidosis; whereas in Type 2 RTA, urine pH can drop below 5.5 after plasma bicarbonate falls below its reduced threshold.",
+      "explanation": "According to the sources, in Type 1 (distal) RTA, the urine pH is inappropriately high (above about 5.5) during systemic acidosis due to failure of distal acidification. In Type 2 (proximal) RTA, although bicarbonate is lost initially, the urine can become appropriately acidic (pH < 5.5) once the serum bicarbonate level falls below the kidney's reduced proximal reabsorptive threshold [1, 3, 4].",
+      "tags": ["internal_medicine", "nephrology", "rta", "urine_ph"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Complications",
+      "question": "A clinician is evaluating a patient with recurrent calcium phosphate kidney stones and bilateral nephrocalcinosis. Which type of Renal Tubular Acidosis (RTA) is strongly associated with these complications, and why?",
+      "options": [
+        "Type 2 RTA; because of massive proximal phosphate and glucose dumping.",
+        "Type 4 RTA; because of severe hyperkalemia-induced calcium precipitation.",
+        "Type 1 RTA; because of alkaline urine, hypocitraturia, and hypercalciuria.",
+        "Type 3 RTA; because of carbonic anhydrase II hyperactivity in the glomerulus."
+      ],
+      "answerKey": "C",
+      "answerText": "Type 1 RTA; because of alkaline urine, hypocitraturia, and hypercalciuria.",
+      "explanation": "The sources note that nephrocalcinosis and kidney stones are common in distal (Type 1) RTA. This is driven by several synergistic factors: inappropriately alkaline urine (which favors calcium phosphate precipitation), marked hypocitraturia (systemic acidosis enhances proximal citrate reabsorption, depleting urinary citrate which normally inhibits crystallization), and hypercalciuria [2, 3, 5].",
+      "tags": ["internal_medicine", "nephrology", "rta", "nephrocalcinosis", "kidney_stones"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Complications",
+      "question": "Which of the following clinical settings or metabolic factors is NOT associated with the development of hypocitraturia?",
+      "options": [
+        "Chronic diarrhea",
+        "Distal renal tubular acidosis (Type 1)",
+        "Thiazide-induced hypokalemia",
+        "Type 2 proximal RTA coexisting with severe growth failure"
+      ],
+      "answerKey": "D",
+      "answerText": "Type 2 proximal RTA coexisting with severe growth failure",
+      "explanation": "Based on the urology slides and notes in the sources, the recognized causes of hypocitraturia are: chronic diarrhea, distal renal tubular acidosis, high salt and animal protein containing diet, hypokalemia, UTI, and thiazide-induced hypokalemia. Type 2 proximal RTA is listed as not typically associated with stones or nephrocalcinosis unless another disorder is present [3, 5].",
+      "tags": ["internal_medicine", "nephrology", "rta", "hypocitraturia"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Exams",
+      "question": "Hypophosphatemia, glycosuria, nephrocalcinosis, and phosphaturia may be associated with which of the following types of Renal Tubular Acidosis (RTA)?",
+      "options": [
+        "Type 1 RTA",
+        "Type 2 RTA",
+        "Type 4 RTA",
+        "Type 3 RTA"
+      ],
+      "answerKey": "B",
+      "answerText": "Type 2 RTA",
+      "explanation": "According to the past university exams, hypophosphatemia, glycosuria, and phosphaturia are classic proximal tubular transport defects associated with Fanconi syndrome, which presents clinically as Type 2 proximal RTA [6-8].",
+      "tags": ["internal_medicine", "nephrology", "rta", "pediatrics", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Etiology",
+      "question": "Which of the following clinical scenarios or drug exposures is classically associated with the development of Type 4 (hyperkalemic) Renal Tubular Acidosis?",
+      "options": [
+        "A patient with Sjögren's syndrome or taking amphotericin B",
+        "An adult with multiple myeloma, or a patient taking tenofovir or ifosfamide",
+        "A diabetic patient with chronic kidney disease, or a patient taking ACE inhibitors, ARBs, or mineralocorticoid receptor antagonists (MRAs)",
+        "An infant with inherited cystinosis or Dent disease"
+      ],
+      "answerKey": "C",
+      "answerText": "A diabetic patient with chronic kidney disease, or a patient taking ACE inhibitors, ARBs, or mineralocorticoid receptor antagonists (MRAs)",
+      "explanation": "The sources state that Type 4 RTA is commonly seen in diabetic CKD, hyporeninemic hypoaldosteronism, adrenal disease, and with medications that impair the renin-angiotensin-aldosterone system (RAAS), such as ACE inhibitors, ARBs, MRAs, NSAIDs, trimethoprim, heparin, and calcineurin inhibitors [9, 10].",
+      "tags": ["internal_medicine", "nephrology", "rta", "etiology", "type_4_rta"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Diagnostics",
+      "question": "When differentiating between renal base loss (RTA) and extrarenal base loss (such as chronic diarrhea) as the cause of normal-anion-gap metabolic acidosis, how is the Urine Anion Gap (UAG) classically utilized?",
+      "options": [
+        "In renal base loss (RTA), the kidney increases ammonium excretion, making the UAG highly negative.",
+        "If the acidosis is due to loss of base via the kidney due to renal disease (RTA), the kidney is unable to increase ammonium (NH4+) excretion, and the UAG remains positive (+) or fails to become appropriately negative.",
+        "Both extrarenal and renal base loss produce a highly negative UAG.",
+        "The UAG is only helpful in high-anion-gap lactic acidosis."
+      ],
+      "answerKey": "B",
+      "answerText": "If the acidosis is due to loss of base via the kidney due to renal disease (RTA), the kidney is unable to increase ammonium (NH4+) excretion, and the UAG remains positive (+) or fails to become appropriately negative.",
+      "explanation": "According to the sources, the Urine Anion Gap (UAG) is used to differentiate renal from extrarenal causes of hyperchloremic metabolic acidosis. In extrarenal base loss (e.g., diarrhea), healthy kidneys increase NH4+ excretion (paired with Cl-), resulting in a negative UAG. However, in RTA, the kidney cannot increase NH4+ excretion, so the UAG remains positive (+) [11].",
+      "tags": ["internal_medicine", "nephrology", "rta", "diagnostics", "uag"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Management",
+      "question": "Regarding the contemporary medical management of Renal Tubular Acidosis (RTA) types 1, 2, and 4, which of the following represents a correct clinical guideline highlight in the sources?",
+      "options": [
+        "Sustained metabolic control with alkali therapy in distal RTA can prevent or reverse growth failure, bone disease, and stone complications.",
+        "Fludrocortisone and potassium resins must be prescribed routinely for all patients with Type 4 RTA.",
+        "Potassium citrate should be administered reflexively as first-line therapy to all Type 4 RTA patients.",
+        "Ethacrynic acid is the first-line gold standard medication to correct urine pH in proximal RTA."
+      ],
+      "answerKey": "A",
+      "answerText": "Sustained metabolic control with alkali therapy in distal RTA can prevent or reverse growth failure, bone disease, and stone complications.",
+      "explanation": "According to the sources, distal RTA (type 1) treatment involves sustained metabolic control with alkali therapy (like potassium citrate), which can prevent or reverse growth failure, bone disease, and stone complications [12, 13]. For Type 4 RTA, fludrocortisone is NOT routine (as it can cause volume overload, edema, and hypertension) and potassium-containing alkalis should not be prescribed reflexively due to the risk of worsening hyperkalemia [13, 14]. Ethacrynic acid is not a standard treatment [14].",
+      "tags": ["internal_medicine", "nephrology", "rta", "management"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::RTA::Exams",
+      "question": "Which of the following statements is NOT true regarding Renal Tubular Acidosis (RTA) based on clinical and exam guidelines?",
+      "options": [
+        "Type IV RTA is common in diabetic patients.",
+        "Fanconi syndrome is usually presented by Type II proximal RTA.",
+        "Chronic pyelonephritis causes Type II renal tubular acidosis.",
+        "RTA is a recognized renal cause of hyperchloremic metabolic acidosis."
+      ],
+      "answerKey": "C",
+      "answerText": "Chronic pyelonephritis causes Type II renal tubular acidosis.",
+      "explanation": "This question directly tests a high-yield clinical point from the past examinations: the statement 'Chronic pyelonephritis causes Type II RTA' is false. Chronic pyelonephritis (and other chronic tubulointerstitial nephritis) classically causes distal acidification defects or hyperkalemic states (Type 1 or Type 4 RTA) rather than proximal Type 2 RTA [15].",
+      "tags": ["internal_medicine", "nephrology", "rta", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease",
+      "question": "According to the undergraduate examinations and clinical lecture summaries in the sources, what is considered the earliest clinical finding in the development of classic diabetic nephropathy?",
+      "options": [
+        "Rapidly decreasing glomerular filtration rate (GFR)",
+        "Systemic hypertension",
+        "Microalbuminuria (moderately increased albuminuria)",
+        "Gross hematuria with red blood cell casts",
+        "Proteinuria > 3.5 g/day"
+      ],
+      "answerKey": "C",
+      "answerText": "Microalbuminuria (moderately increased albuminuria)",
+      "explanation": "Past examinations explicitly state that the earliest clinical finding in diabetic nephropathy is microalbuminuria (A2 category: 30–300 mg/day or mg/g). Although glomerular hyperfiltration can occur even earlier in the disease course, microalbuminuria is the first clinically detected marker on routine screening. GFR decline and hypertension typically appear later as the disease progresses.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "early_signs", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Screening",
+      "question": "Which of the following screening schedules and test combinations is recommended by current clinical guidelines for early detection of Diabetic Kidney Disease (DKD)?",
+      "options": [
+        "Annual screening starting at the time of diagnosis in Type 2 Diabetes, and starting after 5 years of duration in Type 1 Diabetes, using spot urine UACR and serum creatinine-based eGFR.",
+        "Monthly screening starting at diagnosis in all diabetic patients using a standard 24-hour urine collection for total protein.",
+        "Annual screening starting after 10 years of duration in Type 2 Diabetes using a standard urine dipstick only.",
+        "Screening is only indicated if a patient presents with systemic hypertension or lower extremity edema."
+      ],
+      "answerKey": "A",
+      "answerText": "Annual screening starting at the time of diagnosis in Type 2 Diabetes, and starting after 5 years of duration in Type 1 Diabetes, using spot urine UACR and serum creatinine-based eGFR.",
+      "explanation": "Current guidelines dictate that screening for DKD should be performed annually using both spot urine albumin-to-creatinine ratio (UACR) and eGFR. In Type 2 Diabetes, screening must begin at the time of initial diagnosis because the onset of T2D is often insidious and can be occult for years. In Type 1 Diabetes, screening commences after 5 years of disease duration.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "screening", "guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Pathophysiology",
+      "question": "Which of the following hemodynamic shifts in the glomerular microcirculation directly drives the development of early glomerular hypertension and hyperfiltration in diabetic patients?",
+      "options": [
+        "Afferent vasoconstriction combined with efferent vasodilation",
+        "Afferent vasodilation combined with relative efferent vasoconstriction",
+        "Bilateral spasm of both the main renal arteries",
+        "Passive congestion due to retroperitoneal venous thrombosis"
+      ],
+      "answerKey": "B",
+      "answerText": "Afferent vasodilation combined with relative efferent vasoconstriction",
+      "explanation": "The early hemodynamic stress of DKD is driven by hyperglycemia and metabolic signaling that induce significant vasodilation of the afferent arteriole, paired with relative vasoconstriction of the efferent arteriole. This differential tone significantly increases intraglomerular capillary hydraulic pressure, leading to glomerular hypertension and hyperfiltration.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "pathophysiology", "hemodynamics"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Pathology",
+      "question": "Under light and electron microscopy, which histopathological feature is considered the classic diagnostic hallmark of advanced diabetic glomerulosclerosis (Kimmelstiel-Wilson lesions)?",
+      "options": [
+        "Granular immune-complex capillary loop deposition of IgA and C3",
+        "Nodular glomerulosclerosis (intercapillary mesangial matrix expansion)",
+        "Diffuse crescentic proliferation in over 50% of the glomerular Bowman's spaces",
+        "Diffuse and uniform thinning of the glomerular basement membrane with a basket-weave pattern"
+      ],
+      "answerKey": "B",
+      "answerText": "Nodular glomerulosclerosis (intercapillary mesangial matrix expansion)",
+      "explanation": "Advanced diabetic glomerulosclerosis is pathologically characterized by nodular glomerulosclerosis, also classically known as Kimmelstiel-Wilson lesions. These lesions represent prominent, acellular, eosinophilic PAS-positive nodules of expanded mesangial matrix within the glomerular tuft. Arteriolar hyalinosis affecting both afferent and efferent arterioles is another highly suggestive feature.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "pathology", "kimmelstiel_wilson"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Management",
+      "question": "A 56-year-old patient with Type 2 Diabetes and CKD G3a A2 is being evaluated. According to contemporary practice updates, which of the following represents a key therapeutic role of SGLT2 inhibitors (such as empagliflozin)?",
+      "options": [
+        "They should only be prescribed as a fourth-line glucose-lowering therapy when metformin is contraindicated.",
+        "They provide significant kidney and heart-failure protection through mechanisms that are largely independent of their glucose-lowering effect.",
+        "They act as direct renin inhibitors to completely block systemic aldosterone release.",
+        "They must be avoided if the baseline GFR is normal or elevated."
+      ],
+      "answerKey": "B",
+      "answerText": "They provide significant kidney and heart-failure protection through mechanisms that are largely independent of their glucose-lowering effect.",
+      "explanation": "Sodium-glucose cotransporter 2 (SGLT2) inhibitors, such as empagliflozin, are a cornerstone of modern kidney-protective therapy. They provide robust kidney- and cardiovascular-protective benefits (reducing the risk of CKD progression and heart-failure hospitalization) that are distinct and independent from their glucose-lowering actions, primarily by restoring tubuloglomerular feedback and reducing intraglomerular pressure.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "sglt2_inhibitors", "empagliflozin"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Management",
+      "question": "Regarding the clinical use of renin-angiotensin-aldosterone system (RAAS) blocking drugs in diabetes, which clinical directive represents a Grade A, Level 1 guideline standard highlighted in the sources?",
+      "options": [
+        "ACE inhibitors or ARBs should be used for primary prevention in all diabetic patients, even if blood pressure, eGFR, and UACR are completely normal.",
+        "Standard therapeutic practice requires the routine combination of an ACE inhibitor and an ARB to maximize blockade of the pathway.",
+        "Combination of multiple agents that block the RAAS (e.g., combining an ACE inhibitor with an ARB or a direct renin inhibitor) should not be used in the management of diabetes and CKD.",
+        "RAAS blockers must be stopped immediately in every patient who experiences any increase in serum creatinine, regardless of magnitude."
+      ],
+      "answerKey": "C",
+      "answerText": "Combination of multiple agents that block the RAAS (e.g., combining an ACE inhibitor with an ARB or a direct renin inhibitor) should not be used in the management of diabetes and CKD.",
+      "explanation": "Clinical trial data and expert guidelines (such as KDIGO Grade A, Level 1 evidence) strongly warn against 'dual RAAS blockade' (combining an ACE inhibitor, ARB, or direct renin inhibitor like aliskiren). Dual blockade significantly increases the risk of severe hyperkalemia, acute kidney injury, and hypotension without providing additional long-term kidney or cardiovascular benefits. RAAS blockers are indicated specifically for patients with hypertension and albuminuria, not for primary prevention in normotensive, normoalbuminuric patients.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "raas_blockers", "contraindications"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diabetic Kidney Disease::Diagnostics",
+      "question": "A 52-year-old diabetic male who has been well-controlled for 15 years presents with the sudden, abrupt onset of severe nephrotic syndrome (proteinuria of 8 g/day and profound anasarca). Urinalysis is notable for microscopic hematuria and multiple dysmorphic red blood cells. How should the clinical team approach this presentation?",
+      "options": [
+        "Prescribe an SGLT2 inhibitor and reassure the patient that this is the typical course of advanced diabetic nephropathy.",
+        "Suspect a non-diabetic kidney disease (NDKD) and consider a diagnostic kidney biopsy, as the clinical course and sediment findings are atypical for classic diabetic kidney disease.",
+        "Initiate immediate high-dose intravenous pulse cyclophosphamide without any tissue diagnosis.",
+        "Assume the patient has a structural urinary tract obstruction and perform emergency retrograde pyelography."
+      ],
+      "answerKey": "B",
+      "answerText": "Suspect a non-diabetic kidney disease (NDKD) and consider a diagnostic kidney biopsy, as the clinical course and sediment findings are atypical for classic diabetic kidney disease.",
+      "explanation": "Classic Diabetic Kidney Disease is a slowly progressive condition characterized by a gradual, predictable increase in albuminuria with a bland urine sediment and no active systemic inflammatory features. Red flags that strongly suggest a non-diabetic kidney disease (such as membranous nephropathy, primary FSGS, or glomerulonephritis) include the abrupt onset of nephrotic syndrome, rapidly declining eGFR, or an active urine sediment (dysmorphic RBCs, RBC casts, or significant hematuria). These atypical features should trigger an evaluation for alternative etiologies and a possible diagnostic kidney biopsy.",
+      "tags": ["internal_medicine", "nephrology", "dkd", "non_diabetic_renal", "biopsy"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hypertensive Nephrosclerosis",
+      "question": "Hypertensive nephrosclerosis is a major cause of progressive chronic kidney disease. Which of the following clinical profiles best supports a plausible clinical diagnosis of hypertensive kidney disease rather than an alternative primary glomerulopathy?",
+      "options": [
+        "A 32-year-old with sudden-onset acute renal failure, normal blood pressure, and a highly active urine sediment with red blood cell casts.",
+        "A patient with a long-standing history of poorly controlled hypertension, other hypertensive target-organ damage (such as left-ventricular hypertrophy), slowly progressive GFR decline, modest subnephrotic albuminuria, and a bland urine sediment.",
+        "A patient presenting with rapid-onset anasarca, normal renal size, and positive anti-PLA2R antibodies.",
+        "A patient with marked kidney asymmetry (right kidney 7.5 cm, left kidney 11 cm) on abdominal ultrasound."
+      ],
+      "answerKey": "B",
+      "answerText": "A patient with a long-standing history of poorly controlled hypertension, other hypertensive target-organ damage (such as left-ventricular hypertrophy), slowly progressive GFR decline, modest subnephrotic albuminuria, and a bland urine sediment.",
+      "explanation": "Hypertensive kidney disease is largely a clinical diagnosis of exclusion. It is plausible in patients with a long-standing history of hypertension, clinical evidence of other hypertensive target-organ damage (such as LVH or hypertensive retinopathy), a slow, gradual decline in GFR, modest subnephrotic-range albuminuria, and a bland urine sediment (no cellular casts or dysmorphic hematuria). Active sediment, rapid decline, marked renal asymmetry (suggesting renal artery stenosis), or nephrotic-range proteinuria point toward alternative or complicating diagnoses.",
+      "tags": ["internal_medicine", "nephrology", "hypertensive_nephrosclerosis", "differential_diagnosis"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Hypertensive Nephrosclerosis::Management",
+      "question": "For a non-diabetic adult with Chronic Kidney Disease (CKD) and documented moderately increased albuminuria (A2), what is the standardized blood pressure target recommended by the KDIGO clinical guidelines, when measured in a standardized manner and tolerated?",
+      "options": [
+        "Systolic Blood Pressure < 140 mmHg",
+        "Systolic Blood Pressure < 120 mmHg",
+        "Diastolic Blood Pressure < 90 mmHg",
+        "Systolic Blood Pressure < 150 mmHg to ensure adequate renal perfusion"
+      ],
+      "answerKey": "B",
+      "answerText": "Systolic Blood Pressure < 120 mmHg",
+      "explanation": "The KDIGO clinical practice guidelines for blood pressure in CKD suggest a standardized systolic blood pressure target of <120 mmHg in many adults with non-dialysis CKD (when tolerated and measured in a standardized clinic setting). This target is aimed at optimizing cardiovascular and renal-protective benefits, though it must be individualized for patients with significant frailty, orthostatic hypotension, or severe comorbidities.",
+      "tags": ["internal_medicine", "nephrology", "hypertensive_nephrosclerosis", "blood_pressure", "kdigo_guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Glomerular Disease",
+      "question": "Which of the following clinical distinctions is correct regarding the relationship between heavy proteinuria and the clinical diagnosis of Nephrotic Syndrome?",
+      "options": [
+        "Heavy proteinuria is always synonymous with nephrotic syndrome, regardless of systemic consequences.",
+        "Nephrotic syndrome is a clinicobiochemical syndrome that requires both heavy proteinuria and the systemic consequences of substantial albumin loss, specifically hypoalbuminemia (<2.5 g/dL) and edema.",
+        "Nephrotic syndrome in adults is defined solely by a GFR less than 15 mL/min/1.73 m².",
+        "The presence of microscopic hematuria completely rules out the possibility of a concurrent nephrotic syndrome."
+      ],
+      "answerKey": "B",
+      "answerText": "Nephrotic syndrome is a clinicobiochemical syndrome that requires both heavy proteinuria and the systemic consequences of substantial albumin loss, specifically hypoalbuminemia (<2.5 g/dL) and edema.",
+      "explanation": "The sources emphasize a high-yield clinical distinction: heavy proteinuria (nephrotic-range, >3.5 g/day in adults) is NOT synonymous with full nephrotic syndrome. The diagnostic definition of nephrotic syndrome is clinical and biochemical, requiring both heavy proteinuria and the systemic consequences of significant albumin loss, notably hypoalbuminemia (typically serum albumin < 2.5 g/dL) and clinical edema.",
+      "tags": ["internal_medicine", "nephrology", "nephrotic_syndrome", "definition"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Plasma Cell Dyscrasias",
+      "question": "According to the nephrology review files and board exam questions, what is the most common renal disease associated with multiple myeloma?",
+      "options": [
+        "Acute tubular necrosis (ATN) secondary to volume depletion",
+        "Acute kidney injury secondary to severe hypercalcemia",
+        "Adult-onset Fanconi syndrome",
+        "Myeloma cast nephropathy"
+      ],
+      "answerKey": "D",
+      "answerText": "Myeloma cast nephropathy",
+      "explanation": "The sources explicitly highlight that the most common renal disease associated with multiple myeloma (myeloma kidney) is myeloma cast nephropathy [1]. While other renal manifestations like ATN, hypercalcemic renal failure, or Fanconi syndrome can occur, cast nephropathy is the most frequent pathological finding [1].",
+      "tags": ["nephrology", "multiple_myeloma", "cast_nephropathy", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Monoclonal Gammopathies",
+      "question": "Routine urine dipstick testing can lead to a dangerous diagnostic delay in a patient with suspected multiple myeloma. Why is this the case, and what is the preferred diagnostic test to evaluate for monoclonal proteins?",
+      "options": [
+        "The dipstick is highly sensitive to Bence Jones proteins but misses albumin; serum free light chain (sFLC) ratio is the preferred initial test.",
+        "The dipstick is semiquantitative and most sensitive to albumin, meaning it can miss Bence Jones (monoclonal light chain) overflow proteinuria; urine/serum protein electrophoresis with immunofixation and serum free light chains are required.",
+        "The dipstick is destroyed by Bence Jones proteins, producing a false-positive glucose reading; renal biopsy is the only diagnostic test.",
+        "The dipstick only measures low-molecular-weight globulins; a 24-hour urine collection for calcium is the preferred test."
+      ],
+      "answerKey": "B",
+      "answerText": "The dipstick is semiquantitative and most sensitive to albumin, meaning it can miss Bence Jones (monoclonal light chain) overflow proteinuria; urine/serum protein electrophoresis with immunofixation and serum free light chains are required.",
+      "explanation": "According to the sources, standard urine dipsticks are semiquantitative and primarily detect albumin, which means they can completely miss or underestimate monoclonal free light chains (Bence Jones proteins) [2, 3]. To detect and characterize monoclonal proteins in suspected overflow proteinuria, myeloma, or monoclonal gammopathy of renal significance (MGRS), clinicians must perform urine electrophoresis/immunofixation and serum free light chain assays [3, 4].",
+      "tags": ["nephrology", "multiple_myeloma", "diagnostics", "electrophoresis", "bence_jones"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Amyloidosis::Diagnostics",
+      "question": "To establish a definitive diagnosis of renal amyloidosis, which histological staining method and polarized light microscopic finding represent the gold standard?",
+      "options": [
+        "Silver methenamine stain demonstrating subepithelial spikes",
+        "Congo red stain demonstrating apple-green birefringence under polarized light",
+        "Immunofluorescence microscopy showing strong linear IgG deposition along the GBM",
+        "Mass spectrometry of hair follicles showing non-fibrillar immunoglobulin heavy chains"
+      ],
+      "answerKey": "B",
+      "answerText": "Congo red stain demonstrating apple-green birefringence under polarized light",
+      "explanation": "The sources state that the first step in diagnosing amyloidosis is to demonstrate amyloid in tissue using Congo red staining, which characteristically reveals apple-green birefringence under polarized light [5, 6]. Following this, correct typing of the fibril protein (e.g., via mass spectrometry or immunohistochemistry) is essential because therapies differ completely by amyloid type [5, 7].",
+      "tags": ["nephrology", "amyloidosis", "pathology", "congo_red", "diagnostics"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Multiple Myeloma::Safety",
+      "question": "A patient with multiple myeloma is scheduled to undergo an intravenous pyelogram (IVP) or contrast-enhanced abdominal imaging. According to past exam questions and clinical safety pearls, what state must be strictly avoided before performing this study?",
+      "options": [
+        "Hyperhydration",
+        "Dehydration",
+        "Systemic metabolic alkalosis",
+        "Prophylactic oral sodium bicarbonate administration"
+      ],
+      "answerKey": "B",
+      "answerText": "Dehydration",
+      "explanation": "According to multiple past exam questions in the sources, dehydration must be strictly avoided before performing intravenous pyelography (IVP) or contrast studies in patients with multiple myeloma [8]. Dehydration promotes the precipitation of monoclonal light chains with Tamm-Horsfall mucoprotein in the renal tubules, which can precipitate acute obstructive cast nephropathy (acute kidney injury).",
+      "tags": ["nephrology", "multiple_myeloma", "safety", "contrast_media", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Amyloidosis::Pathophysiology",
+      "question": "How are primary AL amyloidosis and secondary AA amyloidosis differentiated in terms of precursor proteins, clinical settings, and corresponding treatment strategies?",
+      "options": [
+        "AL is driven by serum amyloid A and treated with colchicine; AA is driven by monoclonal immunoglobulin light chains and treated with rituximab.",
+        "AL is driven by monoclonal immunoglobulin light chains (from a plasma-cell or B-cell clone) and treated with clone-directed therapy; AA is driven by serum amyloid A (from chronic inflammatory/infectious disease) and treated by suppressing the underlying inflammatory source.",
+        "Both AL and AA amyloid are identical hereditary disorders treated strictly with immediate bilateral nephrectomies.",
+        "AL amyloidosis is an osteoarticular disorder seen in long-term low-flux dialysis; AA amyloidosis is caused by tenofovir exposure."
+      ],
+      "answerKey": "B",
+      "answerText": "AL is driven by monoclonal immunoglobulin light chains (from a plasma-cell or B-cell clone) and treated with clone-directed therapy; AA is driven by serum amyloid A (from chronic inflammatory/infectious disease) and treated by suppressing the underlying inflammatory source.",
+      "explanation": "The sources state that AL amyloidosis involves monoclonal immunoglobulin light chain deposition (usually lambda) arising from a plasma-cell or B-cell clone and requires urgent clone-directed hematological therapy [9, 10]. AA amyloidosis involves serum amyloid A driven by chronic inflammatory or infectious disease (such as Familial Mediterranean Fever) and requires sustained suppression of the inflammatory driver (e.g., using colchicine for FMF) [9, 11].",
+      "tags": ["nephrology", "amyloidosis", "al_amyloidosis", "aa_amyloidosis", "pathophysiology"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Diagnostics::Proteinuria",
+      "question": "A 62-year-old male with progressive CKD G3a has a highly elevated urine total protein-to-creatinine ratio (uPCR) of 4.5 g/g, but his spot urine albumin-to-creatinine ratio (uACR) is only 0.2 g/g. What is the clinical interpretation of this marked discrepancy?",
+      "options": [
+        "A severe collection or calculation error has occurred, and the tests should be repeated.",
+        "This pattern reflects orthostatic proteinuria, which is benign and requires no further workup.",
+        "This indicates a 'tubular' or 'overflow' proteinuria (such as monoclonal free light chains), where albumin represents only a small fraction of the total excreted protein, rather than a primary glomerular disease.",
+        "This represents classic diabetic kidney disease, where non-albumin proteins predominate in early stages."
+      ],
+      "answerKey": "C",
+      "answerText": "This indicates a 'tubular' or 'overflow' proteinuria (such as monoclonal free light chains), where albumin represents only a small fraction of the total excreted protein, rather than a primary glomerular disease.",
+      "explanation": "A high-yield diagnostic clue in the sources notes that when total urine protein is significantly elevated but albumin represents only a small fraction, clinicians should suspect impaired proximal reabsorption of low-molecular-weight proteins (tubular proteinuria) or overproduction/overflow of non-albumin proteins (such as monoclonal light chains) rather than a primary glomerular pathology [12]. This should prompt an urgent monoclonal protein workup, including serum and urine immunofixation [3, 4].",
+      "tags": ["nephrology", "proteinuria", "upcr", "uacr", "monoclonal_gammopathy"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Plasma Cell Dyscrasias",
+      "question": "Which of the following represents a classic, high-yield diagnostic matching of Bence Jones proteins based on past medical exams?",
+      "options": [
+        "Bence Jones proteins are typically found in Minimal Change Disease.",
+        "Bence Jones proteins are typically found in Alport Syndrome.",
+        "Bence Jones proteins are typically found in Myeloma Kidney (Multiple Myeloma).",
+        "Bence Jones proteins are typically found in Diabetic Nephropathy."
+      ],
+      "answerKey": "C",
+      "answerText": "Bence Jones proteins are typically found in Myeloma Kidney (Multiple Myeloma).",
+      "explanation": "Past examinations in the sources repeatedly ask about Bence Jones proteins, identifying them as typically found in patients with myeloma kidney (multiple myeloma) [13].",
+      "tags": ["nephrology", "multiple_myeloma", "bence_jones", "exams"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Monoclonal Deposition Disease",
+      "question": "A patient is diagnosed with Monoclonal Immunoglobulin Deposition Disease (MIDD) on kidney biopsy, presenting with distinctive nodular glomerular lesions (intercapillary mesangial matrix expansion). According to the sources, how does this disease classically differ from AL amyloidosis in terms of light chain deposition?",
+      "options": [
+        "MIDD is characterized by non-fibrillar deposition of immunoglobulin lambda light chains, whereas AL amyloidosis features fibrillar kappa light chains.",
+        "MIDD is characterized by non-fibrillar deposition of Ig kappa light chains in the glomeruli, whereas AL amyloidosis typically features fibrillar deposits composed of monoclonal lambda light chains.",
+        "MIDD occurs only in patients with active tuberculosis, whereas AL amyloidosis is strictly genetic.",
+        "Both present with identical fibrillar Congo red-positive deposits composed only of IgA heavy chains."
+      ],
+      "answerKey": "B",
+      "answerText": "MIDD is characterized by non-fibrillar deposition of Ig kappa light chains in the glomeruli, whereas AL amyloidosis typically features fibrillar deposits composed of monoclonal lambda light chains.",
+      "explanation": "The sources describe how plasma cell dyscrasias can cause distinct glomerular lesions: amyloidosis fibrils are usually composed of monoclonal lambda light chains [10]. In contrast, light-chain or monoclonal immunoglobulin deposition disease (MIDD) produces distinctive nodular glomerular lesions resulting from the deposition of nonfibrillar light chains and is usually characterized by the deposition of Ig kappa light chains in the glomeruli [10].",
+      "tags": ["nephrology", "midd", "al_amyloidosis", "pathology", "light_chains"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Amyloidosis::Management",
+      "question": "Regarding the clinical management of AL amyloidosis, which therapeutic highlight represents contemporary, evidence-based standard of care as corrected in the sources?",
+      "options": [
+        "AL amyloidosis is adequately and fully treated with steroids, melphalan, or thalidomide alone.",
+        "AL amyloidosis requires modern plasma-cell-directed hematologic therapy targeted at the clonal precursor, rather than relying on legacy steroid/melphalan monotherapy.",
+        "The primary therapy for AL amyloidosis is oral colchicine to block serum amyloid A synthesis.",
+        "Bilateral radical nephrectomies are recommended as standard first-line therapy to prevent systemic vascular deposition."
+      ],
+      "answerKey": "B",
+      "answerText": "AL amyloidosis requires modern plasma-cell-directed hematologic therapy targeted at the clonal precursor, rather than relying on legacy steroid/melphalan monotherapy.",
+      "explanation": "The sources explicitly correct several legacy statements: AL amyloidosis is not adequately treated with steroids, melphalan, or thalidomide alone [11, 14]. Instead, primary AL amyloidosis requires contemporary clone-directed hematological therapy targeted at the plasma-cell or B-cell precursor [9, 11, 14]. Colchicine is main treatment for FMF-associated AA amyloidosis, not AL amyloidosis [9, 14].",
+      "tags": ["nephrology", "amyloidosis", "management", "clone_directed", "guidelines"]
+    },
+    {
+      "lesson": "Internal Medicine::Nephrology::Glomerular Disease::Diagnostics",
+      "question": "A patient with systemic amyloidosis undergoes a kidney biopsy. What are the characteristic findings expected under light microscopy (LM) and electron microscopy (EM)?",
+      "options": [
+        "LM shows crescent formation in >50% of glomeruli; EM shows diffuse podocyte foot-process effacement without deposits.",
+        "LM shows mesangial and capillary wall thickening with amorphous, eosinophilic Congo red-positive material; EM shows characteristic non-branching fibrils randomly arranged in the mesangium and glomerular basement membrane.",
+        "LM shows 'tram-track' duplication of the basement membrane; EM shows subendothelial dense deposits.",
+        "LM shows Kimmelstiel-Wilson nodules; EM shows extreme thinning of the GBM with basket-weave lamination."
+      ],
+      "answerKey": "B",
+      "answerText": "LM shows mesangial and capillary wall thickening with amorphous, eosinophilic Congo red-positive material; EM shows characteristic non-branching fibrils randomly arranged in the mesangium and glomerular basement membrane.",
+      "explanation": "The sources state that renal amyloidosis is characterized under light microscopy by typical Congo red amyloid-positive fibrillary deposits within the mesangium and capillary walls (rarely in the subepithelial space) [15]. Under polarized light, these deposits display apple-green birefringence [5]. Electron microscopy classically reveals these diagnostic non-branching amyloid fibrils randomly arranged within the glomerular compartments [7, 15].",
+      "tags": ["nephrology", "amyloidosis", "pathology", "light_microscopy", "electron_microscopy"]
+    }
+  ]
+}
+
+    
