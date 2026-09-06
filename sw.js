@@ -1,4 +1,4 @@
-const CACHE_NAME = 'qna-hub-cache-v2';
+const CACHE_NAME = 'qna-hub-cache-v3';
 
 const PRECACHE_ASSETS = [
   './',
@@ -52,8 +52,10 @@ self.addEventListener('fetch', event => {
       fetch(event.request)
         .then(response => {
           if (response && response.status === 200) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+            try {
+              const clone = response.clone();
+              caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone)).catch(() => {});
+            } catch {}
           }
           return response;
         })
@@ -74,8 +76,10 @@ self.addEventListener('fetch', event => {
       fetch(event.request)
         .then(response => {
           if (response && response.status === 200) {
-            const clone = response.clone();
-            caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+            try {
+              const clone = response.clone();
+              caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone)).catch(() => {});
+            } catch {}
           }
           return response;
         })
@@ -85,24 +89,29 @@ self.addEventListener('fetch', event => {
           // Try matching filename alone in cache
           const fname = url.pathname.split('/').pop();
           if (fname) {
-            const keys = await (await caches.open(CACHE_NAME)).keys();
-            for (const req of keys) {
-              if (req.url.endsWith(fname)) {
-                return caches.match(req);
+            try {
+              const keys = await (await caches.open(CACHE_NAME)).keys();
+              for (const req of keys) {
+                if (req.url.endsWith(fname)) {
+                  return caches.match(req);
+                }
               }
-            }
+            } catch {}
           }
           return new Response('[]', { status: 404, headers: { 'Content-Type': 'application/json' } });
         })
     );
   } else {
-    // Static assets (JS, CSS, fonts, icons): Stale-While-Revalidate with opaque response support
+    // Static assets (JS, CSS, fonts, icons): Stale-While-Revalidate with safe synchronous clone
     event.respondWith(
       caches.match(event.request).then(cachedResponse => {
         const fetchPromise = fetch(event.request)
           .then(networkResponse => {
             if (networkResponse && (networkResponse.status === 200 || networkResponse.type === 'opaque')) {
-              caches.open(CACHE_NAME).then(cache => cache.put(event.request, networkResponse.clone()));
+              try {
+                const clone = networkResponse.clone();
+                caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone)).catch(() => {});
+              } catch {}
             }
             return networkResponse;
           })
