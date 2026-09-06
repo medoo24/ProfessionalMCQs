@@ -1,0 +1,1403 @@
+{
+"metadata": {
+"source": "Pasted text + supplied answer key",
+"total_questions": 93
+},
+"questions": [
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Pericardia! rub is best audible in all except:",
+"options": [
+"By pressing the chest piece of stethoscope.",
+"After holding the breath.",
+"On the left side of lower sternum.",
+"In lying down position",
+"None of above"
+],
+"answerKey": "D",
+"answerText": "In lying down position",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Slow rising pulse is a feature of:",
+"options": [
+"Endotoxin shock.",
+"AS.",
+"MS.",
+"Constrictive pericarditis",
+"Coarctation of aorta"
+],
+"answerKey": "B",
+"answerText": "AS.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Pulsus alternans is produced by:",
+"options": [
+"Pericardia! effusion.",
+"Left-sided heart failure.",
+"Chronic obstructive airway disease.",
+"Pulmonary thromboembolism",
+"Extrasystoles every other beat."
+],
+"answerKey": "B",
+"answerText": "Left-sided heart failure.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Central cyanosis is not found in:",
+"options": [
+"Acute pulmonary edema.",
+"Fallot' s tetralogy",
+"Left-to-right shunt.",
+"Transposition of great vessels.",
+"Patent ducts arteriosus"
+],
+"answerKey": "C",
+"answerText": "Left-to-right shunt.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not a cause of sinus bradycardia?",
+"options": [
+"Myxedema. ·",
+"Complete heart block.",
+"Hypothermia.",
+"Obstructive jaundice.",
+"Increased intracranial tension"
+],
+"answerKey": "B",
+"answerText": "Complete heart block.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Regarding neck venous pulsation which is false:",
+"options": [
+"Undulating.",
+"Better felt than seen.",
+"Becomes prominent on lying down.",
+"There are two negative waves.",
+"Emptying during systole"
+],
+"answerKey": "B",
+"answerText": "Better felt than seen.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Water-hammer pulse is present when pulse pressure is at least above:",
+"options": [
+"30 mm Hg.",
+"80 mm Hg.",
+"40 mm Hg.",
+"60 mm Hg",
+"lO mmHg"
+],
+"answerKey": "D",
+"answerText": "60 mm Hg",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Left parasternal heave is diagnostic of:",
+"options": [
+"Left ventricular hypertrophy.",
+"Right atrial hypertrophy.",
+"Right ventricular hypertrophy.",
+"Hypertrophic cardiomyopathy.",
+"Tricuspid stenosis"
+],
+"answerKey": "C",
+"answerText": "Right ventricular hypertrophy.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Pulsus bisferiens is found in:",
+"options": [
+"Combined AS and AI.",
+"Combined MS and AS.",
+"Combined AI and MI.",
+"Qombined MS and MI",
+"COmbined MS and AI."
+],
+"answerKey": "A",
+"answerText": "Combined AS and AI.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "v-wave in JVP becomes prominent in:",
+"options": [
+"Tricuspid incompetence.",
+"Cardiac tamponade.",
+"Ventricular tachycardia.",
+"Right atrial myxoma",
+"Complete heart block"
+],
+"answerKey": "A",
+"answerText": "Tricuspid incompetence.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is false regarding edema in congestive cardiac failure:",
+"options": [
+"Initially noticed in the morning.",
+"Starts in the dependent part.",
+"Pitting edema.",
+"Sacral edema in non-ambulatory patients.",
+"Is characterized by reduced sodium excretion."
+],
+"answerKey": "A",
+"answerText": "Initially noticed in the morning.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which does not produce regularly irregular pulse:",
+"options": [
+"2nd degree heart block.",
+"Atrial fibrillation.",
+"Extrasystoles.",
+"Sinus arrhythmia.",
+"Atrial tachycardia with block."
+],
+"answerKey": "B",
+"answerText": "Atrial fibrillation.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Sudd�n death may occur in:",
+"options": [
+"AS.",
+"ASD.",
+"Constrictive pericarditis.",
+"PDA",
+"Floppy mitral valve."
+],
+"answerKey": "A",
+"answerText": "AS.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "RBBB with left axis deviation in ECG is characteristically seen in:",
+"options": [
+"VSD.",
+"Ostium premium ASD.",
+"PDA.",
+"Fallot's tetralogy.",
+"Ostium secundum ASD"
+],
+"answerKey": "B",
+"answerText": "Ostium premium ASD.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "All of the following produce systemic hypertension except:",
+"options": [
+"Polycystic kidney disease.",
+"Pheochromocytoma.",
+"Addison's disease.",
+"Conn's syndrome.",
+"Unilateral renal artery stenosis"
+],
+"answerKey": "C",
+"answerText": "Addison's disease.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Classical JVP finding in cardiac tamponade is:",
+"options": [
+"Prominent a-wave.",
+"Prominent x-descent.",
+"Prominent y-descent.",
+"Small v-wave.",
+"Kussmaul's sign"
+],
+"answerKey": "B",
+"answerText": "Prominent x-descent.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "All are bedside differential diagnosis of MS except:",
+"options": [
+"Carey Coombs murmur.",
+"Left atrial myxoma.",
+"Austin Flint murmur.",
+"Mitral valve prolapse syndrome.",
+"Chronic MR"
+],
+"answerKey": "D",
+"answerText": "Mitral valve prolapse syndrome.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "The least common complication of MS is:",
+"options": [
+"Cerebral thrombosis.",
+"Sub-acute bacterial endocarditis.",
+"Pulmonary hypertension.",
+"Atrial fibrillation.",
+"Hemoptysis"
+],
+"answerKey": "B",
+"answerText": "Sub-acute bacterial endocarditis.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Hemoptysis may be found in",
+"options": [
+"Left ventricular failure.",
+"Right ventricular failure.",
+"Pulmonary stenosis.",
+"Left-to-right shunt",
+"Marfan's syndrome."
+],
+"answerKey": "A",
+"answerText": "Left ventricular failure.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which chamber of heart fails first in MS:",
+"options": [
+"Right atrium.",
+"Right ventricle.",
+"Left atrium.",
+"Left ventricle.",
+"Biventricular"
+],
+"answerKey": "C",
+"answerText": "Left atrium.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "In critical MS, the mitral valve orifice is:",
+"options": [
+"< 6 cm 2 .",
+"<4cm 3 .",
+"<2cm 2",
+"< 1 cm 2 .",
+"< 3 cm2 •"
+],
+"answerKey": "D",
+"answerText": "< 1 cm 2 .",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Hill's sign is diagnostic of:",
+"options": [
+"Al.",
+"MS.",
+"AS.",
+"Ml.",
+"Pl"
+],
+"answerKey": "A",
+"answerText": "Al.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which of the following gives rise to heaving apex beat:",
+"options": [
+"MS.",
+"Ml.",
+"AS.",
+"Al.",
+"HOCM"
+],
+"answerKey": "C",
+"answerText": "AS.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which of the following does not lead to Eisenmenger's syndrome:",
+"options": [
+"Coarctation of aorta.",
+"PDA.",
+"ASD.",
+"VSD.",
+"Transposition of great vessels"
+],
+"answerKey": "A",
+"answerText": "Coarctation of aorta.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Seagull murmur is not a feature of:",
+"options": [
+"Acute myocardial infarction.",
+"Acute rheumatic fever.",
+"Sub-acute bacterial endocarditis.",
+"Floppy mitral valve.",
+"Prosthetic valve endocarditis"
+],
+"answerKey": "D",
+"answerText": "Floppy mitral valve.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not an etiology of MI:",
+"options": [
+"Pseudoxanthoma elasticum.",
+"Osteoarthritis",
+"Osteogenesis imperfecta.",
+"Ehlers-Danlos syndrome",
+"Endocardial cushion defect."
+],
+"answerKey": "B",
+"answerText": "Osteoarthritis",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Commonest organism producing acute bacterial endocarditis is:",
+"options": [
+"Streptococcus viridians.",
+"Staphylococcus aureus.",
+"Streptococcus faecalis.",
+"Pneumococcus",
+"H influenza."
+],
+"answerKey": "A",
+"answerText": "Streptococcus viridians.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not included in 'minor manifestation' of Jones criteria in rheumatic fever?",
+"options": [
+"Prolonged PR interval.",
+"Arthralgia.",
+"Increased ESR.",
+"Elevated ASO titer.",
+"Previous attack of rheumatic fever"
+],
+"answerKey": "D",
+"answerText": "Elevated ASO titer.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not a major manifestation' of Jones criteria in rheumatic fever:",
+"options": [
+"Chorea.",
+"Erythema nodosum.",
+"Subcutaneous nodule.",
+"Polyarthritis.",
+"Erythema marginatum"
+],
+"answerKey": "B",
+"answerText": "Erythema nodosum.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Diastolic shock' in not found in:",
+"options": [
+"Chronic cor pulmonale.",
+"PS.",
+"MS.",
+"VSD.",
+"Systemic sclerosis"
+],
+"answerKey": "B",
+"answerText": "PS.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Incidence of infective endocarditis is least in:",
+"options": [
+"MI.",
+"PDA.",
+"ASD.",
+"VSD.",
+"AS"
+],
+"answerKey": "C",
+"answerText": "ASD.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Sudden death may occur in all of the following except:",
+"options": [
+"Atrial fibrillation.",
+"Massive myocardial infarction.",
+"Ventricular fibrillation.",
+"Massive pulmonary thromboembolism.",
+"Long Q-T interval syndrome"
+],
+"answerKey": "A",
+"answerText": "Atrial fibrillation.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Carey Coombs murmur is found in:",
+"options": [
+"Pulmonary hypertension.",
+"AI.",
+"Acute rheumatic fever.",
+"MS",
+"Atrial myxoma."
+],
+"answerKey": "C",
+"answerText": "Acute rheumatic fever.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not advocated in the treatment of acute pulmonary edema:",
+"options": [
+"Diuretics.",
+"Trendelenburg position.",
+"Morphine.",
+"Rotating tourniquets",
+"Vasodilators"
+],
+"answerKey": "B",
+"answerText": "Trendelenburg position.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Digitalis toxicity is precipitated by all except:",
+"options": [
+"Old age.",
+"Hypokalemia.",
+"Renal failure.",
+"Hepatic encephalopathy.",
+"Quinidine"
+],
+"answerKey": "D",
+"answerText": "Hepatic encephalopathy.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Cannon wave in the neck vein is seen in:",
+"options": [
+"Complete heart block.",
+"Constrictive pericarditis.",
+"Tricuspid incompetence.",
+"Right atrial myxoma.",
+"Pulmonary hypertension"
+],
+"answerKey": "A",
+"answerText": "Complete heart block.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Left ventricular hypertrophy is not associated with:",
+"options": [
+"AS.",
+"AI.",
+"MS.",
+"MI.",
+"VSD."
+],
+"answerKey": "C",
+"answerText": "MS.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which is not found in constrictive pericarditis:",
+"options": [
+"Pulmonary edema.",
+"Raised JVP.",
+"Ascites.",
+"Pulsus paradoxus.",
+"Pericardia! knock."
+],
+"answerKey": "A",
+"answerText": "Pulmonary edema.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Paroxysmal hypertension is classically found in:",
+"options": [
+"Coarctation of aorta.",
+"Eclampsia.",
+"Renal artery stenosis.",
+"Pheochromocytoma.",
+"Autonomic neuropathy."
+],
+"answerKey": "D",
+"answerText": "Pheochromocytoma.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Cardiac arrest may be due to:",
+"options": [
+"Multiple ectopies.",
+"Atrial flutter.",
+"Pulseless ventricular tachycardia.",
+"Wenckebach block.",
+"Sinus bradycardia."
+],
+"answerKey": "C",
+"answerText": "Pulseless ventricular tachycardia.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Diagnosis of AMI within 6 hrs depends on:",
+"options": [
+"CPK MBil CPK MB, > 1.5.",
+"Increased LDH3",
+"Rise of SGPT > 250 IU/L.",
+"Inverted T wave in ECG",
+"GT"
+],
+"answerKey": "A",
+"answerText": "CPK MBil CPK MB, > 1.5.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Retrosternal chest pain classically occurs in all except:",
+"options": [
+"Acute mediastinitis.",
+"Dissecting aneurysm.",
+"Bomholm disease.",
+"Unstable angina.",
+"Esophageal spasm."
+],
+"answerKey": "C",
+"answerText": "Bomholm disease.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "CPK-MB is increased-in all except:",
+"options": [
+"Myocarditis.",
+"Rhabdomyolysis.",
+"Post-AMI.",
+"Post-electrical cardioversion.",
+"Unstable angina."
+],
+"answerKey": "B",
+"answerText": "Rhabdomyolysis.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which enzyme rises earliest in AMI:",
+"options": [
+"SGPT.",
+"LDH",
+"SCOT.",
+"CPK.",
+"GT"
+],
+"answerKey": "D",
+"answerText": "CPK.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Reversed splitting of S2 is found in:",
+"options": [
+"LBBB.",
+"RBBB.",
+"Left ventricular pacing.",
+"Aortic regurgitation.",
+"ASD"
+],
+"answerKey": "A",
+"answerText": "LBBB.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "All of the following drugs may be use<l in congestive cardiac failure except:",
+"options": [
+"Spironolactone",
+"Carvedilol",
+"Propranolol",
+"Digoxin",
+"Captopril"
+],
+"answerKey": "C",
+"answerText": "Propranolol",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Treatment by heparin is best monitored by:",
+"options": [
+"Prothrombin time (PT).",
+"Clotting time (CT).",
+"Activated partial thromboplastin time (APTT).",
+"Fibrin degradation product (FDP).",
+"D-dimer."
+],
+"answerKey": "C",
+"answerText": "Activated partial thromboplastin time (APTT).",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "All of the following may produce hemiplegia by cerebral embolism except:",
+"options": [
+"Mitral valve prolapse",
+"Atrial fibrillation",
+"Sub-acute bacterial endocarditis",
+"Right atrial myxoma.",
+"Hemiplegic migraine."
+],
+"answerKey": "D",
+"answerText": "Right atrial myxoma.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Drug of choice in acute management of PSVT is:",
+"options": [
+"Amiodarone",
+"Verapamil",
+"Metoprolol",
+"Adenosine",
+"Disopyramide"
+],
+"answerKey": "D",
+"answerText": "Adenosine",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Propranolol can be used in all except:",
+"options": [
+"Systemic hypertension.",
+"Congestive cardiac failure.",
+"Angina pectoris.",
+"Supraventricular tachyarrhythmias.",
+"Hypertrophic cardiomyopathy."
+],
+"answerKey": "B",
+"answerText": "Congestive cardiac failure.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Heart valve commonly affected in IV drug abusers is:",
+"options": [
+"Pulmonary valve.",
+"Mitral valve.",
+"Tricuspid valve.",
+"Aortic valve.",
+"Left sided valves."
+],
+"answerKey": "C",
+"answerText": "Tricuspid valve.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Ventricular fibrillation is best treated by:",
+"options": [
+"IV amiodarone.",
+"Carotid massage.",
+"Electrical cardioversion.",
+"IV lignocaine.",
+"IV �-blocker."
+],
+"answerKey": "C",
+"answerText": "Electrical cardioversion.",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "P-wave in ECG is absent in:",
+"options": [
+"Atrial fibrillation'",
+"Atrial flutter.",
+"Hypokalemia",
+"Paroxysmal supraventricular tachycardia",
+"Nodal rhythm."
+],
+"answerKey": "A",
+"answerText": "Atrial fibrillation'",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Verapamil is indicated in all except:",
+"options": [
+"Atrial fibrillation",
+"Acute left ventricular failure",
+"Supraventricular tachycardia",
+"Angina pectoris",
+"Migraine prophylaxis."
+],
+"answerKey": "B",
+"answerText": "Acute left ventricular failure",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Hyperthyroid heart disease is manifested by:",
+"options": [
+"Pericardia! effusion",
+"Diminished cardiac output",
+"Prolonged circulation time",
+"Paroxysmal atrial fibrillation",
+"Diastolic hypertension."
+],
+"answerKey": "D",
+"answerText": "Paroxysmal atrial fibrillation",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Which of the following is present in most of the patients of SBE:",
+"options": [
+"Murmur",
+"Osier's node",
+"Clubbing",
+"Splenomegaly",
+"Kussmaul' s sign"
+],
+"answerKey": "A",
+"answerText": "Murmur",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Graham Steel murmur is found in:",
+"options": [
+"Severe pulmonary hypertension",
+"Sub-acute bacterial endocarditis",
+"Idiopathic hypertrophic sub aortic stenosis (IHSS)",
+"Tricuspid atresia",
+"Ankylosing spondylitis"
+],
+"answerKey": "A",
+"answerText": "Severe pulmonary hypertension",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Commonest heart valve abnormality revealed after AMI is:",
+"options": [
+"AI",
+"MI",
+"AS",
+"MS",
+"Epstein's anomaly"
+],
+"answerKey": "B",
+"answerText": "MI",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Pregnancy-associated hypertension should not be treated with:",
+"options": [
+"Labetalol",
+"Valsartan",
+"a-methyldopa",
+"Amlodipine",
+"Hydralazine"
+],
+"answerKey": "B",
+"answerText": "Valsartan",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Accelerated hypertension should not have:",
+"options": [
+"Retinal hemorrhage ·",
+"Arterio-venous nipping",
+"'Silver-wire' arteries",
+"Papilledema",
+"Loud first heart sound"
+],
+"answerKey": "D",
+"answerText": "Papilledema",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "Clinically, commonest type of shock is:",
+"options": [
+"Neurogenic",
+"Cardiogenic",
+"Septic",
+"Hypovolemic",
+"Anaphylactic shock"
+],
+"answerKey": "D",
+"answerText": "Hypovolemic",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Cardiology::SHQs",
+"question": "JVP is usually increased in:",
+"options": [
+"Cardiogenic shock",
+"Hypovolemic shock",
+"Anaphylactic shock",
+"Septic shock",
+"Addisonian crisis"
+],
+"answerKey": "A",
+"answerText": "Cardiogenic shock",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::cardiology", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "'Bilateral pleural effusion is commonly seen in all EXCEPT:",
+"options": [
+"SLE",
+"Nephrotic syndrome",
+"Pulmonary tuberculosis",
+"Congestive cardiac failure",
+"After coronary artery bypass graft"
+],
+"answerKey": "A",
+"answerText": "SLE",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Hemorrhagic pleural effusion may be seen in:",
+"options": [
+"Cirrhosis of liver.",
+"Pulmonary tuberculosis",
+"SLE",
+"Myxedema",
+"Nephrotic syridrome"
+],
+"answerKey": "B",
+"answerText": "Pulmonary tuberculosis",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Pleural rub is characteristically:",
+"options": [
+"Uni phasic",
+"Superficial, scratchy",
+"Alters with coughing",
+"Never palpable",
+"Present over a pleural effusion"
+],
+"answerKey": "B",
+"answerText": "Superficial, scratchy",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Bronchial breath sound is found in all except:",
+"options": [
+"Collapse with patent bronchus",
+"Bronchial asthma",
+"Superficial, big, empty cavity with patent bronchus.",
+"Broncho pleural fistula",
+"Lobar pneumonia"
+],
+"answerKey": "B",
+"answerText": "Bronchial asthma",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Bronchophony may be found in:",
+"options": [
+"Pneumothorax",
+"Empyema",
+"Lobar Consolidation",
+"Pleural effusion.",
+"Chylothorax"
+],
+"answerKey": "C",
+"answerText": "Lobar Consolidation",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Pink, frothy and profuse sputum is seen in:",
+"options": [
+"Pneumoconiosis",
+"Lobar pneumonia",
+"Acute pulmonary edema",
+"Aspergilloma",
+"ARDS"
+],
+"answerKey": "C",
+"answerText": "Acute pulmonary edema",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "P-pulmonale in ECG is seen in:",
+"options": [
+"Hydropneumothorax",
+"Chronic cor pl.Jlmonale",
+"Pulmonary tuberculosis",
+"Allergic bronchopulmonary Aspergillosis",
+"Wolff-Parkinson-White syndrome"
+],
+"answerKey": "B",
+"answerText": "Chronic cor pl.Jlmonale",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Low voltage in ECG is seen in:",
+"options": [
+"Thin ·chest wall",
+"Consolidation",
+"Hyperthyroidism",
+"Emphysema",
+"Dextrocardia"
+],
+"answerKey": "D",
+"answerText": "Emphysema",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Bilateral hilar lymphadenopathy is seen in all except:",
+"options": [
+"Sarcoidosis",
+"Bronchogenic carcinoma",
+"Pneumoconiosis",
+"Lymphoma",
+"Aspergillosis"
+],
+"answerKey": "C",
+"answerText": "Pneumoconiosis",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Regarding hypoventilation all are true except:",
+"options": [
+"Occurs in severe kyphoscoliosis",
+"Hypoxemia",
+"Hypercapnia",
+"Hypoxemia is not corrected by 100% 02",
+"Occurs at high altitude"
+],
+"answerKey": "D",
+"answerText": "Hypoxemia is not corrected by 100% 02",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Which does not belong to the clinical manifestation of bronchial asthma:",
+"options": [
+"Chest pain",
+"Dyspnea",
+"Wheeze",
+"Cough",
+"Rhonchi"
+],
+"answerKey": "A",
+"answerText": "Chest pain",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "In lobar pneumonia, which is not true:",
+"options": [
+"Trachea deviated to the opposite side1",
+"Woody dullness on percussion",
+"Tubular breath sound",
+"Presence of whispering pectoriloquy",
+"Tachypnea"
+],
+"answerKey": "A",
+"answerText": "Trachea deviated to the opposite side1",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Which is not a part of 'Kartagener's syndrome':",
+"options": [
+"Dextrocardia",
+"Sinusitis",
+"Impotence",
+"Bronchiectasis",
+"Infertility"
+],
+"answerKey": "C",
+"answerText": "Impotence",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Chronic respiratory failure is not seen in:",
+"options": [
+"Diffuse interstitial fibrosis",
+"Emphysema",
+"Pneumothorax",
+"Chronic bronchitis",
+"K yphoscoliosis"
+],
+"answerKey": "C",
+"answerText": "Pneumothorax",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Lung abscess is not a complication of:",
+"options": [
+"Malignancy",
+"Bronchopneumonia",
+"Wegener's granulomatosis",
+"Suppurative staphylococcal pneumonia",
+"Pulmonary embolism"
+],
+"answerKey": "B",
+"answerText": "Bronchopneumonia",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Symptoms of acute pulmonary thromboembolism include all except:",
+"options": [
+"Substemal chest pain",
+"Hemoptysis",
+"Breathlessness",
+"Syncope",
+"Sputum production"
+],
+"answerKey": "E",
+"answerText": "Sputum production",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Which is false regarding Pickwickian syndrome",
+"options": [
+"Marked obesity",
+"Hyperventilation",
+"Somnolence",
+"Right-sided heart failure",
+"Systemic hypertension"
+],
+"answerKey": "B",
+"answerText": "Hyperventilation",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Commonest histologic variety of bronchogenic carcinoma is:",
+"options": [
+"Small cell carcinoma",
+"Large cell carcinoma",
+"Epidermoid carcinoma",
+"Adenocarcinoma",
+"Pancoast 's tumor"
+],
+"answerKey": "D",
+"answerText": "Adenocarcinoma",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Investigation of highest diagnostic efficacy in acute pulmonary Thromboembolism is",
+"options": [
+"ECG",
+"Arterial blood gas estimation",
+"Contrast-enhanced spiral",
+"Ventilation-perfusion lung scans",
+"Echocardiography"
+],
+"answerKey": "C",
+"answerText": "Contrast-enhanced spiral",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Acute lung injury (ARDS) should be differentiated from:",
+"options": [
+"Acute LVF",
+"Congestive cardiac failure",
+"Acute severe asthma",
+"Spontaneous pneumothorax",
+"Narcotic overdose"
+],
+"answerKey": "A",
+"answerText": "Acute LVF",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "The dome of diaphragm is elevated in:",
+"options": [
+"Emphysema",
+"Pleural effusion",
+"Cirrhosis of liver",
+"Diaphragmatic palsy",
+"Asbestosis"
+],
+"answerKey": "D",
+"answerText": "Diaphragmatic palsy",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "All of the following are complicated by cyanosis except:",
+"options": [
+"Respiratory failure",
+"Lung abscess",
+"Acute lung injury",
+"Pulmonary thromboembolism",
+"Pulmonary arteriovenous fistula"
+],
+"answerKey": "B",
+"answerText": "Lung abscess",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Bronchial adenoma most commonly present as:",
+"options": [
+"Cough",
+"Stridor",
+"Recurrent hemoptysis",
+"Chest pain",
+"Coin shadow in chest x-ray"
+],
+"answerKey": "C",
+"answerText": "Recurrent hemoptysis",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Nocturnal cough is classically found in all except:",
+"options": [
+"Post-nasal drip",
+"Tropical eosinophilia",
+"Left ventricular failure",
+"Recurrent laryngeal nerve palsy",
+"GERD"
+],
+"answerKey": "D",
+"answerText": "Recurrent laryngeal nerve palsy",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Hemorrhagic pleural effusion is not characteristic of:",
+"options": [
+"Systemic lupus erythematosus",
+"Acute pulmonary thromboembolism",
+"Tuberculous effusion",
+"Acute pancreatitis",
+"Metastatic cancer"
+],
+"answerKey": "A",
+"answerText": "Systemic lupus erythematosus",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "In allergic asthma , the most important mediators for pathogenesis is :",
+"options": [
+"Thromboxane A2 ·",
+"Leukotrienes",
+"Prostaglandins",
+"Bradykinin",
+"Neuropeptides"
+],
+"answerKey": "B",
+"answerText": "Leukotrienes",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Which of the anti-tuberculosis drugs should be totally avoided in pregnancy:",
+"options": [
+"lNH",
+"Pyrazinamide",
+"Rifampicin",
+"Streptomycin",
+"Ethambutol"
+],
+"answerKey": "D",
+"answerText": "Streptomycin",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Which is correct in type II respiratory failure:",
+"options": [
+"p Po2 and p Pco2",
+"p Po2 and normal Pco2",
+"Normal Po2 and n Pco2",
+"p Po2 and n Pco2",
+"Normal Po2 and normal Pco2"
+],
+"answerKey": "D",
+"answerText": "p Po2 and n Pco2",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "The commonest cause of acute cor pulmonale is:",
+"options": [
+". Lobar consolidation",
+"Pneumothorax",
+"Pulmonary thromboembolism",
+"Fibrosing alveolitis",
+"COPD"
+],
+"answerKey": "C",
+"answerText": "Pulmonary thromboembolism",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Characteristic feature of pulmonary hypertension does not include:",
+"options": [
+"Prominent a-wave in jugular venous pressure",
+"Left parastemal heave venous pulse",
+"Diastolic shock",
+"Wide splitting of S2 with loud P2",
+"Dominant R wave in leads Vl to V3"
+],
+"answerKey": "D",
+"answerText": "Wide splitting of S2 with loud P2",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+},
+{
+"lesson": "Medicine::Chest::SHQs",
+"question": "Hemoptysis following acute pleuritic chest pain and dyspnea is characteristic of:",
+"options": [
+"Bronchogenic carcinoma",
+"Pulmonary thromboembolism",
+"Pulmonary tuberculosis",
+"Arteriovenous malformations",
+"Dressler's syndrome"
+],
+"answerKey": "B",
+"answerText": "Pulmonary thromboembolism",
+"explanation": "Based on the supplied answer key.",
+"tags": ["medicine::chest", "SHQ"]
+}
+]
+}

@@ -35,3 +35,5 @@ build/
 
 # Old monolithic app (preserved as backup)
 index.original.html
+index.cdn.html
+legacy_cdn_src/
